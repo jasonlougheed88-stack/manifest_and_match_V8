@@ -1,0 +1,1063 @@
+{
+  "expansion_metadata": {
+    "sector": "Finance",
+    "existing_count": 50,
+    "new_count": 150,
+    "total_count": 200,
+    "source": "O*NET + AI Augmentation",
+    "validation_date": "2025-10-27",
+    "id_range": "skill_finance_051 to skill_finance_200"
+  },
+  "new_skills": [
+    {
+      "id": "skill_finance_051",
+      "name": "Bookkeeping",
+      "category": "Finance",
+      "keywords": ["bookkeeping", "accounting", "record keeping"],
+      "relatedSkills": ["Accounting", "QuickBooks"]
+    },
+    {
+      "id": "skill_finance_052",
+      "name": "Accounts Payable",
+      "category": "Finance",
+      "keywords": ["accounts payable", "AP", "vendor payments"],
+      "relatedSkills": ["Bookkeeping", "Accounting"]
+    },
+    {
+      "id": "skill_finance_053",
+      "name": "Accounts Receivable",
+      "category": "Finance",
+      "keywords": ["accounts receivable", "AR", "collections"],
+      "relatedSkills": ["Bookkeeping", "Accounting"]
+    },
+    {
+      "id": "skill_finance_054",
+      "name": "General Ledger",
+      "category": "Finance",
+      "keywords": ["general ledger", "GL", "journal entries"],
+      "relatedSkills": ["Accounting", "Bookkeeping"]
+    },
+    {
+      "id": "skill_finance_055",
+      "name": "Month-End Close",
+      "category": "Finance",
+      "keywords": ["month-end close", "financial close", "period close"],
+      "relatedSkills": ["Accounting", "Financial Reporting"]
+    },
+    {
+      "id": "skill_finance_056",
+      "name": "Bank Reconciliation",
+      "category": "Finance",
+      "keywords": ["bank reconciliation", "reconciliations", "bank statements"],
+      "relatedSkills": ["Bookkeeping", "Accounting"]
+    },
+    {
+      "id": "skill_finance_057",
+      "name": "Financial Reporting",
+      "category": "Finance",
+      "keywords": ["financial reporting", "financial statements", "reporting"],
+      "relatedSkills": ["Accounting", "GAAP"]
+    },
+    {
+      "id": "skill_finance_058",
+      "name": "GAAP",
+      "category": "Finance",
+      "keywords": ["GAAP", "generally accepted accounting principles", "accounting standards"],
+      "relatedSkills": ["Accounting", "Financial Reporting"]
+    },
+    {
+      "id": "skill_finance_059",
+      "name": "IFRS",
+      "category": "Finance",
+      "keywords": ["IFRS", "international financial reporting standards", "accounting standards"],
+      "relatedSkills": ["Accounting", "Financial Reporting"]
+    },
+    {
+      "id": "skill_finance_060",
+      "name": "Financial Statement Analysis",
+      "category": "Finance",
+      "keywords": ["financial statement analysis", "financial analysis", "statement analysis"],
+      "relatedSkills": ["Financial Analysis", "Accounting"]
+    },
+    {
+      "id": "skill_finance_061",
+      "name": "Ratio Analysis",
+      "category": "Finance",
+      "keywords": ["ratio analysis", "financial ratios", "liquidity ratios"],
+      "relatedSkills": ["Financial Analysis", "Financial Modeling"]
+    },
+    {
+      "id": "skill_finance_062",
+      "name": "Budgeting",
+      "category": "Finance",
+      "keywords": ["budgeting", "budget planning", "budget management"],
+      "relatedSkills": ["Financial Planning", "Forecasting"]
+    },
+    {
+      "id": "skill_finance_063",
+      "name": "Financial Forecasting",
+      "category": "Finance",
+      "keywords": ["forecasting", "financial forecasting", "budget forecasting"],
+      "relatedSkills": ["Budgeting", "Financial Modeling"]
+    },
+    {
+      "id": "skill_finance_064",
+      "name": "Variance Analysis",
+      "category": "Finance",
+      "keywords": ["variance analysis", "budget variance", "budget vs actual"],
+      "relatedSkills": ["Budgeting", "Financial Analysis"]
+    },
+    {
+      "id": "skill_finance_065",
+      "name": "Cost Accounting",
+      "category": "Finance",
+      "keywords": ["cost accounting", "cost analysis", "product costing"],
+      "relatedSkills": ["Accounting", "Financial Analysis"]
+    },
+    {
+      "id": "skill_finance_066",
+      "name": "Job Costing",
+      "category": "Finance",
+      "keywords": ["job costing", "project costing", "cost allocation"],
+      "relatedSkills": ["Cost Accounting", "Project Management"]
+    },
+    {
+      "id": "skill_finance_067",
+      "name": "Financial Modeling",
+      "category": "Finance",
+      "keywords": ["financial modeling", "modeling", "Excel modeling"],
+      "relatedSkills": ["Financial Analysis", "Excel"]
+    },
+    {
+      "id": "skill_finance_068",
+      "name": "DCF Modeling",
+      "category": "Finance",
+      "keywords": ["DCF", "discounted cash flow", "valuation"],
+      "relatedSkills": ["Financial Modeling", "Valuation"]
+    },
+    {
+      "id": "skill_finance_069",
+      "name": "Valuation",
+      "category": "Finance",
+      "keywords": ["valuation", "business valuation", "company valuation"],
+      "relatedSkills": ["Financial Modeling", "Investment Analysis"]
+    },
+    {
+      "id": "skill_finance_070",
+      "name": "M&A Analysis",
+      "category": "Finance",
+      "keywords": ["M&A", "mergers and acquisitions", "deal analysis"],
+      "relatedSkills": ["Valuation", "Corporate Finance"]
+    },
+    {
+      "id": "skill_finance_071",
+      "name": "Due Diligence",
+      "category": "Finance",
+      "keywords": ["due diligence", "DD", "financial due diligence"],
+      "relatedSkills": ["M&A Analysis", "Financial Analysis"]
+    },
+    {
+      "id": "skill_finance_072",
+      "name": "Investment Banking",
+      "category": "Finance",
+      "keywords": ["investment banking", "IB", "deal advisory"],
+      "relatedSkills": ["M&A", "Corporate Finance"]
+    },
+    {
+      "id": "skill_finance_073",
+      "name": "Capital Markets",
+      "category": "Finance",
+      "keywords": ["capital markets", "equity markets", "debt markets"],
+      "relatedSkills": ["Investment Banking", "Trading"]
+    },
+    {
+      "id": "skill_finance_074",
+      "name": "Equity Research",
+      "category": "Finance",
+      "keywords": ["equity research", "stock research", "research analyst"],
+      "relatedSkills": ["Financial Analysis", "Investment Analysis"]
+    },
+    {
+      "id": "skill_finance_075",
+      "name": "Fixed Income Analysis",
+      "category": "Finance",
+      "keywords": ["fixed income", "bonds", "debt analysis"],
+      "relatedSkills": ["Investment Analysis", "Capital Markets"]
+    },
+    {
+      "id": "skill_finance_076",
+      "name": "Portfolio Management",
+      "category": "Finance",
+      "keywords": ["portfolio management", "asset management", "investment management"],
+      "relatedSkills": ["Investment Management", "Asset Allocation"]
+    },
+    {
+      "id": "skill_finance_077",
+      "name": "Asset Allocation",
+      "category": "Finance",
+      "keywords": ["asset allocation", "portfolio construction", "diversification"],
+      "relatedSkills": ["Portfolio Management", "Investment Strategy"]
+    },
+    {
+      "id": "skill_finance_078",
+      "name": "Risk Management",
+      "category": "Finance",
+      "keywords": ["risk management", "financial risk", "risk mitigation"],
+      "relatedSkills": ["Portfolio Management", "Derivatives"]
+    },
+    {
+      "id": "skill_finance_079",
+      "name": "Derivatives Trading",
+      "category": "Finance",
+      "keywords": ["derivatives", "options", "futures", "swaps"],
+      "relatedSkills": ["Trading", "Risk Management"]
+    },
+    {
+      "id": "skill_finance_080",
+      "name": "Options Trading",
+      "category": "Finance",
+      "keywords": ["options trading", "options", "calls", "puts"],
+      "relatedSkills": ["Derivatives", "Trading"]
+    },
+    {
+      "id": "skill_finance_081",
+      "name": "Hedge Fund Operations",
+      "category": "Finance",
+      "keywords": ["hedge funds", "alternative investments", "fund management"],
+      "relatedSkills": ["Portfolio Management", "Trading"]
+    },
+    {
+      "id": "skill_finance_082",
+      "name": "Private Equity",
+      "category": "Finance",
+      "keywords": ["private equity", "PE", "buyouts"],
+      "relatedSkills": ["Investment Banking", "M&A"]
+    },
+    {
+      "id": "skill_finance_083",
+      "name": "Venture Capital",
+      "category": "Finance",
+      "keywords": ["venture capital", "VC", "startup investing"],
+      "relatedSkills": ["Private Equity", "Investment Analysis"]
+    },
+    {
+      "id": "skill_finance_084",
+      "name": "Financial Planning",
+      "category": "Finance",
+      "keywords": ["financial planning", "personal finance", "wealth planning"],
+      "relatedSkills": ["Wealth Management", "Retirement Planning"]
+    },
+    {
+      "id": "skill_finance_085",
+      "name": "Retirement Planning",
+      "category": "Finance",
+      "keywords": ["retirement planning", "401k", "IRA", "pension planning"],
+      "relatedSkills": ["Financial Planning", "Investment Planning"]
+    },
+    {
+      "id": "skill_finance_086",
+      "name": "Estate Planning",
+      "category": "Finance",
+      "keywords": ["estate planning", "trusts", "wills", "estate management"],
+      "relatedSkills": ["Financial Planning", "Tax Planning"]
+    },
+    {
+      "id": "skill_finance_087",
+      "name": "Wealth Management",
+      "category": "Finance",
+      "keywords": ["wealth management", "private wealth", "high net worth"],
+      "relatedSkills": ["Financial Planning", "Portfolio Management"]
+    },
+    {
+      "id": "skill_finance_088",
+      "name": "Tax Planning",
+      "category": "Finance",
+      "keywords": ["tax planning", "tax strategy", "tax optimization"],
+      "relatedSkills": ["Tax Preparation", "Financial Planning"]
+    },
+    {
+      "id": "skill_finance_089",
+      "name": "Tax Preparation",
+      "category": "Finance",
+      "keywords": ["tax preparation", "tax filing", "tax returns"],
+      "relatedSkills": ["Tax Planning", "Accounting"]
+    },
+    {
+      "id": "skill_finance_090",
+      "name": "Individual Tax",
+      "category": "Finance",
+      "keywords": ["individual tax", "personal tax", "1040"],
+      "relatedSkills": ["Tax Preparation", "Tax Planning"]
+    },
+    {
+      "id": "skill_finance_091",
+      "name": "Corporate Tax",
+      "category": "Finance",
+      "keywords": ["corporate tax", "business tax", "C-corp tax"],
+      "relatedSkills": ["Tax Preparation", "Tax Planning"]
+    },
+    {
+      "id": "skill_finance_092",
+      "name": "International Tax",
+      "category": "Finance",
+      "keywords": ["international tax", "cross-border tax", "transfer pricing"],
+      "relatedSkills": ["Corporate Tax", "Tax Planning"]
+    },
+    {
+      "id": "skill_finance_093",
+      "name": "Sales Tax",
+      "category": "Finance",
+      "keywords": ["sales tax", "use tax", "VAT"],
+      "relatedSkills": ["Tax Compliance", "Accounting"]
+    },
+    {
+      "id": "skill_finance_094",
+      "name": "Payroll Tax",
+      "category": "Finance",
+      "keywords": ["payroll tax", "employment tax", "payroll compliance"],
+      "relatedSkills": ["Payroll", "Tax Compliance"]
+    },
+    {
+      "id": "skill_finance_095",
+      "name": "Auditing",
+      "category": "Finance",
+      "keywords": ["auditing", "audit", "financial audit"],
+      "relatedSkills": ["Accounting", "Compliance"]
+    },
+    {
+      "id": "skill_finance_096",
+      "name": "Internal Audit",
+      "category": "Finance",
+      "keywords": ["internal audit", "internal controls", "audit procedures"],
+      "relatedSkills": ["Auditing", "Risk Management"]
+    },
+    {
+      "id": "skill_finance_097",
+      "name": "External Audit",
+      "category": "Finance",
+      "keywords": ["external audit", "financial statement audit", "CPA audit"],
+      "relatedSkills": ["Auditing", "Financial Reporting"]
+    },
+    {
+      "id": "skill_finance_098",
+      "name": "SOX Compliance",
+      "category": "Finance",
+      "keywords": ["SOX", "Sarbanes-Oxley", "compliance"],
+      "relatedSkills": ["Internal Audit", "Compliance"]
+    },
+    {
+      "id": "skill_finance_099",
+      "name": "Internal Controls",
+      "category": "Finance",
+      "keywords": ["internal controls", "controls testing", "COSO"],
+      "relatedSkills": ["Internal Audit", "SOX Compliance"]
+    },
+    {
+      "id": "skill_finance_100",
+      "name": "Fraud Detection",
+      "category": "Finance",
+      "keywords": ["fraud detection", "fraud prevention", "forensic accounting"],
+      "relatedSkills": ["Internal Audit", "Risk Management"]
+    },
+    {
+      "id": "skill_finance_101",
+      "name": "Forensic Accounting",
+      "category": "Finance",
+      "keywords": ["forensic accounting", "fraud investigation", "litigation support"],
+      "relatedSkills": ["Fraud Detection", "Auditing"]
+    },
+    {
+      "id": "skill_finance_102",
+      "name": "Treasury Management",
+      "category": "Finance",
+      "keywords": ["treasury", "cash management", "treasury operations"],
+      "relatedSkills": ["Corporate Finance", "Risk Management"]
+    },
+    {
+      "id": "skill_finance_103",
+      "name": "Cash Flow Management",
+      "category": "Finance",
+      "keywords": ["cash flow", "cash management", "working capital"],
+      "relatedSkills": ["Treasury Management", "Financial Planning"]
+    },
+    {
+      "id": "skill_finance_104",
+      "name": "Working Capital Management",
+      "category": "Finance",
+      "keywords": ["working capital", "current assets", "liquidity management"],
+      "relatedSkills": ["Treasury Management", "Cash Flow"]
+    },
+    {
+      "id": "skill_finance_105",
+      "name": "FX Trading",
+      "category": "Finance",
+      "keywords": ["FX", "foreign exchange", "currency trading", "forex"],
+      "relatedSkills": ["Trading", "Treasury"]
+    },
+    {
+      "id": "skill_finance_106",
+      "name": "Interest Rate Risk Management",
+      "category": "Finance",
+      "keywords": ["interest rate risk", "rate hedging", "duration management"],
+      "relatedSkills": ["Risk Management", "Treasury"]
+    },
+    {
+      "id": "skill_finance_107",
+      "name": "Credit Analysis",
+      "category": "Finance",
+      "keywords": ["credit analysis", "credit risk", "creditworthiness"],
+      "relatedSkills": ["Risk Management", "Financial Analysis"]
+    },
+    {
+      "id": "skill_finance_108",
+      "name": "Loan Underwriting",
+      "category": "Finance",
+      "keywords": ["loan underwriting", "underwriting", "credit underwriting"],
+      "relatedSkills": ["Credit Analysis", "Banking"]
+    },
+    {
+      "id": "skill_finance_109",
+      "name": "Commercial Lending",
+      "category": "Finance",
+      "keywords": ["commercial lending", "business loans", "commercial credit"],
+      "relatedSkills": ["Loan Underwriting", "Banking"]
+    },
+    {
+      "id": "skill_finance_110",
+      "name": "Consumer Lending",
+      "category": "Finance",
+      "keywords": ["consumer lending", "personal loans", "retail lending"],
+      "relatedSkills": ["Loan Underwriting", "Banking"]
+    },
+    {
+      "id": "skill_finance_111",
+      "name": "Mortgage Underwriting",
+      "category": "Finance",
+      "keywords": ["mortgage underwriting", "home loans", "residential lending"],
+      "relatedSkills": ["Loan Underwriting", "Credit Analysis"]
+    },
+    {
+      "id": "skill_finance_112",
+      "name": "Commercial Banking",
+      "category": "Finance",
+      "keywords": ["commercial banking", "business banking", "corporate banking"],
+      "relatedSkills": ["Banking", "Commercial Lending"]
+    },
+    {
+      "id": "skill_finance_113",
+      "name": "Retail Banking",
+      "category": "Finance",
+      "keywords": ["retail banking", "consumer banking", "branch banking"],
+      "relatedSkills": ["Banking", "Customer Service"]
+    },
+    {
+      "id": "skill_finance_114",
+      "name": "Relationship Management",
+      "category": "Finance",
+      "keywords": ["relationship management", "client relationships", "banking relationships"],
+      "relatedSkills": ["Commercial Banking", "Sales"]
+    },
+    {
+      "id": "skill_finance_115",
+      "name": "Trade Finance",
+      "category": "Finance",
+      "keywords": ["trade finance", "letters of credit", "import export finance"],
+      "relatedSkills": ["Commercial Banking", "International Finance"]
+    },
+    {
+      "id": "skill_finance_116",
+      "name": "Insurance Underwriting",
+      "category": "Finance",
+      "keywords": ["insurance underwriting", "risk assessment", "underwriter"],
+      "relatedSkills": ["Insurance", "Risk Management"]
+    },
+    {
+      "id": "skill_finance_117",
+      "name": "Actuarial Science",
+      "category": "Finance",
+      "keywords": ["actuarial", "actuary", "statistical analysis"],
+      "relatedSkills": ["Insurance", "Risk Management"]
+    },
+    {
+      "id": "skill_finance_118",
+      "name": "Life Insurance",
+      "category": "Finance",
+      "keywords": ["life insurance", "insurance products", "policy sales"],
+      "relatedSkills": ["Insurance", "Financial Planning"]
+    },
+    {
+      "id": "skill_finance_119",
+      "name": "Property and Casualty Insurance",
+      "category": "Finance",
+      "keywords": ["P&C insurance", "property insurance", "casualty insurance"],
+      "relatedSkills": ["Insurance", "Risk Management"]
+    },
+    {
+      "id": "skill_finance_120",
+      "name": "Claims Processing",
+      "category": "Finance",
+      "keywords": ["claims processing", "insurance claims", "claims adjusting"],
+      "relatedSkills": ["Insurance", "Customer Service"]
+    },
+    {
+      "id": "skill_finance_121",
+      "name": "Reinsurance",
+      "category": "Finance",
+      "keywords": ["reinsurance", "risk transfer", "reinsurer"],
+      "relatedSkills": ["Insurance", "Risk Management"]
+    },
+    {
+      "id": "skill_finance_122",
+      "name": "Financial Compliance",
+      "category": "Finance",
+      "keywords": ["financial compliance", "regulatory compliance", "compliance management"],
+      "relatedSkills": ["Compliance", "Risk Management"]
+    },
+    {
+      "id": "skill_finance_123",
+      "name": "AML/KYC",
+      "category": "Finance",
+      "keywords": ["AML", "KYC", "anti-money laundering", "know your customer"],
+      "relatedSkills": ["Compliance", "Banking"]
+    },
+    {
+      "id": "skill_finance_124",
+      "name": "BSA Compliance",
+      "category": "Finance",
+      "keywords": ["BSA", "Bank Secrecy Act", "financial crimes"],
+      "relatedSkills": ["AML/KYC", "Compliance"]
+    },
+    {
+      "id": "skill_finance_125",
+      "name": "FINRA Regulations",
+      "category": "Finance",
+      "keywords": ["FINRA", "securities regulation", "broker-dealer compliance"],
+      "relatedSkills": ["Compliance", "Securities"]
+    },
+    {
+      "id": "skill_finance_126",
+      "name": "SEC Regulations",
+      "category": "Finance",
+      "keywords": ["SEC", "securities laws", "securities compliance"],
+      "relatedSkills": ["Compliance", "Investment Management"]
+    },
+    {
+      "id": "skill_finance_127",
+      "name": "Dodd-Frank",
+      "category": "Finance",
+      "keywords": ["Dodd-Frank", "financial regulation", "banking regulation"],
+      "relatedSkills": ["Compliance", "Banking"]
+    },
+    {
+      "id": "skill_finance_128",
+      "name": "Basel III",
+      "category": "Finance",
+      "keywords": ["Basel III", "capital requirements", "banking standards"],
+      "relatedSkills": ["Risk Management", "Banking"]
+    },
+    {
+      "id": "skill_finance_129",
+      "name": "Financial Systems Implementation",
+      "category": "Finance",
+      "keywords": ["systems implementation", "ERP implementation", "finance systems"],
+      "relatedSkills": ["Project Management", "Technology"]
+    },
+    {
+      "id": "skill_finance_130",
+      "name": "QuickBooks",
+      "category": "Finance",
+      "keywords": ["QuickBooks", "accounting software", "small business accounting"],
+      "relatedSkills": ["Bookkeeping", "Accounting"]
+    },
+    {
+      "id": "skill_finance_131",
+      "name": "Xero",
+      "category": "Finance",
+      "keywords": ["Xero", "cloud accounting", "accounting software"],
+      "relatedSkills": ["Bookkeeping", "Accounting"]
+    },
+    {
+      "id": "skill_finance_132",
+      "name": "SAP FI/CO",
+      "category": "Finance",
+      "keywords": ["SAP", "SAP FI", "SAP CO", "ERP"],
+      "relatedSkills": ["Accounting", "ERP Systems"]
+    },
+    {
+      "id": "skill_finance_133",
+      "name": "Oracle Financials",
+      "category": "Finance",
+      "keywords": ["Oracle Financials", "Oracle ERP", "Oracle Finance"],
+      "relatedSkills": ["Accounting", "ERP Systems"]
+    },
+    {
+      "id": "skill_finance_134",
+      "name": "NetSuite",
+      "category": "Finance",
+      "keywords": ["NetSuite", "cloud ERP", "ERP software"],
+      "relatedSkills": ["Accounting", "ERP Systems"]
+    },
+    {
+      "id": "skill_finance_135",
+      "name": "Microsoft Dynamics",
+      "category": "Finance",
+      "keywords": ["Dynamics", "Microsoft Dynamics", "ERP"],
+      "relatedSkills": ["Accounting", "ERP Systems"]
+    },
+    {
+      "id": "skill_finance_136",
+      "name": "Workday Financials",
+      "category": "Finance",
+      "keywords": ["Workday", "Workday Financials", "cloud finance"],
+      "relatedSkills": ["Accounting", "ERP Systems"]
+    },
+    {
+      "id": "skill_finance_137",
+      "name": "Bloomberg Terminal",
+      "category": "Finance",
+      "keywords": ["Bloomberg", "Bloomberg Terminal", "market data"],
+      "relatedSkills": ["Trading", "Financial Analysis"]
+    },
+    {
+      "id": "skill_finance_138",
+      "name": "FactSet",
+      "category": "Finance",
+      "keywords": ["FactSet", "financial data", "research platform"],
+      "relatedSkills": ["Financial Analysis", "Investment Research"]
+    },
+    {
+      "id": "skill_finance_139",
+      "name": "Capital IQ",
+      "category": "Finance",
+      "keywords": ["Capital IQ", "S&P Capital IQ", "financial database"],
+      "relatedSkills": ["Financial Analysis", "Investment Research"]
+    },
+    {
+      "id": "skill_finance_140",
+      "name": "Advanced Excel",
+      "category": "Finance",
+      "keywords": ["Excel", "advanced Excel", "pivot tables", "VLOOKUP"],
+      "relatedSkills": ["Financial Modeling", "Financial Analysis"]
+    },
+    {
+      "id": "skill_finance_141",
+      "name": "VBA Programming",
+      "category": "Finance",
+      "keywords": ["VBA", "Excel VBA", "macros", "automation"],
+      "relatedSkills": ["Advanced Excel", "Programming"]
+    },
+    {
+      "id": "skill_finance_142",
+      "name": "SQL for Finance",
+      "category": "Finance",
+      "keywords": ["SQL", "database queries", "financial data"],
+      "relatedSkills": ["Data Analysis", "Programming"]
+    },
+    {
+      "id": "skill_finance_143",
+      "name": "Python for Finance",
+      "category": "Finance",
+      "keywords": ["Python", "pandas", "NumPy", "financial programming"],
+      "relatedSkills": ["Programming", "Data Analysis"]
+    },
+    {
+      "id": "skill_finance_144",
+      "name": "R Programming",
+      "category": "Finance",
+      "keywords": ["R", "R programming", "statistical programming"],
+      "relatedSkills": ["Data Analysis", "Statistical Analysis"]
+    },
+    {
+      "id": "skill_finance_145",
+      "name": "Tableau",
+      "category": "Finance",
+      "keywords": ["Tableau", "data visualization", "business intelligence"],
+      "relatedSkills": ["Data Analysis", "Reporting"]
+    },
+    {
+      "id": "skill_finance_146",
+      "name": "Power BI",
+      "category": "Finance",
+      "keywords": ["Power BI", "Microsoft Power BI", "dashboards"],
+      "relatedSkills": ["Data Analysis", "Reporting"]
+    },
+    {
+      "id": "skill_finance_147",
+      "name": "Alteryx",
+      "category": "Finance",
+      "keywords": ["Alteryx", "data analytics", "workflow automation"],
+      "relatedSkills": ["Data Analysis", "Process Automation"]
+    },
+    {
+      "id": "skill_finance_148",
+      "name": "Quantitative Analysis",
+      "category": "Finance",
+      "keywords": ["quantitative analysis", "quant", "mathematical finance"],
+      "relatedSkills": ["Financial Modeling", "Statistical Analysis"]
+    },
+    {
+      "id": "skill_finance_149",
+      "name": "Statistical Analysis",
+      "category": "Finance",
+      "keywords": ["statistical analysis", "statistics", "regression analysis"],
+      "relatedSkills": ["Quantitative Analysis", "Data Analysis"]
+    },
+    {
+      "id": "skill_finance_150",
+      "name": "Time Series Analysis",
+      "category": "Finance",
+      "keywords": ["time series", "forecasting", "econometrics"],
+      "relatedSkills": ["Statistical Analysis", "Quantitative Analysis"]
+    },
+    {
+      "id": "skill_finance_151",
+      "name": "Machine Learning for Finance",
+      "category": "Finance",
+      "keywords": ["machine learning", "ML", "algorithmic trading", "fintech"],
+      "relatedSkills": ["Python", "Quantitative Analysis"]
+    },
+    {
+      "id": "skill_finance_152",
+      "name": "Algorithmic Trading",
+      "category": "Finance",
+      "keywords": ["algorithmic trading", "algo trading", "automated trading"],
+      "relatedSkills": ["Machine Learning", "Trading"]
+    },
+    {
+      "id": "skill_finance_153",
+      "name": "High-Frequency Trading",
+      "category": "Finance",
+      "keywords": ["HFT", "high-frequency trading", "low-latency trading"],
+      "relatedSkills": ["Algorithmic Trading", "Programming"]
+    },
+    {
+      "id": "skill_finance_154",
+      "name": "Blockchain Technology",
+      "category": "Finance",
+      "keywords": ["blockchain", "distributed ledger", "crypto"],
+      "relatedSkills": ["Cryptocurrency", "Fintech"]
+    },
+    {
+      "id": "skill_finance_155",
+      "name": "Cryptocurrency",
+      "category": "Finance",
+      "keywords": ["cryptocurrency", "Bitcoin", "Ethereum", "digital assets"],
+      "relatedSkills": ["Blockchain", "Trading"]
+    },
+    {
+      "id": "skill_finance_156",
+      "name": "DeFi (Decentralized Finance)",
+      "category": "Finance",
+      "keywords": ["DeFi", "decentralized finance", "smart contracts"],
+      "relatedSkills": ["Blockchain", "Cryptocurrency"]
+    },
+    {
+      "id": "skill_finance_157",
+      "name": "Digital Payments",
+      "category": "Finance",
+      "keywords": ["digital payments", "payment processing", "fintech"],
+      "relatedSkills": ["Fintech", "Technology"]
+    },
+    {
+      "id": "skill_finance_158",
+      "name": "Payment Card Industry (PCI) Compliance",
+      "category": "Finance",
+      "keywords": ["PCI", "PCI DSS", "payment security"],
+      "relatedSkills": ["Compliance", "Digital Payments"]
+    },
+    {
+      "id": "skill_finance_159",
+      "name": "Mobile Banking",
+      "category": "Finance",
+      "keywords": ["mobile banking", "digital banking", "fintech"],
+      "relatedSkills": ["Banking", "Technology"]
+    },
+    {
+      "id": "skill_finance_160",
+      "name": "Robo-Advisory",
+      "category": "Finance",
+      "keywords": ["robo-advisory", "automated investing", "digital wealth"],
+      "relatedSkills": ["Wealth Management", "Technology"]
+    },
+    {
+      "id": "skill_finance_161",
+      "name": "Peer-to-Peer Lending",
+      "category": "Finance",
+      "keywords": ["P2P lending", "peer-to-peer lending", "marketplace lending"],
+      "relatedSkills": ["Lending", "Fintech"]
+    },
+    {
+      "id": "skill_finance_162",
+      "name": "Crowdfunding",
+      "category": "Finance",
+      "keywords": ["crowdfunding", "equity crowdfunding", "fundraising"],
+      "relatedSkills": ["Fintech", "Investment"]
+    },
+    {
+      "id": "skill_finance_163",
+      "name": "RegTech",
+      "category": "Finance",
+      "keywords": ["RegTech", "regulatory technology", "compliance technology"],
+      "relatedSkills": ["Compliance", "Technology"]
+    },
+    {
+      "id": "skill_finance_164",
+      "name": "InsurTech",
+      "category": "Finance",
+      "keywords": ["InsurTech", "insurance technology", "digital insurance"],
+      "relatedSkills": ["Insurance", "Technology"]
+    },
+    {
+      "id": "skill_finance_165",
+      "name": "Economic Analysis",
+      "category": "Finance",
+      "keywords": ["economic analysis", "macroeconomics", "economic research"],
+      "relatedSkills": ["Financial Analysis", "Research"]
+    },
+    {
+      "id": "skill_finance_166",
+      "name": "Macroeconomics",
+      "category": "Finance",
+      "keywords": ["macroeconomics", "macro", "economic policy"],
+      "relatedSkills": ["Economic Analysis", "Research"]
+    },
+    {
+      "id": "skill_finance_167",
+      "name": "Microeconomics",
+      "category": "Finance",
+      "keywords": ["microeconomics", "micro", "market analysis"],
+      "relatedSkills": ["Economic Analysis", "Research"]
+    },
+    {
+      "id": "skill_finance_168",
+      "name": "Econometrics",
+      "category": "Finance",
+      "keywords": ["econometrics", "economic modeling", "statistical economics"],
+      "relatedSkills": ["Economic Analysis", "Statistical Analysis"]
+    },
+    {
+      "id": "skill_finance_169",
+      "name": "Commodities Trading",
+      "category": "Finance",
+      "keywords": ["commodities", "commodities trading", "futures"],
+      "relatedSkills": ["Trading", "Derivatives"]
+    },
+    {
+      "id": "skill_finance_170",
+      "name": "Energy Trading",
+      "category": "Finance",
+      "keywords": ["energy trading", "oil trading", "natural gas"],
+      "relatedSkills": ["Commodities Trading", "Trading"]
+    },
+    {
+      "id": "skill_finance_171",
+      "name": "Structured Products",
+      "category": "Finance",
+      "keywords": ["structured products", "exotic derivatives", "complex securities"],
+      "relatedSkills": ["Derivatives", "Investment Banking"]
+    },
+    {
+      "id": "skill_finance_172",
+      "name": "Securitization",
+      "category": "Finance",
+      "keywords": ["securitization", "ABS", "MBS", "asset-backed securities"],
+      "relatedSkills": ["Structured Products", "Investment Banking"]
+    },
+    {
+      "id": "skill_finance_173",
+      "name": "Credit Default Swaps",
+      "category": "Finance",
+      "keywords": ["CDS", "credit default swaps", "credit derivatives"],
+      "relatedSkills": ["Derivatives", "Credit Analysis"]
+    },
+    {
+      "id": "skill_finance_174",
+      "name": "Distressed Debt",
+      "category": "Finance",
+      "keywords": ["distressed debt", "restructuring", "special situations"],
+      "relatedSkills": ["Credit Analysis", "Investment"]
+    },
+    {
+      "id": "skill_finance_175",
+      "name": "Leveraged Finance",
+      "category": "Finance",
+      "keywords": ["leveraged finance", "leveraged loans", "high yield"],
+      "relatedSkills": ["Investment Banking", "Credit Analysis"]
+    },
+    {
+      "id": "skill_finance_176",
+      "name": "Real Estate Finance",
+      "category": "Finance",
+      "keywords": ["real estate finance", "REIT", "property finance"],
+      "relatedSkills": ["Real Estate", "Investment Analysis"]
+    },
+    {
+      "id": "skill_finance_177",
+      "name": "Project Finance",
+      "category": "Finance",
+      "keywords": ["project finance", "infrastructure finance", "non-recourse lending"],
+      "relatedSkills": ["Corporate Finance", "Credit Analysis"]
+    },
+    {
+      "id": "skill_finance_178",
+      "name": "Infrastructure Finance",
+      "category": "Finance",
+      "keywords": ["infrastructure finance", "PPP", "public-private partnerships"],
+      "relatedSkills": ["Project Finance", "Investment"]
+    },
+    {
+      "id": "skill_finance_179",
+      "name": "Municipal Finance",
+      "category": "Finance",
+      "keywords": ["municipal finance", "muni bonds", "public finance"],
+      "relatedSkills": ["Fixed Income", "Investment Banking"]
+    },
+    {
+      "id": "skill_finance_180",
+      "name": "Syndicated Lending",
+      "category": "Finance",
+      "keywords": ["syndicated lending", "loan syndication", "club deals"],
+      "relatedSkills": ["Commercial Lending", "Investment Banking"]
+    },
+    {
+      "id": "skill_finance_181",
+      "name": "Corporate Finance",
+      "category": "Finance",
+      "keywords": ["corporate finance", "corporate financial management", "financial strategy"],
+      "relatedSkills": ["Financial Planning", "M&A"]
+    },
+    {
+      "id": "skill_finance_182",
+      "name": "Capital Structure",
+      "category": "Finance",
+      "keywords": ["capital structure", "debt-equity mix", "financing strategy"],
+      "relatedSkills": ["Corporate Finance", "Treasury"]
+    },
+    {
+      "id": "skill_finance_183",
+      "name": "Dividend Policy",
+      "category": "Finance",
+      "keywords": ["dividend policy", "dividends", "payout policy"],
+      "relatedSkills": ["Corporate Finance", "Treasury"]
+    },
+    {
+      "id": "skill_finance_184",
+      "name": "Capital Budgeting",
+      "category": "Finance",
+      "keywords": ["capital budgeting", "CAPEX", "investment decisions"],
+      "relatedSkills": ["Corporate Finance", "Financial Analysis"]
+    },
+    {
+      "id": "skill_finance_185",
+      "name": "IPO Process",
+      "category": "Finance",
+      "keywords": ["IPO", "initial public offering", "going public"],
+      "relatedSkills": ["Investment Banking", "Capital Markets"]
+    },
+    {
+      "id": "skill_finance_186",
+      "name": "Investor Relations",
+      "category": "Finance",
+      "keywords": ["investor relations", "IR", "shareholder communications"],
+      "relatedSkills": ["Corporate Finance", "Communications"]
+    },
+    {
+      "id": "skill_finance_187",
+      "name": "ESG Investing",
+      "category": "Finance",
+      "keywords": ["ESG", "environmental social governance", "sustainable investing"],
+      "relatedSkills": ["Investment Management", "Sustainability"]
+    },
+    {
+      "id": "skill_finance_188",
+      "name": "Impact Investing",
+      "category": "Finance",
+      "keywords": ["impact investing", "social impact", "mission-driven investing"],
+      "relatedSkills": ["ESG Investing", "Investment Management"]
+    },
+    {
+      "id": "skill_finance_189",
+      "name": "Green Finance",
+      "category": "Finance",
+      "keywords": ["green finance", "climate finance", "sustainable finance"],
+      "relatedSkills": ["ESG Investing", "Corporate Finance"]
+    },
+    {
+      "id": "skill_finance_190",
+      "name": "Carbon Trading",
+      "category": "Finance",
+      "keywords": ["carbon trading", "emissions trading", "carbon credits"],
+      "relatedSkills": ["Green Finance", "Commodities Trading"]
+    },
+    {
+      "id": "skill_finance_191",
+      "name": "Sustainability Reporting",
+      "category": "Finance",
+      "keywords": ["sustainability reporting", "ESG reporting", "CSR"],
+      "relatedSkills": ["ESG", "Financial Reporting"]
+    },
+    {
+      "id": "skill_finance_192",
+      "name": "FP&A (Financial Planning and Analysis)",
+      "category": "Finance",
+      "keywords": ["FP&A", "financial planning", "business partnering"],
+      "relatedSkills": ["Financial Planning", "Budgeting"]
+    },
+    {
+      "id": "skill_finance_193",
+      "name": "Business Partnering",
+      "category": "Finance",
+      "keywords": ["business partnering", "finance business partner", "strategic finance"],
+      "relatedSkills": ["FP&A", "Financial Analysis"]
+    },
+    {
+      "id": "skill_finance_194",
+      "name": "Scenario Planning",
+      "category": "Finance",
+      "keywords": ["scenario planning", "what-if analysis", "sensitivity analysis"],
+      "relatedSkills": ["FP&A", "Financial Modeling"]
+    },
+    {
+      "id": "skill_finance_195",
+      "name": "Transfer Pricing",
+      "category": "Finance",
+      "keywords": ["transfer pricing", "intercompany pricing", "tax optimization"],
+      "relatedSkills": ["International Tax", "Corporate Finance"]
+    },
+    {
+      "id": "skill_finance_196",
+      "name": "Shared Services",
+      "category": "Finance",
+      "keywords": ["shared services", "finance shared services", "SSC"],
+      "relatedSkills": ["Operations", "Process Improvement"]
+    },
+    {
+      "id": "skill_finance_197",
+      "name": "Process Improvement",
+      "category": "Finance",
+      "keywords": ["process improvement", "Lean", "Six Sigma"],
+      "relatedSkills": ["Operations", "Project Management"]
+    },
+    {
+      "id": "skill_finance_198",
+      "name": "Finance Automation",
+      "category": "Finance",
+      "keywords": ["finance automation", "RPA", "robotic process automation"],
+      "relatedSkills": ["Process Improvement", "Technology"]
+    },
+    {
+      "id": "skill_finance_199",
+      "name": "Financial Systems",
+      "category": "Finance",
+      "keywords": ["financial systems", "finance IT", "systems management"],
+      "relatedSkills": ["Technology", "ERP Systems"]
+    },
+    {
+      "id": "skill_finance_200",
+      "name": "Business Valuation",
+      "category": "Finance",
+      "keywords": ["business valuation", "company valuation", "valuation methods"],
+      "relatedSkills": ["Valuation", "Financial Modeling"]
+    }
+  ]
+}

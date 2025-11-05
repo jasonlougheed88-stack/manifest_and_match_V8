@@ -1,0 +1,1259 @@
+{
+  "expansion_metadata": {
+    "sector": "Marketing",
+    "existing_count": 22,
+    "new_count": 178,
+    "total_count": 200,
+    "source": "O*NET + AI Augmentation",
+    "validation_date": "2025-10-27",
+    "id_range": "skill_marketing_023 to skill_marketing_200"
+  },
+  "new_skills": [
+    {
+      "id": "skill_marketing_023",
+      "name": "Content Marketing",
+      "category": "Marketing",
+      "keywords": ["content", "marketing", "strategy"],
+      "relatedSkills": ["Content Creation", "Marketing Strategy"]
+    },
+    {
+      "id": "skill_marketing_024",
+      "name": "Inbound Marketing",
+      "category": "Marketing",
+      "keywords": ["inbound", "marketing", "leads"],
+      "relatedSkills": ["Content Marketing", "SEO"]
+    },
+    {
+      "id": "skill_marketing_025",
+      "name": "Outbound Marketing",
+      "category": "Marketing",
+      "keywords": ["outbound", "marketing", "advertising"],
+      "relatedSkills": ["Campaign Management", "Marketing Strategy"]
+    },
+    {
+      "id": "skill_marketing_026",
+      "name": "Growth Marketing",
+      "category": "Marketing",
+      "keywords": ["growth", "marketing", "hacking"],
+      "relatedSkills": ["Marketing Analytics", "Marketing Strategy"]
+    },
+    {
+      "id": "skill_marketing_027",
+      "name": "Performance Marketing",
+      "category": "Marketing",
+      "keywords": ["performance", "marketing", "roi"],
+      "relatedSkills": ["Marketing Analytics", "SEM"]
+    },
+    {
+      "id": "skill_marketing_028",
+      "name": "Conversion Rate Optimization",
+      "category": "Marketing",
+      "keywords": ["cro", "conversion", "optimization"],
+      "relatedSkills": ["Performance Marketing", "Marketing Analytics"]
+    },
+    {
+      "id": "skill_marketing_029",
+      "name": "A/B Testing",
+      "category": "Marketing",
+      "keywords": ["ab testing", "experimentation", "optimization"],
+      "relatedSkills": ["Conversion Rate Optimization", "Marketing Analytics"]
+    },
+    {
+      "id": "skill_marketing_030",
+      "name": "Multivariate Testing",
+      "category": "Marketing",
+      "keywords": ["multivariate", "testing", "optimization"],
+      "relatedSkills": ["A/B Testing", "Marketing Analytics"]
+    },
+    {
+      "id": "skill_marketing_031",
+      "name": "Landing Page Optimization",
+      "category": "Marketing",
+      "keywords": ["landing page", "optimization", "conversion"],
+      "relatedSkills": ["Conversion Rate Optimization", "Copywriting"]
+    },
+    {
+      "id": "skill_marketing_032",
+      "name": "PPC Advertising",
+      "category": "Marketing",
+      "keywords": ["ppc", "pay per click", "advertising"],
+      "relatedSkills": ["SEM", "Performance Marketing"]
+    },
+    {
+      "id": "skill_marketing_033",
+      "name": "Google Ads",
+      "category": "Marketing",
+      "keywords": ["google ads", "adwords", "ppc"],
+      "relatedSkills": ["PPC Advertising", "SEM"]
+    },
+    {
+      "id": "skill_marketing_034",
+      "name": "Facebook Ads",
+      "category": "Marketing",
+      "keywords": ["facebook ads", "meta ads", "social advertising"],
+      "relatedSkills": ["Social Media Marketing", "PPC Advertising"]
+    },
+    {
+      "id": "skill_marketing_035",
+      "name": "Instagram Ads",
+      "category": "Marketing",
+      "keywords": ["instagram ads", "social advertising", "visual"],
+      "relatedSkills": ["Facebook Ads", "Social Media Marketing"]
+    },
+    {
+      "id": "skill_marketing_036",
+      "name": "LinkedIn Ads",
+      "category": "Marketing",
+      "keywords": ["linkedin ads", "b2b advertising", "professional"],
+      "relatedSkills": ["PPC Advertising", "Social Media Marketing"]
+    },
+    {
+      "id": "skill_marketing_037",
+      "name": "Twitter Ads",
+      "category": "Marketing",
+      "keywords": ["twitter ads", "x ads", "social advertising"],
+      "relatedSkills": ["Social Media Marketing", "PPC Advertising"]
+    },
+    {
+      "id": "skill_marketing_038",
+      "name": "TikTok Ads",
+      "category": "Marketing",
+      "keywords": ["tiktok ads", "short video", "social advertising"],
+      "relatedSkills": ["Social Media Marketing", "Video Marketing"]
+    },
+    {
+      "id": "skill_marketing_039",
+      "name": "YouTube Ads",
+      "category": "Marketing",
+      "keywords": ["youtube ads", "video advertising", "google"],
+      "relatedSkills": ["Video Marketing", "PPC Advertising"]
+    },
+    {
+      "id": "skill_marketing_040",
+      "name": "Display Advertising",
+      "category": "Marketing",
+      "keywords": ["display", "advertising", "banner"],
+      "relatedSkills": ["PPC Advertising", "Graphic Design"]
+    },
+    {
+      "id": "skill_marketing_041",
+      "name": "Programmatic Advertising",
+      "category": "Marketing",
+      "keywords": ["programmatic", "advertising", "automated"],
+      "relatedSkills": ["Display Advertising", "Marketing Analytics"]
+    },
+    {
+      "id": "skill_marketing_042",
+      "name": "Native Advertising",
+      "category": "Marketing",
+      "keywords": ["native", "advertising", "sponsored content"],
+      "relatedSkills": ["Content Marketing", "Display Advertising"]
+    },
+    {
+      "id": "skill_marketing_043",
+      "name": "Retargeting",
+      "category": "Marketing",
+      "keywords": ["retargeting", "remarketing", "advertising"],
+      "relatedSkills": ["PPC Advertising", "Marketing Analytics"]
+    },
+    {
+      "id": "skill_marketing_044",
+      "name": "Affiliate Marketing",
+      "category": "Marketing",
+      "keywords": ["affiliate", "marketing", "partnerships"],
+      "relatedSkills": ["Performance Marketing", "Marketing Analytics"]
+    },
+    {
+      "id": "skill_marketing_045",
+      "name": "Influencer Outreach",
+      "category": "Marketing",
+      "keywords": ["influencer", "outreach", "partnerships"],
+      "relatedSkills": ["Influencer Marketing", "Public Relations"]
+    },
+    {
+      "id": "skill_marketing_046",
+      "name": "Creator Partnerships",
+      "category": "Marketing",
+      "keywords": ["creator", "partnerships", "collaborations"],
+      "relatedSkills": ["Influencer Marketing", "Content Marketing"]
+    },
+    {
+      "id": "skill_marketing_047",
+      "name": "Sponsorship Management",
+      "category": "Marketing",
+      "keywords": ["sponsorship", "management", "partnerships"],
+      "relatedSkills": ["Event Marketing", "Brand Management"]
+    },
+    {
+      "id": "skill_marketing_048",
+      "name": "Video Marketing",
+      "category": "Marketing",
+      "keywords": ["video", "marketing", "content"],
+      "relatedSkills": ["Content Marketing", "Social Media Marketing"]
+    },
+    {
+      "id": "skill_marketing_049",
+      "name": "Video Production",
+      "category": "Marketing",
+      "keywords": ["video", "production", "filming"],
+      "relatedSkills": ["Video Marketing", "Content Creation"]
+    },
+    {
+      "id": "skill_marketing_050",
+      "name": "Video Editing",
+      "category": "Marketing",
+      "keywords": ["video", "editing", "post-production"],
+      "relatedSkills": ["Video Production", "Adobe Creative Suite"]
+    },
+    {
+      "id": "skill_marketing_051",
+      "name": "Motion Graphics",
+      "category": "Marketing",
+      "keywords": ["motion", "graphics", "animation"],
+      "relatedSkills": ["Video Editing", "Graphic Design"]
+    },
+    {
+      "id": "skill_marketing_052",
+      "name": "Podcast Marketing",
+      "category": "Marketing",
+      "keywords": ["podcast", "marketing", "audio"],
+      "relatedSkills": ["Content Marketing", "Digital Marketing"]
+    },
+    {
+      "id": "skill_marketing_053",
+      "name": "Audio Production",
+      "category": "Marketing",
+      "keywords": ["audio", "production", "sound"],
+      "relatedSkills": ["Podcast Marketing", "Content Creation"]
+    },
+    {
+      "id": "skill_marketing_054",
+      "name": "Webinar Marketing",
+      "category": "Marketing",
+      "keywords": ["webinar", "marketing", "virtual events"],
+      "relatedSkills": ["Event Marketing", "Content Marketing"]
+    },
+    {
+      "id": "skill_marketing_055",
+      "name": "Blog Management",
+      "category": "Marketing",
+      "keywords": ["blog", "management", "content"],
+      "relatedSkills": ["Content Marketing", "SEO"]
+    },
+    {
+      "id": "skill_marketing_056",
+      "name": "Content Calendar Management",
+      "category": "Marketing",
+      "keywords": ["content", "calendar", "planning"],
+      "relatedSkills": ["Content Marketing", "Campaign Management"]
+    },
+    {
+      "id": "skill_marketing_057",
+      "name": "Editorial Planning",
+      "category": "Marketing",
+      "keywords": ["editorial", "planning", "content strategy"],
+      "relatedSkills": ["Content Calendar Management", "Content Marketing"]
+    },
+    {
+      "id": "skill_marketing_058",
+      "name": "SEO Copywriting",
+      "category": "Marketing",
+      "keywords": ["seo", "copywriting", "content"],
+      "relatedSkills": ["SEO", "Copywriting"]
+    },
+    {
+      "id": "skill_marketing_059",
+      "name": "Technical SEO",
+      "category": "Marketing",
+      "keywords": ["technical", "seo", "optimization"],
+      "relatedSkills": ["SEO", "Marketing Analytics"]
+    },
+    {
+      "id": "skill_marketing_060",
+      "name": "On-Page SEO",
+      "category": "Marketing",
+      "keywords": ["on-page", "seo", "optimization"],
+      "relatedSkills": ["SEO", "Content Marketing"]
+    },
+    {
+      "id": "skill_marketing_061",
+      "name": "Off-Page SEO",
+      "category": "Marketing",
+      "keywords": ["off-page", "seo", "link building"],
+      "relatedSkills": ["SEO", "Public Relations"]
+    },
+    {
+      "id": "skill_marketing_062",
+      "name": "Link Building",
+      "category": "Marketing",
+      "keywords": ["link", "building", "backlinks"],
+      "relatedSkills": ["Off-Page SEO", "SEO"]
+    },
+    {
+      "id": "skill_marketing_063",
+      "name": "Local SEO",
+      "category": "Marketing",
+      "keywords": ["local", "seo", "google business"],
+      "relatedSkills": ["SEO", "Marketing Strategy"]
+    },
+    {
+      "id": "skill_marketing_064",
+      "name": "Keyword Research",
+      "category": "Marketing",
+      "keywords": ["keyword", "research", "seo"],
+      "relatedSkills": ["SEO", "Market Research"]
+    },
+    {
+      "id": "skill_marketing_065",
+      "name": "Competitive Analysis (Marketing)",
+      "category": "Marketing",
+      "keywords": ["competitive", "analysis", "research"],
+      "relatedSkills": ["Market Research", "Marketing Strategy"]
+    },
+    {
+      "id": "skill_marketing_066",
+      "name": "Market Positioning",
+      "category": "Marketing",
+      "keywords": ["market", "positioning", "strategy"],
+      "relatedSkills": ["Brand Management", "Marketing Strategy"]
+    },
+    {
+      "id": "skill_marketing_067",
+      "name": "Brand Strategy",
+      "category": "Marketing",
+      "keywords": ["brand", "strategy", "positioning"],
+      "relatedSkills": ["Brand Management", "Marketing Strategy"]
+    },
+    {
+      "id": "skill_marketing_068",
+      "name": "Brand Identity",
+      "category": "Marketing",
+      "keywords": ["brand", "identity", "design"],
+      "relatedSkills": ["Brand Management", "Graphic Design"]
+    },
+    {
+      "id": "skill_marketing_069",
+      "name": "Logo Design",
+      "category": "Marketing",
+      "keywords": ["logo", "design", "branding"],
+      "relatedSkills": ["Brand Identity", "Graphic Design"]
+    },
+    {
+      "id": "skill_marketing_070",
+      "name": "Brand Guidelines",
+      "category": "Marketing",
+      "keywords": ["brand", "guidelines", "standards"],
+      "relatedSkills": ["Brand Identity", "Brand Management"]
+    },
+    {
+      "id": "skill_marketing_071",
+      "name": "Brand Awareness",
+      "category": "Marketing",
+      "keywords": ["brand", "awareness", "visibility"],
+      "relatedSkills": ["Brand Management", "Campaign Management"]
+    },
+    {
+      "id": "skill_marketing_072",
+      "name": "Reputation Management",
+      "category": "Marketing",
+      "keywords": ["reputation", "management", "online"],
+      "relatedSkills": ["Public Relations", "Brand Management"]
+    },
+    {
+      "id": "skill_marketing_073",
+      "name": "Crisis Communication",
+      "category": "Marketing",
+      "keywords": ["crisis", "communication", "pr"],
+      "relatedSkills": ["Public Relations", "Reputation Management"]
+    },
+    {
+      "id": "skill_marketing_074",
+      "name": "Press Release Writing",
+      "category": "Marketing",
+      "keywords": ["press release", "writing", "pr"],
+      "relatedSkills": ["Public Relations", "Copywriting"]
+    },
+    {
+      "id": "skill_marketing_075",
+      "name": "Media Pitching",
+      "category": "Marketing",
+      "keywords": ["media", "pitching", "pr"],
+      "relatedSkills": ["Media Relations", "Public Relations"]
+    },
+    {
+      "id": "skill_marketing_076",
+      "name": "Journalist Relations",
+      "category": "Marketing",
+      "keywords": ["journalist", "relations", "media"],
+      "relatedSkills": ["Media Relations", "Public Relations"]
+    },
+    {
+      "id": "skill_marketing_077",
+      "name": "Email Campaign Management",
+      "category": "Marketing",
+      "keywords": ["email", "campaign", "management"],
+      "relatedSkills": ["Email Marketing", "Campaign Management"]
+    },
+    {
+      "id": "skill_marketing_078",
+      "name": "Email List Building",
+      "category": "Marketing",
+      "keywords": ["email", "list", "building"],
+      "relatedSkills": ["Email Marketing", "Lead Generation"]
+    },
+    {
+      "id": "skill_marketing_079",
+      "name": "Email Segmentation",
+      "category": "Marketing",
+      "keywords": ["email", "segmentation", "targeting"],
+      "relatedSkills": ["Email Marketing", "Customer Segmentation"]
+    },
+    {
+      "id": "skill_marketing_080",
+      "name": "Email Deliverability",
+      "category": "Marketing",
+      "keywords": ["email", "deliverability", "inbox"],
+      "relatedSkills": ["Email Marketing", "Marketing Automation"]
+    },
+    {
+      "id": "skill_marketing_081",
+      "name": "Newsletter Design",
+      "category": "Marketing",
+      "keywords": ["newsletter", "design", "email"],
+      "relatedSkills": ["Email Marketing", "Graphic Design"]
+    },
+    {
+      "id": "skill_marketing_082",
+      "name": "Drip Campaigns",
+      "category": "Marketing",
+      "keywords": ["drip", "campaign", "automation"],
+      "relatedSkills": ["Marketing Automation", "Email Marketing"]
+    },
+    {
+      "id": "skill_marketing_083",
+      "name": "Lead Nurturing",
+      "category": "Marketing",
+      "keywords": ["lead", "nurturing", "automation"],
+      "relatedSkills": ["Marketing Automation", "Email Marketing"]
+    },
+    {
+      "id": "skill_marketing_084",
+      "name": "Lead Generation",
+      "category": "Marketing",
+      "keywords": ["lead", "generation", "acquisition"],
+      "relatedSkills": ["Inbound Marketing", "Performance Marketing"]
+    },
+    {
+      "id": "skill_marketing_085",
+      "name": "Lead Scoring",
+      "category": "Marketing",
+      "keywords": ["lead", "scoring", "qualification"],
+      "relatedSkills": ["Marketing Automation", "Lead Generation"]
+    },
+    {
+      "id": "skill_marketing_086",
+      "name": "Marketing Qualified Leads (MQL)",
+      "category": "Marketing",
+      "keywords": ["mql", "marketing qualified", "leads"],
+      "relatedSkills": ["Lead Scoring", "Lead Generation"]
+    },
+    {
+      "id": "skill_marketing_087",
+      "name": "Customer Acquisition",
+      "category": "Marketing",
+      "keywords": ["customer", "acquisition", "growth"],
+      "relatedSkills": ["Lead Generation", "Performance Marketing"]
+    },
+    {
+      "id": "skill_marketing_088",
+      "name": "Customer Retention",
+      "category": "Marketing",
+      "keywords": ["customer", "retention", "loyalty"],
+      "relatedSkills": ["Email Marketing", "Marketing Strategy"]
+    },
+    {
+      "id": "skill_marketing_089",
+      "name": "Customer Lifecycle Marketing",
+      "category": "Marketing",
+      "keywords": ["lifecycle", "marketing", "journey"],
+      "relatedSkills": ["Marketing Automation", "Customer Retention"]
+    },
+    {
+      "id": "skill_marketing_090",
+      "name": "Churn Reduction",
+      "category": "Marketing",
+      "keywords": ["churn", "reduction", "retention"],
+      "relatedSkills": ["Customer Retention", "Marketing Analytics"]
+    },
+    {
+      "id": "skill_marketing_091",
+      "name": "Referral Marketing",
+      "category": "Marketing",
+      "keywords": ["referral", "marketing", "word of mouth"],
+      "relatedSkills": ["Growth Marketing", "Customer Retention"]
+    },
+    {
+      "id": "skill_marketing_092",
+      "name": "Loyalty Programs",
+      "category": "Marketing",
+      "keywords": ["loyalty", "programs", "rewards"],
+      "relatedSkills": ["Customer Retention", "Marketing Strategy"]
+    },
+    {
+      "id": "skill_marketing_093",
+      "name": "Community Management",
+      "category": "Marketing",
+      "keywords": ["community", "management", "engagement"],
+      "relatedSkills": ["Social Media Marketing", "Customer Retention"]
+    },
+    {
+      "id": "skill_marketing_094",
+      "name": "Social Media Strategy",
+      "category": "Marketing",
+      "keywords": ["social media", "strategy", "planning"],
+      "relatedSkills": ["Social Media Marketing", "Marketing Strategy"]
+    },
+    {
+      "id": "skill_marketing_095",
+      "name": "Social Media Content Creation",
+      "category": "Marketing",
+      "keywords": ["social media", "content", "creation"],
+      "relatedSkills": ["Social Media Marketing", "Content Creation"]
+    },
+    {
+      "id": "skill_marketing_096",
+      "name": "Social Media Scheduling",
+      "category": "Marketing",
+      "keywords": ["social media", "scheduling", "automation"],
+      "relatedSkills": ["Social Media Marketing", "Marketing Automation"]
+    },
+    {
+      "id": "skill_marketing_097",
+      "name": "Social Listening",
+      "category": "Marketing",
+      "keywords": ["social", "listening", "monitoring"],
+      "relatedSkills": ["Social Media Marketing", "Market Research"]
+    },
+    {
+      "id": "skill_marketing_098",
+      "name": "Social Media Analytics",
+      "category": "Marketing",
+      "keywords": ["social media", "analytics", "metrics"],
+      "relatedSkills": ["Social Media Marketing", "Marketing Analytics"]
+    },
+    {
+      "id": "skill_marketing_099",
+      "name": "Instagram Marketing",
+      "category": "Marketing",
+      "keywords": ["instagram", "marketing", "visual"],
+      "relatedSkills": ["Social Media Marketing", "Content Creation"]
+    },
+    {
+      "id": "skill_marketing_100",
+      "name": "Facebook Marketing",
+      "category": "Marketing",
+      "keywords": ["facebook", "marketing", "social"],
+      "relatedSkills": ["Social Media Marketing", "Facebook Ads"]
+    },
+    {
+      "id": "skill_marketing_101",
+      "name": "LinkedIn Marketing",
+      "category": "Marketing",
+      "keywords": ["linkedin", "marketing", "b2b"],
+      "relatedSkills": ["Social Media Marketing", "LinkedIn Ads"]
+    },
+    {
+      "id": "skill_marketing_102",
+      "name": "Twitter Marketing",
+      "category": "Marketing",
+      "keywords": ["twitter", "marketing", "x"],
+      "relatedSkills": ["Social Media Marketing", "Twitter Ads"]
+    },
+    {
+      "id": "skill_marketing_103",
+      "name": "TikTok Marketing",
+      "category": "Marketing",
+      "keywords": ["tiktok", "marketing", "short video"],
+      "relatedSkills": ["Social Media Marketing", "Video Marketing"]
+    },
+    {
+      "id": "skill_marketing_104",
+      "name": "YouTube Marketing",
+      "category": "Marketing",
+      "keywords": ["youtube", "marketing", "video"],
+      "relatedSkills": ["Video Marketing", "Social Media Marketing"]
+    },
+    {
+      "id": "skill_marketing_105",
+      "name": "Pinterest Marketing",
+      "category": "Marketing",
+      "keywords": ["pinterest", "marketing", "visual"],
+      "relatedSkills": ["Social Media Marketing", "Content Creation"]
+    },
+    {
+      "id": "skill_marketing_106",
+      "name": "Snapchat Marketing",
+      "category": "Marketing",
+      "keywords": ["snapchat", "marketing", "ephemeral"],
+      "relatedSkills": ["Social Media Marketing", "Video Marketing"]
+    },
+    {
+      "id": "skill_marketing_107",
+      "name": "UGC (User-Generated Content)",
+      "category": "Marketing",
+      "keywords": ["ugc", "user generated", "content"],
+      "relatedSkills": ["Social Media Marketing", "Content Marketing"]
+    },
+    {
+      "id": "skill_marketing_108",
+      "name": "Influencer Campaign Management",
+      "category": "Marketing",
+      "keywords": ["influencer", "campaign", "management"],
+      "relatedSkills": ["Influencer Marketing", "Campaign Management"]
+    },
+    {
+      "id": "skill_marketing_109",
+      "name": "Micro-Influencer Marketing",
+      "category": "Marketing",
+      "keywords": ["micro", "influencer", "niche"],
+      "relatedSkills": ["Influencer Marketing", "Social Media Marketing"]
+    },
+    {
+      "id": "skill_marketing_110",
+      "name": "Web Analytics",
+      "category": "Marketing",
+      "keywords": ["web", "analytics", "data"],
+      "relatedSkills": ["Marketing Analytics", "Google Analytics"]
+    },
+    {
+      "id": "skill_marketing_111",
+      "name": "Tag Management",
+      "category": "Marketing",
+      "keywords": ["tag", "management", "gtm"],
+      "relatedSkills": ["Web Analytics", "Marketing Analytics"]
+    },
+    {
+      "id": "skill_marketing_112",
+      "name": "Google Tag Manager",
+      "category": "Marketing",
+      "keywords": ["google", "tag manager", "gtm"],
+      "relatedSkills": ["Tag Management", "Web Analytics"]
+    },
+    {
+      "id": "skill_marketing_113",
+      "name": "Event Tracking",
+      "category": "Marketing",
+      "keywords": ["event", "tracking", "analytics"],
+      "relatedSkills": ["Web Analytics", "Google Analytics"]
+    },
+    {
+      "id": "skill_marketing_114",
+      "name": "Funnel Analysis",
+      "category": "Marketing",
+      "keywords": ["funnel", "analysis", "conversion"],
+      "relatedSkills": ["Marketing Analytics", "Conversion Rate Optimization"]
+    },
+    {
+      "id": "skill_marketing_115",
+      "name": "Attribution Modeling",
+      "category": "Marketing",
+      "keywords": ["attribution", "modeling", "analytics"],
+      "relatedSkills": ["Marketing Analytics", "Performance Marketing"]
+    },
+    {
+      "id": "skill_marketing_116",
+      "name": "Multi-Touch Attribution",
+      "category": "Marketing",
+      "keywords": ["multi-touch", "attribution", "tracking"],
+      "relatedSkills": ["Attribution Modeling", "Marketing Analytics"]
+    },
+    {
+      "id": "skill_marketing_117",
+      "name": "ROI Analysis",
+      "category": "Marketing",
+      "keywords": ["roi", "return on investment", "analysis"],
+      "relatedSkills": ["Marketing Analytics", "Performance Marketing"]
+    },
+    {
+      "id": "skill_marketing_118",
+      "name": "Customer Lifetime Value (CLV)",
+      "category": "Marketing",
+      "keywords": ["clv", "lifetime value", "analytics"],
+      "relatedSkills": ["Marketing Analytics", "Customer Retention"]
+    },
+    {
+      "id": "skill_marketing_119",
+      "name": "Cohort Analysis",
+      "category": "Marketing",
+      "keywords": ["cohort", "analysis", "analytics"],
+      "relatedSkills": ["Marketing Analytics", "Customer Segmentation"]
+    },
+    {
+      "id": "skill_marketing_120",
+      "name": "Data Visualization (Marketing)",
+      "category": "Marketing",
+      "keywords": ["data", "visualization", "dashboards"],
+      "relatedSkills": ["Marketing Analytics", "Google Analytics"]
+    },
+    {
+      "id": "skill_marketing_121",
+      "name": "Marketing Dashboards",
+      "category": "Marketing",
+      "keywords": ["marketing", "dashboards", "reporting"],
+      "relatedSkills": ["Data Visualization (Marketing)", "Marketing Analytics"]
+    },
+    {
+      "id": "skill_marketing_122",
+      "name": "Excel for Marketing",
+      "category": "Marketing",
+      "keywords": ["excel", "spreadsheets", "analysis"],
+      "relatedSkills": ["Marketing Analytics", "Data Visualization (Marketing)"]
+    },
+    {
+      "id": "skill_marketing_123",
+      "name": "SQL for Marketing",
+      "category": "Marketing",
+      "keywords": ["sql", "database", "queries"],
+      "relatedSkills": ["Marketing Analytics", "Web Analytics"]
+    },
+    {
+      "id": "skill_marketing_124",
+      "name": "Marketing Data Science",
+      "category": "Marketing",
+      "keywords": ["data science", "machine learning", "predictive"],
+      "relatedSkills": ["Marketing Analytics", "SQL for Marketing"]
+    },
+    {
+      "id": "skill_marketing_125",
+      "name": "Predictive Analytics",
+      "category": "Marketing",
+      "keywords": ["predictive", "analytics", "forecasting"],
+      "relatedSkills": ["Marketing Data Science", "Marketing Analytics"]
+    },
+    {
+      "id": "skill_marketing_126",
+      "name": "Customer Data Platform (CDP)",
+      "category": "Marketing",
+      "keywords": ["cdp", "customer data", "platform"],
+      "relatedSkills": ["Marketing Analytics", "Marketing Automation"]
+    },
+    {
+      "id": "skill_marketing_127",
+      "name": "CRM Marketing",
+      "category": "Marketing",
+      "keywords": ["crm", "customer relationship", "management"],
+      "relatedSkills": ["Marketing Automation", "Email Marketing"]
+    },
+    {
+      "id": "skill_marketing_128",
+      "name": "Salesforce Marketing Cloud",
+      "category": "Marketing",
+      "keywords": ["salesforce", "marketing cloud", "automation"],
+      "relatedSkills": ["Marketing Automation", "CRM Marketing"]
+    },
+    {
+      "id": "skill_marketing_129",
+      "name": "HubSpot Marketing",
+      "category": "Marketing",
+      "keywords": ["hubspot", "marketing", "automation"],
+      "relatedSkills": ["Marketing Automation", "Inbound Marketing"]
+    },
+    {
+      "id": "skill_marketing_130",
+      "name": "Marketo",
+      "category": "Marketing",
+      "keywords": ["marketo", "marketing", "automation"],
+      "relatedSkills": ["Marketing Automation", "CRM Marketing"]
+    },
+    {
+      "id": "skill_marketing_131",
+      "name": "Pardot",
+      "category": "Marketing",
+      "keywords": ["pardot", "b2b marketing", "automation"],
+      "relatedSkills": ["Marketing Automation", "Salesforce Marketing Cloud"]
+    },
+    {
+      "id": "skill_marketing_132",
+      "name": "MailChimp",
+      "category": "Marketing",
+      "keywords": ["mailchimp", "email", "automation"],
+      "relatedSkills": ["Email Marketing", "Marketing Automation"]
+    },
+    {
+      "id": "skill_marketing_133",
+      "name": "Marketing Technology Stack",
+      "category": "Marketing",
+      "keywords": ["martech", "technology", "stack"],
+      "relatedSkills": ["Marketing Automation", "Marketing Strategy"]
+    },
+    {
+      "id": "skill_marketing_134",
+      "name": "Marketing Operations",
+      "category": "Marketing",
+      "keywords": ["marketing", "operations", "efficiency"],
+      "relatedSkills": ["Marketing Technology Stack", "Campaign Management"]
+    },
+    {
+      "id": "skill_marketing_135",
+      "name": "Marketing Project Management",
+      "category": "Marketing",
+      "keywords": ["project", "management", "coordination"],
+      "relatedSkills": ["Marketing Operations", "Campaign Management"]
+    },
+    {
+      "id": "skill_marketing_136",
+      "name": "Budget Management (Marketing)",
+      "category": "Marketing",
+      "keywords": ["budget", "management", "finance"],
+      "relatedSkills": ["Marketing Operations", "Campaign Management"]
+    },
+    {
+      "id": "skill_marketing_137",
+      "name": "Vendor Management (Marketing)",
+      "category": "Marketing",
+      "keywords": ["vendor", "management", "agencies"],
+      "relatedSkills": ["Marketing Operations", "Campaign Management"]
+    },
+    {
+      "id": "skill_marketing_138",
+      "name": "Agency Management",
+      "category": "Marketing",
+      "keywords": ["agency", "management", "partnerships"],
+      "relatedSkills": ["Vendor Management (Marketing)", "Marketing Operations"]
+    },
+    {
+      "id": "skill_marketing_139",
+      "name": "B2B Marketing",
+      "category": "Marketing",
+      "keywords": ["b2b", "business to business", "enterprise"],
+      "relatedSkills": ["Marketing Strategy", "Lead Generation"]
+    },
+    {
+      "id": "skill_marketing_140",
+      "name": "B2C Marketing",
+      "category": "Marketing",
+      "keywords": ["b2c", "business to consumer", "retail"],
+      "relatedSkills": ["Marketing Strategy", "Customer Acquisition"]
+    },
+    {
+      "id": "skill_marketing_141",
+      "name": "SaaS Marketing",
+      "category": "Marketing",
+      "keywords": ["saas", "software", "subscription"],
+      "relatedSkills": ["Product Marketing", "B2B Marketing"]
+    },
+    {
+      "id": "skill_marketing_142",
+      "name": "E-commerce Marketing",
+      "category": "Marketing",
+      "keywords": ["ecommerce", "online retail", "shopping"],
+      "relatedSkills": ["Digital Marketing", "Performance Marketing"]
+    },
+    {
+      "id": "skill_marketing_143",
+      "name": "Shopify Marketing",
+      "category": "Marketing",
+      "keywords": ["shopify", "ecommerce", "platform"],
+      "relatedSkills": ["E-commerce Marketing", "Digital Marketing"]
+    },
+    {
+      "id": "skill_marketing_144",
+      "name": "Amazon Marketing",
+      "category": "Marketing",
+      "keywords": ["amazon", "marketplace", "advertising"],
+      "relatedSkills": ["E-commerce Marketing", "PPC Advertising"]
+    },
+    {
+      "id": "skill_marketing_145",
+      "name": "Mobile Marketing",
+      "category": "Marketing",
+      "keywords": ["mobile", "marketing", "app"],
+      "relatedSkills": ["Digital Marketing", "Marketing Strategy"]
+    },
+    {
+      "id": "skill_marketing_146",
+      "name": "App Store Optimization (ASO)",
+      "category": "Marketing",
+      "keywords": ["aso", "app store", "optimization"],
+      "relatedSkills": ["Mobile Marketing", "SEO"]
+    },
+    {
+      "id": "skill_marketing_147",
+      "name": "Push Notification Marketing",
+      "category": "Marketing",
+      "keywords": ["push", "notification", "mobile"],
+      "relatedSkills": ["Mobile Marketing", "Marketing Automation"]
+    },
+    {
+      "id": "skill_marketing_148",
+      "name": "In-App Marketing",
+      "category": "Marketing",
+      "keywords": ["in-app", "marketing", "mobile"],
+      "relatedSkills": ["Mobile Marketing", "User Experience"]
+    },
+    {
+      "id": "skill_marketing_149",
+      "name": "SMS Marketing",
+      "category": "Marketing",
+      "keywords": ["sms", "text", "marketing"],
+      "relatedSkills": ["Mobile Marketing", "Direct Marketing"]
+    },
+    {
+      "id": "skill_marketing_150",
+      "name": "MMS Marketing",
+      "category": "Marketing",
+      "keywords": ["mms", "multimedia", "messaging"],
+      "relatedSkills": ["SMS Marketing", "Mobile Marketing"]
+    },
+    {
+      "id": "skill_marketing_151",
+      "name": "Messaging App Marketing",
+      "category": "Marketing",
+      "keywords": ["messaging", "whatsapp", "telegram"],
+      "relatedSkills": ["Mobile Marketing", "Social Media Marketing"]
+    },
+    {
+      "id": "skill_marketing_152",
+      "name": "Chatbot Marketing",
+      "category": "Marketing",
+      "keywords": ["chatbot", "ai", "automation"],
+      "relatedSkills": ["Marketing Automation", "Customer Acquisition"]
+    },
+    {
+      "id": "skill_marketing_153",
+      "name": "Conversational Marketing",
+      "category": "Marketing",
+      "keywords": ["conversational", "marketing", "chat"],
+      "relatedSkills": ["Chatbot Marketing", "Lead Generation"]
+    },
+    {
+      "id": "skill_marketing_154",
+      "name": "Product Launch Marketing",
+      "category": "Marketing",
+      "keywords": ["product", "launch", "go-to-market"],
+      "relatedSkills": ["Product Marketing", "Campaign Management"]
+    },
+    {
+      "id": "skill_marketing_155",
+      "name": "Go-To-Market Strategy",
+      "category": "Marketing",
+      "keywords": ["go-to-market", "gtm", "launch"],
+      "relatedSkills": ["Product Launch Marketing", "Marketing Strategy"]
+    },
+    {
+      "id": "skill_marketing_156",
+      "name": "Pricing Strategy",
+      "category": "Marketing",
+      "keywords": ["pricing", "strategy", "monetization"],
+      "relatedSkills": ["Product Marketing", "Marketing Strategy"]
+    },
+    {
+      "id": "skill_marketing_157",
+      "name": "Competitive Intelligence",
+      "category": "Marketing",
+      "keywords": ["competitive", "intelligence", "research"],
+      "relatedSkills": ["Market Research", "Competitive Analysis (Marketing)"]
+    },
+    {
+      "id": "skill_marketing_158",
+      "name": "Win/Loss Analysis",
+      "category": "Marketing",
+      "keywords": ["win loss", "analysis", "competitive"],
+      "relatedSkills": ["Competitive Intelligence", "Market Research"]
+    },
+    {
+      "id": "skill_marketing_159",
+      "name": "Customer Persona Development",
+      "category": "Marketing",
+      "keywords": ["persona", "customer", "profile"],
+      "relatedSkills": ["Customer Segmentation", "Market Research"]
+    },
+    {
+      "id": "skill_marketing_160",
+      "name": "Buyer Journey Mapping",
+      "category": "Marketing",
+      "keywords": ["buyer", "journey", "mapping"],
+      "relatedSkills": ["Customer Persona Development", "Marketing Strategy"]
+    },
+    {
+      "id": "skill_marketing_161",
+      "name": "Customer Insights",
+      "category": "Marketing",
+      "keywords": ["customer", "insights", "research"],
+      "relatedSkills": ["Market Research", "Marketing Analytics"]
+    },
+    {
+      "id": "skill_marketing_162",
+      "name": "Voice of Customer (VoC)",
+      "category": "Marketing",
+      "keywords": ["voice of customer", "voc", "feedback"],
+      "relatedSkills": ["Customer Insights", "Market Research"]
+    },
+    {
+      "id": "skill_marketing_163",
+      "name": "Survey Design",
+      "category": "Marketing",
+      "keywords": ["survey", "design", "research"],
+      "relatedSkills": ["Market Research", "Voice of Customer (VoC)"]
+    },
+    {
+      "id": "skill_marketing_164",
+      "name": "Focus Group Moderation",
+      "category": "Marketing",
+      "keywords": ["focus", "group", "qualitative research"],
+      "relatedSkills": ["Market Research", "Customer Insights"]
+    },
+    {
+      "id": "skill_marketing_165",
+      "name": "Guerrilla Marketing",
+      "category": "Marketing",
+      "keywords": ["guerrilla", "marketing", "unconventional"],
+      "relatedSkills": ["Marketing Strategy", "Event Marketing"]
+    },
+    {
+      "id": "skill_marketing_166",
+      "name": "Experiential Marketing",
+      "category": "Marketing",
+      "keywords": ["experiential", "marketing", "events"],
+      "relatedSkills": ["Event Marketing", "Brand Awareness"]
+    },
+    {
+      "id": "skill_marketing_167",
+      "name": "Trade Show Marketing",
+      "category": "Marketing",
+      "keywords": ["trade show", "exhibition", "b2b"],
+      "relatedSkills": ["Event Marketing", "B2B Marketing"]
+    },
+    {
+      "id": "skill_marketing_168",
+      "name": "Conference Marketing",
+      "category": "Marketing",
+      "keywords": ["conference", "marketing", "events"],
+      "relatedSkills": ["Event Marketing", "B2B Marketing"]
+    },
+    {
+      "id": "skill_marketing_169",
+      "name": "Direct Mail Marketing",
+      "category": "Marketing",
+      "keywords": ["direct", "mail", "print"],
+      "relatedSkills": ["Outbound Marketing", "Campaign Management"]
+    },
+    {
+      "id": "skill_marketing_170",
+      "name": "Print Advertising",
+      "category": "Marketing",
+      "keywords": ["print", "advertising", "traditional"],
+      "relatedSkills": ["Outbound Marketing", "Campaign Management"]
+    },
+    {
+      "id": "skill_marketing_171",
+      "name": "Outdoor Advertising",
+      "category": "Marketing",
+      "keywords": ["outdoor", "advertising", "billboard"],
+      "relatedSkills": ["Print Advertising", "Brand Awareness"]
+    },
+    {
+      "id": "skill_marketing_172",
+      "name": "Radio Advertising",
+      "category": "Marketing",
+      "keywords": ["radio", "advertising", "audio"],
+      "relatedSkills": ["Outbound Marketing", "Campaign Management"]
+    },
+    {
+      "id": "skill_marketing_173",
+      "name": "TV Advertising",
+      "category": "Marketing",
+      "keywords": ["tv", "advertising", "television"],
+      "relatedSkills": ["Video Marketing", "Campaign Management"]
+    },
+    {
+      "id": "skill_marketing_174",
+      "name": "Broadcast Media Buying",
+      "category": "Marketing",
+      "keywords": ["broadcast", "media buying", "advertising"],
+      "relatedSkills": ["TV Advertising", "Radio Advertising"]
+    },
+    {
+      "id": "skill_marketing_175",
+      "name": "Digital Media Buying",
+      "category": "Marketing",
+      "keywords": ["digital", "media buying", "advertising"],
+      "relatedSkills": ["Programmatic Advertising", "PPC Advertising"]
+    },
+    {
+      "id": "skill_marketing_176",
+      "name": "Media Planning",
+      "category": "Marketing",
+      "keywords": ["media", "planning", "strategy"],
+      "relatedSkills": ["Campaign Management", "Budget Management (Marketing)"]
+    },
+    {
+      "id": "skill_marketing_177",
+      "name": "Creative Direction",
+      "category": "Marketing",
+      "keywords": ["creative", "direction", "design"],
+      "relatedSkills": ["Graphic Design", "Brand Management"]
+    },
+    {
+      "id": "skill_marketing_178",
+      "name": "Art Direction",
+      "category": "Marketing",
+      "keywords": ["art", "direction", "visual"],
+      "relatedSkills": ["Creative Direction", "Graphic Design"]
+    },
+    {
+      "id": "skill_marketing_179",
+      "name": "Photography (Marketing)",
+      "category": "Marketing",
+      "keywords": ["photography", "product", "commercial"],
+      "relatedSkills": ["Content Creation", "Graphic Design"]
+    },
+    {
+      "id": "skill_marketing_180",
+      "name": "Illustration",
+      "category": "Marketing",
+      "keywords": ["illustration", "design", "graphics"],
+      "relatedSkills": ["Graphic Design", "Content Creation"]
+    },
+    {
+      "id": "skill_marketing_181",
+      "name": "Typography",
+      "category": "Marketing",
+      "keywords": ["typography", "fonts", "design"],
+      "relatedSkills": ["Graphic Design", "Brand Identity"]
+    },
+    {
+      "id": "skill_marketing_182",
+      "name": "Layout Design",
+      "category": "Marketing",
+      "keywords": ["layout", "design", "composition"],
+      "relatedSkills": ["Graphic Design", "Adobe Creative Suite"]
+    },
+    {
+      "id": "skill_marketing_183",
+      "name": "Web Design for Marketing",
+      "category": "Marketing",
+      "keywords": ["web", "design", "ui ux"],
+      "relatedSkills": ["Graphic Design", "Landing Page Optimization"]
+    },
+    {
+      "id": "skill_marketing_184",
+      "name": "User Experience (UX) Marketing",
+      "category": "Marketing",
+      "keywords": ["ux", "user experience", "optimization"],
+      "relatedSkills": ["Web Design for Marketing", "Conversion Rate Optimization"]
+    },
+    {
+      "id": "skill_marketing_185",
+      "name": "Figma for Marketing",
+      "category": "Marketing",
+      "keywords": ["figma", "design", "prototyping"],
+      "relatedSkills": ["Web Design for Marketing", "Graphic Design"]
+    },
+    {
+      "id": "skill_marketing_186",
+      "name": "Canva",
+      "category": "Marketing",
+      "keywords": ["canva", "design", "templates"],
+      "relatedSkills": ["Graphic Design", "Social Media Content Creation"]
+    },
+    {
+      "id": "skill_marketing_187",
+      "name": "Adobe Photoshop",
+      "category": "Marketing",
+      "keywords": ["photoshop", "image", "editing"],
+      "relatedSkills": ["Adobe Creative Suite", "Graphic Design"]
+    },
+    {
+      "id": "skill_marketing_188",
+      "name": "Adobe Illustrator",
+      "category": "Marketing",
+      "keywords": ["illustrator", "vector", "graphics"],
+      "relatedSkills": ["Adobe Creative Suite", "Graphic Design"]
+    },
+    {
+      "id": "skill_marketing_189",
+      "name": "Adobe InDesign",
+      "category": "Marketing",
+      "keywords": ["indesign", "layout", "publishing"],
+      "relatedSkills": ["Adobe Creative Suite", "Layout Design"]
+    },
+    {
+      "id": "skill_marketing_190",
+      "name": "Adobe Premiere Pro",
+      "category": "Marketing",
+      "keywords": ["premiere", "video", "editing"],
+      "relatedSkills": ["Video Editing", "Adobe Creative Suite"]
+    },
+    {
+      "id": "skill_marketing_191",
+      "name": "Adobe After Effects",
+      "category": "Marketing",
+      "keywords": ["after effects", "motion", "graphics"],
+      "relatedSkills": ["Motion Graphics", "Adobe Creative Suite"]
+    },
+    {
+      "id": "skill_marketing_192",
+      "name": "Final Cut Pro",
+      "category": "Marketing",
+      "keywords": ["final cut", "video", "editing"],
+      "relatedSkills": ["Video Editing", "Video Production"]
+    },
+    {
+      "id": "skill_marketing_193",
+      "name": "Content Localization",
+      "category": "Marketing",
+      "keywords": ["localization", "translation", "international"],
+      "relatedSkills": ["Content Marketing", "Marketing Strategy"]
+    },
+    {
+      "id": "skill_marketing_194",
+      "name": "Global Marketing",
+      "category": "Marketing",
+      "keywords": ["global", "marketing", "international"],
+      "relatedSkills": ["Marketing Strategy", "Content Localization"]
+    },
+    {
+      "id": "skill_marketing_195",
+      "name": "Cross-Cultural Marketing",
+      "category": "Marketing",
+      "keywords": ["cross-cultural", "marketing", "diversity"],
+      "relatedSkills": ["Global Marketing", "Marketing Strategy"]
+    },
+    {
+      "id": "skill_marketing_196",
+      "name": "Marketing Compliance",
+      "category": "Marketing",
+      "keywords": ["compliance", "regulations", "legal"],
+      "relatedSkills": ["Marketing Operations", "Email Marketing"]
+    },
+    {
+      "id": "skill_marketing_197",
+      "name": "GDPR Compliance (Marketing)",
+      "category": "Marketing",
+      "keywords": ["gdpr", "privacy", "compliance"],
+      "relatedSkills": ["Marketing Compliance", "Email Marketing"]
+    },
+    {
+      "id": "skill_marketing_198",
+      "name": "CAN-SPAM Compliance",
+      "category": "Marketing",
+      "keywords": ["can-spam", "email", "compliance"],
+      "relatedSkills": ["Marketing Compliance", "Email Marketing"]
+    },
+    {
+      "id": "skill_marketing_199",
+      "name": "Accessibility in Marketing",
+      "category": "Marketing",
+      "keywords": ["accessibility", "inclusive", "ada"],
+      "relatedSkills": ["Web Design for Marketing", "Marketing Compliance"]
+    },
+    {
+      "id": "skill_marketing_200",
+      "name": "Sustainable Marketing",
+      "category": "Marketing",
+      "keywords": ["sustainable", "green", "eco-friendly"],
+      "relatedSkills": ["Brand Strategy", "Marketing Strategy"]
+    }
+  ]
+}

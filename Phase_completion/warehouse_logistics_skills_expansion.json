@@ -1,0 +1,1063 @@
+{
+  "expansion_metadata": {
+    "sector": "Warehouse/Logistics",
+    "existing_count": 50,
+    "new_count": 150,
+    "total_count": 200,
+    "source": "O*NET + AI Augmentation",
+    "validation_date": "2025-10-27",
+    "id_range": "skill_warehouse_051 to skill_warehouse_200"
+  },
+  "new_skills": [
+    {
+      "id": "skill_warehouse_051",
+      "name": "Warehouse Operations",
+      "category": "Warehouse/Logistics",
+      "keywords": ["warehouse operations", "distribution", "fulfillment"],
+      "relatedSkills": ["Inventory Management", "Materials Handling"]
+    },
+    {
+      "id": "skill_warehouse_052",
+      "name": "Receiving Operations",
+      "category": "Warehouse/Logistics",
+      "keywords": ["receiving", "inbound", "goods receipt"],
+      "relatedSkills": ["Warehouse Operations", "Quality Control"]
+    },
+    {
+      "id": "skill_warehouse_053",
+      "name": "Putaway Operations",
+      "category": "Warehouse/Logistics",
+      "keywords": ["putaway", "stock placement", "storage"],
+      "relatedSkills": ["Warehouse Operations", "WMS"]
+    },
+    {
+      "id": "skill_warehouse_054",
+      "name": "Picking Operations",
+      "category": "Warehouse/Logistics",
+      "keywords": ["order picking", "picking", "order fulfillment"],
+      "relatedSkills": ["Warehouse Operations", "Order Fulfillment"]
+    },
+    {
+      "id": "skill_warehouse_055",
+      "name": "Batch Picking",
+      "category": "Warehouse/Logistics",
+      "keywords": ["batch picking", "multi-order picking", "zone picking"],
+      "relatedSkills": ["Picking Operations", "Efficiency"]
+    },
+    {
+      "id": "skill_warehouse_056",
+      "name": "Wave Picking",
+      "category": "Warehouse/Logistics",
+      "keywords": ["wave picking", "wave management", "picking waves"],
+      "relatedSkills": ["Picking Operations", "WMS"]
+    },
+    {
+      "id": "skill_warehouse_057",
+      "name": "Voice Picking",
+      "category": "Warehouse/Logistics",
+      "keywords": ["voice picking", "voice directed", "hands-free picking"],
+      "relatedSkills": ["Picking Operations", "Warehouse Technology"]
+    },
+    {
+      "id": "skill_warehouse_058",
+      "name": "RF Scanning",
+      "category": "Warehouse/Logistics",
+      "keywords": ["RF scanning", "barcode scanning", "handheld scanners"],
+      "relatedSkills": ["Warehouse Technology", "Inventory Management"]
+    },
+    {
+      "id": "skill_warehouse_059",
+      "name": "Packing Operations",
+      "category": "Warehouse/Logistics",
+      "keywords": ["packing", "packaging", "order packing"],
+      "relatedSkills": ["Warehouse Operations", "Quality Control"]
+    },
+    {
+      "id": "skill_warehouse_060",
+      "name": "Kitting",
+      "category": "Warehouse/Logistics",
+      "keywords": ["kitting", "kit assembly", "bundling"],
+      "relatedSkills": ["Packing Operations", "Order Fulfillment"]
+    },
+    {
+      "id": "skill_warehouse_061",
+      "name": "Shipping Operations",
+      "category": "Warehouse/Logistics",
+      "keywords": ["shipping", "outbound", "dispatch"],
+      "relatedSkills": ["Warehouse Operations", "Transportation"]
+    },
+    {
+      "id": "skill_warehouse_062",
+      "name": "Freight Handling",
+      "category": "Warehouse/Logistics",
+      "keywords": ["freight handling", "cargo handling", "freight operations"],
+      "relatedSkills": ["Shipping Operations", "Materials Handling"]
+    },
+    {
+      "id": "skill_warehouse_063",
+      "name": "Load Planning",
+      "category": "Warehouse/Logistics",
+      "keywords": ["load planning", "trailer loading", "container loading"],
+      "relatedSkills": ["Shipping Operations", "Space Optimization"]
+    },
+    {
+      "id": "skill_warehouse_064",
+      "name": "Cross-Docking",
+      "category": "Warehouse/Logistics",
+      "keywords": ["cross-docking", "flow-through", "transshipment"],
+      "relatedSkills": ["Warehouse Operations", "Transportation"]
+    },
+    {
+      "id": "skill_warehouse_065",
+      "name": "Forklift Operation",
+      "category": "Warehouse/Logistics",
+      "keywords": ["forklift", "forklift operator", "lift truck"],
+      "relatedSkills": ["Materials Handling Equipment", "Safety"]
+    },
+    {
+      "id": "skill_warehouse_066",
+      "name": "Reach Truck Operation",
+      "category": "Warehouse/Logistics",
+      "keywords": ["reach truck", "reach forklift", "narrow aisle"],
+      "relatedSkills": ["Forklift Operation", "High-Rack Operations"]
+    },
+    {
+      "id": "skill_warehouse_067",
+      "name": "Order Picker Operation",
+      "category": "Warehouse/Logistics",
+      "keywords": ["order picker", "cherry picker", "stock picker"],
+      "relatedSkills": ["Forklift Operation", "Picking Operations"]
+    },
+    {
+      "id": "skill_warehouse_068",
+      "name": "Pallet Jack Operation",
+      "category": "Warehouse/Logistics",
+      "keywords": ["pallet jack", "hand truck", "powered pallet jack"],
+      "relatedSkills": ["Materials Handling Equipment", "Warehouse Operations"]
+    },
+    {
+      "id": "skill_warehouse_069",
+      "name": "Clamp Truck Operation",
+      "category": "Warehouse/Logistics",
+      "keywords": ["clamp truck", "carton clamp", "paper roll clamp"],
+      "relatedSkills": ["Forklift Operation", "Specialized Equipment"]
+    },
+    {
+      "id": "skill_warehouse_070",
+      "name": "Tow Motor Operation",
+      "category": "Warehouse/Logistics",
+      "keywords": ["tow motor", "tugger", "tow tractor"],
+      "relatedSkills": ["Materials Handling Equipment", "Warehouse Operations"]
+    },
+    {
+      "id": "skill_warehouse_071",
+      "name": "Inventory Management",
+      "category": "Warehouse/Logistics",
+      "keywords": ["inventory management", "stock control", "inventory control"],
+      "relatedSkills": ["Warehouse Operations", "WMS"]
+    },
+    {
+      "id": "skill_warehouse_072",
+      "name": "Cycle Counting",
+      "category": "Warehouse/Logistics",
+      "keywords": ["cycle counting", "inventory counting", "stock counts"],
+      "relatedSkills": ["Inventory Management", "Accuracy"]
+    },
+    {
+      "id": "skill_warehouse_073",
+      "name": "Physical Inventory",
+      "category": "Warehouse/Logistics",
+      "keywords": ["physical inventory", "year-end inventory", "full count"],
+      "relatedSkills": ["Inventory Management", "Cycle Counting"]
+    },
+    {
+      "id": "skill_warehouse_074",
+      "name": "FIFO/FEFO Management",
+      "category": "Warehouse/Logistics",
+      "keywords": ["FIFO", "FEFO", "first in first out", "expiration management"],
+      "relatedSkills": ["Inventory Management", "Quality Control"]
+    },
+    {
+      "id": "skill_warehouse_075",
+      "name": "Lot Tracking",
+      "category": "Warehouse/Logistics",
+      "keywords": ["lot tracking", "batch tracking", "lot numbers"],
+      "relatedSkills": ["Inventory Management", "Traceability"]
+    },
+    {
+      "id": "skill_warehouse_076",
+      "name": "Serial Number Tracking",
+      "category": "Warehouse/Logistics",
+      "keywords": ["serial numbers", "serial tracking", "serialization"],
+      "relatedSkills": ["Inventory Management", "Traceability"]
+    },
+    {
+      "id": "skill_warehouse_077",
+      "name": "ABC Analysis",
+      "category": "Warehouse/Logistics",
+      "keywords": ["ABC analysis", "inventory classification", "Pareto analysis"],
+      "relatedSkills": ["Inventory Management", "Optimization"]
+    },
+    {
+      "id": "skill_warehouse_078",
+      "name": "Safety Stock Management",
+      "category": "Warehouse/Logistics",
+      "keywords": ["safety stock", "buffer stock", "inventory planning"],
+      "relatedSkills": ["Inventory Management", "Demand Planning"]
+    },
+    {
+      "id": "skill_warehouse_079",
+      "name": "Warehouse Management Systems (WMS)",
+      "category": "Warehouse/Logistics",
+      "keywords": ["WMS", "warehouse management system", "warehouse software"],
+      "relatedSkills": ["Warehouse Operations", "Technology"]
+    },
+    {
+      "id": "skill_warehouse_080",
+      "name": "Manhattan WMS",
+      "category": "Warehouse/Logistics",
+      "keywords": ["Manhattan", "Manhattan Associates", "WMS software"],
+      "relatedSkills": ["WMS", "Warehouse Technology"]
+    },
+    {
+      "id": "skill_warehouse_081",
+      "name": "SAP WM/EWM",
+      "category": "Warehouse/Logistics",
+      "keywords": ["SAP WM", "SAP EWM", "SAP warehouse"],
+      "relatedSkills": ["WMS", "ERP Systems"]
+    },
+    {
+      "id": "skill_warehouse_082",
+      "name": "Oracle WMS",
+      "category": "Warehouse/Logistics",
+      "keywords": ["Oracle WMS", "Oracle warehouse", "Oracle logistics"],
+      "relatedSkills": ["WMS", "ERP Systems"]
+    },
+    {
+      "id": "skill_warehouse_083",
+      "name": "Blue Yonder (JDA) WMS",
+      "category": "Warehouse/Logistics",
+      "keywords": ["Blue Yonder", "JDA", "warehouse management"],
+      "relatedSkills": ["WMS", "Supply Chain Software"]
+    },
+    {
+      "id": "skill_warehouse_084",
+      "name": "HighJump WMS",
+      "category": "Warehouse/Logistics",
+      "keywords": ["HighJump", "Körber", "WMS platform"],
+      "relatedSkills": ["WMS", "Warehouse Technology"]
+    },
+    {
+      "id": "skill_warehouse_085",
+      "name": "Order Fulfillment",
+      "category": "Warehouse/Logistics",
+      "keywords": ["order fulfillment", "fulfillment operations", "order processing"],
+      "relatedSkills": ["Warehouse Operations", "Customer Service"]
+    },
+    {
+      "id": "skill_warehouse_086",
+      "name": "E-Commerce Fulfillment",
+      "category": "Warehouse/Logistics",
+      "keywords": ["e-commerce fulfillment", "online orders", "B2C fulfillment"],
+      "relatedSkills": ["Order Fulfillment", "Fast Shipping"]
+    },
+    {
+      "id": "skill_warehouse_087",
+      "name": "B2B Fulfillment",
+      "category": "Warehouse/Logistics",
+      "keywords": ["B2B fulfillment", "business to business", "wholesale"],
+      "relatedSkills": ["Order Fulfillment", "Distribution"]
+    },
+    {
+      "id": "skill_warehouse_088",
+      "name": "Omnichannel Fulfillment",
+      "category": "Warehouse/Logistics",
+      "keywords": ["omnichannel", "multi-channel", "unified commerce"],
+      "relatedSkills": ["Order Fulfillment", "Retail"]
+    },
+    {
+      "id": "skill_warehouse_089",
+      "name": "Drop Shipping",
+      "category": "Warehouse/Logistics",
+      "keywords": ["drop shipping", "direct shipping", "vendor fulfillment"],
+      "relatedSkills": ["Order Fulfillment", "Vendor Management"]
+    },
+    {
+      "id": "skill_warehouse_090",
+      "name": "Returns Management",
+      "category": "Warehouse/Logistics",
+      "keywords": ["returns", "reverse logistics", "RMA"],
+      "relatedSkills": ["Order Fulfillment", "Customer Service"]
+    },
+    {
+      "id": "skill_warehouse_091",
+      "name": "Reverse Logistics",
+      "category": "Warehouse/Logistics",
+      "keywords": ["reverse logistics", "returns processing", "product recalls"],
+      "relatedSkills": ["Returns Management", "Supply Chain"]
+    },
+    {
+      "id": "skill_warehouse_092",
+      "name": "Refurbishment Operations",
+      "category": "Warehouse/Logistics",
+      "keywords": ["refurbishment", "repair", "reconditioning"],
+      "relatedSkills": ["Returns Management", "Quality Control"]
+    },
+    {
+      "id": "skill_warehouse_093",
+      "name": "Materials Handling",
+      "category": "Warehouse/Logistics",
+      "keywords": ["materials handling", "material movement", "product handling"],
+      "relatedSkills": ["Warehouse Operations", "Safety"]
+    },
+    {
+      "id": "skill_warehouse_094",
+      "name": "Pallet Building",
+      "category": "Warehouse/Logistics",
+      "keywords": ["pallet building", "palletization", "pallet stacking"],
+      "relatedSkills": ["Materials Handling", "Shipping Operations"]
+    },
+    {
+      "id": "skill_warehouse_095",
+      "name": "Shrink Wrapping",
+      "category": "Warehouse/Logistics",
+      "keywords": ["shrink wrapping", "pallet wrapping", "stretch wrap"],
+      "relatedSkills": ["Pallet Building", "Packaging"]
+    },
+    {
+      "id": "skill_warehouse_096",
+      "name": "Strapping and Banding",
+      "category": "Warehouse/Logistics",
+      "keywords": ["strapping", "banding", "pallet strapping"],
+      "relatedSkills": ["Materials Handling", "Packaging"]
+    },
+    {
+      "id": "skill_warehouse_097",
+      "name": "Conveyor System Operation",
+      "category": "Warehouse/Logistics",
+      "keywords": ["conveyor systems", "conveyor operation", "sortation"],
+      "relatedSkills": ["Warehouse Automation", "Materials Handling"]
+    },
+    {
+      "id": "skill_warehouse_098",
+      "name": "Sortation Systems",
+      "category": "Warehouse/Logistics",
+      "keywords": ["sortation", "sorting systems", "automated sorting"],
+      "relatedSkills": ["Conveyor Systems", "Warehouse Automation"]
+    },
+    {
+      "id": "skill_warehouse_099",
+      "name": "AS/RS Operation",
+      "category": "Warehouse/Logistics",
+      "keywords": ["AS/RS", "automated storage retrieval", "automated warehouse"],
+      "relatedSkills": ["Warehouse Automation", "Technology"]
+    },
+    {
+      "id": "skill_warehouse_100",
+      "name": "Warehouse Automation",
+      "category": "Warehouse/Logistics",
+      "keywords": ["warehouse automation", "automation", "robotics"],
+      "relatedSkills": ["Technology", "Warehouse Operations"]
+    },
+    {
+      "id": "skill_warehouse_101",
+      "name": "AGV/AMR Operation",
+      "category": "Warehouse/Logistics",
+      "keywords": ["AGV", "AMR", "autonomous mobile robots", "automated guided vehicles"],
+      "relatedSkills": ["Warehouse Automation", "Robotics"]
+    },
+    {
+      "id": "skill_warehouse_102",
+      "name": "Goods-to-Person Systems",
+      "category": "Warehouse/Logistics",
+      "keywords": ["goods-to-person", "G2P", "automated picking"],
+      "relatedSkills": ["Warehouse Automation", "Picking Operations"]
+    },
+    {
+      "id": "skill_warehouse_103",
+      "name": "Put Wall Systems",
+      "category": "Warehouse/Logistics",
+      "keywords": ["put wall", "put-to-light", "sortation wall"],
+      "relatedSkills": ["Order Fulfillment", "Picking Operations"]
+    },
+    {
+      "id": "skill_warehouse_104",
+      "name": "Quality Control",
+      "category": "Warehouse/Logistics",
+      "keywords": ["quality control", "QC", "inspection"],
+      "relatedSkills": ["Warehouse Operations", "Accuracy"]
+    },
+    {
+      "id": "skill_warehouse_105",
+      "name": "Incoming Inspection",
+      "category": "Warehouse/Logistics",
+      "keywords": ["incoming inspection", "receiving inspection", "quality check"],
+      "relatedSkills": ["Quality Control", "Receiving Operations"]
+    },
+    {
+      "id": "skill_warehouse_106",
+      "name": "Damage Assessment",
+      "category": "Warehouse/Logistics",
+      "keywords": ["damage assessment", "product damage", "claims"],
+      "relatedSkills": ["Quality Control", "Returns Management"]
+    },
+    {
+      "id": "skill_warehouse_107",
+      "name": "Order Accuracy",
+      "category": "Warehouse/Logistics",
+      "keywords": ["order accuracy", "accuracy verification", "error prevention"],
+      "relatedSkills": ["Quality Control", "Order Fulfillment"]
+    },
+    {
+      "id": "skill_warehouse_108",
+      "name": "Warehouse Safety",
+      "category": "Warehouse/Logistics",
+      "keywords": ["warehouse safety", "safety compliance", "OSHA"],
+      "relatedSkills": ["Safety Management", "Compliance"]
+    },
+    {
+      "id": "skill_warehouse_109",
+      "name": "Forklift Safety",
+      "category": "Warehouse/Logistics",
+      "keywords": ["forklift safety", "powered industrial truck safety", "operator safety"],
+      "relatedSkills": ["Warehouse Safety", "Forklift Operation"]
+    },
+    {
+      "id": "skill_warehouse_110",
+      "name": "Dock Safety",
+      "category": "Warehouse/Logistics",
+      "keywords": ["dock safety", "loading dock", "dock operations"],
+      "relatedSkills": ["Warehouse Safety", "Shipping Operations"]
+    },
+    {
+      "id": "skill_warehouse_111",
+      "name": "Hazmat Handling",
+      "category": "Warehouse/Logistics",
+      "keywords": ["hazmat", "hazardous materials", "dangerous goods"],
+      "relatedSkills": ["Safety Compliance", "Materials Handling"]
+    },
+    {
+      "id": "skill_warehouse_112",
+      "name": "Battery Handling",
+      "category": "Warehouse/Logistics",
+      "keywords": ["battery handling", "lithium battery", "hazmat shipping"],
+      "relatedSkills": ["Hazmat Handling", "Safety Compliance"]
+    },
+    {
+      "id": "skill_warehouse_113",
+      "name": "Ergonomics",
+      "category": "Warehouse/Logistics",
+      "keywords": ["ergonomics", "injury prevention", "proper lifting"],
+      "relatedSkills": ["Warehouse Safety", "Employee Wellness"]
+    },
+    {
+      "id": "skill_warehouse_114",
+      "name": "Cold Chain Logistics",
+      "category": "Warehouse/Logistics",
+      "keywords": ["cold chain", "temperature-controlled", "refrigerated storage"],
+      "relatedSkills": ["Warehouse Operations", "Quality Control"]
+    },
+    {
+      "id": "skill_warehouse_115",
+      "name": "Frozen Storage Operations",
+      "category": "Warehouse/Logistics",
+      "keywords": ["frozen storage", "freezer operations", "sub-zero storage"],
+      "relatedSkills": ["Cold Chain Logistics", "Warehouse Operations"]
+    },
+    {
+      "id": "skill_warehouse_116",
+      "name": "Refrigerated Transport",
+      "category": "Warehouse/Logistics",
+      "keywords": ["refrigerated transport", "reefer", "cold shipping"],
+      "relatedSkills": ["Cold Chain Logistics", "Transportation"]
+    },
+    {
+      "id": "skill_warehouse_117",
+      "name": "Temperature Monitoring",
+      "category": "Warehouse/Logistics",
+      "keywords": ["temperature monitoring", "temp control", "data logging"],
+      "relatedSkills": ["Cold Chain Logistics", "Quality Control"]
+    },
+    {
+      "id": "skill_warehouse_118",
+      "name": "Supply Chain Coordination",
+      "category": "Warehouse/Logistics",
+      "keywords": ["supply chain", "logistics coordination", "supply chain management"],
+      "relatedSkills": ["Logistics", "Planning"]
+    },
+    {
+      "id": "skill_warehouse_119",
+      "name": "Demand Planning",
+      "category": "Warehouse/Logistics",
+      "keywords": ["demand planning", "forecasting", "demand forecasting"],
+      "relatedSkills": ["Supply Chain", "Inventory Planning"]
+    },
+    {
+      "id": "skill_warehouse_120",
+      "name": "Supply Planning",
+      "category": "Warehouse/Logistics",
+      "keywords": ["supply planning", "replenishment", "inventory planning"],
+      "relatedSkills": ["Supply Chain", "Inventory Management"]
+    },
+    {
+      "id": "skill_warehouse_121",
+      "name": "S&OP (Sales and Operations Planning)",
+      "category": "Warehouse/Logistics",
+      "keywords": ["S&OP", "sales operations planning", "integrated planning"],
+      "relatedSkills": ["Supply Chain", "Demand Planning"]
+    },
+    {
+      "id": "skill_warehouse_122",
+      "name": "Vendor Management",
+      "category": "Warehouse/Logistics",
+      "keywords": ["vendor management", "supplier management", "vendor relations"],
+      "relatedSkills": ["Supply Chain", "Procurement"]
+    },
+    {
+      "id": "skill_warehouse_123",
+      "name": "Carrier Management",
+      "category": "Warehouse/Logistics",
+      "keywords": ["carrier management", "carrier relations", "transportation providers"],
+      "relatedSkills": ["Transportation", "Vendor Management"]
+    },
+    {
+      "id": "skill_warehouse_124",
+      "name": "Transportation Management",
+      "category": "Warehouse/Logistics",
+      "keywords": ["transportation management", "freight management", "shipping coordination"],
+      "relatedSkills": ["Logistics", "Supply Chain"]
+    },
+    {
+      "id": "skill_warehouse_125",
+      "name": "TMS (Transportation Management Systems)",
+      "category": "Warehouse/Logistics",
+      "keywords": ["TMS", "transportation management system", "freight software"],
+      "relatedSkills": ["Transportation Management", "Technology"]
+    },
+    {
+      "id": "skill_warehouse_126",
+      "name": "Route Planning",
+      "category": "Warehouse/Logistics",
+      "keywords": ["route planning", "route optimization", "delivery routing"],
+      "relatedSkills": ["Transportation", "Optimization"]
+    },
+    {
+      "id": "skill_warehouse_127",
+      "name": "Fleet Management",
+      "category": "Warehouse/Logistics",
+      "keywords": ["fleet management", "vehicle management", "fleet operations"],
+      "relatedSkills": ["Transportation", "Logistics"]
+    },
+    {
+      "id": "skill_warehouse_128",
+      "name": "Last Mile Delivery",
+      "category": "Warehouse/Logistics",
+      "keywords": ["last mile", "final delivery", "local delivery"],
+      "relatedSkills": ["Transportation", "E-Commerce Fulfillment"]
+    },
+    {
+      "id": "skill_warehouse_129",
+      "name": "LTL Shipping",
+      "category": "Warehouse/Logistics",
+      "keywords": ["LTL", "less than truckload", "consolidated shipping"],
+      "relatedSkills": ["Transportation", "Freight Management"]
+    },
+    {
+      "id": "skill_warehouse_130",
+      "name": "FTL Shipping",
+      "category": "Warehouse/Logistics",
+      "keywords": ["FTL", "full truckload", "truckload shipping"],
+      "relatedSkills": ["Transportation", "Freight Management"]
+    },
+    {
+      "id": "skill_warehouse_131",
+      "name": "Parcel Shipping",
+      "category": "Warehouse/Logistics",
+      "keywords": ["parcel shipping", "small package", "UPS", "FedEx", "USPS"],
+      "relatedSkills": ["Shipping Operations", "E-Commerce"]
+    },
+    {
+      "id": "skill_warehouse_132",
+      "name": "International Shipping",
+      "category": "Warehouse/Logistics",
+      "keywords": ["international shipping", "global logistics", "export"],
+      "relatedSkills": ["Transportation", "Customs Compliance"]
+    },
+    {
+      "id": "skill_warehouse_133",
+      "name": "Customs Compliance",
+      "category": "Warehouse/Logistics",
+      "keywords": ["customs", "import export", "customs clearance"],
+      "relatedSkills": ["International Shipping", "Compliance"]
+    },
+    {
+      "id": "skill_warehouse_134",
+      "name": "Import/Export Documentation",
+      "category": "Warehouse/Logistics",
+      "keywords": ["import documentation", "export documentation", "shipping papers"],
+      "relatedSkills": ["International Shipping", "Customs Compliance"]
+    },
+    {
+      "id": "skill_warehouse_135",
+      "name": "Freight Forwarding",
+      "category": "Warehouse/Logistics",
+      "keywords": ["freight forwarding", "freight forwarder", "logistics services"],
+      "relatedSkills": ["International Shipping", "Transportation"]
+    },
+    {
+      "id": "skill_warehouse_136",
+      "name": "3PL Operations",
+      "category": "Warehouse/Logistics",
+      "keywords": ["3PL", "third-party logistics", "logistics provider"],
+      "relatedSkills": ["Warehouse Operations", "Supply Chain"]
+    },
+    {
+      "id": "skill_warehouse_137",
+      "name": "4PL Operations",
+      "category": "Warehouse/Logistics",
+      "keywords": ["4PL", "fourth-party logistics", "supply chain orchestration"],
+      "relatedSkills": ["3PL Operations", "Supply Chain Management"]
+    },
+    {
+      "id": "skill_warehouse_138",
+      "name": "Contract Logistics",
+      "category": "Warehouse/Logistics",
+      "keywords": ["contract logistics", "outsourced logistics", "logistics services"],
+      "relatedSkills": ["3PL Operations", "Warehouse Operations"]
+    },
+    {
+      "id": "skill_warehouse_139",
+      "name": "Value-Added Services",
+      "category": "Warehouse/Logistics",
+      "keywords": ["value-added services", "VAS", "customization"],
+      "relatedSkills": ["3PL Operations", "Warehouse Operations"]
+    },
+    {
+      "id": "skill_warehouse_140",
+      "name": "Warehouse Layout Design",
+      "category": "Warehouse/Logistics",
+      "keywords": ["warehouse layout", "facility design", "space planning"],
+      "relatedSkills": ["Warehouse Optimization", "Operations Planning"]
+    },
+    {
+      "id": "skill_warehouse_141",
+      "name": "Slotting Optimization",
+      "category": "Warehouse/Logistics",
+      "keywords": ["slotting", "slot optimization", "product placement"],
+      "relatedSkills": ["Warehouse Optimization", "Inventory Management"]
+    },
+    {
+      "id": "skill_warehouse_142",
+      "name": "Space Utilization",
+      "category": "Warehouse/Logistics",
+      "keywords": ["space utilization", "storage density", "capacity optimization"],
+      "relatedSkills": ["Warehouse Optimization", "Layout Design"]
+    },
+    {
+      "id": "skill_warehouse_143",
+      "name": "Warehouse Metrics and KPIs",
+      "category": "Warehouse/Logistics",
+      "keywords": ["warehouse KPIs", "metrics", "performance measurement"],
+      "relatedSkills": ["Data Analysis", "Operations Management"]
+    },
+    {
+      "id": "skill_warehouse_144",
+      "name": "Productivity Analysis",
+      "category": "Warehouse/Logistics",
+      "keywords": ["productivity analysis", "efficiency metrics", "labor productivity"],
+      "relatedSkills": ["Metrics and KPIs", "Operations Management"]
+    },
+    {
+      "id": "skill_warehouse_145",
+      "name": "Accuracy Measurement",
+      "category": "Warehouse/Logistics",
+      "keywords": ["accuracy metrics", "error rates", "quality metrics"],
+      "relatedSkills": ["Metrics and KPIs", "Quality Control"]
+    },
+    {
+      "id": "skill_warehouse_146",
+      "name": "Labor Management Systems (LMS)",
+      "category": "Warehouse/Logistics",
+      "keywords": ["LMS", "labor management", "workforce management"],
+      "relatedSkills": ["Warehouse Technology", "Operations Management"]
+    },
+    {
+      "id": "skill_warehouse_147",
+      "name": "Time and Attendance",
+      "category": "Warehouse/Logistics",
+      "keywords": ["time and attendance", "timekeeping", "labor tracking"],
+      "relatedSkills": ["Labor Management", "HR"]
+    },
+    {
+      "id": "skill_warehouse_148",
+      "name": "Shift Scheduling",
+      "category": "Warehouse/Logistics",
+      "keywords": ["shift scheduling", "workforce scheduling", "staffing"],
+      "relatedSkills": ["Labor Management", "Operations Planning"]
+    },
+    {
+      "id": "skill_warehouse_149",
+      "name": "Peak Season Planning",
+      "category": "Warehouse/Logistics",
+      "keywords": ["peak season", "seasonal planning", "surge capacity"],
+      "relatedSkills": ["Operations Planning", "Labor Management"]
+    },
+    {
+      "id": "skill_warehouse_150",
+      "name": "Continuous Improvement",
+      "category": "Warehouse/Logistics",
+      "keywords": ["continuous improvement", "Lean", "Six Sigma", "Kaizen"],
+      "relatedSkills": ["Operations Management", "Process Improvement"]
+    },
+    {
+      "id": "skill_warehouse_151",
+      "name": "Lean Warehousing",
+      "category": "Warehouse/Logistics",
+      "keywords": ["Lean warehousing", "Lean principles", "waste reduction"],
+      "relatedSkills": ["Continuous Improvement", "Operations Management"]
+    },
+    {
+      "id": "skill_warehouse_152",
+      "name": "Six Sigma",
+      "category": "Warehouse/Logistics",
+      "keywords": ["Six Sigma", "DMAIC", "process improvement"],
+      "relatedSkills": ["Continuous Improvement", "Quality Management"]
+    },
+    {
+      "id": "skill_warehouse_153",
+      "name": "5S Methodology",
+      "category": "Warehouse/Logistics",
+      "keywords": ["5S", "workplace organization", "visual management"],
+      "relatedSkills": ["Lean Warehousing", "Operations Management"]
+    },
+    {
+      "id": "skill_warehouse_154",
+      "name": "Visual Management",
+      "category": "Warehouse/Logistics",
+      "keywords": ["visual management", "visual controls", "visual workplace"],
+      "relatedSkills": ["5S", "Operations Management"]
+    },
+    {
+      "id": "skill_warehouse_155",
+      "name": "Root Cause Analysis",
+      "category": "Warehouse/Logistics",
+      "keywords": ["root cause analysis", "RCA", "problem solving"],
+      "relatedSkills": ["Continuous Improvement", "Quality Management"]
+    },
+    {
+      "id": "skill_warehouse_156",
+      "name": "Standard Operating Procedures (SOPs)",
+      "category": "Warehouse/Logistics",
+      "keywords": ["SOPs", "standard procedures", "process documentation"],
+      "relatedSkills": ["Operations Management", "Training"]
+    },
+    {
+      "id": "skill_warehouse_157",
+      "name": "Training and Development",
+      "category": "Warehouse/Logistics",
+      "keywords": ["training", "employee development", "onboarding"],
+      "relatedSkills": ["Operations Management", "Leadership"]
+    },
+    {
+      "id": "skill_warehouse_158",
+      "name": "Team Leadership",
+      "category": "Warehouse/Logistics",
+      "keywords": ["team leadership", "supervision", "team management"],
+      "relatedSkills": ["Leadership", "Operations Management"]
+    },
+    {
+      "id": "skill_warehouse_159",
+      "name": "Warehouse Supervision",
+      "category": "Warehouse/Logistics",
+      "keywords": ["warehouse supervision", "shift supervision", "floor management"],
+      "relatedSkills": ["Team Leadership", "Operations Management"]
+    },
+    {
+      "id": "skill_warehouse_160",
+      "name": "Distribution Center Management",
+      "category": "Warehouse/Logistics",
+      "keywords": ["distribution center", "DC management", "facility management"],
+      "relatedSkills": ["Operations Management", "Leadership"]
+    },
+    {
+      "id": "skill_warehouse_161",
+      "name": "Multi-Site Operations",
+      "category": "Warehouse/Logistics",
+      "keywords": ["multi-site", "network management", "multiple locations"],
+      "relatedSkills": ["Distribution Center Management", "Operations Management"]
+    },
+    {
+      "id": "skill_warehouse_162",
+      "name": "Warehouse Network Design",
+      "category": "Warehouse/Logistics",
+      "keywords": ["network design", "distribution network", "facility planning"],
+      "relatedSkills": ["Supply Chain", "Operations Strategy"]
+    },
+    {
+      "id": "skill_warehouse_163",
+      "name": "Inbound Logistics",
+      "category": "Warehouse/Logistics",
+      "keywords": ["inbound logistics", "receiving logistics", "supplier coordination"],
+      "relatedSkills": ["Supply Chain", "Transportation"]
+    },
+    {
+      "id": "skill_warehouse_164",
+      "name": "Outbound Logistics",
+      "category": "Warehouse/Logistics",
+      "keywords": ["outbound logistics", "shipping logistics", "customer delivery"],
+      "relatedSkills": ["Supply Chain", "Transportation"]
+    },
+    {
+      "id": "skill_warehouse_165",
+      "name": "Appointment Scheduling",
+      "category": "Warehouse/Logistics",
+      "keywords": ["appointment scheduling", "dock scheduling", "yard management"],
+      "relatedSkills": ["Inbound Logistics", "Dock Operations"]
+    },
+    {
+      "id": "skill_warehouse_166",
+      "name": "Yard Management",
+      "category": "Warehouse/Logistics",
+      "keywords": ["yard management", "trailer management", "yard operations"],
+      "relatedSkills": ["Dock Operations", "Transportation"]
+    },
+    {
+      "id": "skill_warehouse_167",
+      "name": "YMS (Yard Management Systems)",
+      "category": "Warehouse/Logistics",
+      "keywords": ["YMS", "yard management system", "yard software"],
+      "relatedSkills": ["Yard Management", "Technology"]
+    },
+    {
+      "id": "skill_warehouse_168",
+      "name": "Trailer Tracking",
+      "category": "Warehouse/Logistics",
+      "keywords": ["trailer tracking", "asset tracking", "trailer management"],
+      "relatedSkills": ["Yard Management", "Transportation"]
+    },
+    {
+      "id": "skill_warehouse_169",
+      "name": "Container Management",
+      "category": "Warehouse/Logistics",
+      "keywords": ["container management", "shipping containers", "intermodal"],
+      "relatedSkills": ["International Shipping", "Yard Management"]
+    },
+    {
+      "id": "skill_warehouse_170",
+      "name": "Intermodal Transportation",
+      "category": "Warehouse/Logistics",
+      "keywords": ["intermodal", "rail shipping", "container shipping"],
+      "relatedSkills": ["Transportation", "International Shipping"]
+    },
+    {
+      "id": "skill_warehouse_171",
+      "name": "EDI (Electronic Data Interchange)",
+      "category": "Warehouse/Logistics",
+      "keywords": ["EDI", "electronic data interchange", "data exchange"],
+      "relatedSkills": ["Technology", "Supply Chain"]
+    },
+    {
+      "id": "skill_warehouse_172",
+      "name": "API Integration",
+      "category": "Warehouse/Logistics",
+      "keywords": ["API integration", "system integration", "data integration"],
+      "relatedSkills": ["Technology", "WMS"]
+    },
+    {
+      "id": "skill_warehouse_173",
+      "name": "RFID Technology",
+      "category": "Warehouse/Logistics",
+      "keywords": ["RFID", "radio frequency identification", "auto-ID"],
+      "relatedSkills": ["Warehouse Technology", "Inventory Tracking"]
+    },
+    {
+      "id": "skill_warehouse_174",
+      "name": "Barcode Systems",
+      "category": "Warehouse/Logistics",
+      "keywords": ["barcode systems", "barcoding", "UPC", "EAN"],
+      "relatedSkills": ["Warehouse Technology", "Inventory Management"]
+    },
+    {
+      "id": "skill_warehouse_175",
+      "name": "IoT in Warehousing",
+      "category": "Warehouse/Logistics",
+      "keywords": ["IoT", "Internet of Things", "sensors", "connected devices"],
+      "relatedSkills": ["Warehouse Technology", "Data Analytics"]
+    },
+    {
+      "id": "skill_warehouse_176",
+      "name": "Warehouse Robotics",
+      "category": "Warehouse/Logistics",
+      "keywords": ["warehouse robotics", "robots", "automation"],
+      "relatedSkills": ["Warehouse Automation", "Technology"]
+    },
+    {
+      "id": "skill_warehouse_177",
+      "name": "Drone Operations",
+      "category": "Warehouse/Logistics",
+      "keywords": ["drones", "UAV", "aerial inventory"],
+      "relatedSkills": ["Warehouse Technology", "Innovation"]
+    },
+    {
+      "id": "skill_warehouse_178",
+      "name": "Predictive Analytics",
+      "category": "Warehouse/Logistics",
+      "keywords": ["predictive analytics", "data science", "forecasting"],
+      "relatedSkills": ["Data Analytics", "Supply Chain Planning"]
+    },
+    {
+      "id": "skill_warehouse_179",
+      "name": "Business Intelligence",
+      "category": "Warehouse/Logistics",
+      "keywords": ["business intelligence", "BI", "data visualization"],
+      "relatedSkills": ["Data Analytics", "Reporting"]
+    },
+    {
+      "id": "skill_warehouse_180",
+      "name": "Dashboard Reporting",
+      "category": "Warehouse/Logistics",
+      "keywords": ["dashboard reporting", "dashboards", "visual reporting"],
+      "relatedSkills": ["Business Intelligence", "KPI Tracking"]
+    },
+    {
+      "id": "skill_warehouse_181",
+      "name": "Warehouse Cost Management",
+      "category": "Warehouse/Logistics",
+      "keywords": ["cost management", "cost control", "budget management"],
+      "relatedSkills": ["Operations Management", "Finance"]
+    },
+    {
+      "id": "skill_warehouse_182",
+      "name": "Cost-Per-Unit Analysis",
+      "category": "Warehouse/Logistics",
+      "keywords": ["cost per unit", "unit cost", "cost analysis"],
+      "relatedSkills": ["Cost Management", "Financial Analysis"]
+    },
+    {
+      "id": "skill_warehouse_183",
+      "name": "Budget Planning",
+      "category": "Warehouse/Logistics",
+      "keywords": ["budget planning", "budgeting", "financial planning"],
+      "relatedSkills": ["Cost Management", "Finance"]
+    },
+    {
+      "id": "skill_warehouse_184",
+      "name": "Capacity Planning",
+      "category": "Warehouse/Logistics",
+      "keywords": ["capacity planning", "facility capacity", "throughput planning"],
+      "relatedSkills": ["Operations Planning", "Warehouse Design"]
+    },
+    {
+      "id": "skill_warehouse_185",
+      "name": "Throughput Optimization",
+      "category": "Warehouse/Logistics",
+      "keywords": ["throughput optimization", "flow optimization", "processing speed"],
+      "relatedSkills": ["Operations Management", "Continuous Improvement"]
+    },
+    {
+      "id": "skill_warehouse_186",
+      "name": "Bottleneck Analysis",
+      "category": "Warehouse/Logistics",
+      "keywords": ["bottleneck analysis", "constraint identification", "process improvement"],
+      "relatedSkills": ["Continuous Improvement", "Operations Analysis"]
+    },
+    {
+      "id": "skill_warehouse_187",
+      "name": "Change Management",
+      "category": "Warehouse/Logistics",
+      "keywords": ["change management", "organizational change", "transformation"],
+      "relatedSkills": ["Leadership", "Project Management"]
+    },
+    {
+      "id": "skill_warehouse_188",
+      "name": "Project Management",
+      "category": "Warehouse/Logistics",
+      "keywords": ["project management", "PM", "project execution"],
+      "relatedSkills": ["Leadership", "Operations Management"]
+    },
+    {
+      "id": "skill_warehouse_189",
+      "name": "WMS Implementation",
+      "category": "Warehouse/Logistics",
+      "keywords": ["WMS implementation", "system implementation", "go-live"],
+      "relatedSkills": ["Project Management", "WMS"]
+    },
+    {
+      "id": "skill_warehouse_190",
+      "name": "Facility Startup",
+      "category": "Warehouse/Logistics",
+      "keywords": ["facility startup", "warehouse startup", "greenfield"],
+      "relatedSkills": ["Project Management", "Operations Management"]
+    },
+    {
+      "id": "skill_warehouse_191",
+      "name": "Facility Relocation",
+      "category": "Warehouse/Logistics",
+      "keywords": ["facility relocation", "warehouse move", "site transition"],
+      "relatedSkills": ["Project Management", "Operations Management"]
+    },
+    {
+      "id": "skill_warehouse_192",
+      "name": "Process Mapping",
+      "category": "Warehouse/Logistics",
+      "keywords": ["process mapping", "workflow mapping", "value stream mapping"],
+      "relatedSkills": ["Continuous Improvement", "Operations Analysis"]
+    },
+    {
+      "id": "skill_warehouse_193",
+      "name": "Time Studies",
+      "category": "Warehouse/Logistics",
+      "keywords": ["time studies", "time and motion", "productivity measurement"],
+      "relatedSkills": ["Operations Analysis", "Continuous Improvement"]
+    },
+    {
+      "id": "skill_warehouse_194",
+      "name": "Benchmarking",
+      "category": "Warehouse/Logistics",
+      "keywords": ["benchmarking", "performance comparison", "best practices"],
+      "relatedSkills": ["Operations Analysis", "Continuous Improvement"]
+    },
+    {
+      "id": "skill_warehouse_195",
+      "name": "Customer Service",
+      "category": "Warehouse/Logistics",
+      "keywords": ["customer service", "client relations", "account management"],
+      "relatedSkills": ["Operations Management", "Communication"]
+    },
+    {
+      "id": "skill_warehouse_196",
+      "name": "Order Status Communication",
+      "category": "Warehouse/Logistics",
+      "keywords": ["order status", "order tracking", "customer communication"],
+      "relatedSkills": ["Customer Service", "Order Fulfillment"]
+    },
+    {
+      "id": "skill_warehouse_197",
+      "name": "Problem Resolution",
+      "category": "Warehouse/Logistics",
+      "keywords": ["problem resolution", "issue resolution", "troubleshooting"],
+      "relatedSkills": ["Customer Service", "Operations Management"]
+    },
+    {
+      "id": "skill_warehouse_198",
+      "name": "Claims Processing",
+      "category": "Warehouse/Logistics",
+      "keywords": ["claims processing", "freight claims", "damage claims"],
+      "relatedSkills": ["Customer Service", "Quality Control"]
+    },
+    {
+      "id": "skill_warehouse_199",
+      "name": "Sustainability in Logistics",
+      "category": "Warehouse/Logistics",
+      "keywords": ["sustainability", "green logistics", "environmental responsibility"],
+      "relatedSkills": ["Operations Management", "Corporate Responsibility"]
+    },
+    {
+      "id": "skill_warehouse_200",
+      "name": "Warehouse Energy Management",
+      "category": "Warehouse/Logistics",
+      "keywords": ["energy management", "energy efficiency", "utility management"],
+      "relatedSkills": ["Sustainability", "Facility Management"]
+    }
+  ]
+}

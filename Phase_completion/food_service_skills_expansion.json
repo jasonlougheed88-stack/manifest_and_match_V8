@@ -1,0 +1,1063 @@
+{
+  "expansion_metadata": {
+    "sector": "Food Service",
+    "existing_count": 50,
+    "new_count": 150,
+    "total_count": 200,
+    "source": "O*NET + AI Augmentation",
+    "validation_date": "2025-10-27",
+    "id_range": "skill_foodservice_051 to skill_foodservice_200"
+  },
+  "new_skills": [
+    {
+      "id": "skill_foodservice_051",
+      "name": "Restaurant Operations",
+      "category": "Food Service",
+      "keywords": ["restaurant operations", "food service", "hospitality"],
+      "relatedSkills": ["Food Service Management", "Customer Service"]
+    },
+    {
+      "id": "skill_foodservice_052",
+      "name": "Front of House Management",
+      "category": "Food Service",
+      "keywords": ["front of house", "FOH", "dining room management"],
+      "relatedSkills": ["Restaurant Operations", "Customer Service"]
+    },
+    {
+      "id": "skill_foodservice_053",
+      "name": "Back of House Management",
+      "category": "Food Service",
+      "keywords": ["back of house", "BOH", "kitchen management"],
+      "relatedSkills": ["Kitchen Management", "Restaurant Operations"]
+    },
+    {
+      "id": "skill_foodservice_054",
+      "name": "Fine Dining Service",
+      "category": "Food Service",
+      "keywords": ["fine dining", "upscale service", "tableside service"],
+      "relatedSkills": ["Customer Service", "Wine Service"]
+    },
+    {
+      "id": "skill_foodservice_055",
+      "name": "Casual Dining Service",
+      "category": "Food Service",
+      "keywords": ["casual dining", "table service", "server"],
+      "relatedSkills": ["Customer Service", "Food Service"]
+    },
+    {
+      "id": "skill_foodservice_056",
+      "name": "Fast Food Operations",
+      "category": "Food Service",
+      "keywords": ["fast food", "quick service", "QSR"],
+      "relatedSkills": ["Restaurant Operations", "Speed and Efficiency"]
+    },
+    {
+      "id": "skill_foodservice_057",
+      "name": "Fast Casual Service",
+      "category": "Food Service",
+      "keywords": ["fast casual", "counter service", "quick casual"],
+      "relatedSkills": ["Restaurant Operations", "Customer Service"]
+    },
+    {
+      "id": "skill_foodservice_058",
+      "name": "Food Truck Operations",
+      "category": "Food Service",
+      "keywords": ["food truck", "mobile food service", "street food"],
+      "relatedSkills": ["Restaurant Operations", "Small Business"]
+    },
+    {
+      "id": "skill_foodservice_059",
+      "name": "Catering Operations",
+      "category": "Food Service",
+      "keywords": ["catering", "event catering", "off-premise catering"],
+      "relatedSkills": ["Event Planning", "Food Service"]
+    },
+    {
+      "id": "skill_foodservice_060",
+      "name": "Banquet Service",
+      "category": "Food Service",
+      "keywords": ["banquet service", "events", "large group service"],
+      "relatedSkills": ["Catering", "Event Management"]
+    },
+    {
+      "id": "skill_foodservice_061",
+      "name": "Buffet Service",
+      "category": "Food Service",
+      "keywords": ["buffet", "self-service", "buffet management"],
+      "relatedSkills": ["Catering", "Food Presentation"]
+    },
+    {
+      "id": "skill_foodservice_062",
+      "name": "Table Service",
+      "category": "Food Service",
+      "keywords": ["table service", "wait service", "server"],
+      "relatedSkills": ["Customer Service", "Food Service"]
+    },
+    {
+      "id": "skill_foodservice_063",
+      "name": "Host/Hostess Duties",
+      "category": "Food Service",
+      "keywords": ["host", "hostess", "seating", "guest greeting"],
+      "relatedSkills": ["Customer Service", "Reservation Management"]
+    },
+    {
+      "id": "skill_foodservice_064",
+      "name": "Reservation Management",
+      "category": "Food Service",
+      "keywords": ["reservations", "booking", "table management"],
+      "relatedSkills": ["Restaurant Operations", "Customer Service"]
+    },
+    {
+      "id": "skill_foodservice_065",
+      "name": "OpenTable",
+      "category": "Food Service",
+      "keywords": ["OpenTable", "reservation system", "table management software"],
+      "relatedSkills": ["Reservation Management", "Restaurant Technology"]
+    },
+    {
+      "id": "skill_foodservice_066",
+      "name": "POS Systems",
+      "category": "Food Service",
+      "keywords": ["POS", "point of sale", "restaurant POS"],
+      "relatedSkills": ["Restaurant Technology", "Payment Processing"]
+    },
+    {
+      "id": "skill_foodservice_067",
+      "name": "Toast POS",
+      "category": "Food Service",
+      "keywords": ["Toast", "Toast POS", "restaurant software"],
+      "relatedSkills": ["POS Systems", "Restaurant Technology"]
+    },
+    {
+      "id": "skill_foodservice_068",
+      "name": "Square POS",
+      "category": "Food Service",
+      "keywords": ["Square", "Square POS", "payment processing"],
+      "relatedSkills": ["POS Systems", "Restaurant Technology"]
+    },
+    {
+      "id": "skill_foodservice_069",
+      "name": "Cash Handling",
+      "category": "Food Service",
+      "keywords": ["cash handling", "money management", "register operations"],
+      "relatedSkills": ["POS Systems", "Customer Service"]
+    },
+    {
+      "id": "skill_foodservice_070",
+      "name": "Payment Processing",
+      "category": "Food Service",
+      "keywords": ["payment processing", "credit cards", "transactions"],
+      "relatedSkills": ["Cash Handling", "POS Systems"]
+    },
+    {
+      "id": "skill_foodservice_071",
+      "name": "Order Taking",
+      "category": "Food Service",
+      "keywords": ["order taking", "taking orders", "customer orders"],
+      "relatedSkills": ["Customer Service", "Communication"]
+    },
+    {
+      "id": "skill_foodservice_072",
+      "name": "Menu Knowledge",
+      "category": "Food Service",
+      "keywords": ["menu knowledge", "menu items", "product knowledge"],
+      "relatedSkills": ["Customer Service", "Food Knowledge"]
+    },
+    {
+      "id": "skill_foodservice_073",
+      "name": "Upselling",
+      "category": "Food Service",
+      "keywords": ["upselling", "suggestive selling", "sales techniques"],
+      "relatedSkills": ["Customer Service", "Sales"]
+    },
+    {
+      "id": "skill_foodservice_074",
+      "name": "Food Running",
+      "category": "Food Service",
+      "keywords": ["food running", "food delivery", "expediting"],
+      "relatedSkills": ["Restaurant Operations", "Teamwork"]
+    },
+    {
+      "id": "skill_foodservice_075",
+      "name": "Bussing Tables",
+      "category": "Food Service",
+      "keywords": ["bussing", "table clearing", "busser"],
+      "relatedSkills": ["Restaurant Operations", "Cleaning"]
+    },
+    {
+      "id": "skill_foodservice_076",
+      "name": "Table Setting",
+      "category": "Food Service",
+      "keywords": ["table setting", "place setting", "table setup"],
+      "relatedSkills": ["Restaurant Operations", "Service Standards"]
+    },
+    {
+      "id": "skill_foodservice_077",
+      "name": "Dishwashing",
+      "category": "Food Service",
+      "keywords": ["dishwashing", "dish machine", "warewashing"],
+      "relatedSkills": ["Kitchen Operations", "Sanitation"]
+    },
+    {
+      "id": "skill_foodservice_078",
+      "name": "Kitchen Prep",
+      "category": "Food Service",
+      "keywords": ["kitchen prep", "prep cook", "food preparation"],
+      "relatedSkills": ["Cooking", "Food Safety"]
+    },
+    {
+      "id": "skill_foodservice_079",
+      "name": "Line Cooking",
+      "category": "Food Service",
+      "keywords": ["line cooking", "line cook", "cooking station"],
+      "relatedSkills": ["Cooking", "Kitchen Operations"]
+    },
+    {
+      "id": "skill_foodservice_080",
+      "name": "Sauté Station",
+      "category": "Food Service",
+      "keywords": ["sauté", "sauté station", "sautéing"],
+      "relatedSkills": ["Line Cooking", "Cooking Techniques"]
+    },
+    {
+      "id": "skill_foodservice_081",
+      "name": "Grill Station",
+      "category": "Food Service",
+      "keywords": ["grill", "grill station", "grilling"],
+      "relatedSkills": ["Line Cooking", "Cooking Techniques"]
+    },
+    {
+      "id": "skill_foodservice_082",
+      "name": "Fry Station",
+      "category": "Food Service",
+      "keywords": ["fry", "fry station", "deep frying"],
+      "relatedSkills": ["Line Cooking", "Cooking Techniques"]
+    },
+    {
+      "id": "skill_foodservice_083",
+      "name": "Garde Manger",
+      "category": "Food Service",
+      "keywords": ["garde manger", "cold station", "salads", "appetizers"],
+      "relatedSkills": ["Line Cooking", "Food Preparation"]
+    },
+    {
+      "id": "skill_foodservice_084",
+      "name": "Pastry Station",
+      "category": "Food Service",
+      "keywords": ["pastry station", "dessert station", "pastry chef"],
+      "relatedSkills": ["Baking", "Pastry"]
+    },
+    {
+      "id": "skill_foodservice_085",
+      "name": "Expediting",
+      "category": "Food Service",
+      "keywords": ["expediting", "expo", "order coordination"],
+      "relatedSkills": ["Kitchen Management", "Communication"]
+    },
+    {
+      "id": "skill_foodservice_086",
+      "name": "Kitchen Management",
+      "category": "Food Service",
+      "keywords": ["kitchen management", "chef", "culinary management"],
+      "relatedSkills": ["Restaurant Operations", "Leadership"]
+    },
+    {
+      "id": "skill_foodservice_087",
+      "name": "Sous Chef Duties",
+      "category": "Food Service",
+      "keywords": ["sous chef", "kitchen supervisor", "second in command"],
+      "relatedSkills": ["Kitchen Management", "Leadership"]
+    },
+    {
+      "id": "skill_foodservice_088",
+      "name": "Executive Chef Duties",
+      "category": "Food Service",
+      "keywords": ["executive chef", "head chef", "chef de cuisine"],
+      "relatedSkills": ["Kitchen Management", "Menu Development"]
+    },
+    {
+      "id": "skill_foodservice_089",
+      "name": "Menu Planning",
+      "category": "Food Service",
+      "keywords": ["menu planning", "menu design", "menu creation"],
+      "relatedSkills": ["Menu Development", "Culinary Arts"]
+    },
+    {
+      "id": "skill_foodservice_090",
+      "name": "Menu Development",
+      "category": "Food Service",
+      "keywords": ["menu development", "menu engineering", "recipe development"],
+      "relatedSkills": ["Menu Planning", "Cost Control"]
+    },
+    {
+      "id": "skill_foodservice_091",
+      "name": "Menu Costing",
+      "category": "Food Service",
+      "keywords": ["menu costing", "recipe costing", "food cost analysis"],
+      "relatedSkills": ["Menu Development", "Cost Control"]
+    },
+    {
+      "id": "skill_foodservice_092",
+      "name": "Recipe Development",
+      "category": "Food Service",
+      "keywords": ["recipe development", "recipe creation", "culinary innovation"],
+      "relatedSkills": ["Menu Development", "Culinary Arts"]
+    },
+    {
+      "id": "skill_foodservice_093",
+      "name": "Recipe Standardization",
+      "category": "Food Service",
+      "keywords": ["recipe standardization", "standard recipes", "consistency"],
+      "relatedSkills": ["Recipe Development", "Quality Control"]
+    },
+    {
+      "id": "skill_foodservice_094",
+      "name": "Food Cost Control",
+      "category": "Food Service",
+      "keywords": ["food cost control", "cost management", "food costing"],
+      "relatedSkills": ["Restaurant Management", "Finance"]
+    },
+    {
+      "id": "skill_foodservice_095",
+      "name": "Inventory Management",
+      "category": "Food Service",
+      "keywords": ["inventory management", "stock control", "food inventory"],
+      "relatedSkills": ["Food Cost Control", "Operations"]
+    },
+    {
+      "id": "skill_foodservice_096",
+      "name": "Purchasing",
+      "category": "Food Service",
+      "keywords": ["purchasing", "ordering", "vendor relations"],
+      "relatedSkills": ["Inventory Management", "Cost Control"]
+    },
+    {
+      "id": "skill_foodservice_097",
+      "name": "Vendor Management",
+      "category": "Food Service",
+      "keywords": ["vendor management", "supplier relations", "vendor negotiations"],
+      "relatedSkills": ["Purchasing", "Restaurant Management"]
+    },
+    {
+      "id": "skill_foodservice_098",
+      "name": "Receiving",
+      "category": "Food Service",
+      "keywords": ["receiving", "deliveries", "quality inspection"],
+      "relatedSkills": ["Inventory Management", "Food Safety"]
+    },
+    {
+      "id": "skill_foodservice_099",
+      "name": "Storage Management",
+      "category": "Food Service",
+      "keywords": ["storage management", "dry storage", "refrigeration", "freezer"],
+      "relatedSkills": ["Inventory Management", "Food Safety"]
+    },
+    {
+      "id": "skill_foodservice_100",
+      "name": "FIFO (First In First Out)",
+      "category": "Food Service",
+      "keywords": ["FIFO", "stock rotation", "inventory rotation"],
+      "relatedSkills": ["Inventory Management", "Food Safety"]
+    },
+    {
+      "id": "skill_foodservice_101",
+      "name": "Food Safety",
+      "category": "Food Service",
+      "keywords": ["food safety", "food handling", "safe food practices"],
+      "relatedSkills": ["Sanitation", "Health Codes"]
+    },
+    {
+      "id": "skill_foodservice_102",
+      "name": "ServSafe Certification",
+      "category": "Food Service",
+      "keywords": ["ServSafe", "food handler", "food safety certification"],
+      "relatedSkills": ["Food Safety", "Certification"]
+    },
+    {
+      "id": "skill_foodservice_103",
+      "name": "HACCP",
+      "category": "Food Service",
+      "keywords": ["HACCP", "hazard analysis", "critical control points"],
+      "relatedSkills": ["Food Safety", "Quality Management"]
+    },
+    {
+      "id": "skill_foodservice_104",
+      "name": "Sanitation",
+      "category": "Food Service",
+      "keywords": ["sanitation", "cleaning", "hygiene"],
+      "relatedSkills": ["Food Safety", "Health Codes"]
+    },
+    {
+      "id": "skill_foodservice_105",
+      "name": "Cross-Contamination Prevention",
+      "category": "Food Service",
+      "keywords": ["cross-contamination", "contamination prevention", "food safety"],
+      "relatedSkills": ["Food Safety", "Sanitation"]
+    },
+    {
+      "id": "skill_foodservice_106",
+      "name": "Temperature Control",
+      "category": "Food Service",
+      "keywords": ["temperature control", "temp monitoring", "danger zone"],
+      "relatedSkills": ["Food Safety", "HACCP"]
+    },
+    {
+      "id": "skill_foodservice_107",
+      "name": "Allergen Management",
+      "category": "Food Service",
+      "keywords": ["allergen management", "food allergies", "allergen awareness"],
+      "relatedSkills": ["Food Safety", "Customer Service"]
+    },
+    {
+      "id": "skill_foodservice_108",
+      "name": "Health Code Compliance",
+      "category": "Food Service",
+      "keywords": ["health codes", "health department", "compliance"],
+      "relatedSkills": ["Food Safety", "Restaurant Management"]
+    },
+    {
+      "id": "skill_foodservice_109",
+      "name": "Knife Skills",
+      "category": "Food Service",
+      "keywords": ["knife skills", "cutting", "slicing", "dicing"],
+      "relatedSkills": ["Culinary Skills", "Food Prep"]
+    },
+    {
+      "id": "skill_foodservice_110",
+      "name": "Butchery",
+      "category": "Food Service",
+      "keywords": ["butchery", "meat cutting", "fabrication"],
+      "relatedSkills": ["Knife Skills", "Food Preparation"]
+    },
+    {
+      "id": "skill_foodservice_111",
+      "name": "Seafood Preparation",
+      "category": "Food Service",
+      "keywords": ["seafood preparation", "fish", "shellfish"],
+      "relatedSkills": ["Food Preparation", "Knife Skills"]
+    },
+    {
+      "id": "skill_foodservice_112",
+      "name": "Cooking Techniques",
+      "category": "Food Service",
+      "keywords": ["cooking techniques", "culinary techniques", "cooking methods"],
+      "relatedSkills": ["Culinary Arts", "Food Preparation"]
+    },
+    {
+      "id": "skill_foodservice_113",
+      "name": "Grilling",
+      "category": "Food Service",
+      "keywords": ["grilling", "grill cooking", "charbroiling"],
+      "relatedSkills": ["Cooking Techniques", "Line Cooking"]
+    },
+    {
+      "id": "skill_foodservice_114",
+      "name": "Sautéing",
+      "category": "Food Service",
+      "keywords": ["sautéing", "pan frying", "sauté"],
+      "relatedSkills": ["Cooking Techniques", "Line Cooking"]
+    },
+    {
+      "id": "skill_foodservice_115",
+      "name": "Braising",
+      "category": "Food Service",
+      "keywords": ["braising", "slow cooking", "moist heat"],
+      "relatedSkills": ["Cooking Techniques", "Culinary Arts"]
+    },
+    {
+      "id": "skill_foodservice_116",
+      "name": "Roasting",
+      "category": "Food Service",
+      "keywords": ["roasting", "oven cooking", "dry heat"],
+      "relatedSkills": ["Cooking Techniques", "Culinary Arts"]
+    },
+    {
+      "id": "skill_foodservice_117",
+      "name": "Baking",
+      "category": "Food Service",
+      "keywords": ["baking", "bread baking", "oven baking"],
+      "relatedSkills": ["Cooking Techniques", "Pastry"]
+    },
+    {
+      "id": "skill_foodservice_118",
+      "name": "Deep Frying",
+      "category": "Food Service",
+      "keywords": ["deep frying", "frying", "fryer"],
+      "relatedSkills": ["Cooking Techniques", "Line Cooking"]
+    },
+    {
+      "id": "skill_foodservice_119",
+      "name": "Steaming",
+      "category": "Food Service",
+      "keywords": ["steaming", "steam cooking", "moist heat"],
+      "relatedSkills": ["Cooking Techniques", "Healthy Cooking"]
+    },
+    {
+      "id": "skill_foodservice_120",
+      "name": "Poaching",
+      "category": "Food Service",
+      "keywords": ["poaching", "gentle cooking", "liquid cooking"],
+      "relatedSkills": ["Cooking Techniques", "Fine Dining"]
+    },
+    {
+      "id": "skill_foodservice_121",
+      "name": "Sauce Making",
+      "category": "Food Service",
+      "keywords": ["sauce making", "sauces", "mother sauces"],
+      "relatedSkills": ["Culinary Arts", "Cooking Techniques"]
+    },
+    {
+      "id": "skill_foodservice_122",
+      "name": "Stock Making",
+      "category": "Food Service",
+      "keywords": ["stock making", "stocks", "broths"],
+      "relatedSkills": ["Culinary Arts", "Cooking Techniques"]
+    },
+    {
+      "id": "skill_foodservice_123",
+      "name": "Soup Preparation",
+      "category": "Food Service",
+      "keywords": ["soup preparation", "soups", "soup making"],
+      "relatedSkills": ["Cooking", "Culinary Arts"]
+    },
+    {
+      "id": "skill_foodservice_124",
+      "name": "Salad Preparation",
+      "category": "Food Service",
+      "keywords": ["salad preparation", "salads", "garde manger"],
+      "relatedSkills": ["Food Preparation", "Cold Kitchen"]
+    },
+    {
+      "id": "skill_foodservice_125",
+      "name": "Pasta Making",
+      "category": "Food Service",
+      "keywords": ["pasta making", "fresh pasta", "pasta preparation"],
+      "relatedSkills": ["Culinary Arts", "Italian Cuisine"]
+    },
+    {
+      "id": "skill_foodservice_126",
+      "name": "Pizza Making",
+      "category": "Food Service",
+      "keywords": ["pizza making", "pizza preparation", "pizzaiolo"],
+      "relatedSkills": ["Baking", "Italian Cuisine"]
+    },
+    {
+      "id": "skill_foodservice_127",
+      "name": "Sushi Preparation",
+      "category": "Food Service",
+      "keywords": ["sushi", "sushi chef", "Japanese cuisine"],
+      "relatedSkills": ["Culinary Arts", "Seafood"]
+    },
+    {
+      "id": "skill_foodservice_128",
+      "name": "BBQ and Smoking",
+      "category": "Food Service",
+      "keywords": ["BBQ", "barbecue", "smoking", "pit master"],
+      "relatedSkills": ["Cooking Techniques", "Grilling"]
+    },
+    {
+      "id": "skill_foodservice_129",
+      "name": "Pastry Making",
+      "category": "Food Service",
+      "keywords": ["pastry making", "pastry", "pastry chef"],
+      "relatedSkills": ["Baking", "Culinary Arts"]
+    },
+    {
+      "id": "skill_foodservice_130",
+      "name": "Cake Decorating",
+      "category": "Food Service",
+      "keywords": ["cake decorating", "cake design", "frosting"],
+      "relatedSkills": ["Pastry", "Baking"]
+    },
+    {
+      "id": "skill_foodservice_131",
+      "name": "Bread Baking",
+      "category": "Food Service",
+      "keywords": ["bread baking", "artisan bread", "baker"],
+      "relatedSkills": ["Baking", "Pastry"]
+    },
+    {
+      "id": "skill_foodservice_132",
+      "name": "Chocolate Work",
+      "category": "Food Service",
+      "keywords": ["chocolate work", "chocolatier", "chocolate tempering"],
+      "relatedSkills": ["Pastry", "Confectionery"]
+    },
+    {
+      "id": "skill_foodservice_133",
+      "name": "Plating and Presentation",
+      "category": "Food Service",
+      "keywords": ["plating", "food presentation", "garnishing"],
+      "relatedSkills": ["Culinary Arts", "Fine Dining"]
+    },
+    {
+      "id": "skill_foodservice_134",
+      "name": "Garnishing",
+      "category": "Food Service",
+      "keywords": ["garnishing", "food decoration", "garnish"],
+      "relatedSkills": ["Plating", "Food Presentation"]
+    },
+    {
+      "id": "skill_foodservice_135",
+      "name": "Beverage Service",
+      "category": "Food Service",
+      "keywords": ["beverage service", "drinks", "bar service"],
+      "relatedSkills": ["Customer Service", "Bar Operations"]
+    },
+    {
+      "id": "skill_foodservice_136",
+      "name": "Bartending",
+      "category": "Food Service",
+      "keywords": ["bartending", "bartender", "mixology"],
+      "relatedSkills": ["Beverage Service", "Customer Service"]
+    },
+    {
+      "id": "skill_foodservice_137",
+      "name": "Mixology",
+      "category": "Food Service",
+      "keywords": ["mixology", "cocktails", "craft cocktails"],
+      "relatedSkills": ["Bartending", "Beverage Service"]
+    },
+    {
+      "id": "skill_foodservice_138",
+      "name": "Wine Service",
+      "category": "Food Service",
+      "keywords": ["wine service", "sommelier", "wine pairing"],
+      "relatedSkills": ["Beverage Service", "Fine Dining"]
+    },
+    {
+      "id": "skill_foodservice_139",
+      "name": "Wine Knowledge",
+      "category": "Food Service",
+      "keywords": ["wine knowledge", "wine education", "viticulture"],
+      "relatedSkills": ["Wine Service", "Sommelier"]
+    },
+    {
+      "id": "skill_foodservice_140",
+      "name": "Beer Knowledge",
+      "category": "Food Service",
+      "keywords": ["beer knowledge", "craft beer", "beer service"],
+      "relatedSkills": ["Beverage Service", "Bar Operations"]
+    },
+    {
+      "id": "skill_foodservice_141",
+      "name": "Coffee Service",
+      "category": "Food Service",
+      "keywords": ["coffee service", "barista", "coffee preparation"],
+      "relatedSkills": ["Beverage Service", "Customer Service"]
+    },
+    {
+      "id": "skill_foodservice_142",
+      "name": "Barista Skills",
+      "category": "Food Service",
+      "keywords": ["barista", "espresso", "coffee bar"],
+      "relatedSkills": ["Coffee Service", "Beverage Preparation"]
+    },
+    {
+      "id": "skill_foodservice_143",
+      "name": "Espresso Preparation",
+      "category": "Food Service",
+      "keywords": ["espresso", "espresso machine", "coffee extraction"],
+      "relatedSkills": ["Barista Skills", "Coffee Service"]
+    },
+    {
+      "id": "skill_foodservice_144",
+      "name": "Latte Art",
+      "category": "Food Service",
+      "keywords": ["latte art", "milk art", "coffee art"],
+      "relatedSkills": ["Barista Skills", "Coffee Preparation"]
+    },
+    {
+      "id": "skill_foodservice_145",
+      "name": "Tea Service",
+      "category": "Food Service",
+      "keywords": ["tea service", "tea preparation", "tea knowledge"],
+      "relatedSkills": ["Beverage Service", "Customer Service"]
+    },
+    {
+      "id": "skill_foodservice_146",
+      "name": "Bar Management",
+      "category": "Food Service",
+      "keywords": ["bar management", "bar operations", "bar supervisor"],
+      "relatedSkills": ["Restaurant Management", "Beverage Service"]
+    },
+    {
+      "id": "skill_foodservice_147",
+      "name": "Liquor Inventory",
+      "category": "Food Service",
+      "keywords": ["liquor inventory", "bar inventory", "beverage control"],
+      "relatedSkills": ["Bar Management", "Inventory Management"]
+    },
+    {
+      "id": "skill_foodservice_148",
+      "name": "Alcohol Compliance",
+      "category": "Food Service",
+      "keywords": ["alcohol compliance", "liquor laws", "responsible serving"],
+      "relatedSkills": ["Bar Management", "Legal Compliance"]
+    },
+    {
+      "id": "skill_foodservice_149",
+      "name": "Customer Service",
+      "category": "Food Service",
+      "keywords": ["customer service", "hospitality", "guest service"],
+      "relatedSkills": ["Restaurant Operations", "Communication"]
+    },
+    {
+      "id": "skill_foodservice_150",
+      "name": "Complaint Resolution",
+      "category": "Food Service",
+      "keywords": ["complaint resolution", "problem solving", "service recovery"],
+      "relatedSkills": ["Customer Service", "Communication"]
+    },
+    {
+      "id": "skill_foodservice_151",
+      "name": "Restaurant Management",
+      "category": "Food Service",
+      "keywords": ["restaurant management", "general manager", "operations management"],
+      "relatedSkills": ["Restaurant Operations", "Leadership"]
+    },
+    {
+      "id": "skill_foodservice_152",
+      "name": "Shift Management",
+      "category": "Food Service",
+      "keywords": ["shift management", "shift supervisor", "shift leader"],
+      "relatedSkills": ["Restaurant Management", "Leadership"]
+    },
+    {
+      "id": "skill_foodservice_153",
+      "name": "Staff Scheduling",
+      "category": "Food Service",
+      "keywords": ["staff scheduling", "scheduling", "labor management"],
+      "relatedSkills": ["Restaurant Management", "HR"]
+    },
+    {
+      "id": "skill_foodservice_154",
+      "name": "Employee Training",
+      "category": "Food Service",
+      "keywords": ["employee training", "staff training", "onboarding"],
+      "relatedSkills": ["Restaurant Management", "Leadership"]
+    },
+    {
+      "id": "skill_foodservice_155",
+      "name": "Performance Management",
+      "category": "Food Service",
+      "keywords": ["performance management", "employee evaluation", "coaching"],
+      "relatedSkills": ["Restaurant Management", "HR"]
+    },
+    {
+      "id": "skill_foodservice_156",
+      "name": "Labor Cost Control",
+      "category": "Food Service",
+      "keywords": ["labor cost control", "labor management", "cost control"],
+      "relatedSkills": ["Restaurant Management", "Finance"]
+    },
+    {
+      "id": "skill_foodservice_157",
+      "name": "P&L Management",
+      "category": "Food Service",
+      "keywords": ["P&L", "profit and loss", "financial management"],
+      "relatedSkills": ["Restaurant Management", "Finance"]
+    },
+    {
+      "id": "skill_foodservice_158",
+      "name": "Sales Forecasting",
+      "category": "Food Service",
+      "keywords": ["sales forecasting", "forecasting", "revenue prediction"],
+      "relatedSkills": ["Restaurant Management", "Analytics"]
+    },
+    {
+      "id": "skill_foodservice_159",
+      "name": "Marketing",
+      "category": "Food Service",
+      "keywords": ["marketing", "restaurant marketing", "promotion"],
+      "relatedSkills": ["Restaurant Management", "Sales"]
+    },
+    {
+      "id": "skill_foodservice_160",
+      "name": "Social Media Marketing",
+      "category": "Food Service",
+      "keywords": ["social media", "Instagram", "Facebook", "digital marketing"],
+      "relatedSkills": ["Marketing", "Restaurant Operations"]
+    },
+    {
+      "id": "skill_foodservice_161",
+      "name": "Online Ordering Systems",
+      "category": "Food Service",
+      "keywords": ["online ordering", "digital orders", "order platforms"],
+      "relatedSkills": ["Restaurant Technology", "Operations"]
+    },
+    {
+      "id": "skill_foodservice_162",
+      "name": "Third-Party Delivery",
+      "category": "Food Service",
+      "keywords": ["third-party delivery", "DoorDash", "Uber Eats", "delivery apps"],
+      "relatedSkills": ["Online Ordering", "Restaurant Operations"]
+    },
+    {
+      "id": "skill_foodservice_163",
+      "name": "Food Delivery Operations",
+      "category": "Food Service",
+      "keywords": ["food delivery", "delivery operations", "takeout"],
+      "relatedSkills": ["Restaurant Operations", "Customer Service"]
+    },
+    {
+      "id": "skill_foodservice_164",
+      "name": "Takeout Service",
+      "category": "Food Service",
+      "keywords": ["takeout", "to-go", "carryout"],
+      "relatedSkills": ["Restaurant Operations", "Customer Service"]
+    },
+    {
+      "id": "skill_foodservice_165",
+      "name": "Drive-Thru Operations",
+      "category": "Food Service",
+      "keywords": ["drive-thru", "drive through", "quick service"],
+      "relatedSkills": ["Fast Food Operations", "Customer Service"]
+    },
+    {
+      "id": "skill_foodservice_166",
+      "name": "Cafeteria Service",
+      "category": "Food Service",
+      "keywords": ["cafeteria", "institutional food service", "school lunch"],
+      "relatedSkills": ["Food Service", "Operations"]
+    },
+    {
+      "id": "skill_foodservice_167",
+      "name": "Hospital Food Service",
+      "category": "Food Service",
+      "keywords": ["hospital food service", "healthcare foodservice", "dietary"],
+      "relatedSkills": ["Food Service", "Nutrition"]
+    },
+    {
+      "id": "skill_foodservice_168",
+      "name": "Dietary Planning",
+      "category": "Food Service",
+      "keywords": ["dietary planning", "diet planning", "nutrition planning"],
+      "relatedSkills": ["Nutrition", "Food Service"]
+    },
+    {
+      "id": "skill_foodservice_169",
+      "name": "Nutrition Knowledge",
+      "category": "Food Service",
+      "keywords": ["nutrition", "dietary", "nutritional information"],
+      "relatedSkills": ["Food Service", "Health"]
+    },
+    {
+      "id": "skill_foodservice_170",
+      "name": "Special Dietary Needs",
+      "category": "Food Service",
+      "keywords": ["special diets", "dietary restrictions", "gluten-free", "vegan"],
+      "relatedSkills": ["Nutrition", "Customer Service"]
+    },
+    {
+      "id": "skill_foodservice_171",
+      "name": "Vegan Cooking",
+      "category": "Food Service",
+      "keywords": ["vegan", "plant-based", "vegan cuisine"],
+      "relatedSkills": ["Cooking", "Special Diets"]
+    },
+    {
+      "id": "skill_foodservice_172",
+      "name": "Gluten-Free Cooking",
+      "category": "Food Service",
+      "keywords": ["gluten-free", "celiac", "gluten-free cuisine"],
+      "relatedSkills": ["Cooking", "Special Diets"]
+    },
+    {
+      "id": "skill_foodservice_173",
+      "name": "Farm-to-Table",
+      "category": "Food Service",
+      "keywords": ["farm-to-table", "local sourcing", "sustainable dining"],
+      "relatedSkills": ["Restaurant Operations", "Sustainability"]
+    },
+    {
+      "id": "skill_foodservice_174",
+      "name": "Sustainability Practices",
+      "category": "Food Service",
+      "keywords": ["sustainability", "green practices", "eco-friendly"],
+      "relatedSkills": ["Restaurant Operations", "Environmental"]
+    },
+    {
+      "id": "skill_foodservice_175",
+      "name": "Waste Reduction",
+      "category": "Food Service",
+      "keywords": ["waste reduction", "food waste", "waste management"],
+      "relatedSkills": ["Sustainability", "Cost Control"]
+    },
+    {
+      "id": "skill_foodservice_176",
+      "name": "Composting",
+      "category": "Food Service",
+      "keywords": ["composting", "food waste composting", "organic waste"],
+      "relatedSkills": ["Sustainability", "Waste Management"]
+    },
+    {
+      "id": "skill_foodservice_177",
+      "name": "International Cuisine",
+      "category": "Food Service",
+      "keywords": ["international cuisine", "ethnic cuisine", "world cuisine"],
+      "relatedSkills": ["Culinary Arts", "Cooking"]
+    },
+    {
+      "id": "skill_foodservice_178",
+      "name": "Italian Cuisine",
+      "category": "Food Service",
+      "keywords": ["Italian cuisine", "Italian cooking", "Mediterranean"],
+      "relatedSkills": ["International Cuisine", "Culinary Arts"]
+    },
+    {
+      "id": "skill_foodservice_179",
+      "name": "French Cuisine",
+      "category": "Food Service",
+      "keywords": ["French cuisine", "French cooking", "classical cuisine"],
+      "relatedSkills": ["International Cuisine", "Fine Dining"]
+    },
+    {
+      "id": "skill_foodservice_180",
+      "name": "Asian Cuisine",
+      "category": "Food Service",
+      "keywords": ["Asian cuisine", "Chinese", "Thai", "Japanese"],
+      "relatedSkills": ["International Cuisine", "Culinary Arts"]
+    },
+    {
+      "id": "skill_foodservice_181",
+      "name": "Mexican Cuisine",
+      "category": "Food Service",
+      "keywords": ["Mexican cuisine", "Mexican cooking", "Latin American"],
+      "relatedSkills": ["International Cuisine", "Culinary Arts"]
+    },
+    {
+      "id": "skill_foodservice_182",
+      "name": "Indian Cuisine",
+      "category": "Food Service",
+      "keywords": ["Indian cuisine", "Indian cooking", "spice blending"],
+      "relatedSkills": ["International Cuisine", "Culinary Arts"]
+    },
+    {
+      "id": "skill_foodservice_183",
+      "name": "Southern Cuisine",
+      "category": "Food Service",
+      "keywords": ["Southern cuisine", "Southern cooking", "comfort food"],
+      "relatedSkills": ["American Cuisine", "Culinary Arts"]
+    },
+    {
+      "id": "skill_foodservice_184",
+      "name": "Seafood Cooking",
+      "category": "Food Service",
+      "keywords": ["seafood cooking", "fish preparation", "shellfish"],
+      "relatedSkills": ["Cooking", "Culinary Arts"]
+    },
+    {
+      "id": "skill_foodservice_185",
+      "name": "Steakhouse Operations",
+      "category": "Food Service",
+      "keywords": ["steakhouse", "meat preparation", "steak cooking"],
+      "relatedSkills": ["Restaurant Operations", "Grilling"]
+    },
+    {
+      "id": "skill_foodservice_186",
+      "name": "Breakfast Service",
+      "category": "Food Service",
+      "keywords": ["breakfast", "brunch", "breakfast preparation"],
+      "relatedSkills": ["Food Service", "Cooking"]
+    },
+    {
+      "id": "skill_foodservice_187",
+      "name": "Brunch Service",
+      "category": "Food Service",
+      "keywords": ["brunch", "brunch service", "weekend service"],
+      "relatedSkills": ["Breakfast Service", "Restaurant Operations"]
+    },
+    {
+      "id": "skill_foodservice_188",
+      "name": "Room Service",
+      "category": "Food Service",
+      "keywords": ["room service", "hotel food service", "in-room dining"],
+      "relatedSkills": ["Hospitality", "Food Service"]
+    },
+    {
+      "id": "skill_foodservice_189",
+      "name": "Concession Operations",
+      "category": "Food Service",
+      "keywords": ["concessions", "concession stand", "stadium food"],
+      "relatedSkills": ["Food Service", "Fast Service"]
+    },
+    {
+      "id": "skill_foodservice_190",
+      "name": "Meal Planning",
+      "category": "Food Service",
+      "keywords": ["meal planning", "menu planning", "meal prep"],
+      "relatedSkills": ["Food Service", "Nutrition"]
+    },
+    {
+      "id": "skill_foodservice_191",
+      "name": "Batch Cooking",
+      "category": "Food Service",
+      "keywords": ["batch cooking", "volume cooking", "large-scale preparation"],
+      "relatedSkills": ["Cooking", "Kitchen Operations"]
+    },
+    {
+      "id": "skill_foodservice_192",
+      "name": "Equipment Operation",
+      "category": "Food Service",
+      "keywords": ["equipment operation", "kitchen equipment", "machinery"],
+      "relatedSkills": ["Kitchen Operations", "Safety"]
+    },
+    {
+      "id": "skill_foodservice_193",
+      "name": "Convection Oven Use",
+      "category": "Food Service",
+      "keywords": ["convection oven", "oven operation", "baking equipment"],
+      "relatedSkills": ["Equipment Operation", "Cooking"]
+    },
+    {
+      "id": "skill_foodservice_194",
+      "name": "Combi Oven Operation",
+      "category": "Food Service",
+      "keywords": ["combi oven", "combination oven", "commercial oven"],
+      "relatedSkills": ["Equipment Operation", "Cooking"]
+    },
+    {
+      "id": "skill_foodservice_195",
+      "name": "Sous Vide Cooking",
+      "category": "Food Service",
+      "keywords": ["sous vide", "precision cooking", "immersion circulator"],
+      "relatedSkills": ["Cooking Techniques", "Modern Cuisine"]
+    },
+    {
+      "id": "skill_foodservice_196",
+      "name": "Food Truck Management",
+      "category": "Food Service",
+      "keywords": ["food truck management", "mobile kitchen", "truck operations"],
+      "relatedSkills": ["Restaurant Management", "Small Business"]
+    },
+    {
+      "id": "skill_foodservice_197",
+      "name": "Event Planning",
+      "category": "Food Service",
+      "keywords": ["event planning", "catering events", "event coordination"],
+      "relatedSkills": ["Catering", "Management"]
+    },
+    {
+      "id": "skill_foodservice_198",
+      "name": "Tableside Service",
+      "category": "Food Service",
+      "keywords": ["tableside service", "tableside preparation", "cart service"],
+      "relatedSkills": ["Fine Dining", "Customer Service"]
+    },
+    {
+      "id": "skill_foodservice_199",
+      "name": "Flambe Technique",
+      "category": "Food Service",
+      "keywords": ["flambe", "flambé", "tableside flaming"],
+      "relatedSkills": ["Tableside Service", "Cooking Techniques"]
+    },
+    {
+      "id": "skill_foodservice_200",
+      "name": "Food Photography",
+      "category": "Food Service",
+      "keywords": ["food photography", "food styling", "menu photography"],
+      "relatedSkills": ["Marketing", "Social Media"]
+    }
+  ]
+}

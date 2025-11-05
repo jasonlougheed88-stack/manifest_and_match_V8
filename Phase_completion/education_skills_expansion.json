@@ -1,0 +1,1140 @@
+{
+  "expansion_metadata": {
+    "sector": "Education",
+    "existing_count": 39,
+    "new_count": 161,
+    "total_count": 200,
+    "source": "O*NET + AI Augmentation",
+    "validation_date": "2025-10-27",
+    "id_range": "skill_education_040 to skill_education_200"
+  },
+  "new_skills": [
+    {
+      "id": "skill_education_040",
+      "name": "Elementary Education",
+      "category": "Education",
+      "keywords": ["elementary teaching", "K-5", "primary education"],
+      "relatedSkills": ["Classroom Management", "Curriculum Development"]
+    },
+    {
+      "id": "skill_education_041",
+      "name": "Middle School Education",
+      "category": "Education",
+      "keywords": ["middle school", "grades 6-8", "adolescent education"],
+      "relatedSkills": ["Subject-Specific Teaching", "Student Development"]
+    },
+    {
+      "id": "skill_education_042",
+      "name": "High School Education",
+      "category": "Education",
+      "keywords": ["high school", "secondary education", "grades 9-12"],
+      "relatedSkills": ["College Prep", "Subject Teaching"]
+    },
+    {
+      "id": "skill_education_043",
+      "name": "Mathematics Teaching",
+      "category": "Education",
+      "keywords": ["math teaching", "mathematics", "algebra", "calculus"],
+      "relatedSkills": ["STEM Education", "Problem-Based Learning"]
+    },
+    {
+      "id": "skill_education_044",
+      "name": "Science Teaching",
+      "category": "Education",
+      "keywords": ["science teaching", "biology", "chemistry", "physics"],
+      "relatedSkills": ["STEM Education", "Lab Safety"]
+    },
+    {
+      "id": "skill_education_045",
+      "name": "English Language Arts Teaching",
+      "category": "Education",
+      "keywords": ["ELA", "English teaching", "literacy", "reading"],
+      "relatedSkills": ["Writing Instruction", "Literature Analysis"]
+    },
+    {
+      "id": "skill_education_046",
+      "name": "Social Studies Teaching",
+      "category": "Education",
+      "keywords": ["social studies", "history", "geography", "civics"],
+      "relatedSkills": ["World History", "Government Education"]
+    },
+    {
+      "id": "skill_education_047",
+      "name": "Foreign Language Teaching",
+      "category": "Education",
+      "keywords": ["language teaching", "Spanish", "French", "foreign language"],
+      "relatedSkills": ["Second Language Acquisition", "Cultural Education"]
+    },
+    {
+      "id": "skill_education_048",
+      "name": "ESL/ELL Instruction",
+      "category": "Education",
+      "keywords": ["ESL", "ELL", "English language learners", "TESOL"],
+      "relatedSkills": ["Language Acquisition", "Cultural Sensitivity"]
+    },
+    {
+      "id": "skill_education_049",
+      "name": "Special Education",
+      "category": "Education",
+      "keywords": ["special education", "SPED", "IEP", "disabilities"],
+      "relatedSkills": ["IEP Development", "Differentiated Instruction"]
+    },
+    {
+      "id": "skill_education_050",
+      "name": "IEP Development",
+      "category": "Education",
+      "keywords": ["IEP", "individualized education program", "special needs"],
+      "relatedSkills": ["Special Education", "Assessment"]
+    },
+    {
+      "id": "skill_education_051",
+      "name": "504 Plan Implementation",
+      "category": "Education",
+      "keywords": ["504 plan", "accommodations", "disability support"],
+      "relatedSkills": ["Special Education", "Student Support"]
+    },
+    {
+      "id": "skill_education_052",
+      "name": "Gifted and Talented Education",
+      "category": "Education",
+      "keywords": ["gifted education", "talented", "enrichment"],
+      "relatedSkills": ["Differentiated Instruction", "Advanced Curriculum"]
+    },
+    {
+      "id": "skill_education_053",
+      "name": "Early Childhood Education",
+      "category": "Education",
+      "keywords": ["early childhood", "preschool", "pre-K"],
+      "relatedSkills": ["Child Development", "Play-Based Learning"]
+    },
+    {
+      "id": "skill_education_054",
+      "name": "Montessori Method",
+      "category": "Education",
+      "keywords": ["Montessori", "child-centered", "hands-on learning"],
+      "relatedSkills": ["Early Childhood Education", "Self-Directed Learning"]
+    },
+    {
+      "id": "skill_education_055",
+      "name": "Reggio Emilia Approach",
+      "category": "Education",
+      "keywords": ["Reggio Emilia", "inquiry-based", "project-based"],
+      "relatedSkills": ["Early Childhood Education", "Student-Centered Learning"]
+    },
+    {
+      "id": "skill_education_056",
+      "name": "Play-Based Learning",
+      "category": "Education",
+      "keywords": ["play-based", "learning through play", "child development"],
+      "relatedSkills": ["Early Childhood Education", "Developmental Psychology"]
+    },
+    {
+      "id": "skill_education_057",
+      "name": "Classroom Management",
+      "category": "Education",
+      "keywords": ["classroom management", "behavior management", "discipline"],
+      "relatedSkills": ["Teaching", "Conflict Resolution"]
+    },
+    {
+      "id": "skill_education_058",
+      "name": "Positive Behavior Interventions and Supports (PBIS)",
+      "category": "Education",
+      "keywords": ["PBIS", "positive behavior", "behavioral support"],
+      "relatedSkills": ["Classroom Management", "Student Behavior"]
+    },
+    {
+      "id": "skill_education_059",
+      "name": "Restorative Practices",
+      "category": "Education",
+      "keywords": ["restorative justice", "conflict resolution", "community building"],
+      "relatedSkills": ["Classroom Management", "Social-Emotional Learning"]
+    },
+    {
+      "id": "skill_education_060",
+      "name": "Social-Emotional Learning (SEL)",
+      "category": "Education",
+      "keywords": ["SEL", "social-emotional", "emotional intelligence"],
+      "relatedSkills": ["Student Development", "Mental Health Support"]
+    },
+    {
+      "id": "skill_education_061",
+      "name": "Differentiated Instruction",
+      "category": "Education",
+      "keywords": ["differentiation", "differentiated instruction", "personalized learning"],
+      "relatedSkills": ["Teaching Strategies", "Student Assessment"]
+    },
+    {
+      "id": "skill_education_062",
+      "name": "Universal Design for Learning (UDL)",
+      "category": "Education",
+      "keywords": ["UDL", "universal design", "accessibility"],
+      "relatedSkills": ["Differentiated Instruction", "Inclusive Education"]
+    },
+    {
+      "id": "skill_education_063",
+      "name": "Project-Based Learning",
+      "category": "Education",
+      "keywords": ["project-based learning", "PBL", "inquiry-based"],
+      "relatedSkills": ["Student-Centered Learning", "Critical Thinking"]
+    },
+    {
+      "id": "skill_education_064",
+      "name": "Problem-Based Learning",
+      "category": "Education",
+      "keywords": ["problem-based learning", "PBL", "real-world problems"],
+      "relatedSkills": ["Critical Thinking", "Collaborative Learning"]
+    },
+    {
+      "id": "skill_education_065",
+      "name": "Inquiry-Based Learning",
+      "category": "Education",
+      "keywords": ["inquiry-based", "question-driven", "discovery learning"],
+      "relatedSkills": ["Student-Centered Learning", "Scientific Method"]
+    },
+    {
+      "id": "skill_education_066",
+      "name": "Flipped Classroom",
+      "category": "Education",
+      "keywords": ["flipped classroom", "blended learning", "inverted classroom"],
+      "relatedSkills": ["Educational Technology", "Online Learning"]
+    },
+    {
+      "id": "skill_education_067",
+      "name": "Blended Learning",
+      "category": "Education",
+      "keywords": ["blended learning", "hybrid learning", "mixed-mode"],
+      "relatedSkills": ["Educational Technology", "Online Teaching"]
+    },
+    {
+      "id": "skill_education_068",
+      "name": "Online Teaching",
+      "category": "Education",
+      "keywords": ["online teaching", "virtual instruction", "distance learning"],
+      "relatedSkills": ["Educational Technology", "Digital Pedagogy"]
+    },
+    {
+      "id": "skill_education_069",
+      "name": "Synchronous Online Teaching",
+      "category": "Education",
+      "keywords": ["synchronous", "live online", "virtual classroom"],
+      "relatedSkills": ["Online Teaching", "Video Conferencing"]
+    },
+    {
+      "id": "skill_education_070",
+      "name": "Asynchronous Online Teaching",
+      "category": "Education",
+      "keywords": ["asynchronous", "self-paced", "recorded instruction"],
+      "relatedSkills": ["Online Teaching", "Course Design"]
+    },
+    {
+      "id": "skill_education_071",
+      "name": "Learning Management Systems (LMS)",
+      "category": "Education",
+      "keywords": ["LMS", "Canvas", "Blackboard", "Moodle", "Google Classroom"],
+      "relatedSkills": ["Educational Technology", "Online Teaching"]
+    },
+    {
+      "id": "skill_education_072",
+      "name": "Google Classroom",
+      "category": "Education",
+      "keywords": ["Google Classroom", "G Suite", "digital classroom"],
+      "relatedSkills": ["Educational Technology", "LMS"]
+    },
+    {
+      "id": "skill_education_073",
+      "name": "Canvas LMS",
+      "category": "Education",
+      "keywords": ["Canvas", "LMS", "learning management"],
+      "relatedSkills": ["Educational Technology", "Online Teaching"]
+    },
+    {
+      "id": "skill_education_074",
+      "name": "Blackboard",
+      "category": "Education",
+      "keywords": ["Blackboard", "Bb", "LMS"],
+      "relatedSkills": ["Educational Technology", "Online Teaching"]
+    },
+    {
+      "id": "skill_education_075",
+      "name": "Educational Technology Integration",
+      "category": "Education",
+      "keywords": ["edtech", "technology integration", "digital tools"],
+      "relatedSkills": ["Teaching", "Technology"]
+    },
+    {
+      "id": "skill_education_076",
+      "name": "Interactive Whiteboard Use",
+      "category": "Education",
+      "keywords": ["interactive whiteboard", "SMART Board", "Promethean"],
+      "relatedSkills": ["Educational Technology", "Classroom Technology"]
+    },
+    {
+      "id": "skill_education_077",
+      "name": "iPad Integration",
+      "category": "Education",
+      "keywords": ["iPad", "tablet integration", "mobile learning"],
+      "relatedSkills": ["Educational Technology", "1:1 Learning"]
+    },
+    {
+      "id": "skill_education_078",
+      "name": "Chromebook Management",
+      "category": "Education",
+      "keywords": ["Chromebook", "Google devices", "device management"],
+      "relatedSkills": ["Educational Technology", "1:1 Learning"]
+    },
+    {
+      "id": "skill_education_079",
+      "name": "Coding and Computer Science Teaching",
+      "category": "Education",
+      "keywords": ["coding", "computer science", "programming education"],
+      "relatedSkills": ["STEM Education", "Computational Thinking"]
+    },
+    {
+      "id": "skill_education_080",
+      "name": "Robotics Education",
+      "category": "Education",
+      "keywords": ["robotics", "LEGO robotics", "VEX", "FIRST robotics"],
+      "relatedSkills": ["STEM Education", "Engineering Education"]
+    },
+    {
+      "id": "skill_education_081",
+      "name": "Maker Education",
+      "category": "Education",
+      "keywords": ["maker education", "makerspace", "hands-on learning"],
+      "relatedSkills": ["STEM Education", "Project-Based Learning"]
+    },
+    {
+      "id": "skill_education_082",
+      "name": "STEM Education",
+      "category": "Education",
+      "keywords": ["STEM", "science technology engineering math"],
+      "relatedSkills": ["Science Teaching", "Math Teaching", "Engineering"]
+    },
+    {
+      "id": "skill_education_083",
+      "name": "STEAM Education",
+      "category": "Education",
+      "keywords": ["STEAM", "STEM plus arts", "integrated learning"],
+      "relatedSkills": ["STEM Education", "Arts Education"]
+    },
+    {
+      "id": "skill_education_084",
+      "name": "Arts Education",
+      "category": "Education",
+      "keywords": ["arts education", "visual arts", "performing arts"],
+      "relatedSkills": ["Music Education", "Drama Education"]
+    },
+    {
+      "id": "skill_education_085",
+      "name": "Music Education",
+      "category": "Education",
+      "keywords": ["music teaching", "band", "choir", "orchestra"],
+      "relatedSkills": ["Arts Education", "Performance"]
+    },
+    {
+      "id": "skill_education_086",
+      "name": "Drama Education",
+      "category": "Education",
+      "keywords": ["drama", "theater", "performance arts"],
+      "relatedSkills": ["Arts Education", "Public Speaking"]
+    },
+    {
+      "id": "skill_education_087",
+      "name": "Physical Education",
+      "category": "Education",
+      "keywords": ["PE", "physical education", "health education"],
+      "relatedSkills": ["Sports Coaching", "Health Education"]
+    },
+    {
+      "id": "skill_education_088",
+      "name": "Health Education",
+      "category": "Education",
+      "keywords": ["health education", "wellness", "nutrition education"],
+      "relatedSkills": ["Physical Education", "Student Wellness"]
+    },
+    {
+      "id": "skill_education_089",
+      "name": "Career and Technical Education (CTE)",
+      "category": "Education",
+      "keywords": ["CTE", "vocational education", "technical training"],
+      "relatedSkills": ["Workforce Development", "Skills Training"]
+    },
+    {
+      "id": "skill_education_090",
+      "name": "Curriculum Development",
+      "category": "Education",
+      "keywords": ["curriculum development", "curriculum design", "instructional planning"],
+      "relatedSkills": ["Instructional Design", "Standards Alignment"]
+    },
+    {
+      "id": "skill_education_091",
+      "name": "Standards-Based Instruction",
+      "category": "Education",
+      "keywords": ["standards-based", "Common Core", "state standards"],
+      "relatedSkills": ["Curriculum Development", "Assessment"]
+    },
+    {
+      "id": "skill_education_092",
+      "name": "Backward Design",
+      "category": "Education",
+      "keywords": ["backward design", "Understanding by Design", "UbD"],
+      "relatedSkills": ["Curriculum Development", "Assessment Design"]
+    },
+    {
+      "id": "skill_education_093",
+      "name": "Scope and Sequence Development",
+      "category": "Education",
+      "keywords": ["scope and sequence", "curriculum mapping", "pacing"],
+      "relatedSkills": ["Curriculum Development", "Planning"]
+    },
+    {
+      "id": "skill_education_094",
+      "name": "Lesson Planning",
+      "category": "Education",
+      "keywords": ["lesson planning", "instructional planning", "daily plans"],
+      "relatedSkills": ["Curriculum Development", "Teaching"]
+    },
+    {
+      "id": "skill_education_095",
+      "name": "Assessment Design",
+      "category": "Education",
+      "keywords": ["assessment design", "test creation", "evaluation"],
+      "relatedSkills": ["Assessment", "Measurement"]
+    },
+    {
+      "id": "skill_education_096",
+      "name": "Formative Assessment",
+      "category": "Education",
+      "keywords": ["formative assessment", "ongoing assessment", "checks for understanding"],
+      "relatedSkills": ["Assessment", "Data-Driven Instruction"]
+    },
+    {
+      "id": "skill_education_097",
+      "name": "Summative Assessment",
+      "category": "Education",
+      "keywords": ["summative assessment", "final assessment", "end-of-unit"],
+      "relatedSkills": ["Assessment", "Grading"]
+    },
+    {
+      "id": "skill_education_098",
+      "name": "Performance-Based Assessment",
+      "category": "Education",
+      "keywords": ["performance assessment", "authentic assessment", "demonstrations"],
+      "relatedSkills": ["Assessment", "Project-Based Learning"]
+    },
+    {
+      "id": "skill_education_099",
+      "name": "Portfolio Assessment",
+      "category": "Education",
+      "keywords": ["portfolio", "student portfolios", "work samples"],
+      "relatedSkills": ["Assessment", "Documentation"]
+    },
+    {
+      "id": "skill_education_100",
+      "name": "Rubric Development",
+      "category": "Education",
+      "keywords": ["rubrics", "scoring guides", "assessment criteria"],
+      "relatedSkills": ["Assessment Design", "Grading"]
+    },
+    {
+      "id": "skill_education_101",
+      "name": "Standardized Testing",
+      "category": "Education",
+      "keywords": ["standardized tests", "state testing", "test administration"],
+      "relatedSkills": ["Assessment", "Test Preparation"]
+    },
+    {
+      "id": "skill_education_102",
+      "name": "Test Preparation",
+      "category": "Education",
+      "keywords": ["test prep", "SAT", "ACT", "test strategies"],
+      "relatedSkills": ["Standardized Testing", "College Prep"]
+    },
+    {
+      "id": "skill_education_103",
+      "name": "Data-Driven Instruction",
+      "category": "Education",
+      "keywords": ["data-driven", "data analysis", "student data"],
+      "relatedSkills": ["Assessment", "Instructional Planning"]
+    },
+    {
+      "id": "skill_education_104",
+      "name": "Response to Intervention (RTI)",
+      "category": "Education",
+      "keywords": ["RTI", "tiered intervention", "academic support"],
+      "relatedSkills": ["Data-Driven Instruction", "Student Support"]
+    },
+    {
+      "id": "skill_education_105",
+      "name": "Multi-Tiered System of Supports (MTSS)",
+      "category": "Education",
+      "keywords": ["MTSS", "tiered support", "intervention framework"],
+      "relatedSkills": ["RTI", "Student Support"]
+    },
+    {
+      "id": "skill_education_106",
+      "name": "Literacy Intervention",
+      "category": "Education",
+      "keywords": ["literacy intervention", "reading intervention", "struggling readers"],
+      "relatedSkills": ["Reading Instruction", "RTI"]
+    },
+    {
+      "id": "skill_education_107",
+      "name": "Reading Instruction",
+      "category": "Education",
+      "keywords": ["reading instruction", "literacy", "phonics"],
+      "relatedSkills": ["Literacy", "Early Childhood Education"]
+    },
+    {
+      "id": "skill_education_108",
+      "name": "Phonics Instruction",
+      "category": "Education",
+      "keywords": ["phonics", "phonemic awareness", "decoding"],
+      "relatedSkills": ["Reading Instruction", "Literacy"]
+    },
+    {
+      "id": "skill_education_109",
+      "name": "Guided Reading",
+      "category": "Education",
+      "keywords": ["guided reading", "small group reading", "leveled texts"],
+      "relatedSkills": ["Reading Instruction", "Differentiated Instruction"]
+    },
+    {
+      "id": "skill_education_110",
+      "name": "Reading Comprehension Strategies",
+      "category": "Education",
+      "keywords": ["reading comprehension", "comprehension strategies", "understanding"],
+      "relatedSkills": ["Reading Instruction", "Literacy"]
+    },
+    {
+      "id": "skill_education_111",
+      "name": "Writing Instruction",
+      "category": "Education",
+      "keywords": ["writing instruction", "composition", "writing workshop"],
+      "relatedSkills": ["English Language Arts", "Literacy"]
+    },
+    {
+      "id": "skill_education_112",
+      "name": "Writing Workshop",
+      "category": "Education",
+      "keywords": ["writing workshop", "writers workshop", "process writing"],
+      "relatedSkills": ["Writing Instruction", "Student-Centered Learning"]
+    },
+    {
+      "id": "skill_education_113",
+      "name": "Grammar Instruction",
+      "category": "Education",
+      "keywords": ["grammar", "language mechanics", "conventions"],
+      "relatedSkills": ["Writing Instruction", "English Language Arts"]
+    },
+    {
+      "id": "skill_education_114",
+      "name": "Literature Analysis",
+      "category": "Education",
+      "keywords": ["literature analysis", "literary criticism", "close reading"],
+      "relatedSkills": ["English Language Arts", "Critical Thinking"]
+    },
+    {
+      "id": "skill_education_115",
+      "name": "College Counseling",
+      "category": "Education",
+      "keywords": ["college counseling", "college advising", "college prep"],
+      "relatedSkills": ["Student Counseling", "Career Counseling"]
+    },
+    {
+      "id": "skill_education_116",
+      "name": "Career Counseling",
+      "category": "Education",
+      "keywords": ["career counseling", "career guidance", "vocational counseling"],
+      "relatedSkills": ["Student Counseling", "Career Development"]
+    },
+    {
+      "id": "skill_education_117",
+      "name": "Academic Advising",
+      "category": "Education",
+      "keywords": ["academic advising", "course selection", "degree planning"],
+      "relatedSkills": ["Student Counseling", "Higher Education"]
+    },
+    {
+      "id": "skill_education_118",
+      "name": "Student Mental Health Support",
+      "category": "Education",
+      "keywords": ["mental health", "counseling", "emotional support"],
+      "relatedSkills": ["Student Counseling", "Social-Emotional Learning"]
+    },
+    {
+      "id": "skill_education_119",
+      "name": "Crisis Intervention",
+      "category": "Education",
+      "keywords": ["crisis intervention", "crisis response", "emergency support"],
+      "relatedSkills": ["Student Mental Health", "Counseling"]
+    },
+    {
+      "id": "skill_education_120",
+      "name": "Parent Communication",
+      "category": "Education",
+      "keywords": ["parent communication", "family engagement", "parent-teacher conferences"],
+      "relatedSkills": ["Communication", "Family Partnership"]
+    },
+    {
+      "id": "skill_education_121",
+      "name": "Family Engagement",
+      "category": "Education",
+      "keywords": ["family engagement", "parent involvement", "home-school connection"],
+      "relatedSkills": ["Parent Communication", "Community Relations"]
+    },
+    {
+      "id": "skill_education_122",
+      "name": "Educational Leadership",
+      "category": "Education",
+      "keywords": ["educational leadership", "school leadership", "administration"],
+      "relatedSkills": ["School Administration", "Instructional Leadership"]
+    },
+    {
+      "id": "skill_education_123",
+      "name": "Instructional Leadership",
+      "category": "Education",
+      "keywords": ["instructional leadership", "curriculum leadership", "teaching leadership"],
+      "relatedSkills": ["Educational Leadership", "Professional Development"]
+    },
+    {
+      "id": "skill_education_124",
+      "name": "School Administration",
+      "category": "Education",
+      "keywords": ["school administration", "principal", "assistant principal"],
+      "relatedSkills": ["Educational Leadership", "Operations Management"]
+    },
+    {
+      "id": "skill_education_125",
+      "name": "Teacher Evaluation",
+      "category": "Education",
+      "keywords": ["teacher evaluation", "observation", "performance review"],
+      "relatedSkills": ["Instructional Leadership", "Professional Development"]
+    },
+    {
+      "id": "skill_education_126",
+      "name": "Professional Development",
+      "category": "Education",
+      "keywords": ["professional development", "teacher training", "PD"],
+      "relatedSkills": ["Instructional Leadership", "Adult Learning"]
+    },
+    {
+      "id": "skill_education_127",
+      "name": "Adult Learning",
+      "category": "Education",
+      "keywords": ["adult learning", "andragogy", "adult education"],
+      "relatedSkills": ["Professional Development", "Training"]
+    },
+    {
+      "id": "skill_education_128",
+      "name": "Instructional Coaching",
+      "category": "Education",
+      "keywords": ["instructional coaching", "teacher coaching", "peer coaching"],
+      "relatedSkills": ["Professional Development", "Mentoring"]
+    },
+    {
+      "id": "skill_education_129",
+      "name": "Mentoring",
+      "category": "Education",
+      "keywords": ["mentoring", "teacher mentoring", "new teacher support"],
+      "relatedSkills": ["Instructional Coaching", "Professional Development"]
+    },
+    {
+      "id": "skill_education_130",
+      "name": "Professional Learning Communities (PLC)",
+      "category": "Education",
+      "keywords": ["PLC", "professional learning community", "collaborative teams"],
+      "relatedSkills": ["Professional Development", "Collaboration"]
+    },
+    {
+      "id": "skill_education_131",
+      "name": "School Budget Management",
+      "category": "Education",
+      "keywords": ["budget management", "school finance", "fiscal management"],
+      "relatedSkills": ["School Administration", "Financial Management"]
+    },
+    {
+      "id": "skill_education_132",
+      "name": "Grant Writing",
+      "category": "Education",
+      "keywords": ["grant writing", "grant applications", "funding proposals"],
+      "relatedSkills": ["Educational Fundraising", "Writing"]
+    },
+    {
+      "id": "skill_education_133",
+      "name": "School Safety",
+      "category": "Education",
+      "keywords": ["school safety", "security", "emergency preparedness"],
+      "relatedSkills": ["School Administration", "Crisis Management"]
+    },
+    {
+      "id": "skill_education_134",
+      "name": "Student Discipline",
+      "category": "Education",
+      "keywords": ["student discipline", "behavior management", "code of conduct"],
+      "relatedSkills": ["School Administration", "Classroom Management"]
+    },
+    {
+      "id": "skill_education_135",
+      "name": "Attendance Management",
+      "category": "Education",
+      "keywords": ["attendance", "truancy", "student attendance"],
+      "relatedSkills": ["School Administration", "Student Support"]
+    },
+    {
+      "id": "skill_education_136",
+      "name": "Student Registration",
+      "category": "Education",
+      "keywords": ["registration", "enrollment", "admissions"],
+      "relatedSkills": ["School Administration", "Records Management"]
+    },
+    {
+      "id": "skill_education_137",
+      "name": "Transcript Management",
+      "category": "Education",
+      "keywords": ["transcripts", "records", "academic records"],
+      "relatedSkills": ["Registrar", "Records Management"]
+    },
+    {
+      "id": "skill_education_138",
+      "name": "Scheduling",
+      "category": "Education",
+      "keywords": ["scheduling", "master schedule", "class scheduling"],
+      "relatedSkills": ["School Administration", "Operations"]
+    },
+    {
+      "id": "skill_education_139",
+      "name": "Higher Education Teaching",
+      "category": "Education",
+      "keywords": ["college teaching", "university teaching", "professor"],
+      "relatedSkills": ["Lecture", "Academic Research"]
+    },
+    {
+      "id": "skill_education_140",
+      "name": "Lecture Delivery",
+      "category": "Education",
+      "keywords": ["lecture", "lecturing", "presentation"],
+      "relatedSkills": ["Higher Education Teaching", "Public Speaking"]
+    },
+    {
+      "id": "skill_education_141",
+      "name": "Seminar Facilitation",
+      "category": "Education",
+      "keywords": ["seminar", "discussion facilitation", "graduate teaching"],
+      "relatedSkills": ["Higher Education Teaching", "Group Facilitation"]
+    },
+    {
+      "id": "skill_education_142",
+      "name": "Academic Research",
+      "category": "Education",
+      "keywords": ["research", "scholarly research", "academic inquiry"],
+      "relatedSkills": ["Higher Education", "Research Methods"]
+    },
+    {
+      "id": "skill_education_143",
+      "name": "Research Methods",
+      "category": "Education",
+      "keywords": ["research methods", "methodology", "research design"],
+      "relatedSkills": ["Academic Research", "Data Analysis"]
+    },
+    {
+      "id": "skill_education_144",
+      "name": "Quantitative Research",
+      "category": "Education",
+      "keywords": ["quantitative research", "statistical analysis", "numerical data"],
+      "relatedSkills": ["Research Methods", "Statistics"]
+    },
+    {
+      "id": "skill_education_145",
+      "name": "Qualitative Research",
+      "category": "Education",
+      "keywords": ["qualitative research", "interviews", "observations"],
+      "relatedSkills": ["Research Methods", "Data Collection"]
+    },
+    {
+      "id": "skill_education_146",
+      "name": "Action Research",
+      "category": "Education",
+      "keywords": ["action research", "practitioner research", "classroom research"],
+      "relatedSkills": ["Educational Research", "Professional Development"]
+    },
+    {
+      "id": "skill_education_147",
+      "name": "Thesis Advising",
+      "category": "Education",
+      "keywords": ["thesis advising", "dissertation advising", "graduate mentoring"],
+      "relatedSkills": ["Higher Education", "Academic Research"]
+    },
+    {
+      "id": "skill_education_148",
+      "name": "Academic Writing",
+      "category": "Education",
+      "keywords": ["academic writing", "scholarly writing", "research papers"],
+      "relatedSkills": ["Research", "Writing"]
+    },
+    {
+      "id": "skill_education_149",
+      "name": "Academic Publishing",
+      "category": "Education",
+      "keywords": ["academic publishing", "scholarly publishing", "journal articles"],
+      "relatedSkills": ["Academic Writing", "Research"]
+    },
+    {
+      "id": "skill_education_150",
+      "name": "Peer Review",
+      "category": "Education",
+      "keywords": ["peer review", "manuscript review", "editorial review"],
+      "relatedSkills": ["Academic Publishing", "Research"]
+    },
+    {
+      "id": "skill_education_151",
+      "name": "Conference Presentations",
+      "category": "Education",
+      "keywords": ["conference presentations", "academic conferences", "presenting research"],
+      "relatedSkills": ["Academic Research", "Public Speaking"]
+    },
+    {
+      "id": "skill_education_152",
+      "name": "Academic Program Development",
+      "category": "Education",
+      "keywords": ["program development", "curriculum design", "degree programs"],
+      "relatedSkills": ["Higher Education", "Curriculum Development"]
+    },
+    {
+      "id": "skill_education_153",
+      "name": "Accreditation",
+      "category": "Education",
+      "keywords": ["accreditation", "program accreditation", "quality assurance"],
+      "relatedSkills": ["Higher Education", "Compliance"]
+    },
+    {
+      "id": "skill_education_154",
+      "name": "Institutional Research",
+      "category": "Education",
+      "keywords": ["institutional research", "IR", "data analysis"],
+      "relatedSkills": ["Higher Education", "Data Analysis"]
+    },
+    {
+      "id": "skill_education_155",
+      "name": "Student Affairs",
+      "category": "Education",
+      "keywords": ["student affairs", "student services", "campus life"],
+      "relatedSkills": ["Higher Education", "Student Development"]
+    },
+    {
+      "id": "skill_education_156",
+      "name": "Residence Life",
+      "category": "Education",
+      "keywords": ["residence life", "housing", "dorm management"],
+      "relatedSkills": ["Student Affairs", "Student Development"]
+    },
+    {
+      "id": "skill_education_157",
+      "name": "Student Activities",
+      "category": "Education",
+      "keywords": ["student activities", "campus programming", "student organizations"],
+      "relatedSkills": ["Student Affairs", "Event Planning"]
+    },
+    {
+      "id": "skill_education_158",
+      "name": "Admissions",
+      "category": "Education",
+      "keywords": ["admissions", "student recruitment", "enrollment management"],
+      "relatedSkills": ["Higher Education", "Marketing"]
+    },
+    {
+      "id": "skill_education_159",
+      "name": "Financial Aid",
+      "category": "Education",
+      "keywords": ["financial aid", "scholarships", "student loans"],
+      "relatedSkills": ["Higher Education", "Student Services"]
+    },
+    {
+      "id": "skill_education_160",
+      "name": "Library Science",
+      "category": "Education",
+      "keywords": ["library science", "librarian", "information science"],
+      "relatedSkills": ["Research", "Information Literacy"]
+    },
+    {
+      "id": "skill_education_161",
+      "name": "Information Literacy Instruction",
+      "category": "Education",
+      "keywords": ["information literacy", "research skills", "library instruction"],
+      "relatedSkills": ["Library Science", "Research"]
+    },
+    {
+      "id": "skill_education_162",
+      "name": "Collection Development",
+      "category": "Education",
+      "keywords": ["collection development", "acquisitions", "library collections"],
+      "relatedSkills": ["Library Science", "Resource Management"]
+    },
+    {
+      "id": "skill_education_163",
+      "name": "Cataloging",
+      "category": "Education",
+      "keywords": ["cataloging", "classification", "metadata"],
+      "relatedSkills": ["Library Science", "Organization"]
+    },
+    {
+      "id": "skill_education_164",
+      "name": "Reference Services",
+      "category": "Education",
+      "keywords": ["reference", "research assistance", "information services"],
+      "relatedSkills": ["Library Science", "Customer Service"]
+    },
+    {
+      "id": "skill_education_165",
+      "name": "Digital Libraries",
+      "category": "Education",
+      "keywords": ["digital libraries", "digital collections", "online resources"],
+      "relatedSkills": ["Library Science", "Technology"]
+    },
+    {
+      "id": "skill_education_166",
+      "name": "Archives Management",
+      "category": "Education",
+      "keywords": ["archives", "archival management", "special collections"],
+      "relatedSkills": ["Library Science", "Records Management"]
+    },
+    {
+      "id": "skill_education_167",
+      "name": "Instructional Design",
+      "category": "Education",
+      "keywords": ["instructional design", "ID", "learning design"],
+      "relatedSkills": ["Curriculum Development", "Educational Technology"]
+    },
+    {
+      "id": "skill_education_168",
+      "name": "ADDIE Model",
+      "category": "Education",
+      "keywords": ["ADDIE", "instructional design model", "analysis design development"],
+      "relatedSkills": ["Instructional Design", "Course Development"]
+    },
+    {
+      "id": "skill_education_169",
+      "name": "E-Learning Development",
+      "category": "Education",
+      "keywords": ["e-learning", "online course development", "digital learning"],
+      "relatedSkills": ["Instructional Design", "Educational Technology"]
+    },
+    {
+      "id": "skill_education_170",
+      "name": "Articulate Storyline",
+      "category": "Education",
+      "keywords": ["Articulate Storyline", "e-learning authoring", "course creation"],
+      "relatedSkills": ["E-Learning Development", "Instructional Design"]
+    },
+    {
+      "id": "skill_education_171",
+      "name": "Adobe Captivate",
+      "category": "Education",
+      "keywords": ["Adobe Captivate", "e-learning software", "screen recording"],
+      "relatedSkills": ["E-Learning Development", "Instructional Design"]
+    },
+    {
+      "id": "skill_education_172",
+      "name": "Video Production for Education",
+      "category": "Education",
+      "keywords": ["educational video", "video production", "instructional video"],
+      "relatedSkills": ["E-Learning Development", "Multimedia"]
+    },
+    {
+      "id": "skill_education_173",
+      "name": "Learning Theory Application",
+      "category": "Education",
+      "keywords": ["learning theory", "educational psychology", "pedagogy"],
+      "relatedSkills": ["Instructional Design", "Teaching"]
+    },
+    {
+      "id": "skill_education_174",
+      "name": "Bloom's Taxonomy",
+      "category": "Education",
+      "keywords": ["Bloom's Taxonomy", "learning objectives", "cognitive levels"],
+      "relatedSkills": ["Instructional Design", "Assessment Design"]
+    },
+    {
+      "id": "skill_education_175",
+      "name": "Adult Education",
+      "category": "Education",
+      "keywords": ["adult education", "adult learning", "continuing education"],
+      "relatedSkills": ["Adult Learning", "Professional Development"]
+    },
+    {
+      "id": "skill_education_176",
+      "name": "Corporate Training",
+      "category": "Education",
+      "keywords": ["corporate training", "workplace training", "employee development"],
+      "relatedSkills": ["Adult Education", "Training"]
+    },
+    {
+      "id": "skill_education_177",
+      "name": "Training Facilitation",
+      "category": "Education",
+      "keywords": ["training facilitation", "workshop facilitation", "trainer"],
+      "relatedSkills": ["Corporate Training", "Adult Education"]
+    },
+    {
+      "id": "skill_education_178",
+      "name": "Training Needs Assessment",
+      "category": "Education",
+      "keywords": ["needs assessment", "training analysis", "skills gap analysis"],
+      "relatedSkills": ["Corporate Training", "Instructional Design"]
+    },
+    {
+      "id": "skill_education_179",
+      "name": "Competency-Based Education",
+      "category": "Education",
+      "keywords": ["competency-based", "CBE", "mastery learning"],
+      "relatedSkills": ["Curriculum Development", "Assessment"]
+    },
+    {
+      "id": "skill_education_180",
+      "name": "Personalized Learning",
+      "category": "Education",
+      "keywords": ["personalized learning", "individualized instruction", "adaptive learning"],
+      "relatedSkills": ["Differentiated Instruction", "Educational Technology"]
+    },
+    {
+      "id": "skill_education_181",
+      "name": "Adaptive Learning Technologies",
+      "category": "Education",
+      "keywords": ["adaptive learning", "AI-based learning", "personalized technology"],
+      "relatedSkills": ["Educational Technology", "Personalized Learning"]
+    },
+    {
+      "id": "skill_education_182",
+      "name": "Learning Analytics",
+      "category": "Education",
+      "keywords": ["learning analytics", "educational data", "data analysis"],
+      "relatedSkills": ["Data-Driven Instruction", "Educational Technology"]
+    },
+    {
+      "id": "skill_education_183",
+      "name": "Open Educational Resources (OER)",
+      "category": "Education",
+      "keywords": ["OER", "open educational resources", "free resources"],
+      "relatedSkills": ["Curriculum Development", "Educational Technology"]
+    },
+    {
+      "id": "skill_education_184",
+      "name": "Accessibility in Education",
+      "category": "Education",
+      "keywords": ["accessibility", "ADA compliance", "inclusive design"],
+      "relatedSkills": ["UDL", "Special Education"]
+    },
+    {
+      "id": "skill_education_185",
+      "name": "Assistive Technology",
+      "category": "Education",
+      "keywords": ["assistive technology", "AT", "adaptive technology"],
+      "relatedSkills": ["Special Education", "Educational Technology"]
+    },
+    {
+      "id": "skill_education_186",
+      "name": "Trauma-Informed Education",
+      "category": "Education",
+      "keywords": ["trauma-informed", "trauma-sensitive", "student trauma"],
+      "relatedSkills": ["Social-Emotional Learning", "Student Mental Health"]
+    },
+    {
+      "id": "skill_education_187",
+      "name": "Culturally Responsive Teaching",
+      "category": "Education",
+      "keywords": ["culturally responsive", "culturally relevant", "equity"],
+      "relatedSkills": ["Diversity", "Inclusive Education"]
+    },
+    {
+      "id": "skill_education_188",
+      "name": "Equity in Education",
+      "category": "Education",
+      "keywords": ["educational equity", "equity", "closing achievement gaps"],
+      "relatedSkills": ["Culturally Responsive Teaching", "Inclusive Education"]
+    },
+    {
+      "id": "skill_education_189",
+      "name": "Multilingual Education",
+      "category": "Education",
+      "keywords": ["multilingual", "bilingual education", "dual language"],
+      "relatedSkills": ["ESL/ELL", "Language Education"]
+    },
+    {
+      "id": "skill_education_190",
+      "name": "Global Education",
+      "category": "Education",
+      "keywords": ["global education", "international education", "global citizenship"],
+      "relatedSkills": ["Culturally Responsive Teaching", "Social Studies"]
+    },
+    {
+      "id": "skill_education_191",
+      "name": "Service Learning",
+      "category": "Education",
+      "keywords": ["service learning", "community service", "civic engagement"],
+      "relatedSkills": ["Project-Based Learning", "Student Development"]
+    },
+    {
+      "id": "skill_education_192",
+      "name": "Outdoor Education",
+      "category": "Education",
+      "keywords": ["outdoor education", "environmental education", "experiential learning"],
+      "relatedSkills": ["Experiential Learning", "Science Education"]
+    },
+    {
+      "id": "skill_education_193",
+      "name": "Experiential Learning",
+      "category": "Education",
+      "keywords": ["experiential learning", "hands-on learning", "learning by doing"],
+      "relatedSkills": ["Project-Based Learning", "Active Learning"]
+    },
+    {
+      "id": "skill_education_194",
+      "name": "Study Abroad Program Management",
+      "category": "Education",
+      "keywords": ["study abroad", "international programs", "global education"],
+      "relatedSkills": ["Higher Education", "International Education"]
+    },
+    {
+      "id": "skill_education_195",
+      "name": "Education Policy",
+      "category": "Education",
+      "keywords": ["education policy", "policy analysis", "educational reform"],
+      "relatedSkills": ["Educational Leadership", "Advocacy"]
+    },
+    {
+      "id": "skill_education_196",
+      "name": "School Reform",
+      "category": "Education",
+      "keywords": ["school reform", "educational reform", "systemic change"],
+      "relatedSkills": ["Educational Leadership", "Change Management"]
+    },
+    {
+      "id": "skill_education_197",
+      "name": "Charter School Management",
+      "category": "Education",
+      "keywords": ["charter schools", "school choice", "alternative schools"],
+      "relatedSkills": ["School Administration", "Educational Leadership"]
+    },
+    {
+      "id": "skill_education_198",
+      "name": "Homeschool Instruction",
+      "category": "Education",
+      "keywords": ["homeschool", "homeschooling", "home education"],
+      "relatedSkills": ["Teaching", "Curriculum Development"]
+    },
+    {
+      "id": "skill_education_199",
+      "name": "Educational Consulting",
+      "category": "Education",
+      "keywords": ["educational consulting", "education consultant", "consulting"],
+      "relatedSkills": ["Educational Leadership", "Professional Development"]
+    },
+    {
+      "id": "skill_education_200",
+      "name": "Education Advocacy",
+      "category": "Education",
+      "keywords": ["education advocacy", "advocacy", "policy advocacy"],
+      "relatedSkills": ["Education Policy", "Leadership"]
+    }
+  ]
+}

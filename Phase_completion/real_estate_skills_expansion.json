@@ -1,0 +1,1259 @@
+{
+  "expansion_metadata": {
+    "sector": "Real Estate",
+    "existing_count": 11,
+    "new_count": 189,
+    "total_count": 200,
+    "source": "O*NET + AI Augmentation",
+    "validation_date": "2025-10-27",
+    "id_range": "skill_realestate_012 to skill_realestate_200"
+  },
+  "new_skills": [
+    {
+      "id": "skill_realestate_012",
+      "name": "Residential Sales",
+      "category": "Real Estate",
+      "keywords": ["residential", "sales", "homes"],
+      "relatedSkills": ["Real Estate Sales", "Property Showings"]
+    },
+    {
+      "id": "skill_realestate_013",
+      "name": "Commercial Sales",
+      "category": "Real Estate",
+      "keywords": ["commercial", "sales", "office"],
+      "relatedSkills": ["Real Estate Sales", "Market Analysis"]
+    },
+    {
+      "id": "skill_realestate_014",
+      "name": "Buyer Representation",
+      "category": "Real Estate",
+      "keywords": ["buyer", "representation", "agent"],
+      "relatedSkills": ["Real Estate Sales", "Contract Negotiation"]
+    },
+    {
+      "id": "skill_realestate_015",
+      "name": "Seller Representation",
+      "category": "Real Estate",
+      "keywords": ["seller", "representation", "listing"],
+      "relatedSkills": ["Real Estate Sales", "Property Valuation"]
+    },
+    {
+      "id": "skill_realestate_016",
+      "name": "Real Estate Broker",
+      "category": "Real Estate",
+      "keywords": ["broker", "license", "management"],
+      "relatedSkills": ["Real Estate Sales", "Real Estate Law"]
+    },
+    {
+      "id": "skill_realestate_017",
+      "name": "Property Inspection",
+      "category": "Real Estate",
+      "keywords": ["inspection", "property", "assessment"],
+      "relatedSkills": ["Property Valuation", "Maintenance Coordination"]
+    },
+    {
+      "id": "skill_realestate_018",
+      "name": "Home Staging",
+      "category": "Real Estate",
+      "keywords": ["staging", "presentation", "marketing"],
+      "relatedSkills": ["Property Showings", "Real Estate Sales"]
+    },
+    {
+      "id": "skill_realestate_019",
+      "name": "Open House Management",
+      "category": "Real Estate",
+      "keywords": ["open", "house", "events"],
+      "relatedSkills": ["Property Showings", "Real Estate Sales"]
+    },
+    {
+      "id": "skill_realestate_020",
+      "name": "Real Estate Photography",
+      "category": "Real Estate",
+      "keywords": ["photography", "marketing", "listing"],
+      "relatedSkills": ["Property Showings", "Home Staging"]
+    },
+    {
+      "id": "skill_realestate_021",
+      "name": "Virtual Tours",
+      "category": "Real Estate",
+      "keywords": ["virtual", "tours", "technology"],
+      "relatedSkills": ["Real Estate Photography", "Property Showings"]
+    },
+    {
+      "id": "skill_realestate_022",
+      "name": "Comparative Market Analysis (CMA)",
+      "category": "Real Estate",
+      "keywords": ["cma", "market", "pricing"],
+      "relatedSkills": ["Market Analysis", "Property Valuation"]
+    },
+    {
+      "id": "skill_realestate_023",
+      "name": "Real Estate Appraisal",
+      "category": "Real Estate",
+      "keywords": ["appraisal", "valuation", "assessment"],
+      "relatedSkills": ["Property Valuation", "Market Analysis"]
+    },
+    {
+      "id": "skill_realestate_024",
+      "name": "Property Tax Assessment",
+      "category": "Real Estate",
+      "keywords": ["tax", "assessment", "valuation"],
+      "relatedSkills": ["Property Valuation", "Real Estate Law"]
+    },
+    {
+      "id": "skill_realestate_025",
+      "name": "Lease Negotiation",
+      "category": "Real Estate",
+      "keywords": ["lease", "negotiation", "rental"],
+      "relatedSkills": ["Leasing", "Contract Negotiation"]
+    },
+    {
+      "id": "skill_realestate_026",
+      "name": "Rental Property Management",
+      "category": "Real Estate",
+      "keywords": ["rental", "property", "management"],
+      "relatedSkills": ["Property Management", "Tenant Relations"]
+    },
+    {
+      "id": "skill_realestate_027",
+      "name": "Tenant Screening",
+      "category": "Real Estate",
+      "keywords": ["tenant", "screening", "background"],
+      "relatedSkills": ["Tenant Relations", "Property Management"]
+    },
+    {
+      "id": "skill_realestate_028",
+      "name": "Eviction Process",
+      "category": "Real Estate",
+      "keywords": ["eviction", "legal", "process"],
+      "relatedSkills": ["Tenant Relations", "Real Estate Law"]
+    },
+    {
+      "id": "skill_realestate_029",
+      "name": "Rent Collection",
+      "category": "Real Estate",
+      "keywords": ["rent", "collection", "payment"],
+      "relatedSkills": ["Property Management", "Tenant Relations"]
+    },
+    {
+      "id": "skill_realestate_030",
+      "name": "Property Maintenance Oversight",
+      "category": "Real Estate",
+      "keywords": ["maintenance", "oversight", "repairs"],
+      "relatedSkills": ["Maintenance Coordination", "Property Management"]
+    },
+    {
+      "id": "skill_realestate_031",
+      "name": "Vendor Management",
+      "category": "Real Estate",
+      "keywords": ["vendor", "management", "contractors"],
+      "relatedSkills": ["Maintenance Coordination", "Property Management"]
+    },
+    {
+      "id": "skill_realestate_032",
+      "name": "HOA Management",
+      "category": "Real Estate",
+      "keywords": ["hoa", "association", "management"],
+      "relatedSkills": ["Property Management", "Tenant Relations"]
+    },
+    {
+      "id": "skill_realestate_033",
+      "name": "Commercial Property Management",
+      "category": "Real Estate",
+      "keywords": ["commercial", "property", "management"],
+      "relatedSkills": ["Property Management", "Leasing"]
+    },
+    {
+      "id": "skill_realestate_034",
+      "name": "Facilities Management",
+      "category": "Real Estate",
+      "keywords": ["facilities", "management", "operations"],
+      "relatedSkills": ["Property Management", "Maintenance Coordination"]
+    },
+    {
+      "id": "skill_realestate_035",
+      "name": "Property Marketing",
+      "category": "Real Estate",
+      "keywords": ["marketing", "advertising", "promotion"],
+      "relatedSkills": ["Real Estate Sales", "Property Showings"]
+    },
+    {
+      "id": "skill_realestate_036",
+      "name": "Real Estate Investment Analysis",
+      "category": "Real Estate",
+      "keywords": ["investment", "analysis", "roi"],
+      "relatedSkills": ["Market Analysis", "Property Valuation"]
+    },
+    {
+      "id": "skill_realestate_037",
+      "name": "Property Flipping",
+      "category": "Real Estate",
+      "keywords": ["flipping", "renovation", "profit"],
+      "relatedSkills": ["Real Estate Investment Analysis", "Market Analysis"]
+    },
+    {
+      "id": "skill_realestate_038",
+      "name": "Wholesaling",
+      "category": "Real Estate",
+      "keywords": ["wholesaling", "assignment", "contracts"],
+      "relatedSkills": ["Real Estate Investment Analysis", "Contract Negotiation"]
+    },
+    {
+      "id": "skill_realestate_039",
+      "name": "REITs Management",
+      "category": "Real Estate",
+      "keywords": ["reit", "investment", "trust"],
+      "relatedSkills": ["Real Estate Investment Analysis", "Property Management"]
+    },
+    {
+      "id": "skill_realestate_040",
+      "name": "Real Estate Development",
+      "category": "Real Estate",
+      "keywords": ["development", "construction", "planning"],
+      "relatedSkills": ["Property Management", "Market Analysis"]
+    },
+    {
+      "id": "skill_realestate_041",
+      "name": "Land Acquisition",
+      "category": "Real Estate",
+      "keywords": ["land", "acquisition", "purchase"],
+      "relatedSkills": ["Real Estate Development", "Contract Negotiation"]
+    },
+    {
+      "id": "skill_realestate_042",
+      "name": "Zoning Analysis",
+      "category": "Real Estate",
+      "keywords": ["zoning", "regulations", "planning"],
+      "relatedSkills": ["Real Estate Development", "Real Estate Law"]
+    },
+    {
+      "id": "skill_realestate_043",
+      "name": "Site Selection",
+      "category": "Real Estate",
+      "keywords": ["site", "selection", "location"],
+      "relatedSkills": ["Real Estate Development", "Market Analysis"]
+    },
+    {
+      "id": "skill_realestate_044",
+      "name": "Construction Management (Real Estate)",
+      "category": "Real Estate",
+      "keywords": ["construction", "management", "oversight"],
+      "relatedSkills": ["Real Estate Development", "Maintenance Coordination"]
+    },
+    {
+      "id": "skill_realestate_045",
+      "name": "Environmental Due Diligence",
+      "category": "Real Estate",
+      "keywords": ["environmental", "due diligence", "assessment"],
+      "relatedSkills": ["Property Inspection", "Real Estate Law"]
+    },
+    {
+      "id": "skill_realestate_046",
+      "name": "Title Examination",
+      "category": "Real Estate",
+      "keywords": ["title", "examination", "search"],
+      "relatedSkills": ["Real Estate Law", "Contract Negotiation"]
+    },
+    {
+      "id": "skill_realestate_047",
+      "name": "Escrow Management",
+      "category": "Real Estate",
+      "keywords": ["escrow", "closing", "management"],
+      "relatedSkills": ["Contract Negotiation", "Real Estate Law"]
+    },
+    {
+      "id": "skill_realestate_048",
+      "name": "Closing Coordination",
+      "category": "Real Estate",
+      "keywords": ["closing", "coordination", "settlement"],
+      "relatedSkills": ["Escrow Management", "Contract Negotiation"]
+    },
+    {
+      "id": "skill_realestate_049",
+      "name": "Real Estate Contracts",
+      "category": "Real Estate",
+      "keywords": ["contracts", "agreements", "legal"],
+      "relatedSkills": ["Contract Negotiation", "Real Estate Law"]
+    },
+    {
+      "id": "skill_realestate_050",
+      "name": "Purchase Agreements",
+      "category": "Real Estate",
+      "keywords": ["purchase", "agreement", "contract"],
+      "relatedSkills": ["Real Estate Contracts", "Contract Negotiation"]
+    },
+    {
+      "id": "skill_realestate_051",
+      "name": "Listing Agreements",
+      "category": "Real Estate",
+      "keywords": ["listing", "agreement", "contract"],
+      "relatedSkills": ["Real Estate Contracts", "Seller Representation"]
+    },
+    {
+      "id": "skill_realestate_052",
+      "name": "Mortgage Brokering",
+      "category": "Real Estate",
+      "keywords": ["mortgage", "broker", "lending"],
+      "relatedSkills": ["Real Estate Sales", "Contract Negotiation"]
+    },
+    {
+      "id": "skill_realestate_053",
+      "name": "Mortgage Origination",
+      "category": "Real Estate",
+      "keywords": ["mortgage", "origination", "lending"],
+      "relatedSkills": ["Mortgage Brokering", "Real Estate Sales"]
+    },
+    {
+      "id": "skill_realestate_054",
+      "name": "Loan Processing",
+      "category": "Real Estate",
+      "keywords": ["loan", "processing", "underwriting"],
+      "relatedSkills": ["Mortgage Origination", "Real Estate Sales"]
+    },
+    {
+      "id": "skill_realestate_055",
+      "name": "Credit Analysis (Real Estate)",
+      "category": "Real Estate",
+      "keywords": ["credit", "analysis", "qualification"],
+      "relatedSkills": ["Loan Processing", "Tenant Screening"]
+    },
+    {
+      "id": "skill_realestate_056",
+      "name": "FHA/VA Loans",
+      "category": "Real Estate",
+      "keywords": ["fha", "va", "loans"],
+      "relatedSkills": ["Mortgage Origination", "Loan Processing"]
+    },
+    {
+      "id": "skill_realestate_057",
+      "name": "Conventional Loans",
+      "category": "Real Estate",
+      "keywords": ["conventional", "loans", "mortgage"],
+      "relatedSkills": ["Mortgage Origination", "Loan Processing"]
+    },
+    {
+      "id": "skill_realestate_058",
+      "name": "Jumbo Loans",
+      "category": "Real Estate",
+      "keywords": ["jumbo", "loans", "high-value"],
+      "relatedSkills": ["Mortgage Origination", "Loan Processing"]
+    },
+    {
+      "id": "skill_realestate_059",
+      "name": "Refinancing",
+      "category": "Real Estate",
+      "keywords": ["refinancing", "mortgage", "restructure"],
+      "relatedSkills": ["Mortgage Origination", "Loan Processing"]
+    },
+    {
+      "id": "skill_realestate_060",
+      "name": "Pre-Approval Process",
+      "category": "Real Estate",
+      "keywords": ["pre-approval", "qualification", "mortgage"],
+      "relatedSkills": ["Mortgage Origination", "Buyer Representation"]
+    },
+    {
+      "id": "skill_realestate_061",
+      "name": "Real Estate Compliance",
+      "category": "Real Estate",
+      "keywords": ["compliance", "regulations", "legal"],
+      "relatedSkills": ["Real Estate Law", "Property Management"]
+    },
+    {
+      "id": "skill_realestate_062",
+      "name": "Fair Housing Regulations",
+      "category": "Real Estate",
+      "keywords": ["fair housing", "regulations", "compliance"],
+      "relatedSkills": ["Real Estate Compliance", "Real Estate Law"]
+    },
+    {
+      "id": "skill_realestate_063",
+      "name": "ADA Compliance (Real Estate)",
+      "category": "Real Estate",
+      "keywords": ["ada", "accessibility", "compliance"],
+      "relatedSkills": ["Real Estate Compliance", "Facilities Management"]
+    },
+    {
+      "id": "skill_realestate_064",
+      "name": "Building Codes Knowledge",
+      "category": "Real Estate",
+      "keywords": ["building codes", "regulations", "compliance"],
+      "relatedSkills": ["Real Estate Development", "Property Inspection"]
+    },
+    {
+      "id": "skill_realestate_065",
+      "name": "RESPA Compliance",
+      "category": "Real Estate",
+      "keywords": ["respa", "settlement", "compliance"],
+      "relatedSkills": ["Real Estate Compliance", "Closing Coordination"]
+    },
+    {
+      "id": "skill_realestate_066",
+      "name": "PropTech Software",
+      "category": "Real Estate",
+      "keywords": ["proptech", "software", "technology"],
+      "relatedSkills": ["Property Management", "MLS Database"]
+    },
+    {
+      "id": "skill_realestate_067",
+      "name": "Property Management Software",
+      "category": "Real Estate",
+      "keywords": ["property management", "software", "crm"],
+      "relatedSkills": ["PropTech Software", "Property Management"]
+    },
+    {
+      "id": "skill_realestate_068",
+      "name": "CRM for Real Estate",
+      "category": "Real Estate",
+      "keywords": ["crm", "customer relationship", "management"],
+      "relatedSkills": ["PropTech Software", "Real Estate Sales"]
+    },
+    {
+      "id": "skill_realestate_069",
+      "name": "Real Estate Data Analytics",
+      "category": "Real Estate",
+      "keywords": ["data", "analytics", "insights"],
+      "relatedSkills": ["Market Analysis", "PropTech Software"]
+    },
+    {
+      "id": "skill_realestate_070",
+      "name": "GIS Mapping",
+      "category": "Real Estate",
+      "keywords": ["gis", "mapping", "geography"],
+      "relatedSkills": ["Site Selection", "Market Analysis"]
+    },
+    {
+      "id": "skill_realestate_071",
+      "name": "3D Property Modeling",
+      "category": "Real Estate",
+      "keywords": ["3d", "modeling", "visualization"],
+      "relatedSkills": ["Virtual Tours", "Real Estate Photography"]
+    },
+    {
+      "id": "skill_realestate_072",
+      "name": "Drone Photography",
+      "category": "Real Estate",
+      "keywords": ["drone", "aerial", "photography"],
+      "relatedSkills": ["Real Estate Photography", "Property Marketing"]
+    },
+    {
+      "id": "skill_realestate_073",
+      "name": "Real Estate Social Media Marketing",
+      "category": "Real Estate",
+      "keywords": ["social media", "marketing", "digital"],
+      "relatedSkills": ["Property Marketing", "Real Estate Sales"]
+    },
+    {
+      "id": "skill_realestate_074",
+      "name": "Real Estate SEO",
+      "category": "Real Estate",
+      "keywords": ["seo", "search", "optimization"],
+      "relatedSkills": ["Property Marketing", "PropTech Software"]
+    },
+    {
+      "id": "skill_realestate_075",
+      "name": "Email Marketing (Real Estate)",
+      "category": "Real Estate",
+      "keywords": ["email", "marketing", "campaigns"],
+      "relatedSkills": ["Property Marketing", "CRM for Real Estate"]
+    },
+    {
+      "id": "skill_realestate_076",
+      "name": "Real Estate Blogging",
+      "category": "Real Estate",
+      "keywords": ["blogging", "content", "marketing"],
+      "relatedSkills": ["Property Marketing", "Real Estate SEO"]
+    },
+    {
+      "id": "skill_realestate_077",
+      "name": "Property Video Marketing",
+      "category": "Real Estate",
+      "keywords": ["video", "marketing", "tours"],
+      "relatedSkills": ["Property Marketing", "Virtual Tours"]
+    },
+    {
+      "id": "skill_realestate_078",
+      "name": "Luxury Real Estate",
+      "category": "Real Estate",
+      "keywords": ["luxury", "high-end", "premium"],
+      "relatedSkills": ["Real Estate Sales", "Property Marketing"]
+    },
+    {
+      "id": "skill_realestate_079",
+      "name": "International Real Estate",
+      "category": "Real Estate",
+      "keywords": ["international", "global", "overseas"],
+      "relatedSkills": ["Real Estate Sales", "Real Estate Law"]
+    },
+    {
+      "id": "skill_realestate_080",
+      "name": "Vacation Rental Management",
+      "category": "Real Estate",
+      "keywords": ["vacation", "rental", "short-term"],
+      "relatedSkills": ["Property Management", "Leasing"]
+    },
+    {
+      "id": "skill_realestate_081",
+      "name": "Airbnb Management",
+      "category": "Real Estate",
+      "keywords": ["airbnb", "short-term", "rental"],
+      "relatedSkills": ["Vacation Rental Management", "Property Management"]
+    },
+    {
+      "id": "skill_realestate_082",
+      "name": "Property Taxation",
+      "category": "Real Estate",
+      "keywords": ["taxation", "property tax", "assessment"],
+      "relatedSkills": ["Property Tax Assessment", "Real Estate Law"]
+    },
+    {
+      "id": "skill_realestate_083",
+      "name": "1031 Exchange",
+      "category": "Real Estate",
+      "keywords": ["1031", "exchange", "tax-deferred"],
+      "relatedSkills": ["Real Estate Investment Analysis", "Property Taxation"]
+    },
+    {
+      "id": "skill_realestate_084",
+      "name": "Cost Segregation",
+      "category": "Real Estate",
+      "keywords": ["cost", "segregation", "depreciation"],
+      "relatedSkills": ["Property Taxation", "Real Estate Investment Analysis"]
+    },
+    {
+      "id": "skill_realestate_085",
+      "name": "Property Insurance",
+      "category": "Real Estate",
+      "keywords": ["insurance", "property", "coverage"],
+      "relatedSkills": ["Property Management", "Real Estate Law"]
+    },
+    {
+      "id": "skill_realestate_086",
+      "name": "Risk Management (Real Estate)",
+      "category": "Real Estate",
+      "keywords": ["risk", "management", "mitigation"],
+      "relatedSkills": ["Property Insurance", "Property Management"]
+    },
+    {
+      "id": "skill_realestate_087",
+      "name": "Real Estate Portfolio Management",
+      "category": "Real Estate",
+      "keywords": ["portfolio", "management", "investment"],
+      "relatedSkills": ["Real Estate Investment Analysis", "Property Management"]
+    },
+    {
+      "id": "skill_realestate_088",
+      "name": "Asset Management (Real Estate)",
+      "category": "Real Estate",
+      "keywords": ["asset", "management", "optimization"],
+      "relatedSkills": ["Real Estate Portfolio Management", "Property Management"]
+    },
+    {
+      "id": "skill_realestate_089",
+      "name": "Real Estate Financial Modeling",
+      "category": "Real Estate",
+      "keywords": ["financial", "modeling", "analysis"],
+      "relatedSkills": ["Real Estate Investment Analysis", "Market Analysis"]
+    },
+    {
+      "id": "skill_realestate_090",
+      "name": "Cash Flow Analysis",
+      "category": "Real Estate",
+      "keywords": ["cash flow", "analysis", "roi"],
+      "relatedSkills": ["Real Estate Financial Modeling", "Real Estate Investment Analysis"]
+    },
+    {
+      "id": "skill_realestate_091",
+      "name": "Cap Rate Analysis",
+      "category": "Real Estate",
+      "keywords": ["cap rate", "capitalization", "valuation"],
+      "relatedSkills": ["Property Valuation", "Real Estate Investment Analysis"]
+    },
+    {
+      "id": "skill_realestate_092",
+      "name": "NOI Calculation",
+      "category": "Real Estate",
+      "keywords": ["noi", "net operating income", "calculation"],
+      "relatedSkills": ["Cash Flow Analysis", "Property Valuation"]
+    },
+    {
+      "id": "skill_realestate_093",
+      "name": "Real Estate Syndication",
+      "category": "Real Estate",
+      "keywords": ["syndication", "crowdfunding", "investment"],
+      "relatedSkills": ["Real Estate Investment Analysis", "REITs Management"]
+    },
+    {
+      "id": "skill_realestate_094",
+      "name": "Real Estate Crowdfunding",
+      "category": "Real Estate",
+      "keywords": ["crowdfunding", "investment", "platform"],
+      "relatedSkills": ["Real Estate Syndication", "Real Estate Investment Analysis"]
+    },
+    {
+      "id": "skill_realestate_095",
+      "name": "Commercial Leasing",
+      "category": "Real Estate",
+      "keywords": ["commercial", "leasing", "tenant"],
+      "relatedSkills": ["Leasing", "Commercial Property Management"]
+    },
+    {
+      "id": "skill_realestate_096",
+      "name": "Retail Leasing",
+      "category": "Real Estate",
+      "keywords": ["retail", "leasing", "commercial"],
+      "relatedSkills": ["Commercial Leasing", "Property Management"]
+    },
+    {
+      "id": "skill_realestate_097",
+      "name": "Office Leasing",
+      "category": "Real Estate",
+      "keywords": ["office", "leasing", "commercial"],
+      "relatedSkills": ["Commercial Leasing", "Property Management"]
+    },
+    {
+      "id": "skill_realestate_098",
+      "name": "Industrial Leasing",
+      "category": "Real Estate",
+      "keywords": ["industrial", "leasing", "warehouse"],
+      "relatedSkills": ["Commercial Leasing", "Property Management"]
+    },
+    {
+      "id": "skill_realestate_099",
+      "name": "Tenant Improvement Coordination",
+      "category": "Real Estate",
+      "keywords": ["tenant", "improvement", "build-out"],
+      "relatedSkills": ["Commercial Leasing", "Construction Management (Real Estate)"]
+    },
+    {
+      "id": "skill_realestate_100",
+      "name": "Space Planning",
+      "category": "Real Estate",
+      "keywords": ["space", "planning", "layout"],
+      "relatedSkills": ["Commercial Property Management", "Facilities Management"]
+    },
+    {
+      "id": "skill_realestate_101",
+      "name": "Move Management",
+      "category": "Real Estate",
+      "keywords": ["move", "management", "relocation"],
+      "relatedSkills": ["Facilities Management", "Property Management"]
+    },
+    {
+      "id": "skill_realestate_102",
+      "name": "Building Operations",
+      "category": "Real Estate",
+      "keywords": ["building", "operations", "management"],
+      "relatedSkills": ["Facilities Management", "Property Management"]
+    },
+    {
+      "id": "skill_realestate_103",
+      "name": "HVAC Management",
+      "category": "Real Estate",
+      "keywords": ["hvac", "heating", "cooling"],
+      "relatedSkills": ["Building Operations", "Maintenance Coordination"]
+    },
+    {
+      "id": "skill_realestate_104",
+      "name": "Energy Management (Real Estate)",
+      "category": "Real Estate",
+      "keywords": ["energy", "management", "efficiency"],
+      "relatedSkills": ["Building Operations", "Facilities Management"]
+    },
+    {
+      "id": "skill_realestate_105",
+      "name": "Sustainability in Real Estate",
+      "category": "Real Estate",
+      "keywords": ["sustainability", "green", "leed"],
+      "relatedSkills": ["Energy Management (Real Estate)", "Building Operations"]
+    },
+    {
+      "id": "skill_realestate_106",
+      "name": "LEED Certification",
+      "category": "Real Estate",
+      "keywords": ["leed", "certification", "green building"],
+      "relatedSkills": ["Sustainability in Real Estate", "Real Estate Development"]
+    },
+    {
+      "id": "skill_realestate_107",
+      "name": "Building Security Management",
+      "category": "Real Estate",
+      "keywords": ["security", "safety", "access control"],
+      "relatedSkills": ["Building Operations", "Facilities Management"]
+    },
+    {
+      "id": "skill_realestate_108",
+      "name": "Emergency Preparedness (Real Estate)",
+      "category": "Real Estate",
+      "keywords": ["emergency", "preparedness", "safety"],
+      "relatedSkills": ["Building Security Management", "Property Management"]
+    },
+    {
+      "id": "skill_realestate_109",
+      "name": "Property Budgeting",
+      "category": "Real Estate",
+      "keywords": ["budgeting", "financial", "planning"],
+      "relatedSkills": ["Property Management", "Cash Flow Analysis"]
+    },
+    {
+      "id": "skill_realestate_110",
+      "name": "Operating Expense Management",
+      "category": "Real Estate",
+      "keywords": ["operating", "expense", "management"],
+      "relatedSkills": ["Property Budgeting", "Property Management"]
+    },
+    {
+      "id": "skill_realestate_111",
+      "name": "Capital Expenditure Planning",
+      "category": "Real Estate",
+      "keywords": ["capex", "capital", "planning"],
+      "relatedSkills": ["Property Budgeting", "Asset Management (Real Estate)"]
+    },
+    {
+      "id": "skill_realestate_112",
+      "name": "Property Accounting",
+      "category": "Real Estate",
+      "keywords": ["accounting", "financial", "reporting"],
+      "relatedSkills": ["Property Budgeting", "Property Management"]
+    },
+    {
+      "id": "skill_realestate_113",
+      "name": "Real Estate Financial Reporting",
+      "category": "Real Estate",
+      "keywords": ["financial", "reporting", "statements"],
+      "relatedSkills": ["Property Accounting", "Asset Management (Real Estate)"]
+    },
+    {
+      "id": "skill_realestate_114",
+      "name": "Lease Administration",
+      "category": "Real Estate",
+      "keywords": ["lease", "administration", "management"],
+      "relatedSkills": ["Leasing", "Property Management"]
+    },
+    {
+      "id": "skill_realestate_115",
+      "name": "Lease Auditing",
+      "category": "Real Estate",
+      "keywords": ["lease", "auditing", "compliance"],
+      "relatedSkills": ["Lease Administration", "Property Accounting"]
+    },
+    {
+      "id": "skill_realestate_116",
+      "name": "Rent Roll Management",
+      "category": "Real Estate",
+      "keywords": ["rent", "roll", "tracking"],
+      "relatedSkills": ["Lease Administration", "Property Accounting"]
+    },
+    {
+      "id": "skill_realestate_117",
+      "name": "CAM Reconciliation",
+      "category": "Real Estate",
+      "keywords": ["cam", "common area", "reconciliation"],
+      "relatedSkills": ["Commercial Leasing", "Property Accounting"]
+    },
+    {
+      "id": "skill_realestate_118",
+      "name": "Triple Net Lease Management",
+      "category": "Real Estate",
+      "keywords": ["triple net", "nnn", "lease"],
+      "relatedSkills": ["Commercial Leasing", "Lease Administration"]
+    },
+    {
+      "id": "skill_realestate_119",
+      "name": "Gross Lease Management",
+      "category": "Real Estate",
+      "keywords": ["gross", "lease", "rent"],
+      "relatedSkills": ["Leasing", "Lease Administration"]
+    },
+    {
+      "id": "skill_realestate_120",
+      "name": "Percentage Lease Management",
+      "category": "Real Estate",
+      "keywords": ["percentage", "lease", "retail"],
+      "relatedSkills": ["Retail Leasing", "Lease Administration"]
+    },
+    {
+      "id": "skill_realestate_121",
+      "name": "Lease Renewal Negotiation",
+      "category": "Real Estate",
+      "keywords": ["lease", "renewal", "negotiation"],
+      "relatedSkills": ["Lease Negotiation", "Tenant Relations"]
+    },
+    {
+      "id": "skill_realestate_122",
+      "name": "Rent Escalation Analysis",
+      "category": "Real Estate",
+      "keywords": ["rent", "escalation", "increase"],
+      "relatedSkills": ["Lease Administration", "Market Analysis"]
+    },
+    {
+      "id": "skill_realestate_123",
+      "name": "Property Repositioning",
+      "category": "Real Estate",
+      "keywords": ["repositioning", "renovation", "upgrade"],
+      "relatedSkills": ["Asset Management (Real Estate)", "Property Valuation"]
+    },
+    {
+      "id": "skill_realestate_124",
+      "name": "Value-Add Strategies",
+      "category": "Real Estate",
+      "keywords": ["value-add", "improvement", "investment"],
+      "relatedSkills": ["Property Repositioning", "Real Estate Investment Analysis"]
+    },
+    {
+      "id": "skill_realestate_125",
+      "name": "Distressed Property Investment",
+      "category": "Real Estate",
+      "keywords": ["distressed", "foreclosure", "investment"],
+      "relatedSkills": ["Real Estate Investment Analysis", "Property Flipping"]
+    },
+    {
+      "id": "skill_realestate_126",
+      "name": "Foreclosure Process",
+      "category": "Real Estate",
+      "keywords": ["foreclosure", "auction", "legal"],
+      "relatedSkills": ["Distressed Property Investment", "Real Estate Law"]
+    },
+    {
+      "id": "skill_realestate_127",
+      "name": "Short Sale Negotiation",
+      "category": "Real Estate",
+      "keywords": ["short sale", "negotiation", "bank"],
+      "relatedSkills": ["Distressed Property Investment", "Contract Negotiation"]
+    },
+    {
+      "id": "skill_realestate_128",
+      "name": "REO Property Sales",
+      "category": "Real Estate",
+      "keywords": ["reo", "bank-owned", "foreclosure"],
+      "relatedSkills": ["Distressed Property Investment", "Real Estate Sales"]
+    },
+    {
+      "id": "skill_realestate_129",
+      "name": "Land Development",
+      "category": "Real Estate",
+      "keywords": ["land", "development", "planning"],
+      "relatedSkills": ["Real Estate Development", "Land Acquisition"]
+    },
+    {
+      "id": "skill_realestate_130",
+      "name": "Subdivision Planning",
+      "category": "Real Estate",
+      "keywords": ["subdivision", "planning", "lots"],
+      "relatedSkills": ["Land Development", "Zoning Analysis"]
+    },
+    {
+      "id": "skill_realestate_131",
+      "name": "Entitlement Processing",
+      "category": "Real Estate",
+      "keywords": ["entitlement", "permits", "approval"],
+      "relatedSkills": ["Land Development", "Zoning Analysis"]
+    },
+    {
+      "id": "skill_realestate_132",
+      "name": "Impact Fee Analysis",
+      "category": "Real Estate",
+      "keywords": ["impact", "fees", "development"],
+      "relatedSkills": ["Land Development", "Real Estate Financial Modeling"]
+    },
+    {
+      "id": "skill_realestate_133",
+      "name": "Infrastructure Planning",
+      "category": "Real Estate",
+      "keywords": ["infrastructure", "planning", "utilities"],
+      "relatedSkills": ["Land Development", "Real Estate Development"]
+    },
+    {
+      "id": "skill_realestate_134",
+      "name": "Mixed-Use Development",
+      "category": "Real Estate",
+      "keywords": ["mixed-use", "development", "multi-purpose"],
+      "relatedSkills": ["Real Estate Development", "Land Development"]
+    },
+    {
+      "id": "skill_realestate_135",
+      "name": "Affordable Housing Development",
+      "category": "Real Estate",
+      "keywords": ["affordable", "housing", "subsidized"],
+      "relatedSkills": ["Real Estate Development", "Real Estate Law"]
+    },
+    {
+      "id": "skill_realestate_136",
+      "name": "Senior Housing Management",
+      "category": "Real Estate",
+      "keywords": ["senior", "housing", "assisted living"],
+      "relatedSkills": ["Property Management", "Facilities Management"]
+    },
+    {
+      "id": "skill_realestate_137",
+      "name": "Student Housing Management",
+      "category": "Real Estate",
+      "keywords": ["student", "housing", "dormitory"],
+      "relatedSkills": ["Property Management", "Leasing"]
+    },
+    {
+      "id": "skill_realestate_138",
+      "name": "Self-Storage Management",
+      "category": "Real Estate",
+      "keywords": ["self-storage", "storage units", "management"],
+      "relatedSkills": ["Property Management", "Facilities Management"]
+    },
+    {
+      "id": "skill_realestate_139",
+      "name": "Parking Management",
+      "category": "Real Estate",
+      "keywords": ["parking", "management", "garage"],
+      "relatedSkills": ["Facilities Management", "Property Management"]
+    },
+    {
+      "id": "skill_realestate_140",
+      "name": "Hotel Property Management",
+      "category": "Real Estate",
+      "keywords": ["hotel", "hospitality", "management"],
+      "relatedSkills": ["Property Management", "Facilities Management"]
+    },
+    {
+      "id": "skill_realestate_141",
+      "name": "Healthcare Real Estate",
+      "category": "Real Estate",
+      "keywords": ["healthcare", "medical", "facilities"],
+      "relatedSkills": ["Commercial Property Management", "Real Estate Development"]
+    },
+    {
+      "id": "skill_realestate_142",
+      "name": "Data Center Real Estate",
+      "category": "Real Estate",
+      "keywords": ["data center", "technology", "facilities"],
+      "relatedSkills": ["Commercial Property Management", "Facilities Management"]
+    },
+    {
+      "id": "skill_realestate_143",
+      "name": "Cold Storage Facilities",
+      "category": "Real Estate",
+      "keywords": ["cold storage", "refrigerated", "warehouse"],
+      "relatedSkills": ["Industrial Leasing", "Facilities Management"]
+    },
+    {
+      "id": "skill_realestate_144",
+      "name": "Logistics Real Estate",
+      "category": "Real Estate",
+      "keywords": ["logistics", "warehouse", "distribution"],
+      "relatedSkills": ["Industrial Leasing", "Commercial Property Management"]
+    },
+    {
+      "id": "skill_realestate_145",
+      "name": "E-commerce Fulfillment Centers",
+      "category": "Real Estate",
+      "keywords": ["e-commerce", "fulfillment", "warehouse"],
+      "relatedSkills": ["Logistics Real Estate", "Industrial Leasing"]
+    },
+    {
+      "id": "skill_realestate_146",
+      "name": "Ground Lease Management",
+      "category": "Real Estate",
+      "keywords": ["ground", "lease", "land"],
+      "relatedSkills": ["Commercial Leasing", "Land Acquisition"]
+    },
+    {
+      "id": "skill_realestate_147",
+      "name": "Air Rights Development",
+      "category": "Real Estate",
+      "keywords": ["air rights", "vertical", "development"],
+      "relatedSkills": ["Real Estate Development", "Zoning Analysis"]
+    },
+    {
+      "id": "skill_realestate_148",
+      "name": "Historic Property Preservation",
+      "category": "Real Estate",
+      "keywords": ["historic", "preservation", "restoration"],
+      "relatedSkills": ["Real Estate Development", "Property Repositioning"]
+    },
+    {
+      "id": "skill_realestate_149",
+      "name": "Tax Credit Financing",
+      "category": "Real Estate",
+      "keywords": ["tax", "credit", "financing"],
+      "relatedSkills": ["Real Estate Development", "Property Taxation"]
+    },
+    {
+      "id": "skill_realestate_150",
+      "name": "Opportunity Zone Investment",
+      "category": "Real Estate",
+      "keywords": ["opportunity", "zone", "investment"],
+      "relatedSkills": ["Real Estate Investment Analysis", "Property Taxation"]
+    },
+    {
+      "id": "skill_realestate_151",
+      "name": "Real Estate Due Diligence",
+      "category": "Real Estate",
+      "keywords": ["due diligence", "investigation", "review"],
+      "relatedSkills": ["Property Inspection", "Real Estate Investment Analysis"]
+    },
+    {
+      "id": "skill_realestate_152",
+      "name": "Phase I Environmental Assessment",
+      "category": "Real Estate",
+      "keywords": ["phase i", "environmental", "assessment"],
+      "relatedSkills": ["Environmental Due Diligence", "Property Inspection"]
+    },
+    {
+      "id": "skill_realestate_153",
+      "name": "Property Condition Assessment",
+      "category": "Real Estate",
+      "keywords": ["property", "condition", "assessment"],
+      "relatedSkills": ["Property Inspection", "Real Estate Due Diligence"]
+    },
+    {
+      "id": "skill_realestate_154",
+      "name": "Estoppel Certificate Review",
+      "category": "Real Estate",
+      "keywords": ["estoppel", "certificate", "tenant"],
+      "relatedSkills": ["Real Estate Due Diligence", "Lease Administration"]
+    },
+    {
+      "id": "skill_realestate_155",
+      "name": "Survey Analysis",
+      "category": "Real Estate",
+      "keywords": ["survey", "boundary", "land"],
+      "relatedSkills": ["Real Estate Due Diligence", "Land Acquisition"]
+    },
+    {
+      "id": "skill_realestate_156",
+      "name": "Title Insurance",
+      "category": "Real Estate",
+      "keywords": ["title", "insurance", "policy"],
+      "relatedSkills": ["Title Examination", "Closing Coordination"]
+    },
+    {
+      "id": "skill_realestate_157",
+      "name": "Real Estate Litigation Support",
+      "category": "Real Estate",
+      "keywords": ["litigation", "legal", "support"],
+      "relatedSkills": ["Real Estate Law", "Contract Negotiation"]
+    },
+    {
+      "id": "skill_realestate_158",
+      "name": "Landlord-Tenant Disputes",
+      "category": "Real Estate",
+      "keywords": ["disputes", "landlord", "tenant"],
+      "relatedSkills": ["Tenant Relations", "Real Estate Law"]
+    },
+    {
+      "id": "skill_realestate_159",
+      "name": "Boundary Disputes",
+      "category": "Real Estate",
+      "keywords": ["boundary", "disputes", "property line"],
+      "relatedSkills": ["Real Estate Law", "Survey Analysis"]
+    },
+    {
+      "id": "skill_realestate_160",
+      "name": "Easement Negotiation",
+      "category": "Real Estate",
+      "keywords": ["easement", "rights", "access"],
+      "relatedSkills": ["Real Estate Law", "Contract Negotiation"]
+    },
+    {
+      "id": "skill_realestate_161",
+      "name": "Deed Preparation",
+      "category": "Real Estate",
+      "keywords": ["deed", "preparation", "transfer"],
+      "relatedSkills": ["Title Examination", "Closing Coordination"]
+    },
+    {
+      "id": "skill_realestate_162",
+      "name": "Property Deed Recording",
+      "category": "Real Estate",
+      "keywords": ["deed", "recording", "county"],
+      "relatedSkills": ["Deed Preparation", "Title Examination"]
+    },
+    {
+      "id": "skill_realestate_163",
+      "name": "Real Estate Ethics",
+      "category": "Real Estate",
+      "keywords": ["ethics", "professionalism", "conduct"],
+      "relatedSkills": ["Real Estate Compliance", "Real Estate Law"]
+    },
+    {
+      "id": "skill_realestate_164",
+      "name": "Fiduciary Duties",
+      "category": "Real Estate",
+      "keywords": ["fiduciary", "duties", "trust"],
+      "relatedSkills": ["Real Estate Ethics", "Buyer Representation"]
+    },
+    {
+      "id": "skill_realestate_165",
+      "name": "Disclosure Requirements",
+      "category": "Real Estate",
+      "keywords": ["disclosure", "requirements", "compliance"],
+      "relatedSkills": ["Real Estate Ethics", "Real Estate Law"]
+    },
+    {
+      "id": "skill_realestate_166",
+      "name": "Agency Representation",
+      "category": "Real Estate",
+      "keywords": ["agency", "representation", "legal"],
+      "relatedSkills": ["Fiduciary Duties", "Real Estate Law"]
+    },
+    {
+      "id": "skill_realestate_167",
+      "name": "Dual Agency Management",
+      "category": "Real Estate",
+      "keywords": ["dual", "agency", "representation"],
+      "relatedSkills": ["Agency Representation", "Real Estate Ethics"]
+    },
+    {
+      "id": "skill_realestate_168",
+      "name": "Transaction Coordination",
+      "category": "Real Estate",
+      "keywords": ["transaction", "coordination", "management"],
+      "relatedSkills": ["Closing Coordination", "Real Estate Sales"]
+    },
+    {
+      "id": "skill_realestate_169",
+      "name": "Comparative Lease Analysis",
+      "category": "Real Estate",
+      "keywords": ["comparative", "lease", "analysis"],
+      "relatedSkills": ["Lease Administration", "Market Analysis"]
+    },
+    {
+      "id": "skill_realestate_170",
+      "name": "Market Rent Analysis",
+      "category": "Real Estate",
+      "keywords": ["market", "rent", "pricing"],
+      "relatedSkills": ["Market Analysis", "Leasing"]
+    },
+    {
+      "id": "skill_realestate_171",
+      "name": "Absorption Rate Analysis",
+      "category": "Real Estate",
+      "keywords": ["absorption", "rate", "market"],
+      "relatedSkills": ["Market Analysis", "Real Estate Development"]
+    },
+    {
+      "id": "skill_realestate_172",
+      "name": "Vacancy Rate Analysis",
+      "category": "Real Estate",
+      "keywords": ["vacancy", "rate", "occupancy"],
+      "relatedSkills": ["Market Analysis", "Property Management"]
+    },
+    {
+      "id": "skill_realestate_173",
+      "name": "Demographic Analysis",
+      "category": "Real Estate",
+      "keywords": ["demographic", "analysis", "population"],
+      "relatedSkills": ["Market Analysis", "Site Selection"]
+    },
+    {
+      "id": "skill_realestate_174",
+      "name": "Traffic Count Analysis",
+      "category": "Real Estate",
+      "keywords": ["traffic", "count", "location"],
+      "relatedSkills": ["Site Selection", "Market Analysis"]
+    },
+    {
+      "id": "skill_realestate_175",
+      "name": "Highest and Best Use Analysis",
+      "category": "Real Estate",
+      "keywords": ["highest", "best use", "valuation"],
+      "relatedSkills": ["Property Valuation", "Land Development"]
+    },
+    {
+      "id": "skill_realestate_176",
+      "name": "Feasibility Studies",
+      "category": "Real Estate",
+      "keywords": ["feasibility", "study", "analysis"],
+      "relatedSkills": ["Real Estate Development", "Real Estate Financial Modeling"]
+    },
+    {
+      "id": "skill_realestate_177",
+      "name": "Pro Forma Development",
+      "category": "Real Estate",
+      "keywords": ["pro forma", "projections", "financial"],
+      "relatedSkills": ["Feasibility Studies", "Real Estate Financial Modeling"]
+    },
+    {
+      "id": "skill_realestate_178",
+      "name": "Construction Draw Management",
+      "category": "Real Estate",
+      "keywords": ["construction", "draw", "funding"],
+      "relatedSkills": ["Construction Management (Real Estate)", "Real Estate Development"]
+    },
+    {
+      "id": "skill_realestate_179",
+      "name": "Loan Servicing",
+      "category": "Real Estate",
+      "keywords": ["loan", "servicing", "payments"],
+      "relatedSkills": ["Mortgage Origination", "Property Accounting"]
+    },
+    {
+      "id": "skill_realestate_180",
+      "name": "Workout and Restructuring",
+      "category": "Real Estate",
+      "keywords": ["workout", "restructuring", "debt"],
+      "relatedSkills": ["Loan Servicing", "Distressed Property Investment"]
+    },
+    {
+      "id": "skill_realestate_181",
+      "name": "Real Estate Receivership",
+      "category": "Real Estate",
+      "keywords": ["receivership", "court-appointed", "management"],
+      "relatedSkills": ["Asset Management (Real Estate)", "Real Estate Law"]
+    },
+    {
+      "id": "skill_realestate_182",
+      "name": "Property Tax Appeals",
+      "category": "Real Estate",
+      "keywords": ["tax", "appeal", "assessment"],
+      "relatedSkills": ["Property Taxation", "Property Valuation"]
+    },
+    {
+      "id": "skill_realestate_183",
+      "name": "Eminent Domain",
+      "category": "Real Estate",
+      "keywords": ["eminent", "domain", "condemnation"],
+      "relatedSkills": ["Real Estate Law", "Property Valuation"]
+    },
+    {
+      "id": "skill_realestate_184",
+      "name": "Real Estate Networking",
+      "category": "Real Estate",
+      "keywords": ["networking", "relationships", "business development"],
+      "relatedSkills": ["Real Estate Sales", "Property Marketing"]
+    },
+    {
+      "id": "skill_realestate_185",
+      "name": "Real Estate Client Relations",
+      "category": "Real Estate",
+      "keywords": ["client", "relations", "service"],
+      "relatedSkills": ["Real Estate Networking", "CRM for Real Estate"]
+    },
+    {
+      "id": "skill_realestate_186",
+      "name": "Real Estate Coaching",
+      "category": "Real Estate",
+      "keywords": ["coaching", "mentorship", "training"],
+      "relatedSkills": ["Real Estate Sales", "Real Estate Broker"]
+    },
+    {
+      "id": "skill_realestate_187",
+      "name": "Real Estate Team Building",
+      "category": "Real Estate",
+      "keywords": ["team", "building", "management"],
+      "relatedSkills": ["Real Estate Broker", "Real Estate Sales"]
+    },
+    {
+      "id": "skill_realestate_188",
+      "name": "Real Estate Transaction Management Systems",
+      "category": "Real Estate",
+      "keywords": ["transaction", "management", "software"],
+      "relatedSkills": ["PropTech Software", "Transaction Coordination"]
+    },
+    {
+      "id": "skill_realestate_189",
+      "name": "DocuSign for Real Estate",
+      "category": "Real Estate",
+      "keywords": ["docusign", "e-signature", "digital"],
+      "relatedSkills": ["Real Estate Transaction Management Systems", "Contract Negotiation"]
+    }
+  ]
+}

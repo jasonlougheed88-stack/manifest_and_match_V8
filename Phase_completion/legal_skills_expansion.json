@@ -1,0 +1,1259 @@
+{
+  "expansion_metadata": {
+    "sector": "Legal",
+    "existing_count": 22,
+    "new_count": 178,
+    "total_count": 200,
+    "source": "O*NET + AI Augmentation",
+    "validation_date": "2025-10-27",
+    "id_range": "skill_legal_023 to skill_legal_200"
+  },
+  "new_skills": [
+    {
+      "id": "skill_legal_023",
+      "name": "Corporate Law",
+      "category": "Legal",
+      "keywords": ["corporate", "law", "business"],
+      "relatedSkills": ["Legal Analysis", "Contract Review"]
+    },
+    {
+      "id": "skill_legal_024",
+      "name": "Mergers and Acquisitions",
+      "category": "Legal",
+      "keywords": ["m&a", "mergers", "acquisitions"],
+      "relatedSkills": ["Corporate Law", "Contract Review"]
+    },
+    {
+      "id": "skill_legal_025",
+      "name": "Due Diligence (Legal)",
+      "category": "Legal",
+      "keywords": ["due diligence", "investigation", "review"],
+      "relatedSkills": ["Mergers and Acquisitions", "Legal Research"]
+    },
+    {
+      "id": "skill_legal_026",
+      "name": "Securities Law",
+      "category": "Legal",
+      "keywords": ["securities", "law", "financial"],
+      "relatedSkills": ["Corporate Law", "Regulatory Compliance"]
+    },
+    {
+      "id": "skill_legal_027",
+      "name": "SEC Compliance",
+      "category": "Legal",
+      "keywords": ["sec", "securities", "compliance"],
+      "relatedSkills": ["Securities Law", "Regulatory Compliance"]
+    },
+    {
+      "id": "skill_legal_028",
+      "name": "IPO Preparation",
+      "category": "Legal",
+      "keywords": ["ipo", "public offering", "securities"],
+      "relatedSkills": ["Securities Law", "SEC Compliance"]
+    },
+    {
+      "id": "skill_legal_029",
+      "name": "Contract Drafting",
+      "category": "Legal",
+      "keywords": ["contract", "drafting", "agreements"],
+      "relatedSkills": ["Contract Review", "Legal Writing"]
+    },
+    {
+      "id": "skill_legal_030",
+      "name": "Contract Negotiation (Legal)",
+      "category": "Legal",
+      "keywords": ["contract", "negotiation", "agreements"],
+      "relatedSkills": ["Contract Drafting", "Contract Review"]
+    },
+    {
+      "id": "skill_legal_031",
+      "name": "Commercial Contracts",
+      "category": "Legal",
+      "keywords": ["commercial", "contracts", "business"],
+      "relatedSkills": ["Contract Drafting", "Corporate Law"]
+    },
+    {
+      "id": "skill_legal_032",
+      "name": "NDAs and Confidentiality",
+      "category": "Legal",
+      "keywords": ["nda", "confidentiality", "agreements"],
+      "relatedSkills": ["Contract Drafting", "Corporate Law"]
+    },
+    {
+      "id": "skill_legal_033",
+      "name": "Employment Contracts",
+      "category": "Legal",
+      "keywords": ["employment", "contracts", "agreements"],
+      "relatedSkills": ["Contract Drafting", "Employment Law"]
+    },
+    {
+      "id": "skill_legal_034",
+      "name": "Intellectual Property Law",
+      "category": "Legal",
+      "keywords": ["ip", "intellectual property", "patents"],
+      "relatedSkills": ["Legal Research", "Legal Analysis"]
+    },
+    {
+      "id": "skill_legal_035",
+      "name": "Patent Law",
+      "category": "Legal",
+      "keywords": ["patent", "law", "intellectual property"],
+      "relatedSkills": ["Intellectual Property Law", "Legal Research"]
+    },
+    {
+      "id": "skill_legal_036",
+      "name": "Trademark Law",
+      "category": "Legal",
+      "keywords": ["trademark", "law", "branding"],
+      "relatedSkills": ["Intellectual Property Law", "Legal Research"]
+    },
+    {
+      "id": "skill_legal_037",
+      "name": "Copyright Law",
+      "category": "Legal",
+      "keywords": ["copyright", "law", "intellectual property"],
+      "relatedSkills": ["Intellectual Property Law", "Legal Research"]
+    },
+    {
+      "id": "skill_legal_038",
+      "name": "Trade Secret Protection",
+      "category": "Legal",
+      "keywords": ["trade secret", "protection", "confidential"],
+      "relatedSkills": ["Intellectual Property Law", "NDAs and Confidentiality"]
+    },
+    {
+      "id": "skill_legal_039",
+      "name": "Patent Prosecution",
+      "category": "Legal",
+      "keywords": ["patent", "prosecution", "filing"],
+      "relatedSkills": ["Patent Law", "Legal Filing"]
+    },
+    {
+      "id": "skill_legal_040",
+      "name": "Trademark Registration",
+      "category": "Legal",
+      "keywords": ["trademark", "registration", "filing"],
+      "relatedSkills": ["Trademark Law", "Legal Filing"]
+    },
+    {
+      "id": "skill_legal_041",
+      "name": "IP Licensing",
+      "category": "Legal",
+      "keywords": ["ip", "licensing", "agreements"],
+      "relatedSkills": ["Intellectual Property Law", "Contract Drafting"]
+    },
+    {
+      "id": "skill_legal_042",
+      "name": "IP Litigation",
+      "category": "Legal",
+      "keywords": ["ip", "litigation", "infringement"],
+      "relatedSkills": ["Intellectual Property Law", "Litigation Support"]
+    },
+    {
+      "id": "skill_legal_043",
+      "name": "Employment Law",
+      "category": "Legal",
+      "keywords": ["employment", "law", "labor"],
+      "relatedSkills": ["Legal Analysis", "Compliance Management"]
+    },
+    {
+      "id": "skill_legal_044",
+      "name": "Labor Law",
+      "category": "Legal",
+      "keywords": ["labor", "law", "unions"],
+      "relatedSkills": ["Employment Law", "Legal Analysis"]
+    },
+    {
+      "id": "skill_legal_045",
+      "name": "Workplace Investigations",
+      "category": "Legal",
+      "keywords": ["workplace", "investigations", "employment"],
+      "relatedSkills": ["Employment Law", "Legal Analysis"]
+    },
+    {
+      "id": "skill_legal_046",
+      "name": "Discrimination Claims",
+      "category": "Legal",
+      "keywords": ["discrimination", "claims", "eeoc"],
+      "relatedSkills": ["Employment Law", "Litigation Support"]
+    },
+    {
+      "id": "skill_legal_047",
+      "name": "Wage and Hour Law",
+      "category": "Legal",
+      "keywords": ["wage", "hour", "flsa"],
+      "relatedSkills": ["Employment Law", "Compliance Management"]
+    },
+    {
+      "id": "skill_legal_048",
+      "name": "Wrongful Termination",
+      "category": "Legal",
+      "keywords": ["wrongful", "termination", "employment"],
+      "relatedSkills": ["Employment Law", "Litigation Support"]
+    },
+    {
+      "id": "skill_legal_049",
+      "name": "Non-Compete Agreements",
+      "category": "Legal",
+      "keywords": ["non-compete", "agreements", "employment"],
+      "relatedSkills": ["Employment Law", "Contract Drafting"]
+    },
+    {
+      "id": "skill_legal_050",
+      "name": "Immigration Law",
+      "category": "Legal",
+      "keywords": ["immigration", "law", "visa"],
+      "relatedSkills": ["Legal Analysis", "Compliance Management"]
+    },
+    {
+      "id": "skill_legal_051",
+      "name": "Visa Processing",
+      "category": "Legal",
+      "keywords": ["visa", "processing", "immigration"],
+      "relatedSkills": ["Immigration Law", "Legal Documentation"]
+    },
+    {
+      "id": "skill_legal_052",
+      "name": "Green Card Applications",
+      "category": "Legal",
+      "keywords": ["green card", "permanent residence", "immigration"],
+      "relatedSkills": ["Immigration Law", "Legal Filing"]
+    },
+    {
+      "id": "skill_legal_053",
+      "name": "Citizenship Applications",
+      "category": "Legal",
+      "keywords": ["citizenship", "naturalization", "immigration"],
+      "relatedSkills": ["Immigration Law", "Legal Filing"]
+    },
+    {
+      "id": "skill_legal_054",
+      "name": "Family Law",
+      "category": "Legal",
+      "keywords": ["family", "law", "domestic"],
+      "relatedSkills": ["Legal Analysis", "Litigation Support"]
+    },
+    {
+      "id": "skill_legal_055",
+      "name": "Divorce Law",
+      "category": "Legal",
+      "keywords": ["divorce", "law", "dissolution"],
+      "relatedSkills": ["Family Law", "Litigation Support"]
+    },
+    {
+      "id": "skill_legal_056",
+      "name": "Child Custody",
+      "category": "Legal",
+      "keywords": ["child", "custody", "family"],
+      "relatedSkills": ["Family Law", "Litigation Support"]
+    },
+    {
+      "id": "skill_legal_057",
+      "name": "Child Support",
+      "category": "Legal",
+      "keywords": ["child", "support", "family"],
+      "relatedSkills": ["Family Law", "Legal Analysis"]
+    },
+    {
+      "id": "skill_legal_058",
+      "name": "Adoption Law",
+      "category": "Legal",
+      "keywords": ["adoption", "law", "family"],
+      "relatedSkills": ["Family Law", "Legal Documentation"]
+    },
+    {
+      "id": "skill_legal_059",
+      "name": "Prenuptial Agreements",
+      "category": "Legal",
+      "keywords": ["prenuptial", "agreements", "family"],
+      "relatedSkills": ["Family Law", "Contract Drafting"]
+    },
+    {
+      "id": "skill_legal_060",
+      "name": "Criminal Law",
+      "category": "Legal",
+      "keywords": ["criminal", "law", "defense"],
+      "relatedSkills": ["Legal Analysis", "Litigation Support"]
+    },
+    {
+      "id": "skill_legal_061",
+      "name": "Criminal Defense",
+      "category": "Legal",
+      "keywords": ["criminal", "defense", "litigation"],
+      "relatedSkills": ["Criminal Law", "Trial Preparation"]
+    },
+    {
+      "id": "skill_legal_062",
+      "name": "Prosecution",
+      "category": "Legal",
+      "keywords": ["prosecution", "district attorney", "criminal"],
+      "relatedSkills": ["Criminal Law", "Trial Preparation"]
+    },
+    {
+      "id": "skill_legal_063",
+      "name": "DUI Defense",
+      "category": "Legal",
+      "keywords": ["dui", "defense", "criminal"],
+      "relatedSkills": ["Criminal Defense", "Trial Preparation"]
+    },
+    {
+      "id": "skill_legal_064",
+      "name": "White Collar Crime",
+      "category": "Legal",
+      "keywords": ["white collar", "crime", "fraud"],
+      "relatedSkills": ["Criminal Law", "Litigation Support"]
+    },
+    {
+      "id": "skill_legal_065",
+      "name": "Sentencing Advocacy",
+      "category": "Legal",
+      "keywords": ["sentencing", "advocacy", "criminal"],
+      "relatedSkills": ["Criminal Defense", "Legal Writing"]
+    },
+    {
+      "id": "skill_legal_066",
+      "name": "Real Estate Law",
+      "category": "Legal",
+      "keywords": ["real estate", "law", "property"],
+      "relatedSkills": ["Legal Analysis", "Contract Review"]
+    },
+    {
+      "id": "skill_legal_067",
+      "name": "Real Estate Transactions",
+      "category": "Legal",
+      "keywords": ["real estate", "transactions", "closings"],
+      "relatedSkills": ["Real Estate Law", "Contract Drafting"]
+    },
+    {
+      "id": "skill_legal_068",
+      "name": "Title Search",
+      "category": "Legal",
+      "keywords": ["title", "search", "real estate"],
+      "relatedSkills": ["Real Estate Law", "Legal Research"]
+    },
+    {
+      "id": "skill_legal_069",
+      "name": "Property Disputes",
+      "category": "Legal",
+      "keywords": ["property", "disputes", "real estate"],
+      "relatedSkills": ["Real Estate Law", "Litigation Support"]
+    },
+    {
+      "id": "skill_legal_070",
+      "name": "Landlord-Tenant Law",
+      "category": "Legal",
+      "keywords": ["landlord", "tenant", "rental"],
+      "relatedSkills": ["Real Estate Law", "Legal Analysis"]
+    },
+    {
+      "id": "skill_legal_071",
+      "name": "Zoning and Land Use",
+      "category": "Legal",
+      "keywords": ["zoning", "land use", "real estate"],
+      "relatedSkills": ["Real Estate Law", "Regulatory Compliance"]
+    },
+    {
+      "id": "skill_legal_072",
+      "name": "Tax Law",
+      "category": "Legal",
+      "keywords": ["tax", "law", "irs"],
+      "relatedSkills": ["Legal Analysis", "Regulatory Compliance"]
+    },
+    {
+      "id": "skill_legal_073",
+      "name": "Tax Planning",
+      "category": "Legal",
+      "keywords": ["tax", "planning", "strategy"],
+      "relatedSkills": ["Tax Law", "Legal Analysis"]
+    },
+    {
+      "id": "skill_legal_074",
+      "name": "Tax Litigation",
+      "category": "Legal",
+      "keywords": ["tax", "litigation", "irs"],
+      "relatedSkills": ["Tax Law", "Litigation Support"]
+    },
+    {
+      "id": "skill_legal_075",
+      "name": "Estate Tax",
+      "category": "Legal",
+      "keywords": ["estate", "tax", "inheritance"],
+      "relatedSkills": ["Tax Law", "Estate Planning"]
+    },
+    {
+      "id": "skill_legal_076",
+      "name": "Estate Planning",
+      "category": "Legal",
+      "keywords": ["estate", "planning", "wills"],
+      "relatedSkills": ["Legal Analysis", "Legal Documentation"]
+    },
+    {
+      "id": "skill_legal_077",
+      "name": "Wills and Trusts",
+      "category": "Legal",
+      "keywords": ["wills", "trusts", "estate"],
+      "relatedSkills": ["Estate Planning", "Legal Documentation"]
+    },
+    {
+      "id": "skill_legal_078",
+      "name": "Probate Law",
+      "category": "Legal",
+      "keywords": ["probate", "law", "estate"],
+      "relatedSkills": ["Estate Planning", "Court Procedures"]
+    },
+    {
+      "id": "skill_legal_079",
+      "name": "Trust Administration",
+      "category": "Legal",
+      "keywords": ["trust", "administration", "estate"],
+      "relatedSkills": ["Wills and Trusts", "Legal Analysis"]
+    },
+    {
+      "id": "skill_legal_080",
+      "name": "Power of Attorney",
+      "category": "Legal",
+      "keywords": ["power of attorney", "legal authority", "estate"],
+      "relatedSkills": ["Estate Planning", "Legal Documentation"]
+    },
+    {
+      "id": "skill_legal_081",
+      "name": "Healthcare Directives",
+      "category": "Legal",
+      "keywords": ["healthcare", "directives", "advance directives"],
+      "relatedSkills": ["Estate Planning", "Legal Documentation"]
+    },
+    {
+      "id": "skill_legal_082",
+      "name": "Bankruptcy Law",
+      "category": "Legal",
+      "keywords": ["bankruptcy", "law", "insolvency"],
+      "relatedSkills": ["Legal Analysis", "Court Procedures"]
+    },
+    {
+      "id": "skill_legal_083",
+      "name": "Chapter 7 Bankruptcy",
+      "category": "Legal",
+      "keywords": ["chapter 7", "bankruptcy", "liquidation"],
+      "relatedSkills": ["Bankruptcy Law", "Legal Filing"]
+    },
+    {
+      "id": "skill_legal_084",
+      "name": "Chapter 11 Bankruptcy",
+      "category": "Legal",
+      "keywords": ["chapter 11", "bankruptcy", "reorganization"],
+      "relatedSkills": ["Bankruptcy Law", "Corporate Law"]
+    },
+    {
+      "id": "skill_legal_085",
+      "name": "Chapter 13 Bankruptcy",
+      "category": "Legal",
+      "keywords": ["chapter 13", "bankruptcy", "repayment"],
+      "relatedSkills": ["Bankruptcy Law", "Legal Filing"]
+    },
+    {
+      "id": "skill_legal_086",
+      "name": "Debt Negotiation",
+      "category": "Legal",
+      "keywords": ["debt", "negotiation", "settlement"],
+      "relatedSkills": ["Bankruptcy Law", "Contract Negotiation (Legal)"]
+    },
+    {
+      "id": "skill_legal_087",
+      "name": "Personal Injury Law",
+      "category": "Legal",
+      "keywords": ["personal", "injury", "tort"],
+      "relatedSkills": ["Legal Analysis", "Litigation Support"]
+    },
+    {
+      "id": "skill_legal_088",
+      "name": "Medical Malpractice",
+      "category": "Legal",
+      "keywords": ["medical", "malpractice", "negligence"],
+      "relatedSkills": ["Personal Injury Law", "Litigation Support"]
+    },
+    {
+      "id": "skill_legal_089",
+      "name": "Car Accident Claims",
+      "category": "Legal",
+      "keywords": ["car accident", "auto", "claims"],
+      "relatedSkills": ["Personal Injury Law", "Litigation Support"]
+    },
+    {
+      "id": "skill_legal_090",
+      "name": "Slip and Fall Cases",
+      "category": "Legal",
+      "keywords": ["slip and fall", "premises liability", "injury"],
+      "relatedSkills": ["Personal Injury Law", "Litigation Support"]
+    },
+    {
+      "id": "skill_legal_091",
+      "name": "Workers' Compensation",
+      "category": "Legal",
+      "keywords": ["workers compensation", "injury", "employment"],
+      "relatedSkills": ["Personal Injury Law", "Employment Law"]
+    },
+    {
+      "id": "skill_legal_092",
+      "name": "Product Liability",
+      "category": "Legal",
+      "keywords": ["product", "liability", "defective"],
+      "relatedSkills": ["Personal Injury Law", "Litigation Support"]
+    },
+    {
+      "id": "skill_legal_093",
+      "name": "Environmental Law",
+      "category": "Legal",
+      "keywords": ["environmental", "law", "epa"],
+      "relatedSkills": ["Legal Analysis", "Regulatory Compliance"]
+    },
+    {
+      "id": "skill_legal_094",
+      "name": "EPA Compliance",
+      "category": "Legal",
+      "keywords": ["epa", "compliance", "environmental"],
+      "relatedSkills": ["Environmental Law", "Regulatory Compliance"]
+    },
+    {
+      "id": "skill_legal_095",
+      "name": "CERCLA/Superfund",
+      "category": "Legal",
+      "keywords": ["cercla", "superfund", "environmental"],
+      "relatedSkills": ["Environmental Law", "Regulatory Compliance"]
+    },
+    {
+      "id": "skill_legal_096",
+      "name": "Clean Air Act",
+      "category": "Legal",
+      "keywords": ["clean air", "act", "environmental"],
+      "relatedSkills": ["Environmental Law", "Regulatory Compliance"]
+    },
+    {
+      "id": "skill_legal_097",
+      "name": "Clean Water Act",
+      "category": "Legal",
+      "keywords": ["clean water", "act", "environmental"],
+      "relatedSkills": ["Environmental Law", "Regulatory Compliance"]
+    },
+    {
+      "id": "skill_legal_098",
+      "name": "Healthcare Law",
+      "category": "Legal",
+      "keywords": ["healthcare", "law", "medical"],
+      "relatedSkills": ["Legal Analysis", "Regulatory Compliance"]
+    },
+    {
+      "id": "skill_legal_099",
+      "name": "HIPAA Compliance",
+      "category": "Legal",
+      "keywords": ["hipaa", "compliance", "privacy"],
+      "relatedSkills": ["Healthcare Law", "Regulatory Compliance"]
+    },
+    {
+      "id": "skill_legal_100",
+      "name": "FDA Regulations",
+      "category": "Legal",
+      "keywords": ["fda", "regulations", "healthcare"],
+      "relatedSkills": ["Healthcare Law", "Regulatory Compliance"]
+    },
+    {
+      "id": "skill_legal_101",
+      "name": "Medicare/Medicaid Law",
+      "category": "Legal",
+      "keywords": ["medicare", "medicaid", "healthcare"],
+      "relatedSkills": ["Healthcare Law", "Regulatory Compliance"]
+    },
+    {
+      "id": "skill_legal_102",
+      "name": "Technology Law",
+      "category": "Legal",
+      "keywords": ["technology", "law", "cyber"],
+      "relatedSkills": ["Legal Analysis", "Intellectual Property Law"]
+    },
+    {
+      "id": "skill_legal_103",
+      "name": "Data Privacy Law",
+      "category": "Legal",
+      "keywords": ["data", "privacy", "gdpr"],
+      "relatedSkills": ["Technology Law", "Regulatory Compliance"]
+    },
+    {
+      "id": "skill_legal_104",
+      "name": "GDPR Compliance (Legal)",
+      "category": "Legal",
+      "keywords": ["gdpr", "privacy", "eu"],
+      "relatedSkills": ["Data Privacy Law", "Regulatory Compliance"]
+    },
+    {
+      "id": "skill_legal_105",
+      "name": "CCPA Compliance",
+      "category": "Legal",
+      "keywords": ["ccpa", "privacy", "california"],
+      "relatedSkills": ["Data Privacy Law", "Regulatory Compliance"]
+    },
+    {
+      "id": "skill_legal_106",
+      "name": "Cybersecurity Law",
+      "category": "Legal",
+      "keywords": ["cybersecurity", "law", "data breach"],
+      "relatedSkills": ["Technology Law", "Data Privacy Law"]
+    },
+    {
+      "id": "skill_legal_107",
+      "name": "Data Breach Response",
+      "category": "Legal",
+      "keywords": ["data breach", "response", "cybersecurity"],
+      "relatedSkills": ["Cybersecurity Law", "Risk Assessment"]
+    },
+    {
+      "id": "skill_legal_108",
+      "name": "Software Licensing",
+      "category": "Legal",
+      "keywords": ["software", "licensing", "saas"],
+      "relatedSkills": ["Technology Law", "Contract Drafting"]
+    },
+    {
+      "id": "skill_legal_109",
+      "name": "Terms of Service Drafting",
+      "category": "Legal",
+      "keywords": ["terms of service", "tos", "agreements"],
+      "relatedSkills": ["Technology Law", "Contract Drafting"]
+    },
+    {
+      "id": "skill_legal_110",
+      "name": "Privacy Policy Drafting",
+      "category": "Legal",
+      "keywords": ["privacy", "policy", "compliance"],
+      "relatedSkills": ["Data Privacy Law", "Legal Writing"]
+    },
+    {
+      "id": "skill_legal_111",
+      "name": "E-Discovery",
+      "category": "Legal",
+      "keywords": ["e-discovery", "electronic", "litigation"],
+      "relatedSkills": ["Discovery", "Legal Software"]
+    },
+    {
+      "id": "skill_legal_112",
+      "name": "Document Management Systems",
+      "category": "Legal",
+      "keywords": ["document", "management", "dms"],
+      "relatedSkills": ["Legal Software", "Case Management"]
+    },
+    {
+      "id": "skill_legal_113",
+      "name": "Legal Hold Procedures",
+      "category": "Legal",
+      "keywords": ["legal hold", "preservation", "litigation"],
+      "relatedSkills": ["E-Discovery", "Document Review"]
+    },
+    {
+      "id": "skill_legal_114",
+      "name": "TAR (Technology Assisted Review)",
+      "category": "Legal",
+      "keywords": ["tar", "predictive coding", "review"],
+      "relatedSkills": ["E-Discovery", "Document Review"]
+    },
+    {
+      "id": "skill_legal_115",
+      "name": "Deposition Preparation",
+      "category": "Legal",
+      "keywords": ["deposition", "preparation", "witness"],
+      "relatedSkills": ["Deposition Support", "Trial Preparation"]
+    },
+    {
+      "id": "skill_legal_116",
+      "name": "Witness Examination",
+      "category": "Legal",
+      "keywords": ["witness", "examination", "testimony"],
+      "relatedSkills": ["Trial Preparation", "Litigation Support"]
+    },
+    {
+      "id": "skill_legal_117",
+      "name": "Expert Witness Coordination",
+      "category": "Legal",
+      "keywords": ["expert", "witness", "testimony"],
+      "relatedSkills": ["Trial Preparation", "Litigation Support"]
+    },
+    {
+      "id": "skill_legal_118",
+      "name": "Jury Selection",
+      "category": "Legal",
+      "keywords": ["jury", "selection", "voir dire"],
+      "relatedSkills": ["Trial Preparation", "Litigation Support"]
+    },
+    {
+      "id": "skill_legal_119",
+      "name": "Trial Graphics",
+      "category": "Legal",
+      "keywords": ["trial", "graphics", "presentation"],
+      "relatedSkills": ["Trial Preparation", "Legal Software"]
+    },
+    {
+      "id": "skill_legal_120",
+      "name": "Courtroom Technology",
+      "category": "Legal",
+      "keywords": ["courtroom", "technology", "presentation"],
+      "relatedSkills": ["Trial Graphics", "Legal Software"]
+    },
+    {
+      "id": "skill_legal_121",
+      "name": "Appellate Practice",
+      "category": "Legal",
+      "keywords": ["appellate", "appeals", "litigation"],
+      "relatedSkills": ["Legal Writing", "Legal Research"]
+    },
+    {
+      "id": "skill_legal_122",
+      "name": "Brief Writing",
+      "category": "Legal",
+      "keywords": ["brief", "writing", "appellate"],
+      "relatedSkills": ["Appellate Practice", "Legal Writing"]
+    },
+    {
+      "id": "skill_legal_123",
+      "name": "Oral Arguments",
+      "category": "Legal",
+      "keywords": ["oral", "arguments", "appellate"],
+      "relatedSkills": ["Appellate Practice", "Litigation Support"]
+    },
+    {
+      "id": "skill_legal_124",
+      "name": "Motion Practice",
+      "category": "Legal",
+      "keywords": ["motion", "practice", "litigation"],
+      "relatedSkills": ["Legal Writing", "Litigation Support"]
+    },
+    {
+      "id": "skill_legal_125",
+      "name": "Summary Judgment Motions",
+      "category": "Legal",
+      "keywords": ["summary", "judgment", "motion"],
+      "relatedSkills": ["Motion Practice", "Legal Writing"]
+    },
+    {
+      "id": "skill_legal_126",
+      "name": "Pleadings",
+      "category": "Legal",
+      "keywords": ["pleadings", "complaints", "answers"],
+      "relatedSkills": ["Legal Writing", "Litigation Support"]
+    },
+    {
+      "id": "skill_legal_127",
+      "name": "Discovery Requests",
+      "category": "Legal",
+      "keywords": ["discovery", "requests", "interrogatories"],
+      "relatedSkills": ["Discovery", "Legal Writing"]
+    },
+    {
+      "id": "skill_legal_128",
+      "name": "Interrogatories",
+      "category": "Legal",
+      "keywords": ["interrogatories", "discovery", "questions"],
+      "relatedSkills": ["Discovery Requests", "Discovery"]
+    },
+    {
+      "id": "skill_legal_129",
+      "name": "Requests for Production",
+      "category": "Legal",
+      "keywords": ["requests", "production", "documents"],
+      "relatedSkills": ["Discovery Requests", "Discovery"]
+    },
+    {
+      "id": "skill_legal_130",
+      "name": "Requests for Admission",
+      "category": "Legal",
+      "keywords": ["requests", "admission", "discovery"],
+      "relatedSkills": ["Discovery Requests", "Discovery"]
+    },
+    {
+      "id": "skill_legal_131",
+      "name": "Mediation",
+      "category": "Legal",
+      "keywords": ["mediation", "adr", "settlement"],
+      "relatedSkills": ["Litigation Support", "Contract Negotiation (Legal)"]
+    },
+    {
+      "id": "skill_legal_132",
+      "name": "Arbitration",
+      "category": "Legal",
+      "keywords": ["arbitration", "adr", "alternative dispute"],
+      "relatedSkills": ["Mediation", "Litigation Support"]
+    },
+    {
+      "id": "skill_legal_133",
+      "name": "Settlement Negotiation",
+      "category": "Legal",
+      "keywords": ["settlement", "negotiation", "litigation"],
+      "relatedSkills": ["Mediation", "Litigation Support"]
+    },
+    {
+      "id": "skill_legal_134",
+      "name": "Class Action Litigation",
+      "category": "Legal",
+      "keywords": ["class action", "litigation", "mass tort"],
+      "relatedSkills": ["Litigation Support", "Case Management"]
+    },
+    {
+      "id": "skill_legal_135",
+      "name": "Mass Tort Litigation",
+      "category": "Legal",
+      "keywords": ["mass", "tort", "litigation"],
+      "relatedSkills": ["Class Action Litigation", "Personal Injury Law"]
+    },
+    {
+      "id": "skill_legal_136",
+      "name": "Multidistrict Litigation (MDL)",
+      "category": "Legal",
+      "keywords": ["mdl", "multidistrict", "litigation"],
+      "relatedSkills": ["Class Action Litigation", "Case Management"]
+    },
+    {
+      "id": "skill_legal_137",
+      "name": "Administrative Law",
+      "category": "Legal",
+      "keywords": ["administrative", "law", "agencies"],
+      "relatedSkills": ["Legal Analysis", "Regulatory Compliance"]
+    },
+    {
+      "id": "skill_legal_138",
+      "name": "Regulatory Hearings",
+      "category": "Legal",
+      "keywords": ["regulatory", "hearings", "administrative"],
+      "relatedSkills": ["Administrative Law", "Litigation Support"]
+    },
+    {
+      "id": "skill_legal_139",
+      "name": "FOIA Requests",
+      "category": "Legal",
+      "keywords": ["foia", "freedom of information", "public records"],
+      "relatedSkills": ["Administrative Law", "Legal Research"]
+    },
+    {
+      "id": "skill_legal_140",
+      "name": "Government Contracts",
+      "category": "Legal",
+      "keywords": ["government", "contracts", "procurement"],
+      "relatedSkills": ["Contract Drafting", "Regulatory Compliance"]
+    },
+    {
+      "id": "skill_legal_141",
+      "name": "Antitrust Law",
+      "category": "Legal",
+      "keywords": ["antitrust", "competition", "law"],
+      "relatedSkills": ["Corporate Law", "Regulatory Compliance"]
+    },
+    {
+      "id": "skill_legal_142",
+      "name": "Antitrust Compliance",
+      "category": "Legal",
+      "keywords": ["antitrust", "compliance", "competition"],
+      "relatedSkills": ["Antitrust Law", "Compliance Management"]
+    },
+    {
+      "id": "skill_legal_143",
+      "name": "Consumer Protection Law",
+      "category": "Legal",
+      "keywords": ["consumer", "protection", "ftc"],
+      "relatedSkills": ["Regulatory Compliance", "Legal Analysis"]
+    },
+    {
+      "id": "skill_legal_144",
+      "name": "FTC Compliance",
+      "category": "Legal",
+      "keywords": ["ftc", "compliance", "consumer"],
+      "relatedSkills": ["Consumer Protection Law", "Regulatory Compliance"]
+    },
+    {
+      "id": "skill_legal_145",
+      "name": "Advertising Law",
+      "category": "Legal",
+      "keywords": ["advertising", "law", "marketing"],
+      "relatedSkills": ["Consumer Protection Law", "Regulatory Compliance"]
+    },
+    {
+      "id": "skill_legal_146",
+      "name": "Insurance Law",
+      "category": "Legal",
+      "keywords": ["insurance", "law", "claims"],
+      "relatedSkills": ["Legal Analysis", "Litigation Support"]
+    },
+    {
+      "id": "skill_legal_147",
+      "name": "Insurance Coverage Analysis",
+      "category": "Legal",
+      "keywords": ["insurance", "coverage", "analysis"],
+      "relatedSkills": ["Insurance Law", "Legal Analysis"]
+    },
+    {
+      "id": "skill_legal_148",
+      "name": "Insurance Defense",
+      "category": "Legal",
+      "keywords": ["insurance", "defense", "litigation"],
+      "relatedSkills": ["Insurance Law", "Litigation Support"]
+    },
+    {
+      "id": "skill_legal_149",
+      "name": "Bad Faith Insurance Claims",
+      "category": "Legal",
+      "keywords": ["bad faith", "insurance", "claims"],
+      "relatedSkills": ["Insurance Law", "Litigation Support"]
+    },
+    {
+      "id": "skill_legal_150",
+      "name": "Construction Law",
+      "category": "Legal",
+      "keywords": ["construction", "law", "contracts"],
+      "relatedSkills": ["Legal Analysis", "Contract Review"]
+    },
+    {
+      "id": "skill_legal_151",
+      "name": "Construction Defect Claims",
+      "category": "Legal",
+      "keywords": ["construction", "defect", "litigation"],
+      "relatedSkills": ["Construction Law", "Litigation Support"]
+    },
+    {
+      "id": "skill_legal_152",
+      "name": "Mechanic's Liens",
+      "category": "Legal",
+      "keywords": ["mechanics", "liens", "construction"],
+      "relatedSkills": ["Construction Law", "Legal Filing"]
+    },
+    {
+      "id": "skill_legal_153",
+      "name": "Maritime Law",
+      "category": "Legal",
+      "keywords": ["maritime", "law", "admiralty"],
+      "relatedSkills": ["Legal Analysis", "Litigation Support"]
+    },
+    {
+      "id": "skill_legal_154",
+      "name": "Aviation Law",
+      "category": "Legal",
+      "keywords": ["aviation", "law", "faa"],
+      "relatedSkills": ["Legal Analysis", "Regulatory Compliance"]
+    },
+    {
+      "id": "skill_legal_155",
+      "name": "Entertainment Law",
+      "category": "Legal",
+      "keywords": ["entertainment", "law", "media"],
+      "relatedSkills": ["Intellectual Property Law", "Contract Drafting"]
+    },
+    {
+      "id": "skill_legal_156",
+      "name": "Music Industry Contracts",
+      "category": "Legal",
+      "keywords": ["music", "industry", "contracts"],
+      "relatedSkills": ["Entertainment Law", "Contract Drafting"]
+    },
+    {
+      "id": "skill_legal_157",
+      "name": "Film and TV Contracts",
+      "category": "Legal",
+      "keywords": ["film", "tv", "contracts"],
+      "relatedSkills": ["Entertainment Law", "Contract Drafting"]
+    },
+    {
+      "id": "skill_legal_158",
+      "name": "Sports Law",
+      "category": "Legal",
+      "keywords": ["sports", "law", "athlete"],
+      "relatedSkills": ["Entertainment Law", "Contract Negotiation (Legal)"]
+    },
+    {
+      "id": "skill_legal_159",
+      "name": "Education Law",
+      "category": "Legal",
+      "keywords": ["education", "law", "school"],
+      "relatedSkills": ["Legal Analysis", "Regulatory Compliance"]
+    },
+    {
+      "id": "skill_legal_160",
+      "name": "Special Education Law",
+      "category": "Legal",
+      "keywords": ["special", "education", "idea"],
+      "relatedSkills": ["Education Law", "Regulatory Compliance"]
+    },
+    {
+      "id": "skill_legal_161",
+      "name": "Student Discipline",
+      "category": "Legal",
+      "keywords": ["student", "discipline", "education"],
+      "relatedSkills": ["Education Law", "Legal Analysis"]
+    },
+    {
+      "id": "skill_legal_162",
+      "name": "Title IX Compliance",
+      "category": "Legal",
+      "keywords": ["title ix", "compliance", "education"],
+      "relatedSkills": ["Education Law", "Regulatory Compliance"]
+    },
+    {
+      "id": "skill_legal_163",
+      "name": "Nonprofit Law",
+      "category": "Legal",
+      "keywords": ["nonprofit", "law", "501c3"],
+      "relatedSkills": ["Corporate Law", "Tax Law"]
+    },
+    {
+      "id": "skill_legal_164",
+      "name": "501(c)(3) Applications",
+      "category": "Legal",
+      "keywords": ["501c3", "tax exempt", "nonprofit"],
+      "relatedSkills": ["Nonprofit Law", "Tax Law"]
+    },
+    {
+      "id": "skill_legal_165",
+      "name": "Nonprofit Governance",
+      "category": "Legal",
+      "keywords": ["nonprofit", "governance", "board"],
+      "relatedSkills": ["Nonprofit Law", "Compliance Management"]
+    },
+    {
+      "id": "skill_legal_166",
+      "name": "Business Formation",
+      "category": "Legal",
+      "keywords": ["business", "formation", "incorporation"],
+      "relatedSkills": ["Corporate Law", "Legal Documentation"]
+    },
+    {
+      "id": "skill_legal_167",
+      "name": "LLC Formation",
+      "category": "Legal",
+      "keywords": ["llc", "formation", "business"],
+      "relatedSkills": ["Business Formation", "Corporate Law"]
+    },
+    {
+      "id": "skill_legal_168",
+      "name": "Corporation Formation",
+      "category": "Legal",
+      "keywords": ["corporation", "formation", "c-corp"],
+      "relatedSkills": ["Business Formation", "Corporate Law"]
+    },
+    {
+      "id": "skill_legal_169",
+      "name": "Partnership Agreements",
+      "category": "Legal",
+      "keywords": ["partnership", "agreements", "business"],
+      "relatedSkills": ["Business Formation", "Contract Drafting"]
+    },
+    {
+      "id": "skill_legal_170",
+      "name": "Operating Agreements",
+      "category": "Legal",
+      "keywords": ["operating", "agreements", "llc"],
+      "relatedSkills": ["LLC Formation", "Contract Drafting"]
+    },
+    {
+      "id": "skill_legal_171",
+      "name": "Bylaws",
+      "category": "Legal",
+      "keywords": ["bylaws", "corporate", "governance"],
+      "relatedSkills": ["Corporation Formation", "Legal Documentation"]
+    },
+    {
+      "id": "skill_legal_172",
+      "name": "Shareholder Agreements",
+      "category": "Legal",
+      "keywords": ["shareholder", "agreements", "corporate"],
+      "relatedSkills": ["Corporate Law", "Contract Drafting"]
+    },
+    {
+      "id": "skill_legal_173",
+      "name": "Buy-Sell Agreements",
+      "category": "Legal",
+      "keywords": ["buy-sell", "agreements", "business"],
+      "relatedSkills": ["Shareholder Agreements", "Contract Drafting"]
+    },
+    {
+      "id": "skill_legal_174",
+      "name": "Business Succession Planning",
+      "category": "Legal",
+      "keywords": ["business", "succession", "planning"],
+      "relatedSkills": ["Corporate Law", "Estate Planning"]
+    },
+    {
+      "id": "skill_legal_175",
+      "name": "Franchise Law",
+      "category": "Legal",
+      "keywords": ["franchise", "law", "business"],
+      "relatedSkills": ["Corporate Law", "Contract Drafting"]
+    },
+    {
+      "id": "skill_legal_176",
+      "name": "Franchise Disclosure Documents",
+      "category": "Legal",
+      "keywords": ["franchise", "disclosure", "fdd"],
+      "relatedSkills": ["Franchise Law", "Legal Documentation"]
+    },
+    {
+      "id": "skill_legal_177",
+      "name": "Commercial Litigation",
+      "category": "Legal",
+      "keywords": ["commercial", "litigation", "business"],
+      "relatedSkills": ["Litigation Support", "Corporate Law"]
+    },
+    {
+      "id": "skill_legal_178",
+      "name": "Breach of Contract Claims",
+      "category": "Legal",
+      "keywords": ["breach", "contract", "litigation"],
+      "relatedSkills": ["Commercial Litigation", "Contract Review"]
+    },
+    {
+      "id": "skill_legal_179",
+      "name": "Business Tort Claims",
+      "category": "Legal",
+      "keywords": ["business", "tort", "commercial"],
+      "relatedSkills": ["Commercial Litigation", "Litigation Support"]
+    },
+    {
+      "id": "skill_legal_180",
+      "name": "Injunctive Relief",
+      "category": "Legal",
+      "keywords": ["injunctive", "relief", "restraining order"],
+      "relatedSkills": ["Litigation Support", "Legal Writing"]
+    },
+    {
+      "id": "skill_legal_181",
+      "name": "Legal Ethics",
+      "category": "Legal",
+      "keywords": ["legal", "ethics", "professional conduct"],
+      "relatedSkills": ["Legal Analysis", "Compliance Management"]
+    },
+    {
+      "id": "skill_legal_182",
+      "name": "Conflict of Interest Analysis",
+      "category": "Legal",
+      "keywords": ["conflict", "interest", "ethics"],
+      "relatedSkills": ["Legal Ethics", "Risk Assessment"]
+    },
+    {
+      "id": "skill_legal_183",
+      "name": "Attorney-Client Privilege",
+      "category": "Legal",
+      "keywords": ["attorney-client", "privilege", "confidentiality"],
+      "relatedSkills": ["Legal Ethics", "Legal Analysis"]
+    },
+    {
+      "id": "skill_legal_184",
+      "name": "Work Product Doctrine",
+      "category": "Legal",
+      "keywords": ["work product", "doctrine", "privilege"],
+      "relatedSkills": ["Legal Ethics", "Litigation Support"]
+    },
+    {
+      "id": "skill_legal_185",
+      "name": "Legal Billing",
+      "category": "Legal",
+      "keywords": ["legal", "billing", "timekeeping"],
+      "relatedSkills": ["Legal Software", "Case Management"]
+    },
+    {
+      "id": "skill_legal_186",
+      "name": "Time Management (Legal)",
+      "category": "Legal",
+      "keywords": ["time", "management", "billable"],
+      "relatedSkills": ["Legal Billing", "Case Management"]
+    },
+    {
+      "id": "skill_legal_187",
+      "name": "Client Communication",
+      "category": "Legal",
+      "keywords": ["client", "communication", "relationship"],
+      "relatedSkills": ["Legal Analysis", "Case Management"]
+    },
+    {
+      "id": "skill_legal_188",
+      "name": "Legal Project Management",
+      "category": "Legal",
+      "keywords": ["legal", "project management", "matter"],
+      "relatedSkills": ["Case Management", "Legal Software"]
+    },
+    {
+      "id": "skill_legal_189",
+      "name": "Alternative Fee Arrangements",
+      "category": "Legal",
+      "keywords": ["alternative", "fee", "arrangements"],
+      "relatedSkills": ["Legal Billing", "Legal Project Management"]
+    },
+    {
+      "id": "skill_legal_190",
+      "name": "Legal Process Outsourcing",
+      "category": "Legal",
+      "keywords": ["lpo", "outsourcing", "legal"],
+      "relatedSkills": ["Legal Project Management", "Legal Operations"]
+    },
+    {
+      "id": "skill_legal_191",
+      "name": "Legal Operations",
+      "category": "Legal",
+      "keywords": ["legal", "operations", "efficiency"],
+      "relatedSkills": ["Legal Project Management", "Legal Software"]
+    },
+    {
+      "id": "skill_legal_192",
+      "name": "Contract Lifecycle Management",
+      "category": "Legal",
+      "keywords": ["contract", "lifecycle", "clm"],
+      "relatedSkills": ["Contract Drafting", "Legal Software"]
+    },
+    {
+      "id": "skill_legal_193",
+      "name": "Knowledge Management (Legal)",
+      "category": "Legal",
+      "keywords": ["knowledge", "management", "legal"],
+      "relatedSkills": ["Legal Operations", "Legal Research"]
+    },
+    {
+      "id": "skill_legal_194",
+      "name": "Legal AI and Automation",
+      "category": "Legal",
+      "keywords": ["legal", "ai", "automation"],
+      "relatedSkills": ["Legal Software", "Legal Operations"]
+    },
+    {
+      "id": "skill_legal_195",
+      "name": "Bluebook Citation",
+      "category": "Legal",
+      "keywords": ["bluebook", "citation", "legal writing"],
+      "relatedSkills": ["Legal Writing", "Legal Research"]
+    },
+    {
+      "id": "skill_legal_196",
+      "name": "Shepardizing",
+      "category": "Legal",
+      "keywords": ["shepardizing", "case validation", "research"],
+      "relatedSkills": ["Legal Research", "LexisNexis"]
+    },
+    {
+      "id": "skill_legal_197",
+      "name": "KeyCite",
+      "category": "Legal",
+      "keywords": ["keycite", "case validation", "westlaw"],
+      "relatedSkills": ["Legal Research", "Westlaw"]
+    },
+    {
+      "id": "skill_legal_198",
+      "name": "Statutory Interpretation",
+      "category": "Legal",
+      "keywords": ["statutory", "interpretation", "analysis"],
+      "relatedSkills": ["Legal Analysis", "Legal Research"]
+    },
+    {
+      "id": "skill_legal_199",
+      "name": "Legislative History Research",
+      "category": "Legal",
+      "keywords": ["legislative", "history", "research"],
+      "relatedSkills": ["Legal Research", "Statutory Interpretation"]
+    },
+    {
+      "id": "skill_legal_200",
+      "name": "Case Law Analysis",
+      "category": "Legal",
+      "keywords": ["case law", "analysis", "precedent"],
+      "relatedSkills": ["Legal Research", "Legal Analysis"]
+    }
+  ]
+}

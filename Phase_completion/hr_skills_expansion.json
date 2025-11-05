@@ -1,0 +1,1259 @@
+{
+  "expansion_metadata": {
+    "sector": "HR",
+    "existing_count": 22,
+    "new_count": 178,
+    "total_count": 200,
+    "source": "O*NET + AI Augmentation",
+    "validation_date": "2025-10-27",
+    "id_range": "skill_hr_023 to skill_hr_200"
+  },
+  "new_skills": [
+    {
+      "id": "skill_hr_023",
+      "name": "Talent Management",
+      "category": "HR",
+      "keywords": ["talent", "management", "development"],
+      "relatedSkills": ["Talent Acquisition", "Performance Management"]
+    },
+    {
+      "id": "skill_hr_024",
+      "name": "Workforce Planning",
+      "category": "HR",
+      "keywords": ["workforce", "planning", "staffing"],
+      "relatedSkills": ["Talent Acquisition", "Organizational Development"]
+    },
+    {
+      "id": "skill_hr_025",
+      "name": "Headcount Planning",
+      "category": "HR",
+      "keywords": ["headcount", "planning", "budgeting"],
+      "relatedSkills": ["Workforce Planning", "Compensation Analysis"]
+    },
+    {
+      "id": "skill_hr_026",
+      "name": "Job Analysis",
+      "category": "HR",
+      "keywords": ["job", "analysis", "competencies"],
+      "relatedSkills": ["Job Descriptions", "Recruitment"]
+    },
+    {
+      "id": "skill_hr_027",
+      "name": "Competency Modeling",
+      "category": "HR",
+      "keywords": ["competency", "modeling", "skills"],
+      "relatedSkills": ["Job Analysis", "Performance Management"]
+    },
+    {
+      "id": "skill_hr_028",
+      "name": "Sourcing Candidates",
+      "category": "HR",
+      "keywords": ["sourcing", "candidates", "recruiting"],
+      "relatedSkills": ["Recruitment", "Talent Acquisition"]
+    },
+    {
+      "id": "skill_hr_029",
+      "name": "Boolean Search",
+      "category": "HR",
+      "keywords": ["boolean", "search", "sourcing"],
+      "relatedSkills": ["Sourcing Candidates", "Recruitment"]
+    },
+    {
+      "id": "skill_hr_030",
+      "name": "LinkedIn Recruiting",
+      "category": "HR",
+      "keywords": ["linkedin", "recruiting", "sourcing"],
+      "relatedSkills": ["Sourcing Candidates", "Talent Acquisition"]
+    },
+    {
+      "id": "skill_hr_031",
+      "name": "Applicant Tracking Systems (ATS)",
+      "category": "HR",
+      "keywords": ["ats", "applicant tracking", "recruiting"],
+      "relatedSkills": ["Recruitment", "HRIS"]
+    },
+    {
+      "id": "skill_hr_032",
+      "name": "Candidate Screening",
+      "category": "HR",
+      "keywords": ["candidate", "screening", "evaluation"],
+      "relatedSkills": ["Recruitment", "Interviewing"]
+    },
+    {
+      "id": "skill_hr_033",
+      "name": "Resume Review",
+      "category": "HR",
+      "keywords": ["resume", "review", "screening"],
+      "relatedSkills": ["Candidate Screening", "Recruitment"]
+    },
+    {
+      "id": "skill_hr_034",
+      "name": "Phone Screening",
+      "category": "HR",
+      "keywords": ["phone", "screening", "interviewing"],
+      "relatedSkills": ["Candidate Screening", "Interviewing"]
+    },
+    {
+      "id": "skill_hr_035",
+      "name": "Behavioral Interviewing",
+      "category": "HR",
+      "keywords": ["behavioral", "interviewing", "star"],
+      "relatedSkills": ["Interviewing", "Candidate Screening"]
+    },
+    {
+      "id": "skill_hr_036",
+      "name": "Structured Interviewing",
+      "category": "HR",
+      "keywords": ["structured", "interviewing", "consistency"],
+      "relatedSkills": ["Interviewing", "Recruitment"]
+    },
+    {
+      "id": "skill_hr_037",
+      "name": "Panel Interviewing",
+      "category": "HR",
+      "keywords": ["panel", "interviewing", "group"],
+      "relatedSkills": ["Interviewing", "Recruitment"]
+    },
+    {
+      "id": "skill_hr_038",
+      "name": "Assessment Centers",
+      "category": "HR",
+      "keywords": ["assessment", "centers", "evaluation"],
+      "relatedSkills": ["Candidate Screening", "Talent Management"]
+    },
+    {
+      "id": "skill_hr_039",
+      "name": "Skills Testing",
+      "category": "HR",
+      "keywords": ["skills", "testing", "assessment"],
+      "relatedSkills": ["Candidate Screening", "Recruitment"]
+    },
+    {
+      "id": "skill_hr_040",
+      "name": "Personality Assessments",
+      "category": "HR",
+      "keywords": ["personality", "assessments", "testing"],
+      "relatedSkills": ["Candidate Screening", "Talent Management"]
+    },
+    {
+      "id": "skill_hr_041",
+      "name": "Reference Checking",
+      "category": "HR",
+      "keywords": ["reference", "checking", "verification"],
+      "relatedSkills": ["Background Checks", "Recruitment"]
+    },
+    {
+      "id": "skill_hr_042",
+      "name": "Employment Verification",
+      "category": "HR",
+      "keywords": ["employment", "verification", "background"],
+      "relatedSkills": ["Background Checks", "Reference Checking"]
+    },
+    {
+      "id": "skill_hr_043",
+      "name": "Offer Negotiation",
+      "category": "HR",
+      "keywords": ["offer", "negotiation", "compensation"],
+      "relatedSkills": ["Recruitment", "Compensation Analysis"]
+    },
+    {
+      "id": "skill_hr_044",
+      "name": "Offer Letter Preparation",
+      "category": "HR",
+      "keywords": ["offer", "letter", "documentation"],
+      "relatedSkills": ["Recruitment", "HR Policies"]
+    },
+    {
+      "id": "skill_hr_045",
+      "name": "New Hire Orientation",
+      "category": "HR",
+      "keywords": ["new hire", "orientation", "onboarding"],
+      "relatedSkills": ["Onboarding", "Training and Development"]
+    },
+    {
+      "id": "skill_hr_046",
+      "name": "Onboarding Programs",
+      "category": "HR",
+      "keywords": ["onboarding", "programs", "integration"],
+      "relatedSkills": ["Onboarding", "Employee Engagement"]
+    },
+    {
+      "id": "skill_hr_047",
+      "name": "Preboarding",
+      "category": "HR",
+      "keywords": ["preboarding", "pre-onboarding", "preparation"],
+      "relatedSkills": ["Onboarding", "Recruitment"]
+    },
+    {
+      "id": "skill_hr_048",
+      "name": "90-Day Check-ins",
+      "category": "HR",
+      "keywords": ["90-day", "check-in", "retention"],
+      "relatedSkills": ["Onboarding", "Employee Relations"]
+    },
+    {
+      "id": "skill_hr_049",
+      "name": "I-9 Verification",
+      "category": "HR",
+      "keywords": ["i-9", "verification", "employment eligibility"],
+      "relatedSkills": ["HR Compliance", "Onboarding"]
+    },
+    {
+      "id": "skill_hr_050",
+      "name": "E-Verify",
+      "category": "HR",
+      "keywords": ["e-verify", "employment", "verification"],
+      "relatedSkills": ["I-9 Verification", "HR Compliance"]
+    },
+    {
+      "id": "skill_hr_051",
+      "name": "Performance Reviews",
+      "category": "HR",
+      "keywords": ["performance", "reviews", "evaluations"],
+      "relatedSkills": ["Performance Management", "Employee Relations"]
+    },
+    {
+      "id": "skill_hr_052",
+      "name": "360-Degree Feedback",
+      "category": "HR",
+      "keywords": ["360", "feedback", "multi-rater"],
+      "relatedSkills": ["Performance Reviews", "Performance Management"]
+    },
+    {
+      "id": "skill_hr_053",
+      "name": "Performance Improvement Plans (PIP)",
+      "category": "HR",
+      "keywords": ["pip", "performance improvement", "corrective"],
+      "relatedSkills": ["Performance Management", "Employee Relations"]
+    },
+    {
+      "id": "skill_hr_054",
+      "name": "Goal Setting (OKRs/KPIs)",
+      "category": "HR",
+      "keywords": ["goal", "okr", "kpi"],
+      "relatedSkills": ["Performance Management", "Performance Reviews"]
+    },
+    {
+      "id": "skill_hr_055",
+      "name": "Continuous Performance Management",
+      "category": "HR",
+      "keywords": ["continuous", "performance", "feedback"],
+      "relatedSkills": ["Performance Management", "Employee Engagement"]
+    },
+    {
+      "id": "skill_hr_056",
+      "name": "Calibration Sessions",
+      "category": "HR",
+      "keywords": ["calibration", "performance", "ratings"],
+      "relatedSkills": ["Performance Management", "Performance Reviews"]
+    },
+    {
+      "id": "skill_hr_057",
+      "name": "Compensation Benchmarking",
+      "category": "HR",
+      "keywords": ["compensation", "benchmarking", "market"],
+      "relatedSkills": ["Compensation Analysis", "Talent Management"]
+    },
+    {
+      "id": "skill_hr_058",
+      "name": "Salary Surveys",
+      "category": "HR",
+      "keywords": ["salary", "surveys", "market data"],
+      "relatedSkills": ["Compensation Benchmarking", "Compensation Analysis"]
+    },
+    {
+      "id": "skill_hr_059",
+      "name": "Pay Equity Analysis",
+      "category": "HR",
+      "keywords": ["pay", "equity", "fairness"],
+      "relatedSkills": ["Compensation Analysis", "HR Compliance"]
+    },
+    {
+      "id": "skill_hr_060",
+      "name": "Job Evaluation",
+      "category": "HR",
+      "keywords": ["job", "evaluation", "grading"],
+      "relatedSkills": ["Compensation Analysis", "Job Analysis"]
+    },
+    {
+      "id": "skill_hr_061",
+      "name": "Pay Grades and Bands",
+      "category": "HR",
+      "keywords": ["pay", "grades", "bands"],
+      "relatedSkills": ["Compensation Analysis", "Job Evaluation"]
+    },
+    {
+      "id": "skill_hr_062",
+      "name": "Merit Increase Planning",
+      "category": "HR",
+      "keywords": ["merit", "increase", "raises"],
+      "relatedSkills": ["Compensation Analysis", "Performance Management"]
+    },
+    {
+      "id": "skill_hr_063",
+      "name": "Bonus Administration",
+      "category": "HR",
+      "keywords": ["bonus", "administration", "incentive"],
+      "relatedSkills": ["Compensation Analysis", "Payroll"]
+    },
+    {
+      "id": "skill_hr_064",
+      "name": "Commission Structures",
+      "category": "HR",
+      "keywords": ["commission", "structures", "sales"],
+      "relatedSkills": ["Compensation Analysis", "Performance Management"]
+    },
+    {
+      "id": "skill_hr_065",
+      "name": "Equity Compensation",
+      "category": "HR",
+      "keywords": ["equity", "stock", "options"],
+      "relatedSkills": ["Compensation Analysis", "Benefits Administration"]
+    },
+    {
+      "id": "skill_hr_066",
+      "name": "Stock Options Administration",
+      "category": "HR",
+      "keywords": ["stock", "options", "equity"],
+      "relatedSkills": ["Equity Compensation", "Benefits Administration"]
+    },
+    {
+      "id": "skill_hr_067",
+      "name": "Health Insurance Administration",
+      "category": "HR",
+      "keywords": ["health", "insurance", "benefits"],
+      "relatedSkills": ["Benefits Administration", "HR Compliance"]
+    },
+    {
+      "id": "skill_hr_068",
+      "name": "Retirement Plan Administration",
+      "category": "HR",
+      "keywords": ["retirement", "401k", "benefits"],
+      "relatedSkills": ["Benefits Administration", "HR Compliance"]
+    },
+    {
+      "id": "skill_hr_069",
+      "name": "401(k) Administration",
+      "category": "HR",
+      "keywords": ["401k", "retirement", "savings"],
+      "relatedSkills": ["Retirement Plan Administration", "Benefits Administration"]
+    },
+    {
+      "id": "skill_hr_070",
+      "name": "COBRA Administration",
+      "category": "HR",
+      "keywords": ["cobra", "continuation", "benefits"],
+      "relatedSkills": ["Health Insurance Administration", "HR Compliance"]
+    },
+    {
+      "id": "skill_hr_071",
+      "name": "FMLA Administration",
+      "category": "HR",
+      "keywords": ["fmla", "family medical", "leave"],
+      "relatedSkills": ["HR Compliance", "Employee Relations"]
+    },
+    {
+      "id": "skill_hr_072",
+      "name": "Leave of Absence Management",
+      "category": "HR",
+      "keywords": ["leave", "absence", "management"],
+      "relatedSkills": ["FMLA Administration", "Employee Relations"]
+    },
+    {
+      "id": "skill_hr_073",
+      "name": "ADA Accommodations",
+      "category": "HR",
+      "keywords": ["ada", "accommodations", "disability"],
+      "relatedSkills": ["HR Compliance", "Employee Relations"]
+    },
+    {
+      "id": "skill_hr_074",
+      "name": "Workers' Compensation Administration",
+      "category": "HR",
+      "keywords": ["workers", "compensation", "injury"],
+      "relatedSkills": ["Benefits Administration", "HR Compliance"]
+    },
+    {
+      "id": "skill_hr_075",
+      "name": "Benefits Enrollment",
+      "category": "HR",
+      "keywords": ["benefits", "enrollment", "open enrollment"],
+      "relatedSkills": ["Benefits Administration", "Employee Relations"]
+    },
+    {
+      "id": "skill_hr_076",
+      "name": "Open Enrollment",
+      "category": "HR",
+      "keywords": ["open", "enrollment", "benefits"],
+      "relatedSkills": ["Benefits Enrollment", "Benefits Administration"]
+    },
+    {
+      "id": "skill_hr_077",
+      "name": "Benefits Communication",
+      "category": "HR",
+      "keywords": ["benefits", "communication", "education"],
+      "relatedSkills": ["Benefits Administration", "Employee Relations"]
+    },
+    {
+      "id": "skill_hr_078",
+      "name": "Wellness Programs",
+      "category": "HR",
+      "keywords": ["wellness", "programs", "health"],
+      "relatedSkills": ["Benefits Administration", "Employee Engagement"]
+    },
+    {
+      "id": "skill_hr_079",
+      "name": "Employee Assistance Programs (EAP)",
+      "category": "HR",
+      "keywords": ["eap", "employee assistance", "counseling"],
+      "relatedSkills": ["Benefits Administration", "Employee Relations"]
+    },
+    {
+      "id": "skill_hr_080",
+      "name": "Payroll Processing",
+      "category": "HR",
+      "keywords": ["payroll", "processing", "wages"],
+      "relatedSkills": ["Payroll", "HRIS"]
+    },
+    {
+      "id": "skill_hr_081",
+      "name": "Time and Attendance Tracking",
+      "category": "HR",
+      "keywords": ["time", "attendance", "tracking"],
+      "relatedSkills": ["Payroll", "HRIS"]
+    },
+    {
+      "id": "skill_hr_082",
+      "name": "Garnishment Processing",
+      "category": "HR",
+      "keywords": ["garnishment", "payroll", "deductions"],
+      "relatedSkills": ["Payroll Processing", "HR Compliance"]
+    },
+    {
+      "id": "skill_hr_083",
+      "name": "Tax Filing (Payroll)",
+      "category": "HR",
+      "keywords": ["tax", "filing", "payroll"],
+      "relatedSkills": ["Payroll Processing", "HR Compliance"]
+    },
+    {
+      "id": "skill_hr_084",
+      "name": "Multi-State Payroll",
+      "category": "HR",
+      "keywords": ["multi-state", "payroll", "compliance"],
+      "relatedSkills": ["Payroll Processing", "HR Compliance"]
+    },
+    {
+      "id": "skill_hr_085",
+      "name": "International Payroll",
+      "category": "HR",
+      "keywords": ["international", "payroll", "global"],
+      "relatedSkills": ["Payroll Processing", "HR Compliance"]
+    },
+    {
+      "id": "skill_hr_086",
+      "name": "HRIS Implementation",
+      "category": "HR",
+      "keywords": ["hris", "implementation", "technology"],
+      "relatedSkills": ["HRIS", "HR Operations"]
+    },
+    {
+      "id": "skill_hr_087",
+      "name": "HRIS Administration",
+      "category": "HR",
+      "keywords": ["hris", "administration", "management"],
+      "relatedSkills": ["HRIS", "HR Operations"]
+    },
+    {
+      "id": "skill_hr_088",
+      "name": "Workday",
+      "category": "HR",
+      "keywords": ["workday", "hris", "software"],
+      "relatedSkills": ["HRIS", "HRIS Administration"]
+    },
+    {
+      "id": "skill_hr_089",
+      "name": "ADP",
+      "category": "HR",
+      "keywords": ["adp", "payroll", "hris"],
+      "relatedSkills": ["HRIS", "Payroll Processing"]
+    },
+    {
+      "id": "skill_hr_090",
+      "name": "BambooHR",
+      "category": "HR",
+      "keywords": ["bamboohr", "hris", "software"],
+      "relatedSkills": ["HRIS", "HRIS Administration"]
+    },
+    {
+      "id": "skill_hr_091",
+      "name": "SuccessFactors",
+      "category": "HR",
+      "keywords": ["successfactors", "sap", "hris"],
+      "relatedSkills": ["HRIS", "HRIS Administration"]
+    },
+    {
+      "id": "skill_hr_092",
+      "name": "HR Analytics",
+      "category": "HR",
+      "keywords": ["hr", "analytics", "data"],
+      "relatedSkills": ["HRIS", "Workforce Planning"]
+    },
+    {
+      "id": "skill_hr_093",
+      "name": "People Analytics",
+      "category": "HR",
+      "keywords": ["people", "analytics", "metrics"],
+      "relatedSkills": ["HR Analytics", "Talent Management"]
+    },
+    {
+      "id": "skill_hr_094",
+      "name": "HR Metrics and KPIs",
+      "category": "HR",
+      "keywords": ["hr", "metrics", "kpi"],
+      "relatedSkills": ["HR Analytics", "People Analytics"]
+    },
+    {
+      "id": "skill_hr_095",
+      "name": "Turnover Analysis",
+      "category": "HR",
+      "keywords": ["turnover", "analysis", "retention"],
+      "relatedSkills": ["HR Analytics", "Talent Management"]
+    },
+    {
+      "id": "skill_hr_096",
+      "name": "Retention Strategies",
+      "category": "HR",
+      "keywords": ["retention", "strategies", "engagement"],
+      "relatedSkills": ["Talent Management", "Employee Engagement"]
+    },
+    {
+      "id": "skill_hr_097",
+      "name": "Exit Interviews",
+      "category": "HR",
+      "keywords": ["exit", "interviews", "offboarding"],
+      "relatedSkills": ["Termination Procedures", "Turnover Analysis"]
+    },
+    {
+      "id": "skill_hr_098",
+      "name": "Offboarding",
+      "category": "HR",
+      "keywords": ["offboarding", "separation", "exit"],
+      "relatedSkills": ["Termination Procedures", "Exit Interviews"]
+    },
+    {
+      "id": "skill_hr_099",
+      "name": "Layoff Management",
+      "category": "HR",
+      "keywords": ["layoff", "management", "rif"],
+      "relatedSkills": ["Termination Procedures", "Employee Relations"]
+    },
+    {
+      "id": "skill_hr_100",
+      "name": "WARN Act Compliance",
+      "category": "HR",
+      "keywords": ["warn", "act", "layoffs"],
+      "relatedSkills": ["Layoff Management", "HR Compliance"]
+    },
+    {
+      "id": "skill_hr_101",
+      "name": "Severance Negotiations",
+      "category": "HR",
+      "keywords": ["severance", "negotiations", "separation"],
+      "relatedSkills": ["Termination Procedures", "Employee Relations"]
+    },
+    {
+      "id": "skill_hr_102",
+      "name": "Unemployment Claims",
+      "category": "HR",
+      "keywords": ["unemployment", "claims", "benefits"],
+      "relatedSkills": ["Termination Procedures", "HR Compliance"]
+    },
+    {
+      "id": "skill_hr_103",
+      "name": "Employee Handbook Development",
+      "category": "HR",
+      "keywords": ["employee", "handbook", "policies"],
+      "relatedSkills": ["HR Policies", "HR Compliance"]
+    },
+    {
+      "id": "skill_hr_104",
+      "name": "Policy Writing",
+      "category": "HR",
+      "keywords": ["policy", "writing", "documentation"],
+      "relatedSkills": ["HR Policies", "HR Compliance"]
+    },
+    {
+      "id": "skill_hr_105",
+      "name": "Code of Conduct",
+      "category": "HR",
+      "keywords": ["code", "conduct", "ethics"],
+      "relatedSkills": ["HR Policies", "Employee Relations"]
+    },
+    {
+      "id": "skill_hr_106",
+      "name": "Workplace Investigations",
+      "category": "HR",
+      "keywords": ["workplace", "investigations", "complaints"],
+      "relatedSkills": ["Employee Relations", "HR Compliance"]
+    },
+    {
+      "id": "skill_hr_107",
+      "name": "Harassment Investigations",
+      "category": "HR",
+      "keywords": ["harassment", "investigations", "complaints"],
+      "relatedSkills": ["Workplace Investigations", "HR Compliance"]
+    },
+    {
+      "id": "skill_hr_108",
+      "name": "Disciplinary Actions",
+      "category": "HR",
+      "keywords": ["disciplinary", "actions", "corrective"],
+      "relatedSkills": ["Employee Relations", "Performance Management"]
+    },
+    {
+      "id": "skill_hr_109",
+      "name": "Progressive Discipline",
+      "category": "HR",
+      "keywords": ["progressive", "discipline", "warnings"],
+      "relatedSkills": ["Disciplinary Actions", "Employee Relations"]
+    },
+    {
+      "id": "skill_hr_110",
+      "name": "Grievance Handling",
+      "category": "HR",
+      "keywords": ["grievance", "handling", "complaints"],
+      "relatedSkills": ["Employee Relations", "Conflict Resolution"]
+    },
+    {
+      "id": "skill_hr_111",
+      "name": "Mediation (HR)",
+      "category": "HR",
+      "keywords": ["mediation", "conflict", "resolution"],
+      "relatedSkills": ["Conflict Resolution", "Employee Relations"]
+    },
+    {
+      "id": "skill_hr_112",
+      "name": "Union Relations",
+      "category": "HR",
+      "keywords": ["union", "relations", "labor"],
+      "relatedSkills": ["Employee Relations", "Employment Law"]
+    },
+    {
+      "id": "skill_hr_113",
+      "name": "Collective Bargaining",
+      "category": "HR",
+      "keywords": ["collective", "bargaining", "union"],
+      "relatedSkills": ["Union Relations", "Employment Law"]
+    },
+    {
+      "id": "skill_hr_114",
+      "name": "Labor Contract Negotiation",
+      "category": "HR",
+      "keywords": ["labor", "contract", "negotiation"],
+      "relatedSkills": ["Collective Bargaining", "Union Relations"]
+    },
+    {
+      "id": "skill_hr_115",
+      "name": "Unfair Labor Practice Charges",
+      "category": "HR",
+      "keywords": ["unfair", "labor practice", "nlrb"],
+      "relatedSkills": ["Union Relations", "HR Compliance"]
+    },
+    {
+      "id": "skill_hr_116",
+      "name": "Needs Assessment (Training)",
+      "category": "HR",
+      "keywords": ["needs", "assessment", "training"],
+      "relatedSkills": ["Training and Development", "Organizational Development"]
+    },
+    {
+      "id": "skill_hr_117",
+      "name": "Training Design",
+      "category": "HR",
+      "keywords": ["training", "design", "curriculum"],
+      "relatedSkills": ["Training and Development", "Needs Assessment (Training)"]
+    },
+    {
+      "id": "skill_hr_118",
+      "name": "Training Delivery",
+      "category": "HR",
+      "keywords": ["training", "delivery", "facilitation"],
+      "relatedSkills": ["Training and Development", "Training Design"]
+    },
+    {
+      "id": "skill_hr_119",
+      "name": "E-Learning Development",
+      "category": "HR",
+      "keywords": ["e-learning", "online", "training"],
+      "relatedSkills": ["Training and Development", "Training Design"]
+    },
+    {
+      "id": "skill_hr_120",
+      "name": "LMS Administration",
+      "category": "HR",
+      "keywords": ["lms", "learning management", "training"],
+      "relatedSkills": ["Training and Development", "HRIS"]
+    },
+    {
+      "id": "skill_hr_121",
+      "name": "Instructional Design",
+      "category": "HR",
+      "keywords": ["instructional", "design", "training"],
+      "relatedSkills": ["Training Design", "E-Learning Development"]
+    },
+    {
+      "id": "skill_hr_122",
+      "name": "Compliance Training",
+      "category": "HR",
+      "keywords": ["compliance", "training", "mandatory"],
+      "relatedSkills": ["Training and Development", "HR Compliance"]
+    },
+    {
+      "id": "skill_hr_123",
+      "name": "Leadership Development",
+      "category": "HR",
+      "keywords": ["leadership", "development", "management"],
+      "relatedSkills": ["Training and Development", "Succession Planning"]
+    },
+    {
+      "id": "skill_hr_124",
+      "name": "Executive Coaching",
+      "category": "HR",
+      "keywords": ["executive", "coaching", "leadership"],
+      "relatedSkills": ["Leadership Development", "Talent Management"]
+    },
+    {
+      "id": "skill_hr_125",
+      "name": "Mentoring Programs",
+      "category": "HR",
+      "keywords": ["mentoring", "programs", "development"],
+      "relatedSkills": ["Training and Development", "Employee Engagement"]
+    },
+    {
+      "id": "skill_hr_126",
+      "name": "Career Development",
+      "category": "HR",
+      "keywords": ["career", "development", "pathing"],
+      "relatedSkills": ["Training and Development", "Talent Management"]
+    },
+    {
+      "id": "skill_hr_127",
+      "name": "Career Pathing",
+      "category": "HR",
+      "keywords": ["career", "pathing", "progression"],
+      "relatedSkills": ["Career Development", "Succession Planning"]
+    },
+    {
+      "id": "skill_hr_128",
+      "name": "High Potential Identification",
+      "category": "HR",
+      "keywords": ["high potential", "hipo", "talent"],
+      "relatedSkills": ["Succession Planning", "Talent Management"]
+    },
+    {
+      "id": "skill_hr_129",
+      "name": "Talent Review Meetings",
+      "category": "HR",
+      "keywords": ["talent", "review", "9-box"],
+      "relatedSkills": ["Succession Planning", "Performance Management"]
+    },
+    {
+      "id": "skill_hr_130",
+      "name": "9-Box Grid",
+      "category": "HR",
+      "keywords": ["9-box", "grid", "talent"],
+      "relatedSkills": ["Talent Review Meetings", "Performance Management"]
+    },
+    {
+      "id": "skill_hr_131",
+      "name": "Competency Assessments",
+      "category": "HR",
+      "keywords": ["competency", "assessments", "evaluation"],
+      "relatedSkills": ["Talent Management", "Performance Management"]
+    },
+    {
+      "id": "skill_hr_132",
+      "name": "Engagement Surveys",
+      "category": "HR",
+      "keywords": ["engagement", "surveys", "pulse"],
+      "relatedSkills": ["Employee Engagement", "HR Analytics"]
+    },
+    {
+      "id": "skill_hr_133",
+      "name": "Pulse Surveys",
+      "category": "HR",
+      "keywords": ["pulse", "surveys", "feedback"],
+      "relatedSkills": ["Engagement Surveys", "Employee Engagement"]
+    },
+    {
+      "id": "skill_hr_134",
+      "name": "Employee Recognition Programs",
+      "category": "HR",
+      "keywords": ["employee", "recognition", "rewards"],
+      "relatedSkills": ["Employee Engagement", "Performance Management"]
+    },
+    {
+      "id": "skill_hr_135",
+      "name": "Rewards and Recognition",
+      "category": "HR",
+      "keywords": ["rewards", "recognition", "incentives"],
+      "relatedSkills": ["Employee Recognition Programs", "Employee Engagement"]
+    },
+    {
+      "id": "skill_hr_136",
+      "name": "Company Culture Initiatives",
+      "category": "HR",
+      "keywords": ["company", "culture", "values"],
+      "relatedSkills": ["Employee Engagement", "Organizational Development"]
+    },
+    {
+      "id": "skill_hr_137",
+      "name": "Values Integration",
+      "category": "HR",
+      "keywords": ["values", "integration", "culture"],
+      "relatedSkills": ["Company Culture Initiatives", "Organizational Development"]
+    },
+    {
+      "id": "skill_hr_138",
+      "name": "Employee Communications",
+      "category": "HR",
+      "keywords": ["employee", "communications", "internal"],
+      "relatedSkills": ["Employee Engagement", "Employee Relations"]
+    },
+    {
+      "id": "skill_hr_139",
+      "name": "Town Halls",
+      "category": "HR",
+      "keywords": ["town halls", "all-hands", "meetings"],
+      "relatedSkills": ["Employee Communications", "Employee Engagement"]
+    },
+    {
+      "id": "skill_hr_140",
+      "name": "Change Management",
+      "category": "HR",
+      "keywords": ["change", "management", "transformation"],
+      "relatedSkills": ["Organizational Development", "Employee Engagement"]
+    },
+    {
+      "id": "skill_hr_141",
+      "name": "ADKAR Model",
+      "category": "HR",
+      "keywords": ["adkar", "change", "management"],
+      "relatedSkills": ["Change Management", "Organizational Development"]
+    },
+    {
+      "id": "skill_hr_142",
+      "name": "Organizational Restructuring",
+      "category": "HR",
+      "keywords": ["organizational", "restructuring", "reorg"],
+      "relatedSkills": ["Organizational Development", "Change Management"]
+    },
+    {
+      "id": "skill_hr_143",
+      "name": "Merger Integration",
+      "category": "HR",
+      "keywords": ["merger", "integration", "m&a"],
+      "relatedSkills": ["Organizational Development", "Change Management"]
+    },
+    {
+      "id": "skill_hr_144",
+      "name": "Cultural Integration (M&A)",
+      "category": "HR",
+      "keywords": ["cultural", "integration", "merger"],
+      "relatedSkills": ["Merger Integration", "Company Culture Initiatives"]
+    },
+    {
+      "id": "skill_hr_145",
+      "name": "Diversity Recruiting",
+      "category": "HR",
+      "keywords": ["diversity", "recruiting", "inclusion"],
+      "relatedSkills": ["Diversity and Inclusion", "Recruitment"]
+    },
+    {
+      "id": "skill_hr_146",
+      "name": "DEI Strategy",
+      "category": "HR",
+      "keywords": ["dei", "strategy", "diversity"],
+      "relatedSkills": ["Diversity and Inclusion", "Organizational Development"]
+    },
+    {
+      "id": "skill_hr_147",
+      "name": "Unconscious Bias Training",
+      "category": "HR",
+      "keywords": ["unconscious", "bias", "training"],
+      "relatedSkills": ["Diversity and Inclusion", "Training and Development"]
+    },
+    {
+      "id": "skill_hr_148",
+      "name": "Affirmative Action Planning",
+      "category": "HR",
+      "keywords": ["affirmative", "action", "aap"],
+      "relatedSkills": ["Diversity and Inclusion", "HR Compliance"]
+    },
+    {
+      "id": "skill_hr_149",
+      "name": "EEO Reporting",
+      "category": "HR",
+      "keywords": ["eeo", "reporting", "compliance"],
+      "relatedSkills": ["HR Compliance", "Diversity and Inclusion"]
+    },
+    {
+      "id": "skill_hr_150",
+      "name": "EEO-1 Filing",
+      "category": "HR",
+      "keywords": ["eeo-1", "filing", "reporting"],
+      "relatedSkills": ["EEO Reporting", "HR Compliance"]
+    },
+    {
+      "id": "skill_hr_151",
+      "name": "OFCCP Compliance",
+      "category": "HR",
+      "keywords": ["ofccp", "compliance", "affirmative action"],
+      "relatedSkills": ["Affirmative Action Planning", "HR Compliance"]
+    },
+    {
+      "id": "skill_hr_152",
+      "name": "FLSA Compliance",
+      "category": "HR",
+      "keywords": ["flsa", "wage hour", "compliance"],
+      "relatedSkills": ["HR Compliance", "Employment Law"]
+    },
+    {
+      "id": "skill_hr_153",
+      "name": "Exempt vs Non-Exempt Classification",
+      "category": "HR",
+      "keywords": ["exempt", "non-exempt", "classification"],
+      "relatedSkills": ["FLSA Compliance", "HR Compliance"]
+    },
+    {
+      "id": "skill_hr_154",
+      "name": "Wage and Hour Audits",
+      "category": "HR",
+      "keywords": ["wage", "hour", "audits"],
+      "relatedSkills": ["FLSA Compliance", "HR Compliance"]
+    },
+    {
+      "id": "skill_hr_155",
+      "name": "EEOC Charge Response",
+      "category": "HR",
+      "keywords": ["eeoc", "charge", "response"],
+      "relatedSkills": ["HR Compliance", "Employee Relations"]
+    },
+    {
+      "id": "skill_hr_156",
+      "name": "DOL Audits",
+      "category": "HR",
+      "keywords": ["dol", "audits", "labor"],
+      "relatedSkills": ["HR Compliance", "Employment Law"]
+    },
+    {
+      "id": "skill_hr_157",
+      "name": "OSHA Compliance",
+      "category": "HR",
+      "keywords": ["osha", "safety", "compliance"],
+      "relatedSkills": ["HR Compliance", "Employment Law"]
+    },
+    {
+      "id": "skill_hr_158",
+      "name": "Safety Training",
+      "category": "HR",
+      "keywords": ["safety", "training", "osha"],
+      "relatedSkills": ["OSHA Compliance", "Training and Development"]
+    },
+    {
+      "id": "skill_hr_159",
+      "name": "HR Audit",
+      "category": "HR",
+      "keywords": ["hr", "audit", "compliance"],
+      "relatedSkills": ["HR Compliance", "HR Operations"]
+    },
+    {
+      "id": "skill_hr_160",
+      "name": "HR Operations",
+      "category": "HR",
+      "keywords": ["hr", "operations", "processes"],
+      "relatedSkills": ["HRIS", "HR Compliance"]
+    },
+    {
+      "id": "skill_hr_161",
+      "name": "Process Improvement (HR)",
+      "category": "HR",
+      "keywords": ["process", "improvement", "efficiency"],
+      "relatedSkills": ["HR Operations", "Organizational Development"]
+    },
+    {
+      "id": "skill_hr_162",
+      "name": "HR Service Delivery",
+      "category": "HR",
+      "keywords": ["hr", "service delivery", "operations"],
+      "relatedSkills": ["HR Operations", "Employee Relations"]
+    },
+    {
+      "id": "skill_hr_163",
+      "name": "Employee Self-Service",
+      "category": "HR",
+      "keywords": ["employee", "self-service", "portal"],
+      "relatedSkills": ["HRIS", "HR Service Delivery"]
+    },
+    {
+      "id": "skill_hr_164",
+      "name": "HR Business Partner (HRBP)",
+      "category": "HR",
+      "keywords": ["hrbp", "business partner", "strategic"],
+      "relatedSkills": ["Employee Relations", "Organizational Development"]
+    },
+    {
+      "id": "skill_hr_165",
+      "name": "Strategic HR Planning",
+      "category": "HR",
+      "keywords": ["strategic", "hr planning", "alignment"],
+      "relatedSkills": ["Workforce Planning", "Organizational Development"]
+    },
+    {
+      "id": "skill_hr_166",
+      "name": "HR Budget Management",
+      "category": "HR",
+      "keywords": ["hr", "budget", "management"],
+      "relatedSkills": ["Compensation Analysis", "HR Operations"]
+    },
+    {
+      "id": "skill_hr_167",
+      "name": "Vendor Management (HR)",
+      "category": "HR",
+      "keywords": ["vendor", "management", "procurement"],
+      "relatedSkills": ["HR Operations", "Benefits Administration"]
+    },
+    {
+      "id": "skill_hr_168",
+      "name": "PEO Management",
+      "category": "HR",
+      "keywords": ["peo", "professional employer", "organization"],
+      "relatedSkills": ["HR Operations", "Payroll"]
+    },
+    {
+      "id": "skill_hr_169",
+      "name": "Global HR",
+      "category": "HR",
+      "keywords": ["global", "hr", "international"],
+      "relatedSkills": ["HR Operations", "HR Compliance"]
+    },
+    {
+      "id": "skill_hr_170",
+      "name": "Expatriate Management",
+      "category": "HR",
+      "keywords": ["expatriate", "expat", "international"],
+      "relatedSkills": ["Global HR", "Compensation Analysis"]
+    },
+    {
+      "id": "skill_hr_171",
+      "name": "International Assignment Management",
+      "category": "HR",
+      "keywords": ["international", "assignment", "relocation"],
+      "relatedSkills": ["Expatriate Management", "Global HR"]
+    },
+    {
+      "id": "skill_hr_172",
+      "name": "Global Mobility",
+      "category": "HR",
+      "keywords": ["global", "mobility", "relocation"],
+      "relatedSkills": ["International Assignment Management", "Global HR"]
+    },
+    {
+      "id": "skill_hr_173",
+      "name": "Immigration Support",
+      "category": "HR",
+      "keywords": ["immigration", "support", "visa"],
+      "relatedSkills": ["Global HR", "HR Compliance"]
+    },
+    {
+      "id": "skill_hr_174",
+      "name": "H-1B Visa Processing",
+      "category": "HR",
+      "keywords": ["h1b", "visa", "immigration"],
+      "relatedSkills": ["Immigration Support", "HR Compliance"]
+    },
+    {
+      "id": "skill_hr_175",
+      "name": "Remote Work Policies",
+      "category": "HR",
+      "keywords": ["remote", "work", "policies"],
+      "relatedSkills": ["HR Policies", "Workforce Planning"]
+    },
+    {
+      "id": "skill_hr_176",
+      "name": "Hybrid Work Management",
+      "category": "HR",
+      "keywords": ["hybrid", "work", "flexible"],
+      "relatedSkills": ["Remote Work Policies", "Workforce Planning"]
+    },
+    {
+      "id": "skill_hr_177",
+      "name": "Virtual Team Management",
+      "category": "HR",
+      "keywords": ["virtual", "team", "remote"],
+      "relatedSkills": ["Remote Work Policies", "Employee Engagement"]
+    },
+    {
+      "id": "skill_hr_178",
+      "name": "Contingent Workforce Management",
+      "category": "HR",
+      "keywords": ["contingent", "workforce", "contractors"],
+      "relatedSkills": ["Workforce Planning", "Talent Acquisition"]
+    },
+    {
+      "id": "skill_hr_179",
+      "name": "Independent Contractor Classification",
+      "category": "HR",
+      "keywords": ["independent", "contractor", "classification"],
+      "relatedSkills": ["Contingent Workforce Management", "HR Compliance"]
+    },
+    {
+      "id": "skill_hr_180",
+      "name": "Temporary Staffing",
+      "category": "HR",
+      "keywords": ["temporary", "staffing", "contractors"],
+      "relatedSkills": ["Contingent Workforce Management", "Recruitment"]
+    },
+    {
+      "id": "skill_hr_181",
+      "name": "Internal Mobility",
+      "category": "HR",
+      "keywords": ["internal", "mobility", "transfers"],
+      "relatedSkills": ["Talent Management", "Recruitment"]
+    },
+    {
+      "id": "skill_hr_182",
+      "name": "Job Posting (Internal)",
+      "category": "HR",
+      "keywords": ["job", "posting", "internal"],
+      "relatedSkills": ["Internal Mobility", "Recruitment"]
+    },
+    {
+      "id": "skill_hr_183",
+      "name": "Transfer Management",
+      "category": "HR",
+      "keywords": ["transfer", "management", "internal"],
+      "relatedSkills": ["Internal Mobility", "Employee Relations"]
+    },
+    {
+      "id": "skill_hr_184",
+      "name": "Promotion Process",
+      "category": "HR",
+      "keywords": ["promotion", "process", "advancement"],
+      "relatedSkills": ["Internal Mobility", "Performance Management"]
+    },
+    {
+      "id": "skill_hr_185",
+      "name": "HR Generalist Functions",
+      "category": "HR",
+      "keywords": ["hr", "generalist", "broad"],
+      "relatedSkills": ["Employee Relations", "HR Operations"]
+    },
+    {
+      "id": "skill_hr_186",
+      "name": "HR Specialist Functions",
+      "category": "HR",
+      "keywords": ["hr", "specialist", "focused"],
+      "relatedSkills": ["HR Operations", "Talent Management"]
+    },
+    {
+      "id": "skill_hr_187",
+      "name": "HR Reporting",
+      "category": "HR",
+      "keywords": ["hr", "reporting", "dashboards"],
+      "relatedSkills": ["HR Analytics", "HRIS"]
+    },
+    {
+      "id": "skill_hr_188",
+      "name": "Headcount Reporting",
+      "category": "HR",
+      "keywords": ["headcount", "reporting", "metrics"],
+      "relatedSkills": ["HR Reporting", "Workforce Planning"]
+    },
+    {
+      "id": "skill_hr_189",
+      "name": "Compliance Reporting",
+      "category": "HR",
+      "keywords": ["compliance", "reporting", "regulatory"],
+      "relatedSkills": ["HR Compliance", "HR Reporting"]
+    },
+    {
+      "id": "skill_hr_190",
+      "name": "HR Dashboard Creation",
+      "category": "HR",
+      "keywords": ["hr", "dashboard", "visualization"],
+      "relatedSkills": ["HR Reporting", "HR Analytics"]
+    },
+    {
+      "id": "skill_hr_191",
+      "name": "Excel for HR",
+      "category": "HR",
+      "keywords": ["excel", "hr", "spreadsheets"],
+      "relatedSkills": ["HR Analytics", "HR Reporting"]
+    },
+    {
+      "id": "skill_hr_192",
+      "name": "PowerBI for HR",
+      "category": "HR",
+      "keywords": ["powerbi", "hr", "analytics"],
+      "relatedSkills": ["HR Dashboard Creation", "HR Analytics"]
+    },
+    {
+      "id": "skill_hr_193",
+      "name": "Tableau for HR",
+      "category": "HR",
+      "keywords": ["tableau", "hr", "visualization"],
+      "relatedSkills": ["HR Dashboard Creation", "HR Analytics"]
+    },
+    {
+      "id": "skill_hr_194",
+      "name": "HR Project Management",
+      "category": "HR",
+      "keywords": ["hr", "project management", "initiatives"],
+      "relatedSkills": ["HR Operations", "Organizational Development"]
+    },
+    {
+      "id": "skill_hr_195",
+      "name": "HR Transformation",
+      "category": "HR",
+      "keywords": ["hr", "transformation", "modernization"],
+      "relatedSkills": ["HR Project Management", "Change Management"]
+    },
+    {
+      "id": "skill_hr_196",
+      "name": "HR Technology Selection",
+      "category": "HR",
+      "keywords": ["hr", "technology", "selection"],
+      "relatedSkills": ["HRIS Implementation", "HR Operations"]
+    },
+    {
+      "id": "skill_hr_197",
+      "name": "HR RFP Management",
+      "category": "HR",
+      "keywords": ["hr", "rfp", "procurement"],
+      "relatedSkills": ["HR Technology Selection", "Vendor Management (HR)"]
+    },
+    {
+      "id": "skill_hr_198",
+      "name": "Employer Branding",
+      "category": "HR",
+      "keywords": ["employer", "branding", "recruitment"],
+      "relatedSkills": ["Talent Acquisition", "Employee Engagement"]
+    },
+    {
+      "id": "skill_hr_199",
+      "name": "Candidate Experience",
+      "category": "HR",
+      "keywords": ["candidate", "experience", "recruiting"],
+      "relatedSkills": ["Recruitment", "Employer Branding"]
+    },
+    {
+      "id": "skill_hr_200",
+      "name": "Employee Value Proposition (EVP)",
+      "category": "HR",
+      "keywords": ["evp", "employee value", "proposition"],
+      "relatedSkills": ["Employer Branding", "Employee Engagement"]
+    }
+  ]
+}

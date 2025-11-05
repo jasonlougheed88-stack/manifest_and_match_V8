@@ -1,0 +1,1259 @@
+{
+  "expansion_metadata": {
+    "sector": "Construction",
+    "existing_count": 22,
+    "new_count": 178,
+    "total_count": 200,
+    "source": "O*NET + AI Augmentation",
+    "validation_date": "2025-10-27",
+    "id_range": "skill_construction_023 to skill_construction_200"
+  },
+  "new_skills": [
+    {
+      "id": "skill_construction_023",
+      "name": "Residential Construction",
+      "category": "Construction",
+      "keywords": ["residential", "home building", "housing construction"],
+      "relatedSkills": ["Construction Project Management", "Building Codes"]
+    },
+    {
+      "id": "skill_construction_024",
+      "name": "Commercial Construction",
+      "category": "Construction",
+      "keywords": ["commercial", "office building", "retail construction"],
+      "relatedSkills": ["Project Management", "Construction Scheduling"]
+    },
+    {
+      "id": "skill_construction_025",
+      "name": "Heavy Civil Construction",
+      "category": "Construction",
+      "keywords": ["civil", "infrastructure", "bridges", "highways"],
+      "relatedSkills": ["Civil Engineering", "Project Management"]
+    },
+    {
+      "id": "skill_construction_026",
+      "name": "Industrial Construction",
+      "category": "Construction",
+      "keywords": ["industrial", "manufacturing", "plant construction"],
+      "relatedSkills": ["Commercial Construction", "Safety Management"]
+    },
+    {
+      "id": "skill_construction_027",
+      "name": "Construction Project Management",
+      "category": "Construction",
+      "keywords": ["project management", "construction management", "PM"],
+      "relatedSkills": ["Scheduling", "Cost Estimating", "Budget Management"]
+    },
+    {
+      "id": "skill_construction_028",
+      "name": "Construction Scheduling",
+      "category": "Construction",
+      "keywords": ["scheduling", "project scheduling", "CPM", "critical path"],
+      "relatedSkills": ["Primavera P6", "MS Project", "Project Management"]
+    },
+    {
+      "id": "skill_construction_029",
+      "name": "Primavera P6",
+      "category": "Construction",
+      "keywords": ["P6", "Primavera", "scheduling software", "Oracle"],
+      "relatedSkills": ["Construction Scheduling", "Project Management"]
+    },
+    {
+      "id": "skill_construction_030",
+      "name": "Cost Estimating",
+      "category": "Construction",
+      "keywords": ["estimating", "cost estimation", "quantity takeoff"],
+      "relatedSkills": ["Quantity Surveying", "Budget Management"]
+    },
+    {
+      "id": "skill_construction_031",
+      "name": "Quantity Surveying",
+      "category": "Construction",
+      "keywords": ["quantity surveying", "QS", "takeoff", "materials quantification"],
+      "relatedSkills": ["Cost Estimating", "Blueprint Reading"]
+    },
+    {
+      "id": "skill_construction_032",
+      "name": "Budget Management",
+      "category": "Construction",
+      "keywords": ["budgeting", "budget control", "cost management"],
+      "relatedSkills": ["Cost Estimating", "Project Management"]
+    },
+    {
+      "id": "skill_construction_033",
+      "name": "Value Engineering",
+      "category": "Construction",
+      "keywords": ["value engineering", "VE", "cost optimization"],
+      "relatedSkills": ["Cost Estimating", "Design Review"]
+    },
+    {
+      "id": "skill_construction_034",
+      "name": "Blueprint Reading",
+      "category": "Construction",
+      "keywords": ["blueprints", "construction drawings", "plan reading"],
+      "relatedSkills": ["Technical Drawings", "Construction Documentation"]
+    },
+    {
+      "id": "skill_construction_035",
+      "name": "Technical Drawing Interpretation",
+      "category": "Construction",
+      "keywords": ["drawings", "technical drawings", "schematics"],
+      "relatedSkills": ["Blueprint Reading", "CAD"]
+    },
+    {
+      "id": "skill_construction_036",
+      "name": "Building Information Modeling (BIM)",
+      "category": "Construction",
+      "keywords": ["BIM", "building information modeling", "3D modeling"],
+      "relatedSkills": ["Revit", "Navisworks", "AutoCAD"]
+    },
+    {
+      "id": "skill_construction_037",
+      "name": "Autodesk Revit",
+      "category": "Construction",
+      "keywords": ["Revit", "BIM software", "3D modeling"],
+      "relatedSkills": ["BIM", "AutoCAD", "Construction Technology"]
+    },
+    {
+      "id": "skill_construction_038",
+      "name": "Navisworks",
+      "category": "Construction",
+      "keywords": ["Navisworks", "clash detection", "BIM coordination"],
+      "relatedSkills": ["BIM", "Revit", "3D Coordination"]
+    },
+    {
+      "id": "skill_construction_039",
+      "name": "AutoCAD",
+      "category": "Construction",
+      "keywords": ["AutoCAD", "CAD", "computer-aided design"],
+      "relatedSkills": ["Technical Drawing", "Blueprint Reading"]
+    },
+    {
+      "id": "skill_construction_040",
+      "name": "Construction Safety Management",
+      "category": "Construction",
+      "keywords": ["safety", "safety management", "site safety"],
+      "relatedSkills": ["OSHA Compliance", "Safety Planning"]
+    },
+    {
+      "id": "skill_construction_041",
+      "name": "OSHA Compliance",
+      "category": "Construction",
+      "keywords": ["OSHA", "occupational safety", "compliance"],
+      "relatedSkills": ["Safety Management", "Safety Training"]
+    },
+    {
+      "id": "skill_construction_042",
+      "name": "Safety Planning",
+      "category": "Construction",
+      "keywords": ["safety planning", "safety plan", "job hazard analysis"],
+      "relatedSkills": ["Safety Management", "Risk Assessment"]
+    },
+    {
+      "id": "skill_construction_043",
+      "name": "Fall Protection",
+      "category": "Construction",
+      "keywords": ["fall protection", "fall arrest", "safety harness"],
+      "relatedSkills": ["Safety Management", "OSHA Compliance"]
+    },
+    {
+      "id": "skill_construction_044",
+      "name": "Scaffolding Safety",
+      "category": "Construction",
+      "keywords": ["scaffolding", "scaffold safety", "access equipment"],
+      "relatedSkills": ["Fall Protection", "Safety Management"]
+    },
+    {
+      "id": "skill_construction_045",
+      "name": "Hazard Identification",
+      "category": "Construction",
+      "keywords": ["hazard ID", "hazard recognition", "risk identification"],
+      "relatedSkills": ["Safety Management", "Risk Assessment"]
+    },
+    {
+      "id": "skill_construction_046",
+      "name": "Safety Training",
+      "category": "Construction",
+      "keywords": ["safety training", "toolbox talks", "safety meetings"],
+      "relatedSkills": ["OSHA Compliance", "Safety Management"]
+    },
+    {
+      "id": "skill_construction_047",
+      "name": "Incident Investigation",
+      "category": "Construction",
+      "keywords": ["incident investigation", "accident investigation", "root cause"],
+      "relatedSkills": ["Safety Management", "Risk Assessment"]
+    },
+    {
+      "id": "skill_construction_048",
+      "name": "Building Codes",
+      "category": "Construction",
+      "keywords": ["building codes", "code compliance", "IBC"],
+      "relatedSkills": ["Code Compliance", "Permitting"]
+    },
+    {
+      "id": "skill_construction_049",
+      "name": "Code Compliance",
+      "category": "Construction",
+      "keywords": ["compliance", "code enforcement", "regulatory compliance"],
+      "relatedSkills": ["Building Codes", "Inspection"]
+    },
+    {
+      "id": "skill_construction_050",
+      "name": "Permit Management",
+      "category": "Construction",
+      "keywords": ["permits", "permitting", "building permits"],
+      "relatedSkills": ["Building Codes", "Regulatory Compliance"]
+    },
+    {
+      "id": "skill_construction_051",
+      "name": "Construction Inspection",
+      "category": "Construction",
+      "keywords": ["inspection", "quality inspection", "site inspection"],
+      "relatedSkills": ["Quality Control", "Code Compliance"]
+    },
+    {
+      "id": "skill_construction_052",
+      "name": "Quality Control",
+      "category": "Construction",
+      "keywords": ["quality control", "QC", "quality assurance"],
+      "relatedSkills": ["Inspection", "Construction Standards"]
+    },
+    {
+      "id": "skill_construction_053",
+      "name": "Quality Assurance",
+      "category": "Construction",
+      "keywords": ["quality assurance", "QA", "quality management"],
+      "relatedSkills": ["Quality Control", "Testing Procedures"]
+    },
+    {
+      "id": "skill_construction_054",
+      "name": "Materials Testing",
+      "category": "Construction",
+      "keywords": ["materials testing", "concrete testing", "soil testing"],
+      "relatedSkills": ["Quality Control", "Inspection"]
+    },
+    {
+      "id": "skill_construction_055",
+      "name": "Concrete Work",
+      "category": "Construction",
+      "keywords": ["concrete", "concrete placement", "concrete finishing"],
+      "relatedSkills": ["Concrete Testing", "Formwork"]
+    },
+    {
+      "id": "skill_construction_056",
+      "name": "Formwork",
+      "category": "Construction",
+      "keywords": ["formwork", "concrete forms", "shuttering"],
+      "relatedSkills": ["Concrete Work", "Carpentry"]
+    },
+    {
+      "id": "skill_construction_057",
+      "name": "Framing",
+      "category": "Construction",
+      "keywords": ["framing", "wood framing", "structural framing"],
+      "relatedSkills": ["Carpentry", "Blueprint Reading"]
+    },
+    {
+      "id": "skill_construction_058",
+      "name": "Roofing",
+      "category": "Construction",
+      "keywords": ["roofing", "roof installation", "roof repair"],
+      "relatedSkills": ["Waterproofing", "Building Envelope"]
+    },
+    {
+      "id": "skill_construction_059",
+      "name": "Siding Installation",
+      "category": "Construction",
+      "keywords": ["siding", "exterior siding", "cladding"],
+      "relatedSkills": ["Building Envelope", "Waterproofing"]
+    },
+    {
+      "id": "skill_construction_060",
+      "name": "Waterproofing",
+      "category": "Construction",
+      "keywords": ["waterproofing", "moisture protection", "dampproofing"],
+      "relatedSkills": ["Building Envelope", "Roofing"]
+    },
+    {
+      "id": "skill_construction_061",
+      "name": "Building Envelope",
+      "category": "Construction",
+      "keywords": ["building envelope", "enclosure", "thermal barrier"],
+      "relatedSkills": ["Waterproofing", "Insulation"]
+    },
+    {
+      "id": "skill_construction_062",
+      "name": "Insulation Installation",
+      "category": "Construction",
+      "keywords": ["insulation", "thermal insulation", "energy efficiency"],
+      "relatedSkills": ["Building Envelope", "Energy Efficiency"]
+    },
+    {
+      "id": "skill_construction_063",
+      "name": "Drywall Installation",
+      "category": "Construction",
+      "keywords": ["drywall", "gypsum board", "sheetrock"],
+      "relatedSkills": ["Interior Finishing", "Taping and Mudding"]
+    },
+    {
+      "id": "skill_construction_064",
+      "name": "Taping and Mudding",
+      "category": "Construction",
+      "keywords": ["taping", "mudding", "joint compound"],
+      "relatedSkills": ["Drywall Installation", "Interior Finishing"]
+    },
+    {
+      "id": "skill_construction_065",
+      "name": "Painting and Finishing",
+      "category": "Construction",
+      "keywords": ["painting", "finishing", "surface preparation"],
+      "relatedSkills": ["Interior Finishing", "Surface Preparation"]
+    },
+    {
+      "id": "skill_construction_066",
+      "name": "Flooring Installation",
+      "category": "Construction",
+      "keywords": ["flooring", "floor installation", "tile", "carpet"],
+      "relatedSkills": ["Interior Finishing", "Tile Work"]
+    },
+    {
+      "id": "skill_construction_067",
+      "name": "Tile Work",
+      "category": "Construction",
+      "keywords": ["tile", "tile installation", "ceramic", "porcelain"],
+      "relatedSkills": ["Flooring Installation", "Interior Finishing"]
+    },
+    {
+      "id": "skill_construction_068",
+      "name": "Masonry",
+      "category": "Construction",
+      "keywords": ["masonry", "bricklaying", "block work"],
+      "relatedSkills": ["Concrete Work", "Stonework"]
+    },
+    {
+      "id": "skill_construction_069",
+      "name": "Stonework",
+      "category": "Construction",
+      "keywords": ["stonework", "stone masonry", "natural stone"],
+      "relatedSkills": ["Masonry", "Exterior Finishing"]
+    },
+    {
+      "id": "skill_construction_070",
+      "name": "Site Excavation",
+      "category": "Construction",
+      "keywords": ["excavation", "earthwork", "grading"],
+      "relatedSkills": ["Heavy Equipment Operation", "Site Preparation"]
+    },
+    {
+      "id": "skill_construction_071",
+      "name": "Grading and Drainage",
+      "category": "Construction",
+      "keywords": ["grading", "drainage", "site grading"],
+      "relatedSkills": ["Site Excavation", "Civil Engineering"]
+    },
+    {
+      "id": "skill_construction_072",
+      "name": "Foundation Work",
+      "category": "Construction",
+      "keywords": ["foundation", "footings", "foundation construction"],
+      "relatedSkills": ["Concrete Work", "Excavation"]
+    },
+    {
+      "id": "skill_construction_073",
+      "name": "Piling",
+      "category": "Construction",
+      "keywords": ["piling", "pile driving", "deep foundation"],
+      "relatedSkills": ["Foundation Work", "Heavy Equipment"]
+    },
+    {
+      "id": "skill_construction_074",
+      "name": "Structural Steel Erection",
+      "category": "Construction",
+      "keywords": ["structural steel", "steel erection", "ironwork"],
+      "relatedSkills": ["Welding", "Rigging"]
+    },
+    {
+      "id": "skill_construction_075",
+      "name": "Welding",
+      "category": "Construction",
+      "keywords": ["welding", "arc welding", "MIG", "TIG"],
+      "relatedSkills": ["Structural Steel", "Metal Fabrication"]
+    },
+    {
+      "id": "skill_construction_076",
+      "name": "Rigging",
+      "category": "Construction",
+      "keywords": ["rigging", "crane rigging", "load handling"],
+      "relatedSkills": ["Crane Operation", "Safety Management"]
+    },
+    {
+      "id": "skill_construction_077",
+      "name": "Crane Operation",
+      "category": "Construction",
+      "keywords": ["crane operation", "mobile crane", "tower crane"],
+      "relatedSkills": ["Heavy Equipment Operation", "Rigging"]
+    },
+    {
+      "id": "skill_construction_078",
+      "name": "Heavy Equipment Operation",
+      "category": "Construction",
+      "keywords": ["heavy equipment", "construction equipment", "machinery"],
+      "relatedSkills": ["Excavator", "Bulldozer", "Loader"]
+    },
+    {
+      "id": "skill_construction_079",
+      "name": "Excavator Operation",
+      "category": "Construction",
+      "keywords": ["excavator", "backhoe", "digging equipment"],
+      "relatedSkills": ["Heavy Equipment Operation", "Site Excavation"]
+    },
+    {
+      "id": "skill_construction_080",
+      "name": "Bulldozer Operation",
+      "category": "Construction",
+      "keywords": ["bulldozer", "dozer", "earthmoving"],
+      "relatedSkills": ["Heavy Equipment Operation", "Grading"]
+    },
+    {
+      "id": "skill_construction_081",
+      "name": "Loader Operation",
+      "category": "Construction",
+      "keywords": ["loader", "front-end loader", "wheel loader"],
+      "relatedSkills": ["Heavy Equipment Operation", "Material Handling"]
+    },
+    {
+      "id": "skill_construction_082",
+      "name": "Forklift Operation",
+      "category": "Construction",
+      "keywords": ["forklift", "lift truck", "material handling"],
+      "relatedSkills": ["Equipment Operation", "Material Handling"]
+    },
+    {
+      "id": "skill_construction_083",
+      "name": "Site Logistics",
+      "category": "Construction",
+      "keywords": ["site logistics", "logistics planning", "material delivery"],
+      "relatedSkills": ["Project Management", "Supply Chain"]
+    },
+    {
+      "id": "skill_construction_084",
+      "name": "Material Management",
+      "category": "Construction",
+      "keywords": ["material management", "materials control", "inventory"],
+      "relatedSkills": ["Site Logistics", "Procurement"]
+    },
+    {
+      "id": "skill_construction_085",
+      "name": "Procurement",
+      "category": "Construction",
+      "keywords": ["procurement", "purchasing", "material acquisition"],
+      "relatedSkills": ["Material Management", "Vendor Management"]
+    },
+    {
+      "id": "skill_construction_086",
+      "name": "Vendor Management",
+      "category": "Construction",
+      "keywords": ["vendor management", "supplier management", "subcontractors"],
+      "relatedSkills": ["Procurement", "Contract Management"]
+    },
+    {
+      "id": "skill_construction_087",
+      "name": "Contract Management",
+      "category": "Construction",
+      "keywords": ["contract management", "contracts", "contract administration"],
+      "relatedSkills": ["Project Management", "Vendor Management"]
+    },
+    {
+      "id": "skill_construction_088",
+      "name": "Change Order Management",
+      "category": "Construction",
+      "keywords": ["change orders", "change management", "contract changes"],
+      "relatedSkills": ["Contract Management", "Cost Management"]
+    },
+    {
+      "id": "skill_construction_089",
+      "name": "Submittal Review",
+      "category": "Construction",
+      "keywords": ["submittals", "shop drawings", "product data"],
+      "relatedSkills": ["Quality Control", "Contract Management"]
+    },
+    {
+      "id": "skill_construction_090",
+      "name": "RFI Management",
+      "category": "Construction",
+      "keywords": ["RFI", "request for information", "clarifications"],
+      "relatedSkills": ["Project Management", "Communication"]
+    },
+    {
+      "id": "skill_construction_091",
+      "name": "Construction Documentation",
+      "category": "Construction",
+      "keywords": ["documentation", "construction records", "as-builts"],
+      "relatedSkills": ["Project Management", "Quality Control"]
+    },
+    {
+      "id": "skill_construction_092",
+      "name": "As-Built Documentation",
+      "category": "Construction",
+      "keywords": ["as-builts", "record drawings", "as-built drawings"],
+      "relatedSkills": ["Construction Documentation", "Project Closeout"]
+    },
+    {
+      "id": "skill_construction_093",
+      "name": "Project Closeout",
+      "category": "Construction",
+      "keywords": ["closeout", "project closeout", "final completion"],
+      "relatedSkills": ["Documentation", "Punch List"]
+    },
+    {
+      "id": "skill_construction_094",
+      "name": "Punch List Management",
+      "category": "Construction",
+      "keywords": ["punch list", "deficiency list", "completion items"],
+      "relatedSkills": ["Project Closeout", "Quality Control"]
+    },
+    {
+      "id": "skill_construction_095",
+      "name": "Commissioning",
+      "category": "Construction",
+      "keywords": ["commissioning", "system commissioning", "testing"],
+      "relatedSkills": ["Quality Assurance", "Project Closeout"]
+    },
+    {
+      "id": "skill_construction_096",
+      "name": "Warranty Management",
+      "category": "Construction",
+      "keywords": ["warranty", "warranty tracking", "defect correction"],
+      "relatedSkills": ["Project Closeout", "Quality Control"]
+    },
+    {
+      "id": "skill_construction_097",
+      "name": "Electrical Coordination",
+      "category": "Construction",
+      "keywords": ["electrical coordination", "electrical supervision", "MEP"],
+      "relatedSkills": ["Trades Supervision", "MEP Coordination"]
+    },
+    {
+      "id": "skill_construction_098",
+      "name": "Plumbing Coordination",
+      "category": "Construction",
+      "keywords": ["plumbing coordination", "plumbing supervision", "MEP"],
+      "relatedSkills": ["Trades Supervision", "MEP Coordination"]
+    },
+    {
+      "id": "skill_construction_099",
+      "name": "HVAC Coordination",
+      "category": "Construction",
+      "keywords": ["HVAC coordination", "HVAC supervision", "mechanical"],
+      "relatedSkills": ["Trades Supervision", "MEP Coordination"]
+    },
+    {
+      "id": "skill_construction_100",
+      "name": "MEP Coordination",
+      "category": "Construction",
+      "keywords": ["MEP", "mechanical electrical plumbing", "systems coordination"],
+      "relatedSkills": ["Electrical Coordination", "Plumbing Coordination", "HVAC Coordination"]
+    },
+    {
+      "id": "skill_construction_101",
+      "name": "Fire Protection Systems",
+      "category": "Construction",
+      "keywords": ["fire protection", "sprinkler systems", "fire safety"],
+      "relatedSkills": ["MEP Coordination", "Code Compliance"]
+    },
+    {
+      "id": "skill_construction_102",
+      "name": "Trades Supervision",
+      "category": "Construction",
+      "keywords": ["trades supervision", "subcontractor management", "crew supervision"],
+      "relatedSkills": ["Project Management", "Labor Management"]
+    },
+    {
+      "id": "skill_construction_103",
+      "name": "Labor Management",
+      "category": "Construction",
+      "keywords": ["labor management", "workforce management", "crew management"],
+      "relatedSkills": ["Trades Supervision", "Scheduling"]
+    },
+    {
+      "id": "skill_construction_104",
+      "name": "Crew Leadership",
+      "category": "Construction",
+      "keywords": ["crew leadership", "team leadership", "foreman"],
+      "relatedSkills": ["Labor Management", "Trades Supervision"]
+    },
+    {
+      "id": "skill_construction_105",
+      "name": "Union Relations",
+      "category": "Construction",
+      "keywords": ["union", "labor unions", "collective bargaining"],
+      "relatedSkills": ["Labor Management", "Contract Management"]
+    },
+    {
+      "id": "skill_construction_106",
+      "name": "Site Supervision",
+      "category": "Construction",
+      "keywords": ["site supervision", "field supervision", "jobsite management"],
+      "relatedSkills": ["Project Management", "Safety Management"]
+    },
+    {
+      "id": "skill_construction_107",
+      "name": "Progress Reporting",
+      "category": "Construction",
+      "keywords": ["progress reporting", "status reports", "project updates"],
+      "relatedSkills": ["Project Management", "Communication"]
+    },
+    {
+      "id": "skill_construction_108",
+      "name": "Construction Photography",
+      "category": "Construction",
+      "keywords": ["construction photography", "site documentation", "photo logs"],
+      "relatedSkills": ["Documentation", "Progress Reporting"]
+    },
+    {
+      "id": "skill_construction_109",
+      "name": "Survey and Layout",
+      "category": "Construction",
+      "keywords": ["surveying", "layout", "construction survey"],
+      "relatedSkills": ["Site Planning", "Blueprint Reading"]
+    },
+    {
+      "id": "skill_construction_110",
+      "name": "Total Station Operation",
+      "category": "Construction",
+      "keywords": ["total station", "surveying equipment", "GPS survey"],
+      "relatedSkills": ["Survey and Layout", "Site Engineering"]
+    },
+    {
+      "id": "skill_construction_111",
+      "name": "Laser Level Operation",
+      "category": "Construction",
+      "keywords": ["laser level", "leveling", "grade checking"],
+      "relatedSkills": ["Survey and Layout", "Quality Control"]
+    },
+    {
+      "id": "skill_construction_112",
+      "name": "Temporary Utilities",
+      "category": "Construction",
+      "keywords": ["temporary utilities", "temp power", "site utilities"],
+      "relatedSkills": ["Site Logistics", "Electrical Coordination"]
+    },
+    {
+      "id": "skill_construction_113",
+      "name": "Erosion Control",
+      "category": "Construction",
+      "keywords": ["erosion control", "sediment control", "stormwater management"],
+      "relatedSkills": ["Environmental Compliance", "Site Management"]
+    },
+    {
+      "id": "skill_construction_114",
+      "name": "Environmental Compliance",
+      "category": "Construction",
+      "keywords": ["environmental compliance", "environmental regulations", "EPA"],
+      "relatedSkills": ["Erosion Control", "Regulatory Compliance"]
+    },
+    {
+      "id": "skill_construction_115",
+      "name": "Stormwater Management",
+      "category": "Construction",
+      "keywords": ["stormwater", "drainage", "water management"],
+      "relatedSkills": ["Erosion Control", "Site Engineering"]
+    },
+    {
+      "id": "skill_construction_116",
+      "name": "Green Building",
+      "category": "Construction",
+      "keywords": ["green building", "sustainable construction", "LEED"],
+      "relatedSkills": ["LEED Certification", "Energy Efficiency"]
+    },
+    {
+      "id": "skill_construction_117",
+      "name": "LEED Certification",
+      "category": "Construction",
+      "keywords": ["LEED", "green building certification", "sustainability"],
+      "relatedSkills": ["Green Building", "Energy Efficiency"]
+    },
+    {
+      "id": "skill_construction_118",
+      "name": "Energy Efficiency",
+      "category": "Construction",
+      "keywords": ["energy efficiency", "energy conservation", "green building"],
+      "relatedSkills": ["Green Building", "Insulation"]
+    },
+    {
+      "id": "skill_construction_119",
+      "name": "Solar Installation",
+      "category": "Construction",
+      "keywords": ["solar", "photovoltaic", "solar panels"],
+      "relatedSkills": ["Energy Efficiency", "Electrical Systems"]
+    },
+    {
+      "id": "skill_construction_120",
+      "name": "Demolition",
+      "category": "Construction",
+      "keywords": ["demolition", "deconstruction", "structure removal"],
+      "relatedSkills": ["Safety Management", "Heavy Equipment"]
+    },
+    {
+      "id": "skill_construction_121",
+      "name": "Abatement",
+      "category": "Construction",
+      "keywords": ["asbestos abatement", "lead abatement", "hazardous materials"],
+      "relatedSkills": ["Environmental Compliance", "Safety Management"]
+    },
+    {
+      "id": "skill_construction_122",
+      "name": "Renovation",
+      "category": "Construction",
+      "keywords": ["renovation", "remodeling", "retrofit"],
+      "relatedSkills": ["Residential Construction", "Restoration"]
+    },
+    {
+      "id": "skill_construction_123",
+      "name": "Historic Restoration",
+      "category": "Construction",
+      "keywords": ["historic restoration", "preservation", "heritage conservation"],
+      "relatedSkills": ["Renovation", "Masonry"]
+    },
+    {
+      "id": "skill_construction_124",
+      "name": "Tenant Improvement",
+      "category": "Construction",
+      "keywords": ["tenant improvement", "TI", "commercial fit-out"],
+      "relatedSkills": ["Renovation", "Commercial Construction"]
+    },
+    {
+      "id": "skill_construction_125",
+      "name": "Modular Construction",
+      "category": "Construction",
+      "keywords": ["modular", "prefabrication", "off-site construction"],
+      "relatedSkills": ["Construction Management", "Logistics"]
+    },
+    {
+      "id": "skill_construction_126",
+      "name": "Prefabrication",
+      "category": "Construction",
+      "keywords": ["prefabrication", "prefab", "preassembly"],
+      "relatedSkills": ["Modular Construction", "Manufacturing"]
+    },
+    {
+      "id": "skill_construction_127",
+      "name": "Lean Construction",
+      "category": "Construction",
+      "keywords": ["lean construction", "lean principles", "waste reduction"],
+      "relatedSkills": ["Project Management", "Process Improvement"]
+    },
+    {
+      "id": "skill_construction_128",
+      "name": "Last Planner System",
+      "category": "Construction",
+      "keywords": ["last planner", "lean scheduling", "collaborative planning"],
+      "relatedSkills": ["Lean Construction", "Construction Scheduling"]
+    },
+    {
+      "id": "skill_construction_129",
+      "name": "Pull Planning",
+      "category": "Construction",
+      "keywords": ["pull planning", "reverse scheduling", "collaborative scheduling"],
+      "relatedSkills": ["Last Planner System", "Lean Construction"]
+    },
+    {
+      "id": "skill_construction_130",
+      "name": "Design-Build",
+      "category": "Construction",
+      "keywords": ["design-build", "design build", "integrated delivery"],
+      "relatedSkills": ["Project Management", "Design Coordination"]
+    },
+    {
+      "id": "skill_construction_131",
+      "name": "Integrated Project Delivery (IPD)",
+      "category": "Construction",
+      "keywords": ["IPD", "integrated project delivery", "collaborative delivery"],
+      "relatedSkills": ["Design-Build", "Project Management"]
+    },
+    {
+      "id": "skill_construction_132",
+      "name": "Construction Claims",
+      "category": "Construction",
+      "keywords": ["construction claims", "dispute resolution", "claims management"],
+      "relatedSkills": ["Contract Management", "Legal Knowledge"]
+    },
+    {
+      "id": "skill_construction_133",
+      "name": "Delay Analysis",
+      "category": "Construction",
+      "keywords": ["delay analysis", "schedule analysis", "impact analysis"],
+      "relatedSkills": ["Construction Claims", "Scheduling"]
+    },
+    {
+      "id": "skill_construction_134",
+      "name": "Forensic Scheduling",
+      "category": "Construction",
+      "keywords": ["forensic scheduling", "schedule forensics", "critical path analysis"],
+      "relatedSkills": ["Delay Analysis", "Construction Claims"]
+    },
+    {
+      "id": "skill_construction_135",
+      "name": "Construction Estimating Software",
+      "category": "Construction",
+      "keywords": ["estimating software", "cost estimating software", "takeoff software"],
+      "relatedSkills": ["Cost Estimating", "Construction Technology"]
+    },
+    {
+      "id": "skill_construction_136",
+      "name": "Procore",
+      "category": "Construction",
+      "keywords": ["Procore", "construction management software", "project management"],
+      "relatedSkills": ["Construction Technology", "Project Management"]
+    },
+    {
+      "id": "skill_construction_137",
+      "name": "PlanGrid",
+      "category": "Construction",
+      "keywords": ["PlanGrid", "construction app", "field software"],
+      "relatedSkills": ["Construction Technology", "Documentation"]
+    },
+    {
+      "id": "skill_construction_138",
+      "name": "Bluebeam Revu",
+      "category": "Construction",
+      "keywords": ["Bluebeam", "PDF markup", "construction software"],
+      "relatedSkills": ["Construction Technology", "Documentation"]
+    },
+    {
+      "id": "skill_construction_139",
+      "name": "Sage 300 Construction",
+      "category": "Construction",
+      "keywords": ["Sage 300", "construction accounting", "ERP"],
+      "relatedSkills": ["Construction Technology", "Cost Management"]
+    },
+    {
+      "id": "skill_construction_140",
+      "name": "Viewpoint Vista",
+      "category": "Construction",
+      "keywords": ["Viewpoint", "construction ERP", "project accounting"],
+      "relatedSkills": ["Construction Technology", "Cost Management"]
+    },
+    {
+      "id": "skill_construction_141",
+      "name": "Construction Accounting",
+      "category": "Construction",
+      "keywords": ["construction accounting", "job costing", "project accounting"],
+      "relatedSkills": ["Cost Management", "Financial Management"]
+    },
+    {
+      "id": "skill_construction_142",
+      "name": "Job Costing",
+      "category": "Construction",
+      "keywords": ["job costing", "cost tracking", "project costing"],
+      "relatedSkills": ["Construction Accounting", "Cost Management"]
+    },
+    {
+      "id": "skill_construction_143",
+      "name": "Progress Billing",
+      "category": "Construction",
+      "keywords": ["progress billing", "billing", "pay applications"],
+      "relatedSkills": ["Construction Accounting", "Contract Management"]
+    },
+    {
+      "id": "skill_construction_144",
+      "name": "Lien Waivers",
+      "category": "Construction",
+      "keywords": ["lien waivers", "mechanics lien", "payment protection"],
+      "relatedSkills": ["Contract Management", "Legal Knowledge"]
+    },
+    {
+      "id": "skill_construction_145",
+      "name": "Bonding and Insurance",
+      "category": "Construction",
+      "keywords": ["bonding", "construction insurance", "surety bonds"],
+      "relatedSkills": ["Risk Management", "Contract Management"]
+    },
+    {
+      "id": "skill_construction_146",
+      "name": "Risk Management",
+      "category": "Construction",
+      "keywords": ["risk management", "risk assessment", "mitigation"],
+      "relatedSkills": ["Safety Management", "Project Management"]
+    },
+    {
+      "id": "skill_construction_147",
+      "name": "Construction Law",
+      "category": "Construction",
+      "keywords": ["construction law", "legal knowledge", "contracts"],
+      "relatedSkills": ["Contract Management", "Claims Management"]
+    },
+    {
+      "id": "skill_construction_148",
+      "name": "Bid Preparation",
+      "category": "Construction",
+      "keywords": ["bid preparation", "bidding", "proposal preparation"],
+      "relatedSkills": ["Cost Estimating", "Proposal Writing"]
+    },
+    {
+      "id": "skill_construction_149",
+      "name": "Proposal Writing",
+      "category": "Construction",
+      "keywords": ["proposal writing", "technical writing", "bid documents"],
+      "relatedSkills": ["Bid Preparation", "Communication"]
+    },
+    {
+      "id": "skill_construction_150",
+      "name": "Prequalification",
+      "category": "Construction",
+      "keywords": ["prequalification", "contractor prequalification", "vendor screening"],
+      "relatedSkills": ["Vendor Management", "Risk Assessment"]
+    },
+    {
+      "id": "skill_construction_151",
+      "name": "Constructability Review",
+      "category": "Construction",
+      "keywords": ["constructability", "buildability", "design review"],
+      "relatedSkills": ["Design Review", "Value Engineering"]
+    },
+    {
+      "id": "skill_construction_152",
+      "name": "Design Review",
+      "category": "Construction",
+      "keywords": ["design review", "plan review", "technical review"],
+      "relatedSkills": ["Constructability Review", "Engineering"]
+    },
+    {
+      "id": "skill_construction_153",
+      "name": "Construction Engineering",
+      "category": "Construction",
+      "keywords": ["construction engineering", "engineering design", "technical analysis"],
+      "relatedSkills": ["Design Review", "Structural Engineering"]
+    },
+    {
+      "id": "skill_construction_154",
+      "name": "Structural Engineering",
+      "category": "Construction",
+      "keywords": ["structural engineering", "structural design", "load analysis"],
+      "relatedSkills": ["Construction Engineering", "Structural Steel"]
+    },
+    {
+      "id": "skill_construction_155",
+      "name": "Geotechnical Engineering",
+      "category": "Construction",
+      "keywords": ["geotechnical", "soil mechanics", "foundation engineering"],
+      "relatedSkills": ["Foundation Work", "Site Investigation"]
+    },
+    {
+      "id": "skill_construction_156",
+      "name": "Site Investigation",
+      "category": "Construction",
+      "keywords": ["site investigation", "soil testing", "geotechnical investigation"],
+      "relatedSkills": ["Geotechnical Engineering", "Testing"]
+    },
+    {
+      "id": "skill_construction_157",
+      "name": "Traffic Control",
+      "category": "Construction",
+      "keywords": ["traffic control", "traffic management", "MOT"],
+      "relatedSkills": ["Safety Management", "Site Logistics"]
+    },
+    {
+      "id": "skill_construction_158",
+      "name": "Utility Coordination",
+      "category": "Construction",
+      "keywords": ["utility coordination", "utility management", "811"],
+      "relatedSkills": ["Site Logistics", "Civil Engineering"]
+    },
+    {
+      "id": "skill_construction_159",
+      "name": "Underground Utilities",
+      "category": "Construction",
+      "keywords": ["underground utilities", "utility location", "subsurface utilities"],
+      "relatedSkills": ["Utility Coordination", "Excavation"]
+    },
+    {
+      "id": "skill_construction_160",
+      "name": "Site Utilities Installation",
+      "category": "Construction",
+      "keywords": ["site utilities", "utility installation", "infrastructure"],
+      "relatedSkills": ["Underground Utilities", "Civil Engineering"]
+    },
+    {
+      "id": "skill_construction_161",
+      "name": "Roadway Construction",
+      "category": "Construction",
+      "keywords": ["roadway construction", "highway construction", "paving"],
+      "relatedSkills": ["Heavy Civil Construction", "Asphalt Paving"]
+    },
+    {
+      "id": "skill_construction_162",
+      "name": "Asphalt Paving",
+      "category": "Construction",
+      "keywords": ["asphalt", "paving", "hot mix asphalt"],
+      "relatedSkills": ["Roadway Construction", "Site Work"]
+    },
+    {
+      "id": "skill_construction_163",
+      "name": "Concrete Paving",
+      "category": "Construction",
+      "keywords": ["concrete paving", "concrete roadway", "pavement"],
+      "relatedSkills": ["Roadway Construction", "Concrete Work"]
+    },
+    {
+      "id": "skill_construction_164",
+      "name": "Bridge Construction",
+      "category": "Construction",
+      "keywords": ["bridge construction", "bridge building", "civil structures"],
+      "relatedSkills": ["Heavy Civil Construction", "Structural Engineering"]
+    },
+    {
+      "id": "skill_construction_165",
+      "name": "Tunnel Construction",
+      "category": "Construction",
+      "keywords": ["tunnel construction", "tunneling", "underground construction"],
+      "relatedSkills": ["Heavy Civil Construction", "Excavation"]
+    },
+    {
+      "id": "skill_construction_166",
+      "name": "Dam Construction",
+      "category": "Construction",
+      "keywords": ["dam construction", "water resources", "civil engineering"],
+      "relatedSkills": ["Heavy Civil Construction", "Concrete Work"]
+    },
+    {
+      "id": "skill_construction_167",
+      "name": "Marine Construction",
+      "category": "Construction",
+      "keywords": ["marine construction", "waterfront construction", "maritime"],
+      "relatedSkills": ["Heavy Civil Construction", "Piling"]
+    },
+    {
+      "id": "skill_construction_168",
+      "name": "Pipeline Construction",
+      "category": "Construction",
+      "keywords": ["pipeline", "pipeline construction", "underground piping"],
+      "relatedSkills": ["Heavy Civil Construction", "Welding"]
+    },
+    {
+      "id": "skill_construction_169",
+      "name": "Power Plant Construction",
+      "category": "Construction",
+      "keywords": ["power plant", "energy construction", "industrial facilities"],
+      "relatedSkills": ["Industrial Construction", "MEP Coordination"]
+    },
+    {
+      "id": "skill_construction_170",
+      "name": "Oil and Gas Construction",
+      "category": "Construction",
+      "keywords": ["oil and gas", "petrochemical", "energy construction"],
+      "relatedSkills": ["Industrial Construction", "Pipeline Construction"]
+    },
+    {
+      "id": "skill_construction_171",
+      "name": "Mining Construction",
+      "category": "Construction",
+      "keywords": ["mining construction", "mine development", "mineral extraction"],
+      "relatedSkills": ["Heavy Civil Construction", "Excavation"]
+    },
+    {
+      "id": "skill_construction_172",
+      "name": "Airport Construction",
+      "category": "Construction",
+      "keywords": ["airport construction", "aviation infrastructure", "airfield"],
+      "relatedSkills": ["Heavy Civil Construction", "Concrete Paving"]
+    },
+    {
+      "id": "skill_construction_173",
+      "name": "Railroad Construction",
+      "category": "Construction",
+      "keywords": ["railroad construction", "rail construction", "track work"],
+      "relatedSkills": ["Heavy Civil Construction", "Civil Engineering"]
+    },
+    {
+      "id": "skill_construction_174",
+      "name": "Theme Park Construction",
+      "category": "Construction",
+      "keywords": ["theme park", "entertainment construction", "specialty construction"],
+      "relatedSkills": ["Commercial Construction", "Specialty Structures"]
+    },
+    {
+      "id": "skill_construction_175",
+      "name": "Sports Facility Construction",
+      "category": "Construction",
+      "keywords": ["sports facilities", "stadium construction", "arena"],
+      "relatedSkills": ["Commercial Construction", "Specialty Structures"]
+    },
+    {
+      "id": "skill_construction_176",
+      "name": "Healthcare Facility Construction",
+      "category": "Construction",
+      "keywords": ["healthcare construction", "hospital construction", "medical facilities"],
+      "relatedSkills": ["Commercial Construction", "Code Compliance"]
+    },
+    {
+      "id": "skill_construction_177",
+      "name": "Data Center Construction",
+      "category": "Construction",
+      "keywords": ["data center", "technology infrastructure", "mission critical"],
+      "relatedSkills": ["Industrial Construction", "MEP Coordination"]
+    },
+    {
+      "id": "skill_construction_178",
+      "name": "Cold Storage Construction",
+      "category": "Construction",
+      "keywords": ["cold storage", "refrigerated warehouse", "temperature-controlled"],
+      "relatedSkills": ["Industrial Construction", "HVAC Systems"]
+    },
+    {
+      "id": "skill_construction_179",
+      "name": "Clean Room Construction",
+      "category": "Construction",
+      "keywords": ["clean room", "cleanroom", "controlled environment"],
+      "relatedSkills": ["Industrial Construction", "Quality Control"]
+    },
+    {
+      "id": "skill_construction_180",
+      "name": "High-Rise Construction",
+      "category": "Construction",
+      "keywords": ["high-rise", "tall building", "vertical construction"],
+      "relatedSkills": ["Commercial Construction", "Tower Crane"]
+    },
+    {
+      "id": "skill_construction_181",
+      "name": "Facade Installation",
+      "category": "Construction",
+      "keywords": ["facade", "curtain wall", "building envelope"],
+      "relatedSkills": ["High-Rise Construction", "Building Envelope"]
+    },
+    {
+      "id": "skill_construction_182",
+      "name": "Curtain Wall Installation",
+      "category": "Construction",
+      "keywords": ["curtain wall", "glass facade", "exterior wall"],
+      "relatedSkills": ["Facade Installation", "Glazing"]
+    },
+    {
+      "id": "skill_construction_183",
+      "name": "Glazing",
+      "category": "Construction",
+      "keywords": ["glazing", "glass installation", "windows"],
+      "relatedSkills": ["Curtain Wall", "Window Installation"]
+    },
+    {
+      "id": "skill_construction_184",
+      "name": "Window Installation",
+      "category": "Construction",
+      "keywords": ["window installation", "windows", "fenestration"],
+      "relatedSkills": ["Glazing", "Building Envelope"]
+    },
+    {
+      "id": "skill_construction_185",
+      "name": "Door Installation",
+      "category": "Construction",
+      "keywords": ["door installation", "doors", "hardware installation"],
+      "relatedSkills": ["Carpentry", "Interior Finishing"]
+    },
+    {
+      "id": "skill_construction_186",
+      "name": "Hardware Installation",
+      "category": "Construction",
+      "keywords": ["hardware", "door hardware", "locks"],
+      "relatedSkills": ["Door Installation", "Finish Carpentry"]
+    },
+    {
+      "id": "skill_construction_187",
+      "name": "Millwork Installation",
+      "category": "Construction",
+      "keywords": ["millwork", "custom woodwork", "cabinetry"],
+      "relatedSkills": ["Finish Carpentry", "Interior Finishing"]
+    },
+    {
+      "id": "skill_construction_188",
+      "name": "Cabinetry Installation",
+      "category": "Construction",
+      "keywords": ["cabinetry", "cabinet installation", "kitchen cabinets"],
+      "relatedSkills": ["Millwork", "Finish Carpentry"]
+    },
+    {
+      "id": "skill_construction_189",
+      "name": "Countertop Installation",
+      "category": "Construction",
+      "keywords": ["countertops", "countertop installation", "stone counters"],
+      "relatedSkills": ["Cabinetry Installation", "Interior Finishing"]
+    },
+    {
+      "id": "skill_construction_190",
+      "name": "Ceiling Systems",
+      "category": "Construction",
+      "keywords": ["ceiling systems", "suspended ceiling", "acoustical ceiling"],
+      "relatedSkills": ["Interior Finishing", "Drywall"]
+    },
+    {
+      "id": "skill_construction_191",
+      "name": "Acoustic Treatment",
+      "category": "Construction",
+      "keywords": ["acoustics", "sound control", "noise reduction"],
+      "relatedSkills": ["Ceiling Systems", "Insulation"]
+    },
+    {
+      "id": "skill_construction_192",
+      "name": "Signage Installation",
+      "category": "Construction",
+      "keywords": ["signage", "sign installation", "wayfinding"],
+      "relatedSkills": ["Interior Finishing", "Exterior Finishing"]
+    },
+    {
+      "id": "skill_construction_193",
+      "name": "Landscaping",
+      "category": "Construction",
+      "keywords": ["landscaping", "landscape construction", "site improvements"],
+      "relatedSkills": ["Site Work", "Irrigation"]
+    },
+    {
+      "id": "skill_construction_194",
+      "name": "Irrigation Systems",
+      "category": "Construction",
+      "keywords": ["irrigation", "sprinkler systems", "landscape irrigation"],
+      "relatedSkills": ["Landscaping", "Site Utilities"]
+    },
+    {
+      "id": "skill_construction_195",
+      "name": "Hardscape Construction",
+      "category": "Construction",
+      "keywords": ["hardscape", "paving", "retaining walls"],
+      "relatedSkills": ["Landscaping", "Masonry"]
+    },
+    {
+      "id": "skill_construction_196",
+      "name": "Site Lighting",
+      "category": "Construction",
+      "keywords": ["site lighting", "exterior lighting", "landscape lighting"],
+      "relatedSkills": ["Electrical Coordination", "Landscaping"]
+    },
+    {
+      "id": "skill_construction_197",
+      "name": "Parking Lot Construction",
+      "category": "Construction",
+      "keywords": ["parking lot", "parking construction", "paving"],
+      "relatedSkills": ["Site Work", "Asphalt Paving"]
+    },
+    {
+      "id": "skill_construction_198",
+      "name": "Striping and Marking",
+      "category": "Construction",
+      "keywords": ["striping", "pavement marking", "line striping"],
+      "relatedSkills": ["Parking Lot Construction", "Traffic Control"]
+    },
+    {
+      "id": "skill_construction_199",
+      "name": "Site Fencing",
+      "category": "Construction",
+      "keywords": ["fencing", "fence installation", "site security"],
+      "relatedSkills": ["Site Work", "Security Systems"]
+    },
+    {
+      "id": "skill_construction_200",
+      "name": "Construction Technology Integration",
+      "category": "Construction",
+      "keywords": ["construction technology", "contech", "digital construction"],
+      "relatedSkills": ["BIM", "Project Management Software", "Automation"]
+    }
+  ]
+}
