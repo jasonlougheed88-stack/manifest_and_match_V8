@@ -116,8 +116,8 @@ public final class DualProfileSampler: @unchecked Sendable {
     // Profile blend factor (0 = pure Amber, 1 = pure Teal)
     private var profileBlend: Double
 
-    // Exploration parameters
-    private let baseExplorationRate: Double = 0.15
+    // Exploration parameters (Phase 1: AI Slider Fix - now configurable)
+    private let baseExplorationRate: Double
     private let crossDomainMultiplier: Double = 1.3
 
     // Cache for performance
@@ -126,11 +126,13 @@ public final class DualProfileSampler: @unchecked Sendable {
     public init(
         amberBeta: BetaDistribution = BetaDistribution(),
         tealBeta: BetaDistribution = BetaDistribution(),
-        profileBlend: Double = 0.5
+        profileBlend: Double = 0.5,
+        explorationRate: Double = 0.3
     ) {
         self.amberBeta = amberBeta
         self.tealBeta = tealBeta
         self.profileBlend = max(0, min(1, profileBlend))
+        self.baseExplorationRate = max(0, min(1, explorationRate))  // Clamp to [0,1]
     }
 
     /// Score a job using dual-profile Thompson Sampling
@@ -306,6 +308,10 @@ public final class ThompsonSamplingEngine: @unchecked Sendable {
     private var averageResponseTime: TimeInterval = 0
     private var sampleCount: Int = 0
 
+    // AI Configuration parameters (Phase 1: AI Slider Fix)
+    private let explorationRate: Double
+    private let confidenceThreshold: Double
+
     // MARK: - O*NET Integration Feature Flag (Phase 3)
 
     /// Enable O*NET-enhanced scoring for career matching
@@ -330,10 +336,15 @@ public final class ThompsonSamplingEngine: @unchecked Sendable {
     public var isONetScoringEnabled: Bool = false
 
     public init(
-        initialProfileBlend: Double = 0.5
+        initialProfileBlend: Double = 0.5,
+        explorationRate: Double = 0.3,
+        confidenceThreshold: Double = 0.7
     ) {
+        self.explorationRate = max(0, min(1, explorationRate))  // Clamp to [0,1]
+        self.confidenceThreshold = max(0, min(1, confidenceThreshold))  // Clamp to [0,1]
         self.sampler = DualProfileSampler(
-            profileBlend: initialProfileBlend
+            profileBlend: initialProfileBlend,
+            explorationRate: explorationRate
         )
     }
 
@@ -514,7 +525,7 @@ public final class ThompsonSamplingEngine: @unchecked Sendable {
             return scoreMap
         }
 
-        // Update jobs with scores and sort by combined score
+        // Update jobs with scores
         let scoredJobs = jobs.compactMap { job -> Job? in
             guard let score = scores[job.id] else { return nil }
             return Job(
@@ -527,13 +538,23 @@ public final class ThompsonSamplingEngine: @unchecked Sendable {
                 url: job.url,
                 thompsonScore: score
             )
-        }.sorted { ($0.thompsonScore?.combinedScore ?? 0) > ($1.thompsonScore?.combinedScore ?? 0) }
+        }
+
+        // Apply confidence threshold filter (Phase 1: AI Slider Fix)
+        let filteredJobs = confidenceThreshold > 0
+            ? scoredJobs.filter { ($0.thompsonScore?.combinedScore ?? 0) >= confidenceThreshold }
+            : scoredJobs
+
+        // Sort by combined score
+        let sortedJobs = filteredJobs.sorted {
+            ($0.thompsonScore?.combinedScore ?? 0) > ($1.thompsonScore?.combinedScore ?? 0)
+        }
 
         // Track performance
         let responseTime = Date().timeIntervalSince(startTime)
         updatePerformanceMetrics(responseTime: responseTime)
 
-        return scoredJobs
+        return sortedJobs
     }
 
     /// Process user interaction and update model

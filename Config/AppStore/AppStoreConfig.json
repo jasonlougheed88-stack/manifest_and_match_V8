@@ -1,0 +1,152 @@
+{
+  "app_info": {
+    "name": "Manifest and Match V7",
+    "bundle_id": "com.manifest.match.v7",
+    "version": "7.0.0",
+    "build": "1",
+    "category": "BUSINESS",
+    "age_rating": "4_PLUS"
+  },
+  "localization": {
+    "primary_language": "en-US",
+    "supported_languages": [
+      "en-US",
+      "en-GB",
+      "en-AU",
+      "en-CA"
+    ]
+  },
+  "marketing": {
+    "subtitle": "AI That Understands Career Goals",
+    "keywords": "AI career coach,job search,hiring,resume,interview,career intelligence,professional development,fast,employment",
+    "promotional_text": "🤖 NEW: AI that truly understands your career goals! 357x faster job matching with privacy-first intelligence. Transform your career today!",
+    "marketing_url": "https://manifestmatch.com",
+    "support_url": "https://support.manifestmatch.com",
+    "privacy_policy_url": "https://manifestmatch.com/privacy"
+  },
+  "app_store_features": {
+    "supports_gamecenter": false,
+    "supports_in_app_purchases": false,
+    "supports_subscriptions": false,
+    "supports_family_sharing": true,
+    "supports_universal_purchase": true
+  },
+  "performance_highlights": {
+    "key_metrics": {
+      "performance_multiplier": "357x",
+      "memory_usage": "<200MB",
+      "battery_optimization": "Advanced power management",
+      "response_time": "Instant results",
+      "optimization_algorithm": "Thompson Sampling"
+    },
+    "competitive_advantages": [
+      "Fastest job search results in category",
+      "Most resource-efficient implementation",
+      "Advanced AI without compromising privacy",
+      "Professional analytics and insights",
+      "Battery-conscious design"
+    ]
+  },
+  "screenshots": {
+    "iphone_6_7": [
+      {
+        "filename": "iPhone_6.7_01_MainSearch.png",
+        "description": "Lightning-fast job search interface"
+      },
+      {
+        "filename": "iPhone_6.7_02_Performance.png",
+        "description": "357x performance advantage display"
+      },
+      {
+        "filename": "iPhone_6.7_03_AIMatching.png",
+        "description": "AI-powered job recommendations"
+      },
+      {
+        "filename": "iPhone_6.7_04_Analytics.png",
+        "description": "Career progression insights"
+      },
+      {
+        "filename": "iPhone_6.7_05_Privacy.png",
+        "description": "Privacy-first controls"
+      }
+    ],
+    "ipad_12_9": [
+      {
+        "filename": "iPad_12.9_01_SplitView.png",
+        "description": "Professional desktop-like experience"
+      },
+      {
+        "filename": "iPad_12.9_02_Analytics.png",
+        "description": "Comprehensive career insights"
+      },
+      {
+        "filename": "iPad_12.9_03_MultiColumn.png",
+        "description": "Efficient job discovery interface"
+      }
+    ]
+  },
+  "app_preview_videos": {
+    "iphone": {
+      "duration": 30,
+      "filename": "iPhone_AppPreview.mov",
+      "script_highlights": [
+        "Instant app launch",
+        "Lightning-fast search",
+        "AI matching demonstration",
+        "Performance metrics",
+        "Results tracking"
+      ]
+    },
+    "ipad": {
+      "duration": 30,
+      "filename": "iPad_AppPreview.mov",
+      "script_highlights": [
+        "Professional workspace",
+        "Advanced search capabilities",
+        "Multi-tasking features",
+        "Analytics dashboard",
+        "Performance advantages"
+      ]
+    }
+  },
+  "review_guidelines": {
+    "response_templates": {
+      "positive_performance": "Thank you for the amazing review! We're thrilled you're experiencing the 357x performance advantage. Keep an eye out for more optimizations coming soon!",
+      "technical_praise": "We're so glad you noticed the lightning-fast performance! Our Thompson Sampling optimization is designed to get you results instantly while preserving your device's battery life.",
+      "feature_request": "Thanks for the feedback! We're always looking to improve while maintaining our industry-leading performance. Your suggestion has been forwarded to our development team.",
+      "technical_issue": "We apologize for any performance issues. Our team takes optimization seriously - please contact support@manifestmatch.com with your device details so we can investigate immediately."
+    }
+  },
+  "launch_strategy": {
+    "phases": [
+      {
+        "phase": "beta_testing",
+        "duration_weeks": 2,
+        "focus": "Performance validation and user feedback"
+      },
+      {
+        "phase": "soft_launch",
+        "duration_weeks": 1,
+        "focus": "App Store optimization and metrics collection"
+      },
+      {
+        "phase": "full_launch",
+        "duration_weeks": 4,
+        "focus": "Marketing campaign and feature promotion"
+      }
+    ]
+  },
+  "success_metrics": {
+    "app_store": {
+      "target_conversion_rate": ">3%",
+      "target_rating": ">4.5",
+      "target_reviews_sentiment": ">85% positive"
+    },
+    "performance": {
+      "target_session_duration": "2x industry average",
+      "target_battery_efficiency": "<1% per 10 min session",
+      "target_memory_usage": "<200MB sustained",
+      "target_response_time": "<100ms search results"
+    }
+  }
+}

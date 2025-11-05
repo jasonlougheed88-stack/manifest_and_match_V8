@@ -1,0 +1,219 @@
+{
+  "metadata": {
+    "total_companies": 129,
+    "research_date": "2025-10-15",
+    "verification_status": "API endpoints verified via web research",
+    "purpose": "Phase 4 bias elimination - sector-diverse job sources"
+  },
+  "companies_by_sector": {
+    "healthcare": [
+      { "name": "Veeva Systems", "key": "veeva", "subsector": "Medical Technology" },
+      { "name": "Included Health", "key": "includedhealth", "subsector": "Digital Health" },
+      { "name": "H1", "key": "h1", "subsector": "Healthcare Data" },
+      { "name": "Neko Health", "key": "nekohealth", "subsector": "Preventive Care" },
+      { "name": "Ro", "key": "ro", "subsector": "Virtual Healthcare" },
+      { "name": "Sprinter Health", "key": "SprinterHealth", "subsector": "Mobile Health" },
+      { "name": "VIANT", "key": "viantinc", "subsector": "Healthcare Advertising" },
+      { "name": "Mission Healthcare", "key": "missionhh", "subsector": "Home Health" },
+      { "name": "Giving Home Health Care", "key": "givinghhc", "subsector": "Home Health" },
+      { "name": "Journey Clinical", "key": "JourneyClinical", "subsector": "Mental Health" },
+      { "name": "Klick", "key": "klick", "subsector": "Medical Communications" },
+      { "name": "Avalere Health", "key": "avalerehealth", "subsector": "Healthcare Policy" },
+      { "name": "Deep Genomics", "key": "deepgenomics", "subsector": "Biotech" },
+      { "name": "PharmaChoice Canada", "key": "pharmachoicecanada", "subsector": "Pharmacy" },
+      { "name": "ReviveRX & Ways2Well", "key": "reviverx", "subsector": "Specialty Pharmacy" },
+      { "name": "Mixlab", "key": "mixlab", "subsector": "Veterinary Pharmacy" },
+      { "name": "RYZ Labs", "key": "RyzLabs", "subsector": "Healthcare AI" },
+      { "name": "Penumbra", "key": "penumbrainc", "subsector": "Medical Devices" }
+    ],
+    "finance": [
+      { "name": "Lead Bank", "key": "LeadBank", "subsector": "Banking" },
+      { "name": "Greenlight Financial Technology", "key": "greenlight", "subsector": "Banking" },
+      { "name": "Finix", "key": "finix", "subsector": "Payments" },
+      { "name": "Fi Money", "key": "epifi", "subsector": "Fintech" },
+      { "name": "Flex", "key": "Flex", "subsector": "Fintech" },
+      { "name": "Loop", "key": "loopreturns", "subsector": "E-commerce Finance" },
+      { "name": "Zeller", "key": "Zeller", "subsector": "Business Banking" },
+      { "name": "Crypto.com", "key": "crypto", "subsector": "Cryptocurrency" },
+      { "name": "Resilience", "key": "Resilience", "subsector": "Cyber Insurance" },
+      { "name": "Insify", "key": "insify", "subsector": "SMB Insurance" },
+      { "name": "Beam Benefits", "key": "beam", "subsector": "Employee Benefits" },
+      { "name": "Retired.com", "key": "retired", "subsector": "Retirement Planning" },
+      { "name": "GoodLeap", "key": "goodleap", "subsector": "Sustainable Finance" },
+      { "name": "Teamshares", "key": "teamshares", "subsector": "Employee Ownership" },
+      { "name": "Sonar", "key": "sonarsource", "subsector": "Software/Finance" }
+    ],
+    "education": [
+      { "name": "Edpuzzle", "key": "edpuzzle", "subsector": "K-12 EdTech" },
+      { "name": "Kiddom", "key": "kiddom", "subsector": "K-12 EdTech" },
+      { "name": "brightwheel", "key": "brightwheel", "subsector": "Early Education" },
+      { "name": "CommonLit", "key": "commonlit", "subsector": "Literacy Nonprofit" },
+      { "name": "Instructure", "key": "instructure", "subsector": "Higher Ed LMS" },
+      { "name": "Empowerly", "key": "empowerly", "subsector": "College Counseling" },
+      { "name": "Zen Educate", "key": "zeneducate", "subsector": "Teacher Recruitment" },
+      { "name": "Lansing School District", "key": "lansingschools", "subsector": "K-12 Public Schools" },
+      { "name": "SAIT", "key": "sait", "subsector": "Technical College" },
+      { "name": "Education at Work", "key": "educationatwork", "subsector": "Student Employment" }
+    ],
+    "legal": [
+      { "name": "Cprime", "key": "cprime", "subsector": "Business/Legal" },
+      { "name": "Superior Executive Legal Recruiting", "key": "superiorexecutiveandlegalrecruiting", "subsector": "Legal Recruiting" },
+      { "name": "PointClickCare", "key": "pointclickcare", "subsector": "Healthcare Tech/Legal" },
+      { "name": "Attentive", "key": "attentive", "subsector": "Marketing/Legal" },
+      { "name": "Tripalink", "key": "tripalink", "subsector": "Real Estate/Legal" },
+      { "name": "Mistral AI", "key": "mistral", "subsector": "AI/Legal" },
+      { "name": "Eve", "key": "Eve", "subsector": "Legal Tech" }
+    ],
+    "retail": [
+      { "name": "BoxLunch & Hot Topic", "key": "boxlunch", "subsector": "Fashion Retail" },
+      { "name": "CSC Generation", "key": "cscgeneration-2", "subsector": "Outdoor E-commerce" },
+      { "name": "Farfetch", "key": "farfetch", "subsector": "Luxury Fashion" },
+      { "name": "Hypebeast", "key": "hypebeast", "subsector": "Streetwear" },
+      { "name": "Snif", "key": "Snif", "subsector": "Beauty/Fragrance" },
+      { "name": "Beauty Barrage", "key": "beautybarrage", "subsector": "Beauty Merchandising" },
+      { "name": "Foodstuffs North Island", "key": "foodstuffs", "subsector": "Grocery" }
+    ],
+    "technology": [
+      { "name": "Spotify", "key": "spotify", "subsector": "Music Streaming" },
+      { "name": "Netflix", "key": "netflix", "subsector": "Video Streaming", "status": "inactive_api" },
+      { "name": "Palantir Technologies", "key": "palantir", "subsector": "Data Analytics" }
+    ],
+    "manufacturing": [
+      { "name": "Hermeus", "key": "hermeus", "subsector": "Aerospace" },
+      { "name": "Orb Aerospace", "key": "orbaerospace", "subsector": "Aircraft Manufacturing" },
+      { "name": "Loft Orbital", "key": "loftorbital", "subsector": "Satellites" },
+      { "name": "ispace", "key": "ispace-inc", "subsector": "Lunar Exploration" },
+      { "name": "HRL Laboratories", "key": "dodmg", "subsector": "Defense Research" },
+      { "name": "Machina Labs", "key": "MachinaLabs", "subsector": "Robotic Manufacturing" },
+      { "name": "Goken", "key": "gokenamerica1", "subsector": "Automotive" },
+      { "name": "Valdes Architecture & Engineering", "key": "valdeseng", "subsector": "Engineering Services" },
+      { "name": "Cellares", "key": "cellares", "subsector": "Biotech Manufacturing" },
+      { "name": "Exowatt", "key": "exowatt", "subsector": "Energy Systems" },
+      { "name": "Arbor Energy", "key": "arborenergy", "subsector": "Biomass Energy" },
+      { "name": "Commonwealth Fusion Systems", "key": "cfsenergy", "subsector": "Fusion Energy" },
+      { "name": "Serverfarm", "key": "serverfarm", "subsector": "Data Centers" }
+    ],
+    "hospitality": [
+      { "name": "Destination Knot", "key": "destinationknot", "subsector": "Luxury Travel" }
+    ],
+    "nonprofit": [
+      { "name": "CORE Community Organized Relief Effort", "key": "coreresponse", "subsector": "Disaster Relief" },
+      { "name": "Launch Housing", "key": "launchhousing", "subsector": "Homelessness Services" },
+      { "name": "Stand Together", "key": "standtogether", "subsector": "Nonprofit Partnership" },
+      { "name": "Third Plateau", "key": "third-plateau", "subsector": "Social Impact Consulting" },
+      { "name": "Edge Collaborative", "key": "EdgeCollaborative", "subsector": "Civic Incubator" },
+      { "name": "Climate Power", "key": "climatepower", "subsector": "Climate Advocacy" },
+      { "name": "MissionWired", "key": "MissionWired", "subsector": "Nonprofit Marketing" }
+    ],
+    "energy": [
+      { "name": "Octopus Energy Group", "key": "octoenergy", "subsector": "Renewable Energy" },
+      { "name": "Pivot Energy", "key": "pivotenergy", "subsector": "Solar Development" },
+      { "name": "Freedom Solar Power", "key": "freedomsolarpower", "subsector": "Residential Solar" },
+      { "name": "Solar Landscape", "key": "solarlandscape", "subsector": "Commercial Solar" },
+      { "name": "Intersect", "key": "intersect", "subsector": "Renewable Development" },
+      { "name": "Energy and Environmental Economics", "key": "ethree", "subsector": "Energy Consulting" },
+      { "name": "Telesat", "key": "telesat", "subsector": "Satellite Communications" }
+    ],
+    "transportation": [
+      { "name": "cargo-partner", "key": "cargo-partner", "subsector": "Freight Forwarding" },
+      { "name": "Cellares", "key": "cellares", "subsector": "Biotech Logistics" }
+    ],
+    "food": [
+      { "name": "Foodsmart", "key": "foodsmart", "subsector": "Nutrition Technology" },
+      { "name": "Good Eggs", "key": "goodeggs", "subsector": "Food Delivery" },
+      { "name": "Teamshares", "key": "teamshares", "subsector": "Restaurant Operations" }
+    ],
+    "telecommunications": [
+      { "name": "Telesat", "key": "telesat", "subsector": "Satellite" },
+      { "name": "JMA Wireless", "key": "jmawireless", "subsector": "5G Infrastructure" },
+      { "name": "US Mobile", "key": "USMobile", "subsector": "MVNO Carrier" },
+      { "name": "Eastern Communications", "key": "eastern-communications", "subsector": "Telecom Provider" },
+      { "name": "Extreme Networks", "key": "extremenetworks", "subsector": "Enterprise Networking" },
+      { "name": "Signal Messenger", "key": "signal", "subsector": "Encrypted Messaging" }
+    ],
+    "media": [
+      { "name": "Complex", "key": "Complex", "subsector": "Sports Media" },
+      { "name": "WEBTOON Entertainment", "key": "wattpad", "subsector": "Digital Comics" },
+      { "name": "Bento Box Entertainment", "key": "bentoboxent", "subsector": "Animation" },
+      { "name": "JioStar", "key": "jiostar", "subsector": "Streaming" },
+      { "name": "Digital Media Management", "key": "digitalmediamanagement", "subsector": "Social Media Agency" },
+      { "name": "Fliff", "key": "Fliff", "subsector": "Sports Gaming" },
+      { "name": "CrowdGen by Appen", "key": "appen", "subsector": "Content Moderation" }
+    ],
+    "construction": [
+      { "name": "Flow", "key": "flowlife", "subsector": "Real Estate Platform" },
+      { "name": "Skyline Construction", "key": "skylineconstruction", "subsector": "Commercial Construction" },
+      { "name": "Mantis Innovation", "key": "mantisinnovation", "subsector": "Commercial Roofing" },
+      { "name": "Jushi", "key": "jushico", "subsector": "Cannabis Retail/Construction" },
+      { "name": "Tripalink", "key": "tripalink", "subsector": "Student Housing" },
+      { "name": "Intersect", "key": "intersect", "subsector": "Renewable Energy Development" }
+    ],
+    "accounting": [
+      { "name": "Aprio", "key": "Aprio", "subsector": "CPA Firm" },
+      { "name": "Manay CPA", "key": "manaycpa.com", "subsector": "Accounting Firm" },
+      { "name": "CFGI", "key": "cfgi", "subsector": "Accounting Advisory" },
+      { "name": "Business Wire", "key": "businesswire", "subsector": "News Distribution" },
+      { "name": "Sonar", "key": "sonarsource", "subsector": "Software Quality" }
+    ],
+    "consulting": [
+      { "name": "McChrystal Group", "key": "mcchrystalgroup", "subsector": "Strategy Consulting" },
+      { "name": "CrossCountry Consulting", "key": "crosscountry-consulting", "subsector": "Business Transformation" },
+      { "name": "Accenture Infrastructure & Capital Projects", "key": "InfrastructureandCapitalProjects", "subsector": "Infrastructure Consulting" },
+      { "name": "Strategic Gears", "key": "strategicgears", "subsector": "Management Consulting" },
+      { "name": "Toptal", "key": "toptal", "subsector": "Talent Network" },
+      { "name": "Avalere Health", "key": "avalerehealth", "subsector": "Healthcare Consulting" }
+    ]
+  },
+  "company_keys_flat_list": [
+    "veeva", "includedhealth", "h1", "nekohealth", "ro", "SprinterHealth", "viantinc",
+    "missionhh", "givinghhc", "JourneyClinical", "klick", "avalerehealth", "deepgenomics",
+    "pharmachoicecanada", "reviverx", "mixlab", "RyzLabs", "penumbrainc",
+    "LeadBank", "greenlight", "finix", "epifi", "Flex", "loopreturns", "Zeller", "crypto",
+    "Resilience", "insify", "beam", "retired", "goodleap", "teamshares", "sonarsource",
+    "edpuzzle", "kiddom", "brightwheel", "commonlit", "instructure", "empowerly",
+    "zeneducate", "lansingschools", "sait", "educationatwork",
+    "cprime", "superiorexecutiveandlegalrecruiting", "pointclickcare", "attentive",
+    "tripalink", "mistral", "Eve",
+    "boxlunch", "cscgeneration-2", "farfetch", "hypebeast", "Snif", "beautybarrage", "foodstuffs",
+    "spotify", "netflix", "palantir",
+    "hermeus", "orbaerospace", "loftorbital", "ispace-inc", "dodmg", "MachinaLabs",
+    "gokenamerica1", "valdeseng", "cellares", "exowatt", "arborenergy", "cfsenergy", "serverfarm",
+    "destinationknot",
+    "coreresponse", "launchhousing", "standtogether", "third-plateau", "EdgeCollaborative",
+    "climatepower", "MissionWired",
+    "octoenergy", "pivotenergy", "freedomsolarpower", "solarlandscape", "intersect", "ethree", "telesat",
+    "cargo-partner",
+    "foodsmart", "goodeggs",
+    "jmawireless", "USMobile", "eastern-communications", "extremenetworks", "signal",
+    "Complex", "wattpad", "bentoboxent", "jiostar", "digitalmediamanagement", "Fliff", "appen",
+    "flowlife", "skylineconstruction", "mantisinnovation", "jushico",
+    "Aprio", "manaycpa.com", "cfgi", "businesswire",
+    "mcchrystalgroup", "crosscountry-consulting", "InfrastructureandCapitalProjects",
+    "strategicgears", "toptal"
+  ],
+  "usage_examples": {
+    "basic_endpoint": "https://api.lever.co/v0/postings/{companykey}",
+    "json_format": "https://api.lever.co/v0/postings/{companykey}?mode=json",
+    "xml_format": "https://api.lever.co/v0/postings/{companykey}?mode=xml",
+    "with_location": "https://api.lever.co/v0/postings/{companykey}?location=San%20Francisco",
+    "with_team": "https://api.lever.co/v0/postings/{companykey}?team=Engineering",
+    "with_commitment": "https://api.lever.co/v0/postings/{companykey}?commitment=Full-time"
+  },
+  "verified_examples": {
+    "spotify": {
+      "endpoint": "https://api.lever.co/v0/postings/spotify",
+      "status": "verified_active",
+      "sample_jobs": ["Android/iOS Engineer", "C++ Engineer", "Backend Engineer"]
+    },
+    "instructure": {
+      "endpoint": "https://api.lever.co/v0/postings/instructure",
+      "status": "verified_active",
+      "sample_jobs": ["Product Manager", "Sr. Product Manager"]
+    },
+    "octoenergy": {
+      "endpoint": "https://api.lever.co/v0/postings/octoenergy",
+      "status": "verified_active",
+      "sample_jobs": ["Senior Backend Engineer", "Solar Panel Installer"]
+    }
+  }
+}

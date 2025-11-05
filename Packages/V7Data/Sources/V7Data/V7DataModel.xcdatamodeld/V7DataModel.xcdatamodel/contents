@@ -34,6 +34,48 @@
         <!-- Dual-Profile System -->
         <attribute name="amberTealPosition" attributeType="Double" defaultValueString="0.5" usesScalarValueType="YES"/>
 
+        <!-- AI Configuration Sliders (Phase 1 - AI Slider Fix) -->
+        <attribute name="explorationRate" attributeType="Double" defaultValueString="0.3" usesScalarValueType="YES"/>
+        <attribute name="confidenceThreshold" attributeType="Double" defaultValueString="0.7" usesScalarValueType="YES"/>
+
+        <!-- O*NET Profile Fields (Phase 2 - October 31, 2025) -->
+        <!-- Education Level: O*NET 1-12 scale (1=Less than HS, 8=Bachelor's, 12=Doctoral) -->
+        <attribute name="onetEducationLevel" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+
+        <!-- Work Activities: Dictionary of 41 O*NET activities with importance scores (1-7) -->
+        <!-- Format: ["4.A.1.a.1": 5.0, "4.A.2.a.1": 6.5, ...] -->
+        <attribute name="onetWorkActivities" optional="YES" attributeType="Transformable" valueTransformerName="NSSecureUnarchiveFromData"/>
+
+        <!-- RIASEC Interest Profile: Holland Codes personality dimensions (0.0-7.0 each) -->
+        <!-- R = Realistic (hands-on, mechanical) -->
+        <attribute name="onetRIASECRealistic" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <!-- I = Investigative (analytical, scientific) -->
+        <attribute name="onetRIASECInvestigative" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <!-- A = Artistic (creative, expressive) -->
+        <attribute name="onetRIASECArtistic" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <!-- S = Social (helping, teaching) -->
+        <attribute name="onetRIASECSocial" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <!-- E = Enterprising (persuading, leading) -->
+        <attribute name="onetRIASECEnterprising" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <!-- C = Conventional (organized, detail-oriented) -->
+        <attribute name="onetRIASECConventional" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+
+        <!-- Work Styles: O*NET work style dimensions (1.0-5.0 each) - HOW user approaches work -->
+        <!-- Achievement Orientation: persistence, initiative, goal-setting -->
+        <attribute name="onetWorkStyleAchievement" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <!-- Social Influence: leadership, persuasion, inspiring others -->
+        <attribute name="onetWorkStyleSocialInfluence" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <!-- Interpersonal Orientation: teamwork, helping, caring for others -->
+        <attribute name="onetWorkStyleInterpersonal" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <!-- Adjustment: stress tolerance, self-control, adaptability -->
+        <attribute name="onetWorkStyleAdjustment" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <!-- Conscientiousness: dependability, attention to detail, integrity -->
+        <attribute name="onetWorkStyleConscientiousness" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <!-- Independence: autonomy, preference for individual responsibility -->
+        <attribute name="onetWorkStyleIndependence" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <!-- Practical Intelligence: innovation, analytical thinking -->
+        <attribute name="onetWorkStylePracticalIntelligence" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+
         <!-- Relationships (Cascade Delete) -->
         <relationship name="workExperience" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="WorkExperience" inverseName="profile" inverseEntity="WorkExperience"/>
         <relationship name="education" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="Education" inverseName="profile" inverseEntity="Education"/>
@@ -59,8 +101,8 @@
         <attribute name="endDate" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
         <attribute name="isCurrent" attributeType="Boolean" defaultValueString="NO" usesScalarValueType="YES"/>
         <attribute name="jobDescription" optional="YES" attributeType="String"/>
-        <attribute name="achievements" attributeType="Transformable" valueTransformerName="StringArrayTransformer"/>
-        <attribute name="technologies" attributeType="Transformable" valueTransformerName="StringArrayTransformer"/>
+        <attribute name="achievements" optional="YES" attributeType="Transformable" valueTransformerName="StringArrayTransformer"/>
+        <attribute name="technologies" optional="YES" attributeType="Transformable" valueTransformerName="StringArrayTransformer"/>
         <relationship name="profile" maxCount="1" deletionRule="Nullify" destinationEntity="UserProfile" inverseName="workExperience" inverseEntity="UserProfile"/>
         <fetchIndex name="byIdIndex">
             <fetchIndexElement property="id" type="Binary" order="ascending"/>
@@ -93,7 +135,7 @@
     <entity name="Certification" representedClassName="Certification" syncable="YES">
         <attribute name="id" attributeType="UUID" usesScalarValueType="NO"/>
         <attribute name="name" attributeType="String"/>
-        <attribute name="issuer" attributeType="String"/>
+        <attribute name="issuer" optional="YES" attributeType="String"/>
         <attribute name="issueDate" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
         <attribute name="expirationDate" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
         <attribute name="credentialId" optional="YES" attributeType="String"/>
@@ -296,15 +338,12 @@
         <attribute name="answeredDate" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
         <attribute name="lastModified" attributeType="Date" usesScalarValueType="NO"/>
         <attribute name="skippedCount" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
-        <attribute name="answerOptionsData" optional="YES" attributeType="Transformable" valueTransformerName="StringArrayTransformer"/>
-        <attribute name="responseData" optional="YES" attributeType="Transformable" valueTransformerName="StringArrayTransformer"/>
-        <attribute name="metadataData" optional="YES" attributeType="Transformable" valueTransformerName="NSSecureUnarchiveFromDataTransformer"/>
-        <attribute name="generationMethod" attributeType="String"/>
-        <attribute name="confidenceLevel" attributeType="String"/>
+        <attribute name="answerOptionsData" optional="YES" attributeType="Binary"/>
+        <attribute name="responseData" optional="YES" attributeType="Binary"/>
+        <attribute name="metadataData" optional="YES" attributeType="Binary"/>
+        <attribute name="generationMethod" optional="YES" attributeType="String"/>
+        <attribute name="confidenceLevel" optional="YES" attributeType="String"/>
         <attribute name="impactOnTruths" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
-        <attribute name="relatedSkills" optional="YES" attributeType="Transformable" valueTransformerName="StringArrayTransformer"/>
-        <attribute name="targetDomains" optional="YES" attributeType="Transformable" valueTransformerName="StringArrayTransformer"/>
-        <attribute name="dependencies" optional="YES" attributeType="Transformable" valueTransformerName="StringArrayTransformer"/>
         <attribute name="minJobCount" attributeType="Integer 16" defaultValueString="5" usesScalarValueType="YES"/>
         <attribute name="maxJobCount" attributeType="Integer 16" defaultValueString="20" usesScalarValueType="YES"/>
         <fetchIndex name="byIdIndex">
@@ -332,10 +371,10 @@
         <attribute name="userId" attributeType="UUID" usesScalarValueType="NO"/>
         <attribute name="createdDate" attributeType="Date" usesScalarValueType="NO"/>
         <attribute name="lastModified" attributeType="Date" usesScalarValueType="NO"/>
-        <attribute name="loveTasksData" attributeType="Transformable" valueTransformerName="StringArrayTransformer"/>
-        <attribute name="hateTasksData" attributeType="Transformable" valueTransformerName="StringArrayTransformer"/>
-        <attribute name="workValuesData" attributeType="Transformable" valueTransformerName="StringArrayTransformer"/>
-        <attribute name="interestsData" attributeType="Transformable" valueTransformerName="StringArrayTransformer"/>
+        <attribute name="loveTasksData" optional="YES" attributeType="Transformable" valueTransformerName="StringArrayTransformer"/>
+        <attribute name="hateTasksData" optional="YES" attributeType="Transformable" valueTransformerName="StringArrayTransformer"/>
+        <attribute name="workValuesData" optional="YES" attributeType="Transformable" valueTransformerName="StringArrayTransformer"/>
+        <attribute name="interestsData" optional="YES" attributeType="Transformable" valueTransformerName="StringArrayTransformer"/>
         <attribute name="confidenceMapData" attributeType="Transformable" valueTransformerName="ConfidenceMapTransformer"/>
         <fetchIndex name="byIdIndex">
             <fetchIndexElement property="id" type="Binary" order="ascending"/>
@@ -354,6 +393,31 @@
                 <constraint value="userId"/>
             </uniquenessConstraint>
         </uniquenessConstraints>
+    </entity>
+
+    <!-- FallbackCareerQuestion Entity - Phase 3.5 Week 14 FALLBACK System for Legacy Devices -->
+    <entity name="FallbackCareerQuestion" representedClassName="FallbackCareerQuestion" syncable="YES">
+        <attribute name="id" attributeType="UUID" usesScalarValueType="NO"/>
+        <attribute name="text" attributeType="String"/>
+        <attribute name="category" attributeType="String"/>
+
+        <!-- O*NET mapping metadata -->
+        <attribute name="onetEducationSignal" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="onetWorkActivitiesJSON" attributeType="String" defaultValueString="[]"/>
+        <attribute name="onetRIASECDimensionsJSON" attributeType="String" defaultValueString="[]"/>
+
+        <!-- AI processing -->
+        <attribute name="aiProcessingHints" attributeType="String" defaultValueString=""/>
+        <attribute name="displayOrder" attributeType="Integer 16" usesScalarValueType="YES"/>
+        <attribute name="conditionalLogic" optional="YES" attributeType="String"/>
+
+        <!-- Timestamps -->
+        <attribute name="createdAt" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="updatedAt" attributeType="Date" usesScalarValueType="NO"/>
+
+        <fetchIndex name="byDisplayOrderIndex">
+            <fetchIndexElement property="displayOrder" type="Binary" order="ascending"/>
+        </fetchIndex>
     </entity>
 
 </model>

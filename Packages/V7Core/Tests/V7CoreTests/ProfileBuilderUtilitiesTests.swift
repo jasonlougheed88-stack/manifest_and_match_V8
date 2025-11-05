@@ -23,7 +23,6 @@ import Foundation
 // MARK: - Education Level Mapping Tests
 
 @Suite("Education Level Mapping Tests")
-@available(iOS 26.0, *)
 struct EducationLevelMappingTests {
 
     // MARK: - Doctoral Degrees (Level 12)
@@ -285,7 +284,6 @@ struct EducationLevelMappingTests {
 // MARK: - Years of Experience Calculation Tests
 
 @Suite("Years of Experience Calculation Tests")
-@available(iOS 26.0, *)
 struct YearsOfExperienceCalculationTests {
 
     // Helper to create dates
@@ -483,7 +481,6 @@ struct YearsOfExperienceCalculationTests {
 // MARK: - Work Activities Inference Tests
 
 @Suite("Work Activities Inference Tests")
-@available(iOS 26.0, *)
 struct WorkActivitiesInferenceTests {
 
     @Test("Analytical job description infers correct activities")
@@ -554,7 +551,6 @@ struct WorkActivitiesInferenceTests {
 // MARK: - RIASEC Interests Inference Tests
 
 @Suite("RIASEC Interests Inference Tests")
-@available(iOS 26.0, *)
 struct RIASECInterestsInferenceTests {
 
     @Test("Technical job titles produce realistic profile")
@@ -640,7 +636,6 @@ struct RIASECInterestsInferenceTests {
 // MARK: - Profile Enhancement Integration Tests
 
 @Suite("Profile Enhancement Integration Tests")
-@available(iOS 26.0, *)
 struct ProfileEnhancementIntegrationTests {
 
     func date(year: Int) -> Date {

@@ -7,9 +7,11 @@
 import Foundation
 import V7Core  // O*NET data models (RIASECProfile, etc.)
 
-// MARK: - Job Model (Simplified for Thompson Sampling)
+// MARK: - Job Model (Enhanced for Full Display Pipeline)
 
-/// Simplified job structure for Thompson Sampling scoring
+/// Job structure for Thompson Sampling scoring + UI display
+/// ✅ PHASE 1.2A: Enhanced with 9 new fields to support rich job card display
+/// This is the single source of truth flowing through: API → Thompson → UI
 public struct Job: Identifiable, Sendable {
     public let id: UUID
     public let title: String
@@ -27,6 +29,19 @@ public struct Job: Identifiable, Sendable {
     /// Optional - if nil, O*NET scoring is skipped
     public let onetCode: String?
 
+    // ✅ NEW FIELDS - Phase 1.2A: Enhanced display data
+    public let benefits: [String]          // Benefits offered (health, 401k, etc.)
+    public let jobType: String?            // "full_time", "part_time", "contract", "internship"
+    public let experienceLevel: String?    // "entry_level", "mid_level", "senior_level"
+    public let postedDate: Date?           // When job was posted
+    public let isRemote: Bool              // Remote vs onsite
+    public let salary: String?             // Formatted salary range
+
+    // ✅ NEW FIELDS - Phase 1.2A: AI-enhanced fields from ParsedJobMetadata
+    public let requiredSkills: [String]    // AI-parsed required skills (must-haves)
+    public let preferredSkills: [String]   // AI-parsed preferred skills (nice-to-haves)
+    public let experienceYears: String?    // Formatted experience range (e.g., "3-5 years")
+
     public init(
         id: UUID = UUID(),
         title: String,
@@ -38,7 +53,16 @@ public struct Job: Identifiable, Sendable {
         thompsonScore: ThompsonScore? = nil,
         sector: String = "Technology",
         matchScore: Double = 0.50,
-        onetCode: String? = nil
+        onetCode: String? = nil,
+        benefits: [String] = [],
+        jobType: String? = nil,
+        experienceLevel: String? = nil,
+        postedDate: Date? = nil,
+        isRemote: Bool = false,
+        salary: String? = nil,
+        requiredSkills: [String] = [],
+        preferredSkills: [String] = [],
+        experienceYears: String? = nil
     ) {
         self.id = id
         self.title = title
@@ -51,6 +75,15 @@ public struct Job: Identifiable, Sendable {
         self.sector = sector
         self.matchScore = matchScore
         self.onetCode = onetCode
+        self.benefits = benefits
+        self.jobType = jobType
+        self.experienceLevel = experienceLevel
+        self.postedDate = postedDate
+        self.isRemote = isRemote
+        self.salary = salary
+        self.requiredSkills = requiredSkills
+        self.preferredSkills = preferredSkills
+        self.experienceYears = experienceYears
     }
 }
 

@@ -48,9 +48,9 @@ extension UserProfile {
             return
         }
 
-        // Import skills array to Core Data
-        profile.skills = savedSkills
-        profile.lastModified = Date()
+        // Import skills array to Core Data (use KVC to avoid type ambiguity)
+        profile.setValue(savedSkills, forKey: "skills")
+        profile.setValue(Date(), forKey: "lastModified")
 
         try context.save()
 
@@ -61,26 +61,7 @@ extension UserProfile {
         logger.debug("Imported skills: \(savedSkills.joined(separator: ", "))")
     }
 
-    /// Fetch current user profile (single profile per user)
-    ///
-    /// - Parameter context: The NSManagedObjectContext to fetch from
-    /// - Returns: The current UserProfile, or nil if none exists
-    ///
-    /// - Note: Optimized with fetchLimit=1 and no faulting for performance
-    @MainActor
-    public static func fetchCurrent(in context: NSManagedObjectContext) -> UserProfile? {
-        let request = UserProfile.fetchRequest()
-        request.fetchLimit = 1  // Only need one profile
-        request.returnsObjectsAsFaults = false  // Prefetch all properties
-
-        do {
-            return try context.fetch(request).first
-        } catch {
-            let logger = Logger(subsystem: "com.manifestandmatch.v7data", category: "UserProfileFetch")
-            logger.error("Failed to fetch UserProfile: \(error.localizedDescription)")
-            return nil
-        }
-    }
+    // Note: fetchCurrent(in:) already exists in UserProfile+CoreData.swift
 
     /// Fetch profile with all relationships prefetched (for ProfileScreen)
     ///

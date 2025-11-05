@@ -6,6 +6,7 @@
 
 import Foundation
 import V7Core
+import V7AIParsing
 
 // MARK: - Resume Extraction Error
 
@@ -129,11 +130,21 @@ public actor ResumeExtractor {
         // Extract certifications
         let certifications = try await extractCertifications(from: text)
 
+        // Extract new data types (Phase 3)
+        let projects = try await extractProjects(from: text)
+        let volunteerExperience = try await extractVolunteerExperience(from: text)
+        let awards = try await extractAwards(from: text)
+        let publications = try await extractPublications(from: text)
+
         return ResumeExtraction(
             education: education,
             workHistory: workHistory,
             certifications: certifications,
-            skills: skills
+            skills: skills,
+            projects: projects,
+            volunteerExperience: volunteerExperience,
+            awards: awards,
+            publications: publications
         )
     }
 
@@ -217,19 +228,26 @@ public actor ResumeExtractor {
     }
 
     @available(iOS 26.0, *)
-    private func extractCertifications(from text: String) async throws -> [Certification] {
+    private func extractCertifications(from text: String) async throws -> [V7AIParsing.Certification] {
         let lines = text.components(separatedBy: .newlines)
-        var certifications: [Certification] = []
+        var certifications: [V7AIParsing.Certification] = []
 
         for line in lines {
             let normalized = line.lowercased()
 
             // Look for certification keywords
             if normalized.contains("certified") || normalized.contains("certification") {
-                let cert = Certification(
+                let yearInt = extractYear(from: line)
+                let issueDate = yearInt.flatMap { Calendar.current.date(from: DateComponents(year: $0, month: 1)) }
+
+                let cert = V7AIParsing.Certification(
                     name: line.trimmingCharacters(in: .whitespaces),
-                    issuer: nil,
-                    year: extractYear(from: line)
+                    issuer: "",  // Extract issuer from line if possible
+                    issueDate: issueDate,
+                    expirationDate: nil,
+                    credentialId: nil,
+                    verificationURL: nil,
+                    doesNotExpire: true
                 )
                 certifications.append(cert)
             }
@@ -238,8 +256,118 @@ public actor ResumeExtractor {
         return certifications
     }
 
+    @available(iOS 26.0, *)
+    private func extractProjects(from text: String) async throws -> [V7AIParsing.Project] {
+        let lines = text.components(separatedBy: .newlines)
+        var projects: [V7AIParsing.Project] = []
+
+        for line in lines {
+            let normalized = line.lowercased()
+
+            // Look for project keywords
+            if normalized.contains("project") && !normalized.contains("experience") && !normalized.contains("work") {
+                projects.append(V7AIParsing.Project(
+                    name: line.trimmingCharacters(in: .whitespaces),
+                    description: nil,
+                    highlights: [],
+                    technologies: [],
+                    startDate: nil,
+                    endDate: nil,
+                    isCurrent: false,
+                    url: nil,
+                    repositoryURL: nil,
+                    entity: .personal,
+                    type: .other,
+                    roles: []
+                ))
+            }
+        }
+
+        return projects
+    }
+
+    @available(iOS 26.0, *)
+    private func extractVolunteerExperience(from text: String) async throws -> [V7AIParsing.VolunteerExperience] {
+        let lines = text.components(separatedBy: .newlines)
+        var volunteer: [V7AIParsing.VolunteerExperience] = []
+
+        for line in lines {
+            let normalized = line.lowercased()
+
+            // Look for volunteer keywords
+            if normalized.contains("volunteer") || normalized.contains("community service") {
+                volunteer.append(V7AIParsing.VolunteerExperience(
+                    organization: line.trimmingCharacters(in: .whitespaces),
+                    role: "Volunteer",
+                    startDate: nil,
+                    endDate: nil,
+                    isCurrent: false,
+                    description: nil,
+                    hoursPerWeek: nil,
+                    achievements: [],
+                    skills: []
+                ))
+            }
+        }
+
+        return volunteer
+    }
+
+    @available(iOS 26.0, *)
+    private func extractAwards(from text: String) async throws -> [V7AIParsing.Award] {
+        let lines = text.components(separatedBy: .newlines)
+        var awards: [V7AIParsing.Award] = []
+
+        for line in lines {
+            let normalized = line.lowercased()
+
+            // Look for award keywords
+            if normalized.contains("award") || normalized.contains("honor") || normalized.contains("recognition") {
+                let yearInt = extractYear(from: line)
+                let date = yearInt.flatMap { Calendar.current.date(from: DateComponents(year: $0, month: 1)) }
+
+                awards.append(V7AIParsing.Award(
+                    title: line.trimmingCharacters(in: .whitespaces),
+                    issuer: "",
+                    date: date,
+                    description: nil
+                ))
+            }
+        }
+
+        return awards
+    }
+
+    @available(iOS 26.0, *)
+    private func extractPublications(from text: String) async throws -> [V7AIParsing.Publication] {
+        let lines = text.components(separatedBy: .newlines)
+        var publications: [V7AIParsing.Publication] = []
+
+        for line in lines {
+            let normalized = line.lowercased()
+
+            // Look for publication keywords
+            if normalized.contains("published") || normalized.contains("publication") || normalized.contains("paper") {
+                let yearInt = extractYear(from: line)
+                let date = yearInt.flatMap { Calendar.current.date(from: DateComponents(year: $0, month: 1)) }
+
+                publications.append(V7AIParsing.Publication(
+                    title: line.trimmingCharacters(in: .whitespaces),
+                    publisher: nil,
+                    date: date,
+                    url: nil,
+                    authors: [],
+                    description: nil
+                ))
+            }
+        }
+
+        return publications
+    }
+
     // MARK: - Manual Extraction (Fallback)
 
+    @available(iOS 18.0, macOS 14.0, *)
     private func extractManually(_ text: String) async throws -> ResumeExtraction {
         let educationText = extractEducationSectionManually(from: text)
         let education = parseEducation(from: educationText)
@@ -251,11 +379,21 @@ public actor ResumeExtractor {
 
         let certifications = extractCertificationsManually(from: text)
 
+        // Extract new data types (Phase 3)
+        let projects = extractProjectsManually(from: text)
+        let volunteerExperience = extractVolunteerExperienceManually(from: text)
+        let awards = extractAwardsManually(from: text)
+        let publications = extractPublicationsManually(from: text)
+
         return ResumeExtraction(
             education: education,
             workHistory: workHistory,
             certifications: certifications,
-            skills: skills
+            skills: skills,
+            projects: projects,
+            volunteerExperience: volunteerExperience,
+            awards: awards,
+            publications: publications
         )
     }
 
@@ -320,17 +458,25 @@ public actor ResumeExtractor {
         }
     }
 
-    private func extractCertificationsManually(from text: String) -> [Certification] {
+    @available(iOS 18.0, macOS 14.0, *)
+    private func extractCertificationsManually(from text: String) -> [V7AIParsing.Certification] {
         let lines = text.components(separatedBy: .newlines)
-        var certifications: [Certification] = []
+        var certifications: [V7AIParsing.Certification] = []
 
         for line in lines {
             if line.lowercased().contains("certified") || line.lowercased().contains("certification") {
+                let yearInt = extractYear(from: line)
+                let issueDate = yearInt.flatMap { Calendar.current.date(from: DateComponents(year: $0, month: 1)) }
+
                 certifications.append(
-                    Certification(
+                    V7AIParsing.Certification(
                         name: line.trimmingCharacters(in: .whitespaces),
-                        issuer: nil,
-                        year: extractYear(from: line)
+                        issuer: "",
+                        issueDate: issueDate,
+                        expirationDate: nil,
+                        credentialId: nil,
+                        verificationURL: nil,
+                        doesNotExpire: true
                     )
                 )
             }
@@ -339,10 +485,112 @@ public actor ResumeExtractor {
         return certifications
     }
 
+    @available(iOS 18.0, macOS 14.0, *)
+    private func extractProjectsManually(from text: String) -> [V7AIParsing.Project] {
+        let lines = text.components(separatedBy: .newlines)
+        var projects: [V7AIParsing.Project] = []
+
+        for line in lines {
+            let normalized = line.lowercased()
+            if normalized.contains("project") && !normalized.contains("experience") && !normalized.contains("work") {
+                projects.append(V7AIParsing.Project(
+                    name: line.trimmingCharacters(in: .whitespaces),
+                    description: nil,
+                    highlights: [],
+                    technologies: [],
+                    startDate: nil,
+                    endDate: nil,
+                    isCurrent: false,
+                    url: nil,
+                    repositoryURL: nil,
+                    entity: .personal,
+                    type: .other,
+                    roles: []
+                ))
+            }
+        }
+
+        return projects
+    }
+
+    @available(iOS 18.0, macOS 14.0, *)
+    private func extractVolunteerExperienceManually(from text: String) -> [V7AIParsing.VolunteerExperience] {
+        let lines = text.components(separatedBy: .newlines)
+        var volunteer: [V7AIParsing.VolunteerExperience] = []
+
+        for line in lines {
+            let normalized = line.lowercased()
+            if normalized.contains("volunteer") || normalized.contains("community service") {
+                volunteer.append(V7AIParsing.VolunteerExperience(
+                    organization: line.trimmingCharacters(in: .whitespaces),
+                    role: "Volunteer",
+                    startDate: nil,
+                    endDate: nil,
+                    isCurrent: false,
+                    description: nil,
+                    hoursPerWeek: nil,
+                    achievements: [],
+                    skills: []
+                ))
+            }
+        }
+
+        return volunteer
+    }
+
+    @available(iOS 18.0, macOS 14.0, *)
+    private func extractAwardsManually(from text: String) -> [V7AIParsing.Award] {
+        let lines = text.components(separatedBy: .newlines)
+        var awards: [V7AIParsing.Award] = []
+
+        for line in lines {
+            let normalized = line.lowercased()
+            if normalized.contains("award") || normalized.contains("honor") || normalized.contains("recognition") {
+                let yearInt = extractYear(from: line)
+                let date = yearInt.flatMap { Calendar.current.date(from: DateComponents(year: $0, month: 1)) }
+
+                awards.append(V7AIParsing.Award(
+                    title: line.trimmingCharacters(in: .whitespaces),
+                    issuer: "",
+                    date: date,
+                    description: nil
+                ))
+            }
+        }
+
+        return awards
+    }
+
+    @available(iOS 18.0, macOS 14.0, *)
+    private func extractPublicationsManually(from text: String) -> [V7AIParsing.Publication] {
+        let lines = text.components(separatedBy: .newlines)
+        var publications: [V7AIParsing.Publication] = []
+
+        for line in lines {
+            let normalized = line.lowercased()
+            if normalized.contains("published") || normalized.contains("publication") || normalized.contains("paper") {
+                let yearInt = extractYear(from: line)
+                let date = yearInt.flatMap { Calendar.current.date(from: DateComponents(year: $0, month: 1)) }
+
+                publications.append(V7AIParsing.Publication(
+                    title: line.trimmingCharacters(in: .whitespaces),
+                    publisher: nil,
+                    date: date,
+                    url: nil,
+                    authors: [],
+                    description: nil
+                ))
+            }
+        }
+
+        return publications
+    }
+
     // MARK: - Parsing Helpers
 
-    private func parseEducation(from text: String) -> [Education] {
-        var education: [Education] = []
+    @available(iOS 18.0, macOS 14.0, *)
+    private func parseEducation(from text: String) -> [V7AIParsing.Education] {
+        var education: [V7AIParsing.Education] = []
         let lines = text.components(separatedBy: .newlines)
 
         for line in lines {
@@ -370,10 +618,19 @@ public actor ResumeExtractor {
             // Extract institution (simplified)
             let institution = extractInstitution(from: line) ?? "Unknown Institution"
 
-            // Extract year
-            let year = extractYear(from: line)
+            // Extract year - convert to Date
+            let yearInt = extractYear(from: line)
+            let graduationDate = yearInt.flatMap { Calendar.current.date(from: DateComponents(year: $0, month: 6)) }
 
-            education.append(Education(degree: degree, field: field, institution: institution, year: year))
+            education.append(V7AIParsing.Education(
+                institution: institution,  // Required first parameter
+                degree: degree,            // Optional
+                fieldOfStudy: field,       // Renamed from "field"
+                startDate: nil,            // New field (no data available)
+                endDate: graduationDate,   // Renamed from "graduationDate"
+                gpa: nil,                  // Optional
+                level: nil                 // Renamed from "achievements", now EducationLevel?
+            ))
         }
 
         return education
@@ -505,44 +762,52 @@ public actor ResumeExtractor {
 // MARK: - Resume Extraction Result
 
 /// Structured resume data extracted from text
+@available(iOS 18.0, macOS 14.0, *)
 public struct ResumeExtraction: Codable, Sendable {
-    public let education: [Education]
+    public let education: [V7AIParsing.Education]
     public let workHistory: [WorkHistoryItem]
-    public let certifications: [Certification]
+    public let certifications: [V7AIParsing.Certification]
     public let skills: [String]
+    public let projects: [V7AIParsing.Project]
+    public let volunteerExperience: [V7AIParsing.VolunteerExperience]
+    public let awards: [V7AIParsing.Award]
+    public let publications: [V7AIParsing.Publication]
 
-    public init(education: [Education], workHistory: [WorkHistoryItem], certifications: [Certification], skills: [String]) {
+    public init(
+        education: [V7AIParsing.Education],
+        workHistory: [WorkHistoryItem],
+        certifications: [V7AIParsing.Certification],
+        skills: [String],
+        projects: [V7AIParsing.Project] = [],
+        volunteerExperience: [V7AIParsing.VolunteerExperience] = [],
+        awards: [V7AIParsing.Award] = [],
+        publications: [V7AIParsing.Publication] = []
+    ) {
         self.education = education
         self.workHistory = workHistory
         self.certifications = certifications
         self.skills = skills
+        self.projects = projects
+        self.volunteerExperience = volunteerExperience
+        self.awards = awards
+        self.publications = publications
     }
 }
 
-/// Education entry
-public struct Education: Codable, Sendable, Hashable {
-    public let degree: String  // "Bachelor's degree", "Master's degree"
-    public let field: String   // "Computer Science", "Business"
-    public let institution: String
-    public let year: Int?
+/// Work history entry (simplified for extraction)
+/// NOTE: This is different from V7AIParsing.WorkExperience which has more fields
+public struct WorkHistoryItem: Codable, Sendable, Hashable {
+    public let title: String
+    public let company: String
+    public let startDate: Date
+    public let endDate: Date?
+    public let description: String
 
-    public init(degree: String, field: String, institution: String, year: Int?) {
-        self.degree = degree
-        self.field = field
-        self.institution = institution
-        self.year = year
-    }
-}
-
-/// Certification entry
-public struct Certification: Codable, Sendable, Hashable {
-    public let name: String
-    public let issuer: String?
-    public let year: Int?
-
-    public init(name: String, issuer: String?, year: Int?) {
-        self.name = name
-        self.issuer = issuer
-        self.year = year
+    public init(title: String, company: String, startDate: Date, endDate: Date?, description: String) {
+        self.title = title
+        self.company = company
+        self.startDate = startDate
+        self.endDate = endDate
+        self.description = description
     }
 }

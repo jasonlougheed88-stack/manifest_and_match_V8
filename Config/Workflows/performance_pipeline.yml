@@ -1,0 +1,473 @@
+# Continuous Performance Validation Pipeline
+# V7 App Store Compliance - Queue 3 Task 6
+# Ensures 357x performance advantage is maintained throughout CI/CD
+
+name: V7 Performance Validation Pipeline
+
+on:
+  push:
+    branches: [ main, develop, release/* ]
+  pull_request:
+    branches: [ main ]
+  schedule:
+    # Run performance validation every hour during business hours
+    - cron: '0 9-17 * * 1-5'
+  workflow_dispatch:
+    inputs:
+      test_suite:
+        description: 'Test suite to run'
+        required: true
+        default: 'comprehensive'
+        type: choice
+        options:
+          - quick
+          - comprehensive
+          - production
+          - stress
+      force_baseline_update:
+        description: 'Force baseline update'
+        required: false
+        default: false
+        type: boolean
+
+env:
+  # Performance targets for validation
+  PERFORMANCE_TARGET_357X: 357
+  MEMORY_TARGET_200MB: 200
+  BATTERY_TARGET_PERCENT: 2
+
+  # Build configuration
+  BUILD_CONFIGURATION: Release
+  XCODE_VERSION: '15.4'
+  IOS_SIMULATOR: 'iPhone 16'
+
+  # Pipeline configuration
+  PERFORMANCE_VALIDATION_ENABLED: true
+  CONTINUOUS_MONITORING_ENABLED: true
+  AUTOMATED_ROLLBACK_ENABLED: true
+
+jobs:
+  # Job 1: Environment Setup and Validation
+  setup:
+    name: Environment Setup
+    runs-on: macos-latest
+    outputs:
+      test-suite: ${{ steps.config.outputs.test-suite }}
+      baseline-update: ${{ steps.config.outputs.baseline-update }}
+      cache-key: ${{ steps.config.outputs.cache-key }}
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v4
+      with:
+        fetch-depth: 0  # Full history for trend analysis
+
+    - name: Setup Xcode
+      uses: maxim-lobanov/setup-xcode@v1
+      with:
+        xcode-version: ${{ env.XCODE_VERSION }}
+
+    - name: Configure pipeline parameters
+      id: config
+      run: |
+        # Determine test suite based on context
+        if [[ "${{ github.event_name }}" == "workflow_dispatch" ]]; then
+          TEST_SUITE="${{ github.event.inputs.test_suite }}"
+          BASELINE_UPDATE="${{ github.event.inputs.force_baseline_update }}"
+        elif [[ "${{ github.event_name }}" == "schedule" ]]; then
+          TEST_SUITE="production"
+          BASELINE_UPDATE="false"
+        elif [[ "${{ github.ref }}" == "refs/heads/main" ]]; then
+          TEST_SUITE="comprehensive"
+          BASELINE_UPDATE="true"
+        else
+          TEST_SUITE="quick"
+          BASELINE_UPDATE="false"
+        fi
+
+        echo "test-suite=$TEST_SUITE" >> $GITHUB_OUTPUT
+        echo "baseline-update=$BASELINE_UPDATE" >> $GITHUB_OUTPUT
+        echo "cache-key=v7-performance-${{ runner.os }}-${{ hashFiles('**/Package.swift', '**/Package.resolved') }}" >> $GITHUB_OUTPUT
+
+        echo "Pipeline Configuration:"
+        echo "  Test Suite: $TEST_SUITE"
+        echo "  Baseline Update: $BASELINE_UPDATE"
+        echo "  Event: ${{ github.event_name }}"
+        echo "  Branch: ${{ github.ref }}"
+
+    - name: Cache dependencies
+      uses: actions/cache@v3
+      with:
+        path: |
+          ~/.cache/swift
+          .build
+          DerivedData
+        key: ${{ steps.config.outputs.cache-key }}
+        restore-keys: |
+          v7-performance-${{ runner.os }}-
+
+  # Job 2: Build with Performance Optimizations
+  build:
+    name: Performance Optimized Build
+    runs-on: macos-latest
+    needs: setup
+    outputs:
+      build-artifacts: ${{ steps.build.outputs.artifacts }}
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v4
+
+    - name: Setup Xcode
+      uses: maxim-lobanov/setup-xcode@v1
+      with:
+        xcode-version: ${{ env.XCODE_VERSION }}
+
+    - name: Restore cache
+      uses: actions/cache@v3
+      with:
+        path: |
+          ~/.cache/swift
+          .build
+          DerivedData
+        key: ${{ needs.setup.outputs.cache-key }}
+
+    - name: Build with maximum performance optimizations
+      id: build
+      run: |
+        echo "Building V7 with performance optimizations..."
+
+        # Build using production configuration
+        xcodebuild \
+          -workspace "ManifestAndMatchV7.xcworkspace" \
+          -scheme "ManifestAndMatchV7" \
+          -configuration "$BUILD_CONFIGURATION" \
+          -destination "platform=iOS Simulator,name=$IOS_SIMULATOR" \
+          -derivedDataPath "DerivedData" \
+          -xcconfig "Config/Production.xcconfig" \
+          build \
+          SWIFT_OPTIMIZATION_LEVEL="-Ounchecked" \
+          SWIFT_COMPILATION_MODE="wholemodule" \
+          GCC_OPTIMIZATION_LEVEL="3" \
+          LLVM_LTO="YES_THIN" \
+          V7_PERFORMANCE_MODE="1" \
+          THOMPSON_357X_MODE="1" \
+          | tee build.log
+
+        # Check build status
+        if [[ ${PIPESTATUS[0]} -eq 0 ]]; then
+          echo "✅ Build successful with performance optimizations"
+          echo "artifacts=DerivedData" >> $GITHUB_OUTPUT
+        else
+          echo "❌ Build failed"
+          exit 1
+        fi
+
+    - name: Upload build artifacts
+      uses: actions/upload-artifact@v3
+      with:
+        name: performance-build-artifacts
+        path: |
+          DerivedData
+          build.log
+        retention-days: 7
+
+  # Job 3: Performance Regression Testing
+  performance-tests:
+    name: Performance Regression Tests
+    runs-on: macos-latest
+    needs: [setup, build]
+    outputs:
+      test-results: ${{ steps.test.outputs.results }}
+      performance-multiplier: ${{ steps.test.outputs.performance-multiplier }}
+      memory-usage: ${{ steps.test.outputs.memory-usage }}
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v4
+
+    - name: Setup Xcode
+      uses: maxim-lobanov/setup-xcode@v1
+      with:
+        xcode-version: ${{ env.XCODE_VERSION }}
+
+    - name: Download build artifacts
+      uses: actions/download-artifact@v3
+      with:
+        name: performance-build-artifacts
+
+    - name: Run performance regression tests
+      id: test
+      run: |
+        echo "Running performance regression tests..."
+
+        # Set test environment
+        export CI=true
+        export TEST_SUITE="${{ needs.setup.outputs.test-suite }}"
+        export BUILD_CONFIG="$BUILD_CONFIGURATION"
+        export V7_PERFORMANCE_VALIDATION="true"
+
+        # Run the performance validation script
+        chmod +x Config/Scripts/performance_validation.sh
+        ./Config/Scripts/performance_validation.sh --suite "$TEST_SUITE" --ci
+
+        # Extract results
+        RESULTS_FILE="TestResults/performance_report.json"
+
+        if [[ -f "$RESULTS_FILE" ]]; then
+          PERFORMANCE_MULTIPLIER=$(jq -r '.performance_metrics.performance_multiplier' "$RESULTS_FILE")
+          MEMORY_USAGE=$(jq -r '.performance_metrics.memory_usage_mb' "$RESULTS_FILE")
+          OVERALL_PASSED=$(jq -r '.validation_results.overall_passed' "$RESULTS_FILE")
+
+          echo "performance-multiplier=$PERFORMANCE_MULTIPLIER" >> $GITHUB_OUTPUT
+          echo "memory-usage=$MEMORY_USAGE" >> $GITHUB_OUTPUT
+          echo "results=$OVERALL_PASSED" >> $GITHUB_OUTPUT
+
+          echo "📊 Performance Test Results:"
+          echo "  Performance: ${PERFORMANCE_MULTIPLIER}x"
+          echo "  Memory Usage: ${MEMORY_USAGE}MB"
+          echo "  Overall: $([ "$OVERALL_PASSED" = "true" ] && echo "✅ PASSED" || echo "❌ FAILED")"
+
+          # Validate against targets
+          if (( $(echo "$PERFORMANCE_MULTIPLIER >= $PERFORMANCE_TARGET_357X" | bc -l) )); then
+            echo "✅ Performance target achieved: ${PERFORMANCE_MULTIPLIER}x >= ${PERFORMANCE_TARGET_357X}x"
+          else
+            echo "❌ Performance target missed: ${PERFORMANCE_MULTIPLIER}x < ${PERFORMANCE_TARGET_357X}x"
+            exit 1
+          fi
+
+          if (( $(echo "$MEMORY_USAGE <= $MEMORY_TARGET_200MB" | bc -l) )); then
+            echo "✅ Memory target achieved: ${MEMORY_USAGE}MB <= ${MEMORY_TARGET_200MB}MB"
+          else
+            echo "❌ Memory target exceeded: ${MEMORY_USAGE}MB > ${MEMORY_TARGET_200MB}MB"
+            exit 1
+          fi
+        else
+          echo "❌ Performance report not found"
+          exit 1
+        fi
+
+    - name: Upload test results
+      uses: actions/upload-artifact@v3
+      if: always()
+      with:
+        name: performance-test-results
+        path: |
+          TestResults/
+        retention-days: 30
+
+  # Job 4: Continuous Performance Monitoring
+  continuous-monitoring:
+    name: Continuous Performance Monitoring
+    runs-on: macos-latest
+    needs: [setup, build, performance-tests]
+    if: github.ref == 'refs/heads/main' && needs.performance-tests.outputs.test-results == 'true'
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v4
+
+    - name: Setup monitoring environment
+      run: |
+        echo "Setting up continuous performance monitoring..."
+
+        # Configure monitoring parameters
+        export PERFORMANCE_MULTIPLIER="${{ needs.performance-tests.outputs.performance-multiplier }}"
+        export MEMORY_USAGE="${{ needs.performance-tests.outputs.memory-usage }}"
+        export BUILD_COMMIT="${{ github.sha }}"
+        export BUILD_TIMESTAMP="$(date -u +%Y-%m-%dT%H:%M:%SZ)"
+
+        echo "📈 Performance Metrics:"
+        echo "  Performance: ${PERFORMANCE_MULTIPLIER}x"
+        echo "  Memory: ${MEMORY_USAGE}MB"
+        echo "  Commit: ${BUILD_COMMIT}"
+        echo "  Timestamp: ${BUILD_TIMESTAMP}"
+
+    - name: Update performance baseline
+      if: needs.setup.outputs.baseline-update == 'true'
+      run: |
+        echo "Updating performance baseline..."
+
+        # Create baseline record
+        BASELINE_FILE="Config/Baselines/performance_baseline.json"
+        mkdir -p "$(dirname "$BASELINE_FILE")"
+
+        cat > "$BASELINE_FILE" << EOF
+        {
+          "version": "7.0.0",
+          "build": "${{ github.run_number }}",
+          "commit": "${{ github.sha }}",
+          "timestamp": "$(date -u +%Y-%m-%dT%H:%M:%SZ)",
+          "performance_multiplier": ${{ needs.performance-tests.outputs.performance-multiplier }},
+          "memory_usage_mb": ${{ needs.performance-tests.outputs.memory-usage }},
+          "validation_passed": true,
+          "test_suite": "${{ needs.setup.outputs.test-suite }}",
+          "confidence": 0.95,
+          "valid_until": "$(date -u -d '+24 hours' +%Y-%m-%dT%H:%M:%SZ)"
+        }
+        EOF
+
+        echo "✅ Performance baseline updated"
+
+    - name: Send performance metrics to monitoring system
+      run: |
+        echo "Sending metrics to monitoring system..."
+
+        # This would integrate with your monitoring system
+        # Example: send to DataDog, New Relic, CloudWatch, etc.
+
+        METRICS_PAYLOAD=$(cat << EOF
+        {
+          "timestamp": "$(date -u +%Y-%m-%dT%H:%M:%SZ)",
+          "application": "ManifestAndMatchV7",
+          "version": "7.0.0",
+          "build": "${{ github.run_number }}",
+          "commit": "${{ github.sha }}",
+          "branch": "${{ github.ref_name }}",
+          "metrics": {
+            "performance_multiplier": ${{ needs.performance-tests.outputs.performance-multiplier }},
+            "memory_usage_mb": ${{ needs.performance-tests.outputs.memory-usage }},
+            "target_performance": $PERFORMANCE_TARGET_357X,
+            "target_memory": $MEMORY_TARGET_200MB,
+            "performance_ratio": $(echo "scale=2; ${{ needs.performance-tests.outputs.performance-multiplier }} / $PERFORMANCE_TARGET_357X" | bc),
+            "memory_ratio": $(echo "scale=2; ${{ needs.performance-tests.outputs.memory-usage }} / $MEMORY_TARGET_200MB" | bc)
+          },
+          "status": "success"
+        }
+        EOF
+        )
+
+        echo "📤 Metrics payload:"
+        echo "$METRICS_PAYLOAD" | jq '.'
+
+        # Store metrics for trend analysis
+        METRICS_DIR="Config/Metrics/$(date +%Y/%m)"
+        mkdir -p "$METRICS_DIR"
+        echo "$METRICS_PAYLOAD" > "$METRICS_DIR/$(date +%d_%H%M%S).json"
+
+  # Job 5: Performance Alerting
+  alerting:
+    name: Performance Alerting
+    runs-on: macos-latest
+    needs: [setup, performance-tests]
+    if: always() && needs.performance-tests.result != 'success'
+
+    steps:
+    - name: Send performance regression alert
+      run: |
+        echo "🚨 Performance regression detected!"
+
+        ALERT_MESSAGE="Performance Regression Alert for V7
+
+        Branch: ${{ github.ref_name }}
+        Commit: ${{ github.sha }}
+        Performance: ${{ needs.performance-tests.outputs.performance-multiplier }}x (Target: ${PERFORMANCE_TARGET_357X}x)
+        Memory: ${{ needs.performance-tests.outputs.memory-usage }}MB (Target: ${MEMORY_TARGET_200MB}MB)
+
+        Action Required: Investigate performance degradation before merging."
+
+        echo "$ALERT_MESSAGE"
+
+        # This would send alerts to Slack, email, etc.
+        # For demo purposes, we'll create an issue
+        echo "Creating GitHub issue for performance regression..."
+
+  # Job 6: Deployment Gate
+  deployment-gate:
+    name: Deployment Gate
+    runs-on: macos-latest
+    needs: [setup, build, performance-tests, continuous-monitoring]
+    if: github.ref == 'refs/heads/main'
+
+    steps:
+    - name: Evaluate deployment readiness
+      run: |
+        PERFORMANCE_MULTIPLIER="${{ needs.performance-tests.outputs.performance-multiplier }}"
+        MEMORY_USAGE="${{ needs.performance-tests.outputs.memory-usage }}"
+
+        echo "🚪 Deployment Gate Evaluation:"
+        echo "  Performance: ${PERFORMANCE_MULTIPLIER}x (Required: ≥${PERFORMANCE_TARGET_357X}x)"
+        echo "  Memory: ${MEMORY_USAGE}MB (Required: ≤${MEMORY_TARGET_200MB}MB)"
+
+        DEPLOYMENT_APPROVED=true
+
+        if (( $(echo "$PERFORMANCE_MULTIPLIER < $PERFORMANCE_TARGET_357X" | bc -l) )); then
+          echo "❌ Deployment blocked: Performance below target"
+          DEPLOYMENT_APPROVED=false
+        fi
+
+        if (( $(echo "$MEMORY_USAGE > $MEMORY_TARGET_200MB" | bc -l) )); then
+          echo "❌ Deployment blocked: Memory usage exceeds limit"
+          DEPLOYMENT_APPROVED=false
+        fi
+
+        if [[ "$DEPLOYMENT_APPROVED" == "true" ]]; then
+          echo "✅ Deployment approved: All performance targets met"
+          echo "🚀 Ready for App Store submission"
+        else
+          echo "🛑 Deployment blocked: Performance requirements not met"
+          exit 1
+        fi
+
+  # Job 7: Performance Report
+  performance-report:
+    name: Performance Report
+    runs-on: macos-latest
+    needs: [setup, build, performance-tests]
+    if: always()
+
+    steps:
+    - name: Generate performance report
+      run: |
+        echo "# V7 Performance Validation Report" > performance_report.md
+        echo "" >> performance_report.md
+        echo "**Build:** ${{ github.run_number }}" >> performance_report.md
+        echo "**Commit:** ${{ github.sha }}" >> performance_report.md
+        echo "**Branch:** ${{ github.ref_name }}" >> performance_report.md
+        echo "**Test Suite:** ${{ needs.setup.outputs.test-suite }}" >> performance_report.md
+        echo "**Timestamp:** $(date -u)" >> performance_report.md
+        echo "" >> performance_report.md
+        echo "## Performance Metrics" >> performance_report.md
+        echo "" >> performance_report.md
+        echo "| Metric | Current | Target | Status |" >> performance_report.md
+        echo "|--------|---------|--------|--------|" >> performance_report.md
+
+        PERFORMANCE="${{ needs.performance-tests.outputs.performance-multiplier }}"
+        MEMORY="${{ needs.performance-tests.outputs.memory-usage }}"
+
+        PERF_STATUS="❌"
+        if (( $(echo "$PERFORMANCE >= $PERFORMANCE_TARGET_357X" | bc -l) )); then
+          PERF_STATUS="✅"
+        fi
+
+        MEM_STATUS="❌"
+        if (( $(echo "$MEMORY <= $MEMORY_TARGET_200MB" | bc -l) )); then
+          MEM_STATUS="✅"
+        fi
+
+        echo "| Performance Multiplier | ${PERFORMANCE}x | ${PERFORMANCE_TARGET_357X}x | $PERF_STATUS |" >> performance_report.md
+        echo "| Memory Usage | ${MEMORY}MB | ≤${MEMORY_TARGET_200MB}MB | $MEM_STATUS |" >> performance_report.md
+        echo "" >> performance_report.md
+
+        if [[ "${{ needs.performance-tests.outputs.test-results }}" == "true" ]]; then
+          echo "## ✅ Overall Status: PASSED" >> performance_report.md
+          echo "" >> performance_report.md
+          echo "All performance targets achieved. Ready for production deployment." >> performance_report.md
+        else
+          echo "## ❌ Overall Status: FAILED" >> performance_report.md
+          echo "" >> performance_report.md
+          echo "Performance targets not met. Investigation required before deployment." >> performance_report.md
+        fi
+
+        echo "" >> performance_report.md
+        echo "---" >> performance_report.md
+        echo "*Generated by V7 Continuous Performance Validation Pipeline*" >> performance_report.md
+
+        cat performance_report.md
+
+    - name: Upload performance report
+      uses: actions/upload-artifact@v3
+      with:
+        name: performance-report
+        path: performance_report.md
+        retention-days: 90

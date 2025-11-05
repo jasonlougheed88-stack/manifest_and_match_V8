@@ -32,7 +32,7 @@ let package = Package(
             ],
             exclude: ["README_Phase8.2.md"],
             swiftSettings: [
-                .enableExperimentalFeature("StrictConcurrency")
+                .enableUpcomingFeature("StrictConcurrency")  // Swift 6 strict concurrency (Week 0 Pre-Task 0.1)
             ]
         ),
         .testTarget(

@@ -1,0 +1,223 @@
+# ============================================
+# Manifest & Match V8 - Root .gitignore
+# ============================================
+# iOS 26 / Xcode 26 / Swift 6 Project
+# Generated: 2025-10-29
+
+# ============================================
+# macOS
+# ============================================
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# ============================================
+# Xcode
+# ============================================
+# Build products
+build/
+DerivedData/
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+xcuserdata/
+*.xccheckout
+*.moved-aside
+
+# Xcode workspace (if using Swift Packages, keep workspace)
+# *.xcworkspace
+
+# Xcode Patch
+*.xcodeproj/*
+!*.xcodeproj/project.pbxproj
+!*.xcodeproj/xcshareddata/
+!*.xcodeproj/project.xcworkspace/
+!*.xcworkspace/contents.xcworkspacedata
+/*.gcno
+**/xcshareddata/WorkspaceSettings.xcsettings
+
+# ============================================
+# Swift Package Manager
+# ============================================
+.build/
+.swiftpm/
+Packages/
+Package.resolved
+*.swiftpm
+.netrc
+
+# ============================================
+# CocoaPods (if used)
+# ============================================
+Pods/
+*.podspec
+
+# ============================================
+# Carthage (if used)
+# ============================================
+Carthage/Build
+Carthage/Checkouts
+
+# ============================================
+# Build Outputs & Archives
+# ============================================
+Build_Outputs/
+*.ipa
+*.dSYM.zip
+*.dSYM
+*.app
+*.framework
+*.xcarchive
+
+# ============================================
+# Testing & Coverage
+# ============================================
+*.profraw
+*.profdata
+*.coverage
+*.lcov
+.test_results/
+xcov/
+
+# ============================================
+# O*NET Integration Data
+# ============================================
+# O*NET database files (large binary/JSON)
+Data/ONET/*.db
+Data/ONET/*.sqlite
+Data/ONET/*.json
+Data/ONET/cache/
+Data/ONET/downloads/
+
+# O*NET API credentials
+Config/onet_credentials.json
+Config/onet_api_key.txt
+.env.onet
+
+# O*NET compiled taxonomies (regeneratable)
+Data/ONET/compiled_skills_taxonomy.json
+Data/ONET/compiled_occupation_index.json
+Data/ONET/compiled_knowledge_taxonomy.json
+
+# ============================================
+# AI/ML Model Files
+# ============================================
+# Large ML models (download separately)
+*.mlmodel
+*.mlmodelc
+*.mlpackage
+*.coreml
+*.onnx
+
+# AI service credentials
+Config/openai_api_key.txt
+Config/anthropic_api_key.txt
+Config/ai_credentials.json
+
+# ============================================
+# Documentation Artifacts
+# ============================================
+# Temporary documentation files
+Documentation/**/*.tmp
+Documentation/**/*.backup
+Documentation/**/.drafts/
+
+# Generated API docs
+Documentation/Generated/
+docs/build/
+
+# ============================================
+# Performance Profiling
+# ============================================
+# Instruments traces
+*.trace
+*.dtps
+Instruments/
+
+# Performance logs
+PerformanceLogs/
+*.perf
+*.flamegraph
+
+# ============================================
+# Testing & Validation
+# ============================================
+# Test database snapshots
+Tests/**/*.snapshot
+Tests/**/*.db
+
+# Mock data (large files)
+Tests/Fixtures/large_mock_data.json
+Tests/Fixtures/sample_resumes/*.pdf
+
+# ============================================
+# Version Control
+# ============================================
+# Git merge artifacts
+*.orig
+*.rej
+*.swp
+*~
+
+# ============================================
+# IDE & Editors
+# ============================================
+# VS Code
+.vscode/
+
+# Sublime Text
+*.sublime-workspace
+*.sublime-project
+
+# TextMate
+*.tmproj
+*.tmproject
+tmtags
+
+# ============================================
+# Temporary Files
+# ============================================
+*.tmp
+*.temp
+*.log
+*.cache
+.tmp/
+.cache/
+
+# ============================================
+# Secrets & Credentials
+# ============================================
+# API keys and secrets
+.env
+.env.local
+.env.production
+secrets.json
+credentials.json
+*.pem
+*.p12
+*.mobileprovision
+
+# ============================================
+# App-Specific
+# ============================================
+# User profile data (development)
+Data/dev_profiles/
+Data/test_users/
+
+# Job source API responses (cache)
+Data/JobSources/cache/
+Data/JobSources/*.cached
+
+# Thompson Sampling model cache
+Data/Thompson/models/
+Data/Thompson/cache/
+
+# ============================================
+# END
+# ============================================

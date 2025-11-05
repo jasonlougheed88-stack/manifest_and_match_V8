@@ -28,7 +28,7 @@ let package = Package(
                 .process("Resources")  // Bundle JSON configuration files
             ],
             swiftSettings: [
-                .enableExperimentalFeature("StrictConcurrency")
+                .enableUpcomingFeature("StrictConcurrency")  // Swift 6 strict concurrency (Week 0 Pre-Task 0.1)
             ]
         ),
         .testTarget(

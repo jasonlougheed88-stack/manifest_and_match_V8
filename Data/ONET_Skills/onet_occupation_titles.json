@@ -1,0 +1,5087 @@
+{
+  "lastUpdated" : "2025-11-01T21:11:18Z",
+  "occupations" : [
+    {
+      "onetCode" : "11-1011.00",
+      "sector" : "Office\/Administrative",
+      "title" : "Chief Executives"
+    },
+    {
+      "onetCode" : "11-1011.03",
+      "sector" : "Office\/Administrative",
+      "title" : "Chief Sustainability Officers"
+    },
+    {
+      "onetCode" : "11-1021.00",
+      "sector" : "Office\/Administrative",
+      "title" : "General and Operations Managers"
+    },
+    {
+      "onetCode" : "11-1031.00",
+      "sector" : "Office\/Administrative",
+      "title" : "Legislators"
+    },
+    {
+      "onetCode" : "11-2011.00",
+      "sector" : "Office\/Administrative",
+      "title" : "Advertising and Promotions Managers"
+    },
+    {
+      "onetCode" : "11-2021.00",
+      "sector" : "Office\/Administrative",
+      "title" : "Marketing Managers"
+    },
+    {
+      "onetCode" : "11-2022.00",
+      "sector" : "Office\/Administrative",
+      "title" : "Sales Managers"
+    },
+    {
+      "onetCode" : "11-2032.00",
+      "sector" : "Office\/Administrative",
+      "title" : "Public Relations Managers"
+    },
+    {
+      "onetCode" : "11-2033.00",
+      "sector" : "Office\/Administrative",
+      "title" : "Fundraising Managers"
+    },
+    {
+      "onetCode" : "11-3012.00",
+      "sector" : "Office\/Administrative",
+      "title" : "Administrative Services Managers"
+    },
+    {
+      "onetCode" : "11-3013.00",
+      "sector" : "Office\/Administrative",
+      "title" : "Facilities Managers"
+    },
+    {
+      "onetCode" : "11-3013.01",
+      "sector" : "Office\/Administrative",
+      "title" : "Security Managers"
+    },
+    {
+      "onetCode" : "11-3021.00",
+      "sector" : "Office\/Administrative",
+      "title" : "Computer and Information Systems Managers"
+    },
+    {
+      "onetCode" : "11-3031.00",
+      "sector" : "Office\/Administrative",
+      "title" : "Financial Managers"
+    },
+    {
+      "onetCode" : "11-3031.01",
+      "sector" : "Office\/Administrative",
+      "title" : "Treasurers and Controllers"
+    },
+    {
+      "onetCode" : "11-3031.03",
+      "sector" : "Office\/Administrative",
+      "title" : "Investment Fund Managers"
+    },
+    {
+      "onetCode" : "11-3051.00",
+      "sector" : "Office\/Administrative",
+      "title" : "Industrial Production Managers"
+    },
+    {
+      "onetCode" : "11-3051.01",
+      "sector" : "Office\/Administrative",
+      "title" : "Quality Control Systems Managers"
+    },
+    {
+      "onetCode" : "11-3051.02",
+      "sector" : "Office\/Administrative",
+      "title" : "Geothermal Production Managers"
+    },
+    {
+      "onetCode" : "11-3051.03",
+      "sector" : "Office\/Administrative",
+      "title" : "Biofuels Production Managers"
+    },
+    {
+      "onetCode" : "11-3051.04",
+      "sector" : "Office\/Administrative",
+      "title" : "Biomass Power Plant Managers"
+    },
+    {
+      "onetCode" : "11-3051.06",
+      "sector" : "Office\/Administrative",
+      "title" : "Hydroelectric Production Managers"
+    },
+    {
+      "onetCode" : "11-3061.00",
+      "sector" : "Office\/Administrative",
+      "title" : "Purchasing Managers"
+    },
+    {
+      "onetCode" : "11-3071.00",
+      "sector" : "Office\/Administrative",
+      "title" : "Transportation, Storage, and Distribution Managers"
+    },
+    {
+      "onetCode" : "11-3071.04",
+      "sector" : "Office\/Administrative",
+      "title" : "Supply Chain Managers"
+    },
+    {
+      "onetCode" : "11-3111.00",
+      "sector" : "Office\/Administrative",
+      "title" : "Compensation and Benefits Managers"
+    },
+    {
+      "onetCode" : "11-3121.00",
+      "sector" : "Office\/Administrative",
+      "title" : "Human Resources Managers"
+    },
+    {
+      "onetCode" : "11-3131.00",
+      "sector" : "Office\/Administrative",
+      "title" : "Training and Development Managers"
+    },
+    {
+      "onetCode" : "11-9013.00",
+      "sector" : "Office\/Administrative",
+      "title" : "Farmers, Ranchers, and Other Agricultural Managers"
+    },
+    {
+      "onetCode" : "11-9021.00",
+      "sector" : "Office\/Administrative",
+      "title" : "Construction Managers"
+    },
+    {
+      "onetCode" : "11-9031.00",
+      "sector" : "Office\/Administrative",
+      "title" : "Education and Childcare Administrators, Preschool and Daycare"
+    },
+    {
+      "onetCode" : "11-9032.00",
+      "sector" : "Office\/Administrative",
+      "title" : "Education Administrators, Kindergarten through Secondary"
+    },
+    {
+      "onetCode" : "11-9033.00",
+      "sector" : "Office\/Administrative",
+      "title" : "Education Administrators, Postsecondary"
+    },
+    {
+      "onetCode" : "11-9039.00",
+      "sector" : "Office\/Administrative",
+      "title" : "Education Administrators, All Other"
+    },
+    {
+      "onetCode" : "11-9041.00",
+      "sector" : "Office\/Administrative",
+      "title" : "Architectural and Engineering Managers"
+    },
+    {
+      "onetCode" : "11-9041.01",
+      "sector" : "Office\/Administrative",
+      "title" : "Biofuels\/Biodiesel Technology and Product Development Managers"
+    },
+    {
+      "onetCode" : "11-9051.00",
+      "sector" : "Office\/Administrative",
+      "title" : "Food Service Managers"
+    },
+    {
+      "onetCode" : "11-9071.00",
+      "sector" : "Office\/Administrative",
+      "title" : "Gambling Managers"
+    },
+    {
+      "onetCode" : "11-9072.00",
+      "sector" : "Office\/Administrative",
+      "title" : "Entertainment and Recreation Managers, Except Gambling"
+    },
+    {
+      "onetCode" : "11-9081.00",
+      "sector" : "Office\/Administrative",
+      "title" : "Lodging Managers"
+    },
+    {
+      "onetCode" : "11-9111.00",
+      "sector" : "Office\/Administrative",
+      "title" : "Medical and Health Services Managers"
+    },
+    {
+      "onetCode" : "11-9121.00",
+      "sector" : "Office\/Administrative",
+      "title" : "Natural Sciences Managers"
+    },
+    {
+      "onetCode" : "11-9121.01",
+      "sector" : "Office\/Administrative",
+      "title" : "Clinical Research Coordinators"
+    },
+    {
+      "onetCode" : "11-9121.02",
+      "sector" : "Office\/Administrative",
+      "title" : "Water Resource Specialists"
+    },
+    {
+      "onetCode" : "11-9131.00",
+      "sector" : "Office\/Administrative",
+      "title" : "Postmasters and Mail Superintendents"
+    },
+    {
+      "onetCode" : "11-9141.00",
+      "sector" : "Office\/Administrative",
+      "title" : "Property, Real Estate, and Community Association Managers"
+    },
+    {
+      "onetCode" : "11-9151.00",
+      "sector" : "Office\/Administrative",
+      "title" : "Social and Community Service Managers"
+    },
+    {
+      "onetCode" : "11-9161.00",
+      "sector" : "Office\/Administrative",
+      "title" : "Emergency Management Directors"
+    },
+    {
+      "onetCode" : "11-9171.00",
+      "sector" : "Office\/Administrative",
+      "title" : "Funeral Home Managers"
+    },
+    {
+      "onetCode" : "11-9179.00",
+      "sector" : "Office\/Administrative",
+      "title" : "Personal Service Managers, All Other"
+    },
+    {
+      "onetCode" : "11-9179.01",
+      "sector" : "Office\/Administrative",
+      "title" : "Fitness and Wellness Coordinators"
+    },
+    {
+      "onetCode" : "11-9179.02",
+      "sector" : "Office\/Administrative",
+      "title" : "Spa Managers"
+    },
+    {
+      "onetCode" : "11-9199.00",
+      "sector" : "Office\/Administrative",
+      "title" : "Managers, All Other"
+    },
+    {
+      "onetCode" : "11-9199.01",
+      "sector" : "Office\/Administrative",
+      "title" : "Regulatory Affairs Managers"
+    },
+    {
+      "onetCode" : "11-9199.02",
+      "sector" : "Office\/Administrative",
+      "title" : "Compliance Managers"
+    },
+    {
+      "onetCode" : "11-9199.08",
+      "sector" : "Office\/Administrative",
+      "title" : "Loss Prevention Managers"
+    },
+    {
+      "onetCode" : "11-9199.09",
+      "sector" : "Office\/Administrative",
+      "title" : "Wind Energy Operations Managers"
+    },
+    {
+      "onetCode" : "11-9199.10",
+      "sector" : "Office\/Administrative",
+      "title" : "Wind Energy Development Managers"
+    },
+    {
+      "onetCode" : "11-9199.11",
+      "sector" : "Office\/Administrative",
+      "title" : "Brownfield Redevelopment Specialists and Site Managers"
+    },
+    {
+      "onetCode" : "13-1011.00",
+      "sector" : "Finance",
+      "title" : "Agents and Business Managers of Artists, Performers, and Athletes"
+    },
+    {
+      "onetCode" : "13-1021.00",
+      "sector" : "Finance",
+      "title" : "Buyers and Purchasing Agents, Farm Products"
+    },
+    {
+      "onetCode" : "13-1022.00",
+      "sector" : "Finance",
+      "title" : "Wholesale and Retail Buyers, Except Farm Products"
+    },
+    {
+      "onetCode" : "13-1023.00",
+      "sector" : "Finance",
+      "title" : "Purchasing Agents, Except Wholesale, Retail, and Farm Products"
+    },
+    {
+      "onetCode" : "13-1031.00",
+      "sector" : "Finance",
+      "title" : "Claims Adjusters, Examiners, and Investigators"
+    },
+    {
+      "onetCode" : "13-1032.00",
+      "sector" : "Finance",
+      "title" : "Insurance Appraisers, Auto Damage"
+    },
+    {
+      "onetCode" : "13-1041.00",
+      "sector" : "Finance",
+      "title" : "Compliance Officers"
+    },
+    {
+      "onetCode" : "13-1041.01",
+      "sector" : "Finance",
+      "title" : "Environmental Compliance Inspectors"
+    },
+    {
+      "onetCode" : "13-1041.03",
+      "sector" : "Finance",
+      "title" : "Equal Opportunity Representatives and Officers"
+    },
+    {
+      "onetCode" : "13-1041.04",
+      "sector" : "Finance",
+      "title" : "Government Property Inspectors and Investigators"
+    },
+    {
+      "onetCode" : "13-1041.06",
+      "sector" : "Finance",
+      "title" : "Coroners"
+    },
+    {
+      "onetCode" : "13-1041.07",
+      "sector" : "Finance",
+      "title" : "Regulatory Affairs Specialists"
+    },
+    {
+      "onetCode" : "13-1041.08",
+      "sector" : "Finance",
+      "title" : "Customs Brokers"
+    },
+    {
+      "onetCode" : "13-1051.00",
+      "sector" : "Finance",
+      "title" : "Cost Estimators"
+    },
+    {
+      "onetCode" : "13-1071.00",
+      "sector" : "Finance",
+      "title" : "Human Resources Specialists"
+    },
+    {
+      "onetCode" : "13-1074.00",
+      "sector" : "Finance",
+      "title" : "Farm Labor Contractors"
+    },
+    {
+      "onetCode" : "13-1075.00",
+      "sector" : "Finance",
+      "title" : "Labor Relations Specialists"
+    },
+    {
+      "onetCode" : "13-1081.00",
+      "sector" : "Finance",
+      "title" : "Logisticians"
+    },
+    {
+      "onetCode" : "13-1081.01",
+      "sector" : "Finance",
+      "title" : "Logistics Engineers"
+    },
+    {
+      "onetCode" : "13-1081.02",
+      "sector" : "Finance",
+      "title" : "Logistics Analysts"
+    },
+    {
+      "onetCode" : "13-1082.00",
+      "sector" : "Finance",
+      "title" : "Project Management Specialists"
+    },
+    {
+      "onetCode" : "13-1111.00",
+      "sector" : "Finance",
+      "title" : "Management Analysts"
+    },
+    {
+      "onetCode" : "13-1121.00",
+      "sector" : "Finance",
+      "title" : "Meeting, Convention, and Event Planners"
+    },
+    {
+      "onetCode" : "13-1131.00",
+      "sector" : "Finance",
+      "title" : "Fundraisers"
+    },
+    {
+      "onetCode" : "13-1141.00",
+      "sector" : "Finance",
+      "title" : "Compensation, Benefits, and Job Analysis Specialists"
+    },
+    {
+      "onetCode" : "13-1151.00",
+      "sector" : "Finance",
+      "title" : "Training and Development Specialists"
+    },
+    {
+      "onetCode" : "13-1161.00",
+      "sector" : "Finance",
+      "title" : "Market Research Analysts and Marketing Specialists"
+    },
+    {
+      "onetCode" : "13-1161.01",
+      "sector" : "Finance",
+      "title" : "Search Marketing Strategists"
+    },
+    {
+      "onetCode" : "13-1199.00",
+      "sector" : "Finance",
+      "title" : "Business Operations Specialists, All Other"
+    },
+    {
+      "onetCode" : "13-1199.04",
+      "sector" : "Finance",
+      "title" : "Business Continuity Planners"
+    },
+    {
+      "onetCode" : "13-1199.05",
+      "sector" : "Finance",
+      "title" : "Sustainability Specialists"
+    },
+    {
+      "onetCode" : "13-1199.06",
+      "sector" : "Finance",
+      "title" : "Online Merchants"
+    },
+    {
+      "onetCode" : "13-1199.07",
+      "sector" : "Finance",
+      "title" : "Security Management Specialists"
+    },
+    {
+      "onetCode" : "13-2011.00",
+      "sector" : "Finance",
+      "title" : "Accountants and Auditors"
+    },
+    {
+      "onetCode" : "13-2022.00",
+      "sector" : "Finance",
+      "title" : "Appraisers of Personal and Business Property"
+    },
+    {
+      "onetCode" : "13-2023.00",
+      "sector" : "Finance",
+      "title" : "Appraisers and Assessors of Real Estate"
+    },
+    {
+      "onetCode" : "13-2031.00",
+      "sector" : "Finance",
+      "title" : "Budget Analysts"
+    },
+    {
+      "onetCode" : "13-2041.00",
+      "sector" : "Finance",
+      "title" : "Credit Analysts"
+    },
+    {
+      "onetCode" : "13-2051.00",
+      "sector" : "Finance",
+      "title" : "Financial and Investment Analysts"
+    },
+    {
+      "onetCode" : "13-2052.00",
+      "sector" : "Finance",
+      "title" : "Personal Financial Advisors"
+    },
+    {
+      "onetCode" : "13-2053.00",
+      "sector" : "Finance",
+      "title" : "Insurance Underwriters"
+    },
+    {
+      "onetCode" : "13-2054.00",
+      "sector" : "Finance",
+      "title" : "Financial Risk Specialists"
+    },
+    {
+      "onetCode" : "13-2061.00",
+      "sector" : "Finance",
+      "title" : "Financial Examiners"
+    },
+    {
+      "onetCode" : "13-2071.00",
+      "sector" : "Finance",
+      "title" : "Credit Counselors"
+    },
+    {
+      "onetCode" : "13-2072.00",
+      "sector" : "Finance",
+      "title" : "Loan Officers"
+    },
+    {
+      "onetCode" : "13-2081.00",
+      "sector" : "Finance",
+      "title" : "Tax Examiners and Collectors, and Revenue Agents"
+    },
+    {
+      "onetCode" : "13-2082.00",
+      "sector" : "Finance",
+      "title" : "Tax Preparers"
+    },
+    {
+      "onetCode" : "13-2099.00",
+      "sector" : "Finance",
+      "title" : "Financial Specialists, All Other"
+    },
+    {
+      "onetCode" : "13-2099.01",
+      "sector" : "Finance",
+      "title" : "Financial Quantitative Analysts"
+    },
+    {
+      "onetCode" : "13-2099.04",
+      "sector" : "Finance",
+      "title" : "Fraud Examiners, Investigators and Analysts"
+    },
+    {
+      "onetCode" : "15-1211.00",
+      "sector" : "Technology",
+      "title" : "Computer Systems Analysts"
+    },
+    {
+      "onetCode" : "15-1211.01",
+      "sector" : "Technology",
+      "title" : "Health Informatics Specialists"
+    },
+    {
+      "onetCode" : "15-1212.00",
+      "sector" : "Technology",
+      "title" : "Information Security Analysts"
+    },
+    {
+      "onetCode" : "15-1221.00",
+      "sector" : "Technology",
+      "title" : "Computer and Information Research Scientists"
+    },
+    {
+      "onetCode" : "15-1231.00",
+      "sector" : "Technology",
+      "title" : "Computer Network Support Specialists"
+    },
+    {
+      "onetCode" : "15-1232.00",
+      "sector" : "Technology",
+      "title" : "Computer User Support Specialists"
+    },
+    {
+      "onetCode" : "15-1241.00",
+      "sector" : "Technology",
+      "title" : "Computer Network Architects"
+    },
+    {
+      "onetCode" : "15-1241.01",
+      "sector" : "Technology",
+      "title" : "Telecommunications Engineering Specialists"
+    },
+    {
+      "onetCode" : "15-1242.00",
+      "sector" : "Technology",
+      "title" : "Database Administrators"
+    },
+    {
+      "onetCode" : "15-1243.00",
+      "sector" : "Technology",
+      "title" : "Database Architects"
+    },
+    {
+      "onetCode" : "15-1243.01",
+      "sector" : "Technology",
+      "title" : "Data Warehousing Specialists"
+    },
+    {
+      "onetCode" : "15-1244.00",
+      "sector" : "Technology",
+      "title" : "Network and Computer Systems Administrators"
+    },
+    {
+      "onetCode" : "15-1251.00",
+      "sector" : "Technology",
+      "title" : "Computer Programmers"
+    },
+    {
+      "onetCode" : "15-1252.00",
+      "sector" : "Technology",
+      "title" : "Software Developers"
+    },
+    {
+      "onetCode" : "15-1253.00",
+      "sector" : "Technology",
+      "title" : "Software Quality Assurance Analysts and Testers"
+    },
+    {
+      "onetCode" : "15-1254.00",
+      "sector" : "Technology",
+      "title" : "Web Developers"
+    },
+    {
+      "onetCode" : "15-1255.00",
+      "sector" : "Technology",
+      "title" : "Web and Digital Interface Designers"
+    },
+    {
+      "onetCode" : "15-1255.01",
+      "sector" : "Technology",
+      "title" : "Video Game Designers"
+    },
+    {
+      "onetCode" : "15-1299.00",
+      "sector" : "Technology",
+      "title" : "Computer Occupations, All Other"
+    },
+    {
+      "onetCode" : "15-1299.01",
+      "sector" : "Technology",
+      "title" : "Web Administrators"
+    },
+    {
+      "onetCode" : "15-1299.02",
+      "sector" : "Technology",
+      "title" : "Geographic Information Systems Technologists and Technicians"
+    },
+    {
+      "onetCode" : "15-1299.03",
+      "sector" : "Technology",
+      "title" : "Document Management Specialists"
+    },
+    {
+      "onetCode" : "15-1299.04",
+      "sector" : "Technology",
+      "title" : "Penetration Testers"
+    },
+    {
+      "onetCode" : "15-1299.05",
+      "sector" : "Technology",
+      "title" : "Information Security Engineers"
+    },
+    {
+      "onetCode" : "15-1299.06",
+      "sector" : "Technology",
+      "title" : "Digital Forensics Analysts"
+    },
+    {
+      "onetCode" : "15-1299.07",
+      "sector" : "Technology",
+      "title" : "Blockchain Engineers"
+    },
+    {
+      "onetCode" : "15-1299.08",
+      "sector" : "Technology",
+      "title" : "Computer Systems Engineers\/Architects"
+    },
+    {
+      "onetCode" : "15-1299.09",
+      "sector" : "Technology",
+      "title" : "Information Technology Project Managers"
+    },
+    {
+      "onetCode" : "15-2011.00",
+      "sector" : "Technology",
+      "title" : "Actuaries"
+    },
+    {
+      "onetCode" : "15-2021.00",
+      "sector" : "Technology",
+      "title" : "Mathematicians"
+    },
+    {
+      "onetCode" : "15-2031.00",
+      "sector" : "Technology",
+      "title" : "Operations Research Analysts"
+    },
+    {
+      "onetCode" : "15-2041.00",
+      "sector" : "Technology",
+      "title" : "Statisticians"
+    },
+    {
+      "onetCode" : "15-2041.01",
+      "sector" : "Technology",
+      "title" : "Biostatisticians"
+    },
+    {
+      "onetCode" : "15-2051.00",
+      "sector" : "Technology",
+      "title" : "Data Scientists"
+    },
+    {
+      "onetCode" : "15-2051.01",
+      "sector" : "Technology",
+      "title" : "Business Intelligence Analysts"
+    },
+    {
+      "onetCode" : "15-2051.02",
+      "sector" : "Technology",
+      "title" : "Clinical Data Managers"
+    },
+    {
+      "onetCode" : "15-2099.00",
+      "sector" : "Technology",
+      "title" : "Mathematical Science Occupations, All Other"
+    },
+    {
+      "onetCode" : "15-2099.01",
+      "sector" : "Technology",
+      "title" : "Bioinformatics Technicians"
+    },
+    {
+      "onetCode" : "17-1011.00",
+      "sector" : "Technology",
+      "title" : "Architects, Except Landscape and Naval"
+    },
+    {
+      "onetCode" : "17-1012.00",
+      "sector" : "Technology",
+      "title" : "Landscape Architects"
+    },
+    {
+      "onetCode" : "17-1021.00",
+      "sector" : "Technology",
+      "title" : "Cartographers and Photogrammetrists"
+    },
+    {
+      "onetCode" : "17-1022.00",
+      "sector" : "Technology",
+      "title" : "Surveyors"
+    },
+    {
+      "onetCode" : "17-1022.01",
+      "sector" : "Technology",
+      "title" : "Geodetic Surveyors"
+    },
+    {
+      "onetCode" : "17-2011.00",
+      "sector" : "Technology",
+      "title" : "Aerospace Engineers"
+    },
+    {
+      "onetCode" : "17-2021.00",
+      "sector" : "Technology",
+      "title" : "Agricultural Engineers"
+    },
+    {
+      "onetCode" : "17-2031.00",
+      "sector" : "Technology",
+      "title" : "Bioengineers and Biomedical Engineers"
+    },
+    {
+      "onetCode" : "17-2041.00",
+      "sector" : "Technology",
+      "title" : "Chemical Engineers"
+    },
+    {
+      "onetCode" : "17-2051.00",
+      "sector" : "Technology",
+      "title" : "Civil Engineers"
+    },
+    {
+      "onetCode" : "17-2051.01",
+      "sector" : "Technology",
+      "title" : "Transportation Engineers"
+    },
+    {
+      "onetCode" : "17-2051.02",
+      "sector" : "Technology",
+      "title" : "Water\/Wastewater Engineers"
+    },
+    {
+      "onetCode" : "17-2061.00",
+      "sector" : "Technology",
+      "title" : "Computer Hardware Engineers"
+    },
+    {
+      "onetCode" : "17-2071.00",
+      "sector" : "Technology",
+      "title" : "Electrical Engineers"
+    },
+    {
+      "onetCode" : "17-2072.00",
+      "sector" : "Technology",
+      "title" : "Electronics Engineers, Except Computer"
+    },
+    {
+      "onetCode" : "17-2072.01",
+      "sector" : "Technology",
+      "title" : "Radio Frequency Identification Device Specialists"
+    },
+    {
+      "onetCode" : "17-2081.00",
+      "sector" : "Technology",
+      "title" : "Environmental Engineers"
+    },
+    {
+      "onetCode" : "17-2111.00",
+      "sector" : "Technology",
+      "title" : "Health and Safety Engineers, Except Mining Safety Engineers and Inspectors"
+    },
+    {
+      "onetCode" : "17-2111.02",
+      "sector" : "Technology",
+      "title" : "Fire-Prevention and Protection Engineers"
+    },
+    {
+      "onetCode" : "17-2112.00",
+      "sector" : "Technology",
+      "title" : "Industrial Engineers"
+    },
+    {
+      "onetCode" : "17-2112.01",
+      "sector" : "Technology",
+      "title" : "Human Factors Engineers and Ergonomists"
+    },
+    {
+      "onetCode" : "17-2112.02",
+      "sector" : "Technology",
+      "title" : "Validation Engineers"
+    },
+    {
+      "onetCode" : "17-2112.03",
+      "sector" : "Technology",
+      "title" : "Manufacturing Engineers"
+    },
+    {
+      "onetCode" : "17-2121.00",
+      "sector" : "Technology",
+      "title" : "Marine Engineers and Naval Architects"
+    },
+    {
+      "onetCode" : "17-2131.00",
+      "sector" : "Technology",
+      "title" : "Materials Engineers"
+    },
+    {
+      "onetCode" : "17-2141.00",
+      "sector" : "Technology",
+      "title" : "Mechanical Engineers"
+    },
+    {
+      "onetCode" : "17-2141.01",
+      "sector" : "Technology",
+      "title" : "Fuel Cell Engineers"
+    },
+    {
+      "onetCode" : "17-2141.02",
+      "sector" : "Technology",
+      "title" : "Automotive Engineers"
+    },
+    {
+      "onetCode" : "17-2151.00",
+      "sector" : "Technology",
+      "title" : "Mining and Geological Engineers, Including Mining Safety Engineers"
+    },
+    {
+      "onetCode" : "17-2161.00",
+      "sector" : "Technology",
+      "title" : "Nuclear Engineers"
+    },
+    {
+      "onetCode" : "17-2171.00",
+      "sector" : "Technology",
+      "title" : "Petroleum Engineers"
+    },
+    {
+      "onetCode" : "17-2199.00",
+      "sector" : "Technology",
+      "title" : "Engineers, All Other"
+    },
+    {
+      "onetCode" : "17-2199.03",
+      "sector" : "Technology",
+      "title" : "Energy Engineers, Except Wind and Solar"
+    },
+    {
+      "onetCode" : "17-2199.05",
+      "sector" : "Technology",
+      "title" : "Mechatronics Engineers"
+    },
+    {
+      "onetCode" : "17-2199.06",
+      "sector" : "Technology",
+      "title" : "Microsystems Engineers"
+    },
+    {
+      "onetCode" : "17-2199.07",
+      "sector" : "Technology",
+      "title" : "Photonics Engineers"
+    },
+    {
+      "onetCode" : "17-2199.08",
+      "sector" : "Technology",
+      "title" : "Robotics Engineers"
+    },
+    {
+      "onetCode" : "17-2199.09",
+      "sector" : "Technology",
+      "title" : "Nanosystems Engineers"
+    },
+    {
+      "onetCode" : "17-2199.10",
+      "sector" : "Technology",
+      "title" : "Wind Energy Engineers"
+    },
+    {
+      "onetCode" : "17-2199.11",
+      "sector" : "Technology",
+      "title" : "Solar Energy Systems Engineers"
+    },
+    {
+      "onetCode" : "17-3011.00",
+      "sector" : "Technology",
+      "title" : "Architectural and Civil Drafters"
+    },
+    {
+      "onetCode" : "17-3012.00",
+      "sector" : "Technology",
+      "title" : "Electrical and Electronics Drafters"
+    },
+    {
+      "onetCode" : "17-3013.00",
+      "sector" : "Technology",
+      "title" : "Mechanical Drafters"
+    },
+    {
+      "onetCode" : "17-3019.00",
+      "sector" : "Technology",
+      "title" : "Drafters, All Other"
+    },
+    {
+      "onetCode" : "17-3021.00",
+      "sector" : "Technology",
+      "title" : "Aerospace Engineering and Operations Technologists and Technicians"
+    },
+    {
+      "onetCode" : "17-3022.00",
+      "sector" : "Technology",
+      "title" : "Civil Engineering Technologists and Technicians"
+    },
+    {
+      "onetCode" : "17-3023.00",
+      "sector" : "Technology",
+      "title" : "Electrical and Electronic Engineering Technologists and Technicians"
+    },
+    {
+      "onetCode" : "17-3024.00",
+      "sector" : "Technology",
+      "title" : "Electro-Mechanical and Mechatronics Technologists and Technicians"
+    },
+    {
+      "onetCode" : "17-3024.01",
+      "sector" : "Technology",
+      "title" : "Robotics Technicians"
+    },
+    {
+      "onetCode" : "17-3025.00",
+      "sector" : "Technology",
+      "title" : "Environmental Engineering Technologists and Technicians"
+    },
+    {
+      "onetCode" : "17-3026.00",
+      "sector" : "Technology",
+      "title" : "Industrial Engineering Technologists and Technicians"
+    },
+    {
+      "onetCode" : "17-3026.01",
+      "sector" : "Technology",
+      "title" : "Nanotechnology Engineering Technologists and Technicians"
+    },
+    {
+      "onetCode" : "17-3027.00",
+      "sector" : "Technology",
+      "title" : "Mechanical Engineering Technologists and Technicians"
+    },
+    {
+      "onetCode" : "17-3027.01",
+      "sector" : "Technology",
+      "title" : "Automotive Engineering Technicians"
+    },
+    {
+      "onetCode" : "17-3028.00",
+      "sector" : "Technology",
+      "title" : "Calibration Technologists and Technicians"
+    },
+    {
+      "onetCode" : "17-3029.00",
+      "sector" : "Technology",
+      "title" : "Engineering Technologists and Technicians, Except Drafters, All Other"
+    },
+    {
+      "onetCode" : "17-3029.01",
+      "sector" : "Technology",
+      "title" : "Non-Destructive Testing Specialists"
+    },
+    {
+      "onetCode" : "17-3029.08",
+      "sector" : "Technology",
+      "title" : "Photonics Technicians"
+    },
+    {
+      "onetCode" : "17-3031.00",
+      "sector" : "Technology",
+      "title" : "Surveying and Mapping Technicians"
+    },
+    {
+      "onetCode" : "19-1011.00",
+      "sector" : "Technology",
+      "title" : "Animal Scientists"
+    },
+    {
+      "onetCode" : "19-1012.00",
+      "sector" : "Technology",
+      "title" : "Food Scientists and Technologists"
+    },
+    {
+      "onetCode" : "19-1013.00",
+      "sector" : "Technology",
+      "title" : "Soil and Plant Scientists"
+    },
+    {
+      "onetCode" : "19-1021.00",
+      "sector" : "Technology",
+      "title" : "Biochemists and Biophysicists"
+    },
+    {
+      "onetCode" : "19-1022.00",
+      "sector" : "Technology",
+      "title" : "Microbiologists"
+    },
+    {
+      "onetCode" : "19-1023.00",
+      "sector" : "Technology",
+      "title" : "Zoologists and Wildlife Biologists"
+    },
+    {
+      "onetCode" : "19-1029.00",
+      "sector" : "Technology",
+      "title" : "Biological Scientists, All Other"
+    },
+    {
+      "onetCode" : "19-1029.01",
+      "sector" : "Technology",
+      "title" : "Bioinformatics Scientists"
+    },
+    {
+      "onetCode" : "19-1029.02",
+      "sector" : "Technology",
+      "title" : "Molecular and Cellular Biologists"
+    },
+    {
+      "onetCode" : "19-1029.03",
+      "sector" : "Technology",
+      "title" : "Geneticists"
+    },
+    {
+      "onetCode" : "19-1029.04",
+      "sector" : "Technology",
+      "title" : "Biologists"
+    },
+    {
+      "onetCode" : "19-1031.00",
+      "sector" : "Technology",
+      "title" : "Conservation Scientists"
+    },
+    {
+      "onetCode" : "19-1031.02",
+      "sector" : "Technology",
+      "title" : "Range Managers"
+    },
+    {
+      "onetCode" : "19-1031.03",
+      "sector" : "Technology",
+      "title" : "Park Naturalists"
+    },
+    {
+      "onetCode" : "19-1032.00",
+      "sector" : "Technology",
+      "title" : "Foresters"
+    },
+    {
+      "onetCode" : "19-1041.00",
+      "sector" : "Technology",
+      "title" : "Epidemiologists"
+    },
+    {
+      "onetCode" : "19-1042.00",
+      "sector" : "Technology",
+      "title" : "Medical Scientists, Except Epidemiologists"
+    },
+    {
+      "onetCode" : "19-1099.00",
+      "sector" : "Technology",
+      "title" : "Life Scientists, All Other"
+    },
+    {
+      "onetCode" : "19-2011.00",
+      "sector" : "Technology",
+      "title" : "Astronomers"
+    },
+    {
+      "onetCode" : "19-2012.00",
+      "sector" : "Technology",
+      "title" : "Physicists"
+    },
+    {
+      "onetCode" : "19-2021.00",
+      "sector" : "Technology",
+      "title" : "Atmospheric and Space Scientists"
+    },
+    {
+      "onetCode" : "19-2031.00",
+      "sector" : "Technology",
+      "title" : "Chemists"
+    },
+    {
+      "onetCode" : "19-2032.00",
+      "sector" : "Technology",
+      "title" : "Materials Scientists"
+    },
+    {
+      "onetCode" : "19-2041.00",
+      "sector" : "Technology",
+      "title" : "Environmental Scientists and Specialists, Including Health"
+    },
+    {
+      "onetCode" : "19-2041.01",
+      "sector" : "Technology",
+      "title" : "Climate Change Policy Analysts"
+    },
+    {
+      "onetCode" : "19-2041.02",
+      "sector" : "Technology",
+      "title" : "Environmental Restoration Planners"
+    },
+    {
+      "onetCode" : "19-2041.03",
+      "sector" : "Technology",
+      "title" : "Industrial Ecologists"
+    },
+    {
+      "onetCode" : "19-2042.00",
+      "sector" : "Technology",
+      "title" : "Geoscientists, Except Hydrologists and Geographers"
+    },
+    {
+      "onetCode" : "19-2043.00",
+      "sector" : "Technology",
+      "title" : "Hydrologists"
+    },
+    {
+      "onetCode" : "19-2099.00",
+      "sector" : "Technology",
+      "title" : "Physical Scientists, All Other"
+    },
+    {
+      "onetCode" : "19-2099.01",
+      "sector" : "Technology",
+      "title" : "Remote Sensing Scientists and Technologists"
+    },
+    {
+      "onetCode" : "19-3011.00",
+      "sector" : "Technology",
+      "title" : "Economists"
+    },
+    {
+      "onetCode" : "19-3011.01",
+      "sector" : "Technology",
+      "title" : "Environmental Economists"
+    },
+    {
+      "onetCode" : "19-3022.00",
+      "sector" : "Technology",
+      "title" : "Survey Researchers"
+    },
+    {
+      "onetCode" : "19-3032.00",
+      "sector" : "Technology",
+      "title" : "Industrial-Organizational Psychologists"
+    },
+    {
+      "onetCode" : "19-3033.00",
+      "sector" : "Technology",
+      "title" : "Clinical and Counseling Psychologists"
+    },
+    {
+      "onetCode" : "19-3034.00",
+      "sector" : "Technology",
+      "title" : "School Psychologists"
+    },
+    {
+      "onetCode" : "19-3039.00",
+      "sector" : "Technology",
+      "title" : "Psychologists, All Other"
+    },
+    {
+      "onetCode" : "19-3039.02",
+      "sector" : "Technology",
+      "title" : "Neuropsychologists"
+    },
+    {
+      "onetCode" : "19-3039.03",
+      "sector" : "Technology",
+      "title" : "Clinical Neuropsychologists"
+    },
+    {
+      "onetCode" : "19-3041.00",
+      "sector" : "Technology",
+      "title" : "Sociologists"
+    },
+    {
+      "onetCode" : "19-3051.00",
+      "sector" : "Technology",
+      "title" : "Urban and Regional Planners"
+    },
+    {
+      "onetCode" : "19-3091.00",
+      "sector" : "Technology",
+      "title" : "Anthropologists and Archeologists"
+    },
+    {
+      "onetCode" : "19-3092.00",
+      "sector" : "Technology",
+      "title" : "Geographers"
+    },
+    {
+      "onetCode" : "19-3093.00",
+      "sector" : "Technology",
+      "title" : "Historians"
+    },
+    {
+      "onetCode" : "19-3094.00",
+      "sector" : "Technology",
+      "title" : "Political Scientists"
+    },
+    {
+      "onetCode" : "19-3099.00",
+      "sector" : "Technology",
+      "title" : "Social Scientists and Related Workers, All Other"
+    },
+    {
+      "onetCode" : "19-3099.01",
+      "sector" : "Technology",
+      "title" : "Transportation Planners"
+    },
+    {
+      "onetCode" : "19-4012.00",
+      "sector" : "Technology",
+      "title" : "Agricultural Technicians"
+    },
+    {
+      "onetCode" : "19-4012.01",
+      "sector" : "Technology",
+      "title" : "Precision Agriculture Technicians"
+    },
+    {
+      "onetCode" : "19-4013.00",
+      "sector" : "Technology",
+      "title" : "Food Science Technicians"
+    },
+    {
+      "onetCode" : "19-4021.00",
+      "sector" : "Technology",
+      "title" : "Biological Technicians"
+    },
+    {
+      "onetCode" : "19-4031.00",
+      "sector" : "Technology",
+      "title" : "Chemical Technicians"
+    },
+    {
+      "onetCode" : "19-4042.00",
+      "sector" : "Technology",
+      "title" : "Environmental Science and Protection Technicians, Including Health"
+    },
+    {
+      "onetCode" : "19-4043.00",
+      "sector" : "Technology",
+      "title" : "Geological Technicians, Except Hydrologic Technicians"
+    },
+    {
+      "onetCode" : "19-4044.00",
+      "sector" : "Technology",
+      "title" : "Hydrologic Technicians"
+    },
+    {
+      "onetCode" : "19-4051.00",
+      "sector" : "Technology",
+      "title" : "Nuclear Technicians"
+    },
+    {
+      "onetCode" : "19-4051.02",
+      "sector" : "Technology",
+      "title" : "Nuclear Monitoring Technicians"
+    },
+    {
+      "onetCode" : "19-4061.00",
+      "sector" : "Technology",
+      "title" : "Social Science Research Assistants"
+    },
+    {
+      "onetCode" : "19-4071.00",
+      "sector" : "Technology",
+      "title" : "Forest and Conservation Technicians"
+    },
+    {
+      "onetCode" : "19-4092.00",
+      "sector" : "Technology",
+      "title" : "Forensic Science Technicians"
+    },
+    {
+      "onetCode" : "19-4099.00",
+      "sector" : "Technology",
+      "title" : "Life, Physical, and Social Science Technicians, All Other"
+    },
+    {
+      "onetCode" : "19-4099.01",
+      "sector" : "Technology",
+      "title" : "Quality Control Analysts"
+    },
+    {
+      "onetCode" : "19-4099.03",
+      "sector" : "Technology",
+      "title" : "Remote Sensing Technicians"
+    },
+    {
+      "onetCode" : "19-5011.00",
+      "sector" : "Technology",
+      "title" : "Occupational Health and Safety Specialists"
+    },
+    {
+      "onetCode" : "19-5012.00",
+      "sector" : "Technology",
+      "title" : "Occupational Health and Safety Technicians"
+    },
+    {
+      "onetCode" : "21-1011.00",
+      "sector" : "Education",
+      "title" : "Substance Abuse and Behavioral Disorder Counselors"
+    },
+    {
+      "onetCode" : "21-1012.00",
+      "sector" : "Education",
+      "title" : "Educational, Guidance, and Career Counselors and Advisors"
+    },
+    {
+      "onetCode" : "21-1013.00",
+      "sector" : "Education",
+      "title" : "Marriage and Family Therapists"
+    },
+    {
+      "onetCode" : "21-1014.00",
+      "sector" : "Education",
+      "title" : "Mental Health Counselors"
+    },
+    {
+      "onetCode" : "21-1015.00",
+      "sector" : "Education",
+      "title" : "Rehabilitation Counselors"
+    },
+    {
+      "onetCode" : "21-1019.00",
+      "sector" : "Education",
+      "title" : "Counselors, All Other"
+    },
+    {
+      "onetCode" : "21-1021.00",
+      "sector" : "Education",
+      "title" : "Child, Family, and School Social Workers"
+    },
+    {
+      "onetCode" : "21-1022.00",
+      "sector" : "Education",
+      "title" : "Healthcare Social Workers"
+    },
+    {
+      "onetCode" : "21-1023.00",
+      "sector" : "Education",
+      "title" : "Mental Health and Substance Abuse Social Workers"
+    },
+    {
+      "onetCode" : "21-1029.00",
+      "sector" : "Education",
+      "title" : "Social Workers, All Other"
+    },
+    {
+      "onetCode" : "21-1091.00",
+      "sector" : "Education",
+      "title" : "Health Education Specialists"
+    },
+    {
+      "onetCode" : "21-1092.00",
+      "sector" : "Education",
+      "title" : "Probation Officers and Correctional Treatment Specialists"
+    },
+    {
+      "onetCode" : "21-1093.00",
+      "sector" : "Education",
+      "title" : "Social and Human Service Assistants"
+    },
+    {
+      "onetCode" : "21-1094.00",
+      "sector" : "Education",
+      "title" : "Community Health Workers"
+    },
+    {
+      "onetCode" : "21-1099.00",
+      "sector" : "Education",
+      "title" : "Community and Social Service Specialists, All Other"
+    },
+    {
+      "onetCode" : "21-2011.00",
+      "sector" : "Education",
+      "title" : "Clergy"
+    },
+    {
+      "onetCode" : "21-2021.00",
+      "sector" : "Education",
+      "title" : "Directors, Religious Activities and Education"
+    },
+    {
+      "onetCode" : "21-2099.00",
+      "sector" : "Education",
+      "title" : "Religious Workers, All Other"
+    },
+    {
+      "onetCode" : "23-1011.00",
+      "sector" : "Legal",
+      "title" : "Lawyers"
+    },
+    {
+      "onetCode" : "23-1012.00",
+      "sector" : "Legal",
+      "title" : "Judicial Law Clerks"
+    },
+    {
+      "onetCode" : "23-1021.00",
+      "sector" : "Legal",
+      "title" : "Administrative Law Judges, Adjudicators, and Hearing Officers"
+    },
+    {
+      "onetCode" : "23-1022.00",
+      "sector" : "Legal",
+      "title" : "Arbitrators, Mediators, and Conciliators"
+    },
+    {
+      "onetCode" : "23-1023.00",
+      "sector" : "Legal",
+      "title" : "Judges, Magistrate Judges, and Magistrates"
+    },
+    {
+      "onetCode" : "23-2011.00",
+      "sector" : "Legal",
+      "title" : "Paralegals and Legal Assistants"
+    },
+    {
+      "onetCode" : "23-2093.00",
+      "sector" : "Legal",
+      "title" : "Title Examiners, Abstractors, and Searchers"
+    },
+    {
+      "onetCode" : "23-2099.00",
+      "sector" : "Legal",
+      "title" : "Legal Support Workers, All Other"
+    },
+    {
+      "onetCode" : "25-1011.00",
+      "sector" : "Education",
+      "title" : "Business Teachers, Postsecondary"
+    },
+    {
+      "onetCode" : "25-1021.00",
+      "sector" : "Education",
+      "title" : "Computer Science Teachers, Postsecondary"
+    },
+    {
+      "onetCode" : "25-1022.00",
+      "sector" : "Education",
+      "title" : "Mathematical Science Teachers, Postsecondary"
+    },
+    {
+      "onetCode" : "25-1031.00",
+      "sector" : "Education",
+      "title" : "Architecture Teachers, Postsecondary"
+    },
+    {
+      "onetCode" : "25-1032.00",
+      "sector" : "Education",
+      "title" : "Engineering Teachers, Postsecondary"
+    },
+    {
+      "onetCode" : "25-1041.00",
+      "sector" : "Education",
+      "title" : "Agricultural Sciences Teachers, Postsecondary"
+    },
+    {
+      "onetCode" : "25-1042.00",
+      "sector" : "Education",
+      "title" : "Biological Science Teachers, Postsecondary"
+    },
+    {
+      "onetCode" : "25-1043.00",
+      "sector" : "Education",
+      "title" : "Forestry and Conservation Science Teachers, Postsecondary"
+    },
+    {
+      "onetCode" : "25-1051.00",
+      "sector" : "Education",
+      "title" : "Atmospheric, Earth, Marine, and Space Sciences Teachers, Postsecondary"
+    },
+    {
+      "onetCode" : "25-1052.00",
+      "sector" : "Education",
+      "title" : "Chemistry Teachers, Postsecondary"
+    },
+    {
+      "onetCode" : "25-1053.00",
+      "sector" : "Education",
+      "title" : "Environmental Science Teachers, Postsecondary"
+    },
+    {
+      "onetCode" : "25-1054.00",
+      "sector" : "Education",
+      "title" : "Physics Teachers, Postsecondary"
+    },
+    {
+      "onetCode" : "25-1061.00",
+      "sector" : "Education",
+      "title" : "Anthropology and Archeology Teachers, Postsecondary"
+    },
+    {
+      "onetCode" : "25-1062.00",
+      "sector" : "Education",
+      "title" : "Area, Ethnic, and Cultural Studies Teachers, Postsecondary"
+    },
+    {
+      "onetCode" : "25-1063.00",
+      "sector" : "Education",
+      "title" : "Economics Teachers, Postsecondary"
+    },
+    {
+      "onetCode" : "25-1064.00",
+      "sector" : "Education",
+      "title" : "Geography Teachers, Postsecondary"
+    },
+    {
+      "onetCode" : "25-1065.00",
+      "sector" : "Education",
+      "title" : "Political Science Teachers, Postsecondary"
+    },
+    {
+      "onetCode" : "25-1066.00",
+      "sector" : "Education",
+      "title" : "Psychology Teachers, Postsecondary"
+    },
+    {
+      "onetCode" : "25-1067.00",
+      "sector" : "Education",
+      "title" : "Sociology Teachers, Postsecondary"
+    },
+    {
+      "onetCode" : "25-1069.00",
+      "sector" : "Education",
+      "title" : "Social Sciences Teachers, Postsecondary, All Other"
+    },
+    {
+      "onetCode" : "25-1071.00",
+      "sector" : "Education",
+      "title" : "Health Specialties Teachers, Postsecondary"
+    },
+    {
+      "onetCode" : "25-1072.00",
+      "sector" : "Education",
+      "title" : "Nursing Instructors and Teachers, Postsecondary"
+    },
+    {
+      "onetCode" : "25-1081.00",
+      "sector" : "Education",
+      "title" : "Education Teachers, Postsecondary"
+    },
+    {
+      "onetCode" : "25-1082.00",
+      "sector" : "Education",
+      "title" : "Library Science Teachers, Postsecondary"
+    },
+    {
+      "onetCode" : "25-1111.00",
+      "sector" : "Education",
+      "title" : "Criminal Justice and Law Enforcement Teachers, Postsecondary"
+    },
+    {
+      "onetCode" : "25-1112.00",
+      "sector" : "Education",
+      "title" : "Law Teachers, Postsecondary"
+    },
+    {
+      "onetCode" : "25-1113.00",
+      "sector" : "Education",
+      "title" : "Social Work Teachers, Postsecondary"
+    },
+    {
+      "onetCode" : "25-1121.00",
+      "sector" : "Education",
+      "title" : "Art, Drama, and Music Teachers, Postsecondary"
+    },
+    {
+      "onetCode" : "25-1122.00",
+      "sector" : "Education",
+      "title" : "Communications Teachers, Postsecondary"
+    },
+    {
+      "onetCode" : "25-1123.00",
+      "sector" : "Education",
+      "title" : "English Language and Literature Teachers, Postsecondary"
+    },
+    {
+      "onetCode" : "25-1124.00",
+      "sector" : "Education",
+      "title" : "Foreign Language and Literature Teachers, Postsecondary"
+    },
+    {
+      "onetCode" : "25-1125.00",
+      "sector" : "Education",
+      "title" : "History Teachers, Postsecondary"
+    },
+    {
+      "onetCode" : "25-1126.00",
+      "sector" : "Education",
+      "title" : "Philosophy and Religion Teachers, Postsecondary"
+    },
+    {
+      "onetCode" : "25-1192.00",
+      "sector" : "Education",
+      "title" : "Family and Consumer Sciences Teachers, Postsecondary"
+    },
+    {
+      "onetCode" : "25-1193.00",
+      "sector" : "Education",
+      "title" : "Recreation and Fitness Studies Teachers, Postsecondary"
+    },
+    {
+      "onetCode" : "25-1194.00",
+      "sector" : "Education",
+      "title" : "Career\/Technical Education Teachers, Postsecondary"
+    },
+    {
+      "onetCode" : "25-1199.00",
+      "sector" : "Education",
+      "title" : "Postsecondary Teachers, All Other"
+    },
+    {
+      "onetCode" : "25-2011.00",
+      "sector" : "Education",
+      "title" : "Preschool Teachers, Except Special Education"
+    },
+    {
+      "onetCode" : "25-2012.00",
+      "sector" : "Education",
+      "title" : "Kindergarten Teachers, Except Special Education"
+    },
+    {
+      "onetCode" : "25-2021.00",
+      "sector" : "Education",
+      "title" : "Elementary School Teachers, Except Special Education"
+    },
+    {
+      "onetCode" : "25-2022.00",
+      "sector" : "Education",
+      "title" : "Middle School Teachers, Except Special and Career\/Technical Education"
+    },
+    {
+      "onetCode" : "25-2023.00",
+      "sector" : "Education",
+      "title" : "Career\/Technical Education Teachers, Middle School"
+    },
+    {
+      "onetCode" : "25-2031.00",
+      "sector" : "Education",
+      "title" : "Secondary School Teachers, Except Special and Career\/Technical Education"
+    },
+    {
+      "onetCode" : "25-2032.00",
+      "sector" : "Education",
+      "title" : "Career\/Technical Education Teachers, Secondary School"
+    },
+    {
+      "onetCode" : "25-2051.00",
+      "sector" : "Education",
+      "title" : "Special Education Teachers, Preschool"
+    },
+    {
+      "onetCode" : "25-2055.00",
+      "sector" : "Education",
+      "title" : "Special Education Teachers, Kindergarten"
+    },
+    {
+      "onetCode" : "25-2056.00",
+      "sector" : "Education",
+      "title" : "Special Education Teachers, Elementary School"
+    },
+    {
+      "onetCode" : "25-2057.00",
+      "sector" : "Education",
+      "title" : "Special Education Teachers, Middle School"
+    },
+    {
+      "onetCode" : "25-2058.00",
+      "sector" : "Education",
+      "title" : "Special Education Teachers, Secondary School"
+    },
+    {
+      "onetCode" : "25-2059.00",
+      "sector" : "Education",
+      "title" : "Special Education Teachers, All Other"
+    },
+    {
+      "onetCode" : "25-2059.01",
+      "sector" : "Education",
+      "title" : "Adapted Physical Education Specialists"
+    },
+    {
+      "onetCode" : "25-3011.00",
+      "sector" : "Education",
+      "title" : "Adult Basic Education, Adult Secondary Education, and English as a Second Language Instructors"
+    },
+    {
+      "onetCode" : "25-3021.00",
+      "sector" : "Education",
+      "title" : "Self-Enrichment Teachers"
+    },
+    {
+      "onetCode" : "25-3031.00",
+      "sector" : "Education",
+      "title" : "Substitute Teachers, Short-Term"
+    },
+    {
+      "onetCode" : "25-3041.00",
+      "sector" : "Education",
+      "title" : "Tutors"
+    },
+    {
+      "onetCode" : "25-3099.00",
+      "sector" : "Education",
+      "title" : "Teachers and Instructors, All Other"
+    },
+    {
+      "onetCode" : "25-4011.00",
+      "sector" : "Education",
+      "title" : "Archivists"
+    },
+    {
+      "onetCode" : "25-4012.00",
+      "sector" : "Education",
+      "title" : "Curators"
+    },
+    {
+      "onetCode" : "25-4013.00",
+      "sector" : "Education",
+      "title" : "Museum Technicians and Conservators"
+    },
+    {
+      "onetCode" : "25-4022.00",
+      "sector" : "Education",
+      "title" : "Librarians and Media Collections Specialists"
+    },
+    {
+      "onetCode" : "25-4031.00",
+      "sector" : "Education",
+      "title" : "Library Technicians"
+    },
+    {
+      "onetCode" : "25-9021.00",
+      "sector" : "Education",
+      "title" : "Farm and Home Management Educators"
+    },
+    {
+      "onetCode" : "25-9031.00",
+      "sector" : "Education",
+      "title" : "Instructional Coordinators"
+    },
+    {
+      "onetCode" : "25-9042.00",
+      "sector" : "Education",
+      "title" : "Teaching Assistants, Preschool, Elementary, Middle, and Secondary School, Except Special Education"
+    },
+    {
+      "onetCode" : "25-9043.00",
+      "sector" : "Education",
+      "title" : "Teaching Assistants, Special Education"
+    },
+    {
+      "onetCode" : "25-9044.00",
+      "sector" : "Education",
+      "title" : "Teaching Assistants, Postsecondary"
+    },
+    {
+      "onetCode" : "25-9049.00",
+      "sector" : "Education",
+      "title" : "Teaching Assistants, All Other"
+    },
+    {
+      "onetCode" : "25-9099.00",
+      "sector" : "Education",
+      "title" : "Educational Instruction and Library Workers, All Other"
+    },
+    {
+      "onetCode" : "27-1011.00",
+      "sector" : "Technology",
+      "title" : "Art Directors"
+    },
+    {
+      "onetCode" : "27-1012.00",
+      "sector" : "Technology",
+      "title" : "Craft Artists"
+    },
+    {
+      "onetCode" : "27-1013.00",
+      "sector" : "Technology",
+      "title" : "Fine Artists, Including Painters, Sculptors, and Illustrators"
+    },
+    {
+      "onetCode" : "27-1014.00",
+      "sector" : "Technology",
+      "title" : "Special Effects Artists and Animators"
+    },
+    {
+      "onetCode" : "27-1019.00",
+      "sector" : "Technology",
+      "title" : "Artists and Related Workers, All Other"
+    },
+    {
+      "onetCode" : "27-1021.00",
+      "sector" : "Technology",
+      "title" : "Commercial and Industrial Designers"
+    },
+    {
+      "onetCode" : "27-1022.00",
+      "sector" : "Technology",
+      "title" : "Fashion Designers"
+    },
+    {
+      "onetCode" : "27-1023.00",
+      "sector" : "Technology",
+      "title" : "Floral Designers"
+    },
+    {
+      "onetCode" : "27-1024.00",
+      "sector" : "Technology",
+      "title" : "Graphic Designers"
+    },
+    {
+      "onetCode" : "27-1025.00",
+      "sector" : "Technology",
+      "title" : "Interior Designers"
+    },
+    {
+      "onetCode" : "27-1026.00",
+      "sector" : "Technology",
+      "title" : "Merchandise Displayers and Window Trimmers"
+    },
+    {
+      "onetCode" : "27-1027.00",
+      "sector" : "Technology",
+      "title" : "Set and Exhibit Designers"
+    },
+    {
+      "onetCode" : "27-1029.00",
+      "sector" : "Technology",
+      "title" : "Designers, All Other"
+    },
+    {
+      "onetCode" : "27-2011.00",
+      "sector" : "Technology",
+      "title" : "Actors"
+    },
+    {
+      "onetCode" : "27-2012.00",
+      "sector" : "Technology",
+      "title" : "Producers and Directors"
+    },
+    {
+      "onetCode" : "27-2012.03",
+      "sector" : "Technology",
+      "title" : "Media Programming Directors"
+    },
+    {
+      "onetCode" : "27-2012.04",
+      "sector" : "Technology",
+      "title" : "Talent Directors"
+    },
+    {
+      "onetCode" : "27-2012.05",
+      "sector" : "Technology",
+      "title" : "Media Technical Directors\/Managers"
+    },
+    {
+      "onetCode" : "27-2021.00",
+      "sector" : "Technology",
+      "title" : "Athletes and Sports Competitors"
+    },
+    {
+      "onetCode" : "27-2022.00",
+      "sector" : "Technology",
+      "title" : "Coaches and Scouts"
+    },
+    {
+      "onetCode" : "27-2023.00",
+      "sector" : "Technology",
+      "title" : "Umpires, Referees, and Other Sports Officials"
+    },
+    {
+      "onetCode" : "27-2031.00",
+      "sector" : "Technology",
+      "title" : "Dancers"
+    },
+    {
+      "onetCode" : "27-2032.00",
+      "sector" : "Technology",
+      "title" : "Choreographers"
+    },
+    {
+      "onetCode" : "27-2041.00",
+      "sector" : "Technology",
+      "title" : "Music Directors and Composers"
+    },
+    {
+      "onetCode" : "27-2042.00",
+      "sector" : "Technology",
+      "title" : "Musicians and Singers"
+    },
+    {
+      "onetCode" : "27-2091.00",
+      "sector" : "Technology",
+      "title" : "Disc Jockeys, Except Radio"
+    },
+    {
+      "onetCode" : "27-2099.00",
+      "sector" : "Technology",
+      "title" : "Entertainers and Performers, Sports and Related Workers, All Other"
+    },
+    {
+      "onetCode" : "27-3011.00",
+      "sector" : "Technology",
+      "title" : "Broadcast Announcers and Radio Disc Jockeys"
+    },
+    {
+      "onetCode" : "27-3023.00",
+      "sector" : "Technology",
+      "title" : "News Analysts, Reporters, and Journalists"
+    },
+    {
+      "onetCode" : "27-3031.00",
+      "sector" : "Technology",
+      "title" : "Public Relations Specialists"
+    },
+    {
+      "onetCode" : "27-3041.00",
+      "sector" : "Technology",
+      "title" : "Editors"
+    },
+    {
+      "onetCode" : "27-3042.00",
+      "sector" : "Technology",
+      "title" : "Technical Writers"
+    },
+    {
+      "onetCode" : "27-3043.00",
+      "sector" : "Technology",
+      "title" : "Writers and Authors"
+    },
+    {
+      "onetCode" : "27-3043.05",
+      "sector" : "Technology",
+      "title" : "Poets, Lyricists and Creative Writers"
+    },
+    {
+      "onetCode" : "27-3091.00",
+      "sector" : "Technology",
+      "title" : "Interpreters and Translators"
+    },
+    {
+      "onetCode" : "27-3092.00",
+      "sector" : "Technology",
+      "title" : "Court Reporters and Simultaneous Captioners"
+    },
+    {
+      "onetCode" : "27-3099.00",
+      "sector" : "Technology",
+      "title" : "Media and Communication Workers, All Other"
+    },
+    {
+      "onetCode" : "27-4011.00",
+      "sector" : "Technology",
+      "title" : "Audio and Video Technicians"
+    },
+    {
+      "onetCode" : "27-4012.00",
+      "sector" : "Technology",
+      "title" : "Broadcast Technicians"
+    },
+    {
+      "onetCode" : "27-4014.00",
+      "sector" : "Technology",
+      "title" : "Sound Engineering Technicians"
+    },
+    {
+      "onetCode" : "27-4015.00",
+      "sector" : "Technology",
+      "title" : "Lighting Technicians"
+    },
+    {
+      "onetCode" : "27-4021.00",
+      "sector" : "Technology",
+      "title" : "Photographers"
+    },
+    {
+      "onetCode" : "27-4031.00",
+      "sector" : "Technology",
+      "title" : "Camera Operators, Television, Video, and Film"
+    },
+    {
+      "onetCode" : "27-4032.00",
+      "sector" : "Technology",
+      "title" : "Film and Video Editors"
+    },
+    {
+      "onetCode" : "27-4099.00",
+      "sector" : "Technology",
+      "title" : "Media and Communication Equipment Workers, All Other"
+    },
+    {
+      "onetCode" : "29-1011.00",
+      "sector" : "Healthcare",
+      "title" : "Chiropractors"
+    },
+    {
+      "onetCode" : "29-1021.00",
+      "sector" : "Healthcare",
+      "title" : "Dentists, General"
+    },
+    {
+      "onetCode" : "29-1022.00",
+      "sector" : "Healthcare",
+      "title" : "Oral and Maxillofacial Surgeons"
+    },
+    {
+      "onetCode" : "29-1023.00",
+      "sector" : "Healthcare",
+      "title" : "Orthodontists"
+    },
+    {
+      "onetCode" : "29-1024.00",
+      "sector" : "Healthcare",
+      "title" : "Prosthodontists"
+    },
+    {
+      "onetCode" : "29-1029.00",
+      "sector" : "Healthcare",
+      "title" : "Dentists, All Other Specialists"
+    },
+    {
+      "onetCode" : "29-1031.00",
+      "sector" : "Healthcare",
+      "title" : "Dietitians and Nutritionists"
+    },
+    {
+      "onetCode" : "29-1041.00",
+      "sector" : "Healthcare",
+      "title" : "Optometrists"
+    },
+    {
+      "onetCode" : "29-1051.00",
+      "sector" : "Healthcare",
+      "title" : "Pharmacists"
+    },
+    {
+      "onetCode" : "29-1071.00",
+      "sector" : "Healthcare",
+      "title" : "Physician Assistants"
+    },
+    {
+      "onetCode" : "29-1071.01",
+      "sector" : "Healthcare",
+      "title" : "Anesthesiologist Assistants"
+    },
+    {
+      "onetCode" : "29-1081.00",
+      "sector" : "Healthcare",
+      "title" : "Podiatrists"
+    },
+    {
+      "onetCode" : "29-1122.00",
+      "sector" : "Healthcare",
+      "title" : "Occupational Therapists"
+    },
+    {
+      "onetCode" : "29-1122.01",
+      "sector" : "Healthcare",
+      "title" : "Low Vision Therapists, Orientation and Mobility Specialists, and Vision Rehabilitation Therapists"
+    },
+    {
+      "onetCode" : "29-1123.00",
+      "sector" : "Healthcare",
+      "title" : "Physical Therapists"
+    },
+    {
+      "onetCode" : "29-1124.00",
+      "sector" : "Healthcare",
+      "title" : "Radiation Therapists"
+    },
+    {
+      "onetCode" : "29-1125.00",
+      "sector" : "Healthcare",
+      "title" : "Recreational Therapists"
+    },
+    {
+      "onetCode" : "29-1126.00",
+      "sector" : "Healthcare",
+      "title" : "Respiratory Therapists"
+    },
+    {
+      "onetCode" : "29-1127.00",
+      "sector" : "Healthcare",
+      "title" : "Speech-Language Pathologists"
+    },
+    {
+      "onetCode" : "29-1128.00",
+      "sector" : "Healthcare",
+      "title" : "Exercise Physiologists"
+    },
+    {
+      "onetCode" : "29-1129.00",
+      "sector" : "Healthcare",
+      "title" : "Therapists, All Other"
+    },
+    {
+      "onetCode" : "29-1129.01",
+      "sector" : "Healthcare",
+      "title" : "Art Therapists"
+    },
+    {
+      "onetCode" : "29-1129.02",
+      "sector" : "Healthcare",
+      "title" : "Music Therapists"
+    },
+    {
+      "onetCode" : "29-1131.00",
+      "sector" : "Healthcare",
+      "title" : "Veterinarians"
+    },
+    {
+      "onetCode" : "29-1141.00",
+      "sector" : "Healthcare",
+      "title" : "Registered Nurses"
+    },
+    {
+      "onetCode" : "29-1141.01",
+      "sector" : "Healthcare",
+      "title" : "Acute Care Nurses"
+    },
+    {
+      "onetCode" : "29-1141.02",
+      "sector" : "Healthcare",
+      "title" : "Advanced Practice Psychiatric Nurses"
+    },
+    {
+      "onetCode" : "29-1141.03",
+      "sector" : "Healthcare",
+      "title" : "Critical Care Nurses"
+    },
+    {
+      "onetCode" : "29-1141.04",
+      "sector" : "Healthcare",
+      "title" : "Clinical Nurse Specialists"
+    },
+    {
+      "onetCode" : "29-1151.00",
+      "sector" : "Healthcare",
+      "title" : "Nurse Anesthetists"
+    },
+    {
+      "onetCode" : "29-1161.00",
+      "sector" : "Healthcare",
+      "title" : "Nurse Midwives"
+    },
+    {
+      "onetCode" : "29-1171.00",
+      "sector" : "Healthcare",
+      "title" : "Nurse Practitioners"
+    },
+    {
+      "onetCode" : "29-1181.00",
+      "sector" : "Healthcare",
+      "title" : "Audiologists"
+    },
+    {
+      "onetCode" : "29-1211.00",
+      "sector" : "Healthcare",
+      "title" : "Anesthesiologists"
+    },
+    {
+      "onetCode" : "29-1212.00",
+      "sector" : "Healthcare",
+      "title" : "Cardiologists"
+    },
+    {
+      "onetCode" : "29-1213.00",
+      "sector" : "Healthcare",
+      "title" : "Dermatologists"
+    },
+    {
+      "onetCode" : "29-1214.00",
+      "sector" : "Healthcare",
+      "title" : "Emergency Medicine Physicians"
+    },
+    {
+      "onetCode" : "29-1215.00",
+      "sector" : "Healthcare",
+      "title" : "Family Medicine Physicians"
+    },
+    {
+      "onetCode" : "29-1216.00",
+      "sector" : "Healthcare",
+      "title" : "General Internal Medicine Physicians"
+    },
+    {
+      "onetCode" : "29-1217.00",
+      "sector" : "Healthcare",
+      "title" : "Neurologists"
+    },
+    {
+      "onetCode" : "29-1218.00",
+      "sector" : "Healthcare",
+      "title" : "Obstetricians and Gynecologists"
+    },
+    {
+      "onetCode" : "29-1221.00",
+      "sector" : "Healthcare",
+      "title" : "Pediatricians, General"
+    },
+    {
+      "onetCode" : "29-1222.00",
+      "sector" : "Healthcare",
+      "title" : "Physicians, Pathologists"
+    },
+    {
+      "onetCode" : "29-1223.00",
+      "sector" : "Healthcare",
+      "title" : "Psychiatrists"
+    },
+    {
+      "onetCode" : "29-1224.00",
+      "sector" : "Healthcare",
+      "title" : "Radiologists"
+    },
+    {
+      "onetCode" : "29-1229.00",
+      "sector" : "Healthcare",
+      "title" : "Physicians, All Other"
+    },
+    {
+      "onetCode" : "29-1229.01",
+      "sector" : "Healthcare",
+      "title" : "Allergists and Immunologists"
+    },
+    {
+      "onetCode" : "29-1229.02",
+      "sector" : "Healthcare",
+      "title" : "Hospitalists"
+    },
+    {
+      "onetCode" : "29-1229.03",
+      "sector" : "Healthcare",
+      "title" : "Urologists"
+    },
+    {
+      "onetCode" : "29-1229.04",
+      "sector" : "Healthcare",
+      "title" : "Physical Medicine and Rehabilitation Physicians"
+    },
+    {
+      "onetCode" : "29-1229.05",
+      "sector" : "Healthcare",
+      "title" : "Preventive Medicine Physicians"
+    },
+    {
+      "onetCode" : "29-1229.06",
+      "sector" : "Healthcare",
+      "title" : "Sports Medicine Physicians"
+    },
+    {
+      "onetCode" : "29-1241.00",
+      "sector" : "Healthcare",
+      "title" : "Ophthalmologists, Except Pediatric"
+    },
+    {
+      "onetCode" : "29-1242.00",
+      "sector" : "Healthcare",
+      "title" : "Orthopedic Surgeons, Except Pediatric"
+    },
+    {
+      "onetCode" : "29-1243.00",
+      "sector" : "Healthcare",
+      "title" : "Pediatric Surgeons"
+    },
+    {
+      "onetCode" : "29-1249.00",
+      "sector" : "Healthcare",
+      "title" : "Surgeons, All Other"
+    },
+    {
+      "onetCode" : "29-1291.00",
+      "sector" : "Healthcare",
+      "title" : "Acupuncturists"
+    },
+    {
+      "onetCode" : "29-1292.00",
+      "sector" : "Healthcare",
+      "title" : "Dental Hygienists"
+    },
+    {
+      "onetCode" : "29-1299.00",
+      "sector" : "Healthcare",
+      "title" : "Healthcare Diagnosing or Treating Practitioners, All Other"
+    },
+    {
+      "onetCode" : "29-1299.01",
+      "sector" : "Healthcare",
+      "title" : "Naturopathic Physicians"
+    },
+    {
+      "onetCode" : "29-1299.02",
+      "sector" : "Healthcare",
+      "title" : "Orthoptists"
+    },
+    {
+      "onetCode" : "29-2011.00",
+      "sector" : "Healthcare",
+      "title" : "Medical and Clinical Laboratory Technologists"
+    },
+    {
+      "onetCode" : "29-2011.01",
+      "sector" : "Healthcare",
+      "title" : "Cytogenetic Technologists"
+    },
+    {
+      "onetCode" : "29-2011.02",
+      "sector" : "Healthcare",
+      "title" : "Cytotechnologists"
+    },
+    {
+      "onetCode" : "29-2011.04",
+      "sector" : "Healthcare",
+      "title" : "Histotechnologists"
+    },
+    {
+      "onetCode" : "29-2012.00",
+      "sector" : "Healthcare",
+      "title" : "Medical and Clinical Laboratory Technicians"
+    },
+    {
+      "onetCode" : "29-2012.01",
+      "sector" : "Healthcare",
+      "title" : "Histology Technicians"
+    },
+    {
+      "onetCode" : "29-2031.00",
+      "sector" : "Healthcare",
+      "title" : "Cardiovascular Technologists and Technicians"
+    },
+    {
+      "onetCode" : "29-2032.00",
+      "sector" : "Healthcare",
+      "title" : "Diagnostic Medical Sonographers"
+    },
+    {
+      "onetCode" : "29-2033.00",
+      "sector" : "Healthcare",
+      "title" : "Nuclear Medicine Technologists"
+    },
+    {
+      "onetCode" : "29-2034.00",
+      "sector" : "Healthcare",
+      "title" : "Radiologic Technologists and Technicians"
+    },
+    {
+      "onetCode" : "29-2035.00",
+      "sector" : "Healthcare",
+      "title" : "Magnetic Resonance Imaging Technologists"
+    },
+    {
+      "onetCode" : "29-2036.00",
+      "sector" : "Healthcare",
+      "title" : "Medical Dosimetrists"
+    },
+    {
+      "onetCode" : "29-2042.00",
+      "sector" : "Healthcare",
+      "title" : "Emergency Medical Technicians"
+    },
+    {
+      "onetCode" : "29-2043.00",
+      "sector" : "Healthcare",
+      "title" : "Paramedics"
+    },
+    {
+      "onetCode" : "29-2051.00",
+      "sector" : "Healthcare",
+      "title" : "Dietetic Technicians"
+    },
+    {
+      "onetCode" : "29-2052.00",
+      "sector" : "Healthcare",
+      "title" : "Pharmacy Technicians"
+    },
+    {
+      "onetCode" : "29-2053.00",
+      "sector" : "Healthcare",
+      "title" : "Psychiatric Technicians"
+    },
+    {
+      "onetCode" : "29-2055.00",
+      "sector" : "Healthcare",
+      "title" : "Surgical Technologists"
+    },
+    {
+      "onetCode" : "29-2056.00",
+      "sector" : "Healthcare",
+      "title" : "Veterinary Technologists and Technicians"
+    },
+    {
+      "onetCode" : "29-2057.00",
+      "sector" : "Healthcare",
+      "title" : "Ophthalmic Medical Technicians"
+    },
+    {
+      "onetCode" : "29-2061.00",
+      "sector" : "Healthcare",
+      "title" : "Licensed Practical and Licensed Vocational Nurses"
+    },
+    {
+      "onetCode" : "29-2072.00",
+      "sector" : "Healthcare",
+      "title" : "Medical Records Specialists"
+    },
+    {
+      "onetCode" : "29-2081.00",
+      "sector" : "Healthcare",
+      "title" : "Opticians, Dispensing"
+    },
+    {
+      "onetCode" : "29-2091.00",
+      "sector" : "Healthcare",
+      "title" : "Orthotists and Prosthetists"
+    },
+    {
+      "onetCode" : "29-2092.00",
+      "sector" : "Healthcare",
+      "title" : "Hearing Aid Specialists"
+    },
+    {
+      "onetCode" : "29-2099.00",
+      "sector" : "Healthcare",
+      "title" : "Health Technologists and Technicians, All Other"
+    },
+    {
+      "onetCode" : "29-2099.01",
+      "sector" : "Healthcare",
+      "title" : "Neurodiagnostic Technologists"
+    },
+    {
+      "onetCode" : "29-2099.05",
+      "sector" : "Healthcare",
+      "title" : "Ophthalmic Medical Technologists"
+    },
+    {
+      "onetCode" : "29-2099.08",
+      "sector" : "Healthcare",
+      "title" : "Patient Representatives"
+    },
+    {
+      "onetCode" : "29-9021.00",
+      "sector" : "Healthcare",
+      "title" : "Health Information Technologists and Medical Registrars"
+    },
+    {
+      "onetCode" : "29-9091.00",
+      "sector" : "Healthcare",
+      "title" : "Athletic Trainers"
+    },
+    {
+      "onetCode" : "29-9092.00",
+      "sector" : "Healthcare",
+      "title" : "Genetic Counselors"
+    },
+    {
+      "onetCode" : "29-9093.00",
+      "sector" : "Healthcare",
+      "title" : "Surgical Assistants"
+    },
+    {
+      "onetCode" : "29-9099.00",
+      "sector" : "Healthcare",
+      "title" : "Healthcare Practitioners and Technical Workers, All Other"
+    },
+    {
+      "onetCode" : "29-9099.01",
+      "sector" : "Healthcare",
+      "title" : "Midwives"
+    },
+    {
+      "onetCode" : "31-1121.00",
+      "sector" : "Healthcare",
+      "title" : "Home Health Aides"
+    },
+    {
+      "onetCode" : "31-1122.00",
+      "sector" : "Healthcare",
+      "title" : "Personal Care Aides"
+    },
+    {
+      "onetCode" : "31-1131.00",
+      "sector" : "Healthcare",
+      "title" : "Nursing Assistants"
+    },
+    {
+      "onetCode" : "31-1132.00",
+      "sector" : "Healthcare",
+      "title" : "Orderlies"
+    },
+    {
+      "onetCode" : "31-1133.00",
+      "sector" : "Healthcare",
+      "title" : "Psychiatric Aides"
+    },
+    {
+      "onetCode" : "31-2011.00",
+      "sector" : "Healthcare",
+      "title" : "Occupational Therapy Assistants"
+    },
+    {
+      "onetCode" : "31-2012.00",
+      "sector" : "Healthcare",
+      "title" : "Occupational Therapy Aides"
+    },
+    {
+      "onetCode" : "31-2021.00",
+      "sector" : "Healthcare",
+      "title" : "Physical Therapist Assistants"
+    },
+    {
+      "onetCode" : "31-2022.00",
+      "sector" : "Healthcare",
+      "title" : "Physical Therapist Aides"
+    },
+    {
+      "onetCode" : "31-9011.00",
+      "sector" : "Healthcare",
+      "title" : "Massage Therapists"
+    },
+    {
+      "onetCode" : "31-9091.00",
+      "sector" : "Healthcare",
+      "title" : "Dental Assistants"
+    },
+    {
+      "onetCode" : "31-9092.00",
+      "sector" : "Healthcare",
+      "title" : "Medical Assistants"
+    },
+    {
+      "onetCode" : "31-9093.00",
+      "sector" : "Healthcare",
+      "title" : "Medical Equipment Preparers"
+    },
+    {
+      "onetCode" : "31-9094.00",
+      "sector" : "Healthcare",
+      "title" : "Medical Transcriptionists"
+    },
+    {
+      "onetCode" : "31-9095.00",
+      "sector" : "Healthcare",
+      "title" : "Pharmacy Aides"
+    },
+    {
+      "onetCode" : "31-9096.00",
+      "sector" : "Healthcare",
+      "title" : "Veterinary Assistants and Laboratory Animal Caretakers"
+    },
+    {
+      "onetCode" : "31-9097.00",
+      "sector" : "Healthcare",
+      "title" : "Phlebotomists"
+    },
+    {
+      "onetCode" : "31-9099.00",
+      "sector" : "Healthcare",
+      "title" : "Healthcare Support Workers, All Other"
+    },
+    {
+      "onetCode" : "31-9099.01",
+      "sector" : "Healthcare",
+      "title" : "Speech-Language Pathology Assistants"
+    },
+    {
+      "onetCode" : "31-9099.02",
+      "sector" : "Healthcare",
+      "title" : "Endoscopy Technicians"
+    },
+    {
+      "onetCode" : "33-1011.00",
+      "sector" : "Office\/Administrative",
+      "title" : "First-Line Supervisors of Correctional Officers"
+    },
+    {
+      "onetCode" : "33-1012.00",
+      "sector" : "Office\/Administrative",
+      "title" : "First-Line Supervisors of Police and Detectives"
+    },
+    {
+      "onetCode" : "33-1021.00",
+      "sector" : "Office\/Administrative",
+      "title" : "First-Line Supervisors of Firefighting and Prevention Workers"
+    },
+    {
+      "onetCode" : "33-1091.00",
+      "sector" : "Office\/Administrative",
+      "title" : "First-Line Supervisors of Security Workers"
+    },
+    {
+      "onetCode" : "33-1099.00",
+      "sector" : "Office\/Administrative",
+      "title" : "First-Line Supervisors of Protective Service Workers, All Other"
+    },
+    {
+      "onetCode" : "33-2011.00",
+      "sector" : "Office\/Administrative",
+      "title" : "Firefighters"
+    },
+    {
+      "onetCode" : "33-2021.00",
+      "sector" : "Office\/Administrative",
+      "title" : "Fire Inspectors and Investigators"
+    },
+    {
+      "onetCode" : "33-2022.00",
+      "sector" : "Office\/Administrative",
+      "title" : "Forest Fire Inspectors and Prevention Specialists"
+    },
+    {
+      "onetCode" : "33-3011.00",
+      "sector" : "Office\/Administrative",
+      "title" : "Bailiffs"
+    },
+    {
+      "onetCode" : "33-3012.00",
+      "sector" : "Office\/Administrative",
+      "title" : "Correctional Officers and Jailers"
+    },
+    {
+      "onetCode" : "33-3021.00",
+      "sector" : "Office\/Administrative",
+      "title" : "Detectives and Criminal Investigators"
+    },
+    {
+      "onetCode" : "33-3021.02",
+      "sector" : "Office\/Administrative",
+      "title" : "Police Identification and Records Officers"
+    },
+    {
+      "onetCode" : "33-3021.06",
+      "sector" : "Office\/Administrative",
+      "title" : "Intelligence Analysts"
+    },
+    {
+      "onetCode" : "33-3031.00",
+      "sector" : "Office\/Administrative",
+      "title" : "Fish and Game Wardens"
+    },
+    {
+      "onetCode" : "33-3041.00",
+      "sector" : "Office\/Administrative",
+      "title" : "Parking Enforcement Workers"
+    },
+    {
+      "onetCode" : "33-3051.00",
+      "sector" : "Office\/Administrative",
+      "title" : "Police and Sheriff's Patrol Officers"
+    },
+    {
+      "onetCode" : "33-3051.04",
+      "sector" : "Office\/Administrative",
+      "title" : "Customs and Border Protection Officers"
+    },
+    {
+      "onetCode" : "33-3052.00",
+      "sector" : "Office\/Administrative",
+      "title" : "Transit and Railroad Police"
+    },
+    {
+      "onetCode" : "33-9011.00",
+      "sector" : "Office\/Administrative",
+      "title" : "Animal Control Workers"
+    },
+    {
+      "onetCode" : "33-9021.00",
+      "sector" : "Office\/Administrative",
+      "title" : "Private Detectives and Investigators"
+    },
+    {
+      "onetCode" : "33-9031.00",
+      "sector" : "Office\/Administrative",
+      "title" : "Gambling Surveillance Officers and Gambling Investigators"
+    },
+    {
+      "onetCode" : "33-9032.00",
+      "sector" : "Office\/Administrative",
+      "title" : "Security Guards"
+    },
+    {
+      "onetCode" : "33-9091.00",
+      "sector" : "Office\/Administrative",
+      "title" : "Crossing Guards and Flaggers"
+    },
+    {
+      "onetCode" : "33-9092.00",
+      "sector" : "Office\/Administrative",
+      "title" : "Lifeguards, Ski Patrol, and Other Recreational Protective Service Workers"
+    },
+    {
+      "onetCode" : "33-9093.00",
+      "sector" : "Office\/Administrative",
+      "title" : "Transportation Security Screeners"
+    },
+    {
+      "onetCode" : "33-9094.00",
+      "sector" : "Office\/Administrative",
+      "title" : "School Bus Monitors"
+    },
+    {
+      "onetCode" : "33-9099.00",
+      "sector" : "Office\/Administrative",
+      "title" : "Protective Service Workers, All Other"
+    },
+    {
+      "onetCode" : "33-9099.02",
+      "sector" : "Office\/Administrative",
+      "title" : "Retail Loss Prevention Specialists"
+    },
+    {
+      "onetCode" : "35-1011.00",
+      "sector" : "Food Service",
+      "title" : "Chefs and Head Cooks"
+    },
+    {
+      "onetCode" : "35-1012.00",
+      "sector" : "Food Service",
+      "title" : "First-Line Supervisors of Food Preparation and Serving Workers"
+    },
+    {
+      "onetCode" : "35-2011.00",
+      "sector" : "Food Service",
+      "title" : "Cooks, Fast Food"
+    },
+    {
+      "onetCode" : "35-2012.00",
+      "sector" : "Food Service",
+      "title" : "Cooks, Institution and Cafeteria"
+    },
+    {
+      "onetCode" : "35-2013.00",
+      "sector" : "Food Service",
+      "title" : "Cooks, Private Household"
+    },
+    {
+      "onetCode" : "35-2014.00",
+      "sector" : "Food Service",
+      "title" : "Cooks, Restaurant"
+    },
+    {
+      "onetCode" : "35-2015.00",
+      "sector" : "Food Service",
+      "title" : "Cooks, Short Order"
+    },
+    {
+      "onetCode" : "35-2019.00",
+      "sector" : "Food Service",
+      "title" : "Cooks, All Other"
+    },
+    {
+      "onetCode" : "35-2021.00",
+      "sector" : "Food Service",
+      "title" : "Food Preparation Workers"
+    },
+    {
+      "onetCode" : "35-3011.00",
+      "sector" : "Food Service",
+      "title" : "Bartenders"
+    },
+    {
+      "onetCode" : "35-3023.00",
+      "sector" : "Food Service",
+      "title" : "Fast Food and Counter Workers"
+    },
+    {
+      "onetCode" : "35-3023.01",
+      "sector" : "Food Service",
+      "title" : "Baristas"
+    },
+    {
+      "onetCode" : "35-3031.00",
+      "sector" : "Food Service",
+      "title" : "Waiters and Waitresses"
+    },
+    {
+      "onetCode" : "35-3041.00",
+      "sector" : "Food Service",
+      "title" : "Food Servers, Nonrestaurant"
+    },
+    {
+      "onetCode" : "35-9011.00",
+      "sector" : "Food Service",
+      "title" : "Dining Room and Cafeteria Attendants and Bartender Helpers"
+    },
+    {
+      "onetCode" : "35-9021.00",
+      "sector" : "Food Service",
+      "title" : "Dishwashers"
+    },
+    {
+      "onetCode" : "35-9031.00",
+      "sector" : "Food Service",
+      "title" : "Hosts and Hostesses, Restaurant, Lounge, and Coffee Shop"
+    },
+    {
+      "onetCode" : "35-9099.00",
+      "sector" : "Food Service",
+      "title" : "Food Preparation and Serving Related Workers, All Other"
+    },
+    {
+      "onetCode" : "37-1011.00",
+      "sector" : "Office\/Administrative",
+      "title" : "First-Line Supervisors of Housekeeping and Janitorial Workers"
+    },
+    {
+      "onetCode" : "37-1012.00",
+      "sector" : "Office\/Administrative",
+      "title" : "First-Line Supervisors of Landscaping, Lawn Service, and Groundskeeping Workers"
+    },
+    {
+      "onetCode" : "37-2011.00",
+      "sector" : "Office\/Administrative",
+      "title" : "Janitors and Cleaners, Except Maids and Housekeeping Cleaners"
+    },
+    {
+      "onetCode" : "37-2012.00",
+      "sector" : "Office\/Administrative",
+      "title" : "Maids and Housekeeping Cleaners"
+    },
+    {
+      "onetCode" : "37-2019.00",
+      "sector" : "Office\/Administrative",
+      "title" : "Building Cleaning Workers, All Other"
+    },
+    {
+      "onetCode" : "37-2021.00",
+      "sector" : "Office\/Administrative",
+      "title" : "Pest Control Workers"
+    },
+    {
+      "onetCode" : "37-3011.00",
+      "sector" : "Office\/Administrative",
+      "title" : "Landscaping and Groundskeeping Workers"
+    },
+    {
+      "onetCode" : "37-3012.00",
+      "sector" : "Office\/Administrative",
+      "title" : "Pesticide Handlers, Sprayers, and Applicators, Vegetation"
+    },
+    {
+      "onetCode" : "37-3013.00",
+      "sector" : "Office\/Administrative",
+      "title" : "Tree Trimmers and Pruners"
+    },
+    {
+      "onetCode" : "37-3019.00",
+      "sector" : "Office\/Administrative",
+      "title" : "Grounds Maintenance Workers, All Other"
+    },
+    {
+      "onetCode" : "39-1013.00",
+      "sector" : "Healthcare",
+      "title" : "First-Line Supervisors of Gambling Services Workers"
+    },
+    {
+      "onetCode" : "39-1014.00",
+      "sector" : "Healthcare",
+      "title" : "First-Line Supervisors of Entertainment and Recreation Workers, Except Gambling Services"
+    },
+    {
+      "onetCode" : "39-1022.00",
+      "sector" : "Healthcare",
+      "title" : "First-Line Supervisors of Personal Service Workers"
+    },
+    {
+      "onetCode" : "39-2011.00",
+      "sector" : "Healthcare",
+      "title" : "Animal Trainers"
+    },
+    {
+      "onetCode" : "39-2021.00",
+      "sector" : "Healthcare",
+      "title" : "Animal Caretakers"
+    },
+    {
+      "onetCode" : "39-3011.00",
+      "sector" : "Healthcare",
+      "title" : "Gambling Dealers"
+    },
+    {
+      "onetCode" : "39-3012.00",
+      "sector" : "Healthcare",
+      "title" : "Gambling and Sports Book Writers and Runners"
+    },
+    {
+      "onetCode" : "39-3019.00",
+      "sector" : "Healthcare",
+      "title" : "Gambling Service Workers, All Other"
+    },
+    {
+      "onetCode" : "39-3021.00",
+      "sector" : "Healthcare",
+      "title" : "Motion Picture Projectionists"
+    },
+    {
+      "onetCode" : "39-3031.00",
+      "sector" : "Healthcare",
+      "title" : "Ushers, Lobby Attendants, and Ticket Takers"
+    },
+    {
+      "onetCode" : "39-3091.00",
+      "sector" : "Healthcare",
+      "title" : "Amusement and Recreation Attendants"
+    },
+    {
+      "onetCode" : "39-3092.00",
+      "sector" : "Healthcare",
+      "title" : "Costume Attendants"
+    },
+    {
+      "onetCode" : "39-3093.00",
+      "sector" : "Healthcare",
+      "title" : "Locker Room, Coatroom, and Dressing Room Attendants"
+    },
+    {
+      "onetCode" : "39-3099.00",
+      "sector" : "Healthcare",
+      "title" : "Entertainment Attendants and Related Workers, All Other"
+    },
+    {
+      "onetCode" : "39-4011.00",
+      "sector" : "Healthcare",
+      "title" : "Embalmers"
+    },
+    {
+      "onetCode" : "39-4012.00",
+      "sector" : "Healthcare",
+      "title" : "Crematory Operators"
+    },
+    {
+      "onetCode" : "39-4021.00",
+      "sector" : "Healthcare",
+      "title" : "Funeral Attendants"
+    },
+    {
+      "onetCode" : "39-4031.00",
+      "sector" : "Healthcare",
+      "title" : "Morticians, Undertakers, and Funeral Arrangers"
+    },
+    {
+      "onetCode" : "39-5011.00",
+      "sector" : "Healthcare",
+      "title" : "Barbers"
+    },
+    {
+      "onetCode" : "39-5012.00",
+      "sector" : "Healthcare",
+      "title" : "Hairdressers, Hairstylists, and Cosmetologists"
+    },
+    {
+      "onetCode" : "39-5091.00",
+      "sector" : "Healthcare",
+      "title" : "Makeup Artists, Theatrical and Performance"
+    },
+    {
+      "onetCode" : "39-5092.00",
+      "sector" : "Healthcare",
+      "title" : "Manicurists and Pedicurists"
+    },
+    {
+      "onetCode" : "39-5093.00",
+      "sector" : "Healthcare",
+      "title" : "Shampooers"
+    },
+    {
+      "onetCode" : "39-5094.00",
+      "sector" : "Healthcare",
+      "title" : "Skincare Specialists"
+    },
+    {
+      "onetCode" : "39-6011.00",
+      "sector" : "Healthcare",
+      "title" : "Baggage Porters and Bellhops"
+    },
+    {
+      "onetCode" : "39-6012.00",
+      "sector" : "Healthcare",
+      "title" : "Concierges"
+    },
+    {
+      "onetCode" : "39-7011.00",
+      "sector" : "Healthcare",
+      "title" : "Tour Guides and Escorts"
+    },
+    {
+      "onetCode" : "39-7012.00",
+      "sector" : "Healthcare",
+      "title" : "Travel Guides"
+    },
+    {
+      "onetCode" : "39-9011.00",
+      "sector" : "Healthcare",
+      "title" : "Childcare Workers"
+    },
+    {
+      "onetCode" : "39-9011.01",
+      "sector" : "Healthcare",
+      "title" : "Nannies"
+    },
+    {
+      "onetCode" : "39-9031.00",
+      "sector" : "Healthcare",
+      "title" : "Exercise Trainers and Group Fitness Instructors"
+    },
+    {
+      "onetCode" : "39-9032.00",
+      "sector" : "Healthcare",
+      "title" : "Recreation Workers"
+    },
+    {
+      "onetCode" : "39-9041.00",
+      "sector" : "Healthcare",
+      "title" : "Residential Advisors"
+    },
+    {
+      "onetCode" : "39-9099.00",
+      "sector" : "Healthcare",
+      "title" : "Personal Care and Service Workers, All Other"
+    },
+    {
+      "onetCode" : "41-1011.00",
+      "sector" : "Retail",
+      "title" : "First-Line Supervisors of Retail Sales Workers"
+    },
+    {
+      "onetCode" : "41-1012.00",
+      "sector" : "Retail",
+      "title" : "First-Line Supervisors of Non-Retail Sales Workers"
+    },
+    {
+      "onetCode" : "41-2011.00",
+      "sector" : "Retail",
+      "title" : "Cashiers"
+    },
+    {
+      "onetCode" : "41-2012.00",
+      "sector" : "Retail",
+      "title" : "Gambling Change Persons and Booth Cashiers"
+    },
+    {
+      "onetCode" : "41-2021.00",
+      "sector" : "Retail",
+      "title" : "Counter and Rental Clerks"
+    },
+    {
+      "onetCode" : "41-2022.00",
+      "sector" : "Retail",
+      "title" : "Parts Salespersons"
+    },
+    {
+      "onetCode" : "41-2031.00",
+      "sector" : "Retail",
+      "title" : "Retail Salespersons"
+    },
+    {
+      "onetCode" : "41-3011.00",
+      "sector" : "Retail",
+      "title" : "Advertising Sales Agents"
+    },
+    {
+      "onetCode" : "41-3021.00",
+      "sector" : "Retail",
+      "title" : "Insurance Sales Agents"
+    },
+    {
+      "onetCode" : "41-3031.00",
+      "sector" : "Retail",
+      "title" : "Securities, Commodities, and Financial Services Sales Agents"
+    },
+    {
+      "onetCode" : "41-3041.00",
+      "sector" : "Retail",
+      "title" : "Travel Agents"
+    },
+    {
+      "onetCode" : "41-3091.00",
+      "sector" : "Retail",
+      "title" : "Sales Representatives of Services, Except Advertising, Insurance, Financial Services, and Travel"
+    },
+    {
+      "onetCode" : "41-4011.00",
+      "sector" : "Retail",
+      "title" : "Sales Representatives, Wholesale and Manufacturing, Technical and Scientific Products"
+    },
+    {
+      "onetCode" : "41-4011.07",
+      "sector" : "Retail",
+      "title" : "Solar Sales Representatives and Assessors"
+    },
+    {
+      "onetCode" : "41-4012.00",
+      "sector" : "Retail",
+      "title" : "Sales Representatives, Wholesale and Manufacturing, Except Technical and Scientific Products"
+    },
+    {
+      "onetCode" : "41-9011.00",
+      "sector" : "Retail",
+      "title" : "Demonstrators and Product Promoters"
+    },
+    {
+      "onetCode" : "41-9012.00",
+      "sector" : "Retail",
+      "title" : "Models"
+    },
+    {
+      "onetCode" : "41-9021.00",
+      "sector" : "Retail",
+      "title" : "Real Estate Brokers"
+    },
+    {
+      "onetCode" : "41-9022.00",
+      "sector" : "Retail",
+      "title" : "Real Estate Sales Agents"
+    },
+    {
+      "onetCode" : "41-9031.00",
+      "sector" : "Retail",
+      "title" : "Sales Engineers"
+    },
+    {
+      "onetCode" : "41-9041.00",
+      "sector" : "Retail",
+      "title" : "Telemarketers"
+    },
+    {
+      "onetCode" : "41-9091.00",
+      "sector" : "Retail",
+      "title" : "Door-to-Door Sales Workers, News and Street Vendors, and Related Workers"
+    },
+    {
+      "onetCode" : "41-9099.00",
+      "sector" : "Retail",
+      "title" : "Sales and Related Workers, All Other"
+    },
+    {
+      "onetCode" : "43-1011.00",
+      "sector" : "Office\/Administrative",
+      "title" : "First-Line Supervisors of Office and Administrative Support Workers"
+    },
+    {
+      "onetCode" : "43-2011.00",
+      "sector" : "Office\/Administrative",
+      "title" : "Switchboard Operators, Including Answering Service"
+    },
+    {
+      "onetCode" : "43-2021.00",
+      "sector" : "Office\/Administrative",
+      "title" : "Telephone Operators"
+    },
+    {
+      "onetCode" : "43-2099.00",
+      "sector" : "Office\/Administrative",
+      "title" : "Communications Equipment Operators, All Other"
+    },
+    {
+      "onetCode" : "43-3011.00",
+      "sector" : "Office\/Administrative",
+      "title" : "Bill and Account Collectors"
+    },
+    {
+      "onetCode" : "43-3021.00",
+      "sector" : "Office\/Administrative",
+      "title" : "Billing and Posting Clerks"
+    },
+    {
+      "onetCode" : "43-3031.00",
+      "sector" : "Office\/Administrative",
+      "title" : "Bookkeeping, Accounting, and Auditing Clerks"
+    },
+    {
+      "onetCode" : "43-3041.00",
+      "sector" : "Office\/Administrative",
+      "title" : "Gambling Cage Workers"
+    },
+    {
+      "onetCode" : "43-3051.00",
+      "sector" : "Office\/Administrative",
+      "title" : "Payroll and Timekeeping Clerks"
+    },
+    {
+      "onetCode" : "43-3061.00",
+      "sector" : "Office\/Administrative",
+      "title" : "Procurement Clerks"
+    },
+    {
+      "onetCode" : "43-3071.00",
+      "sector" : "Office\/Administrative",
+      "title" : "Tellers"
+    },
+    {
+      "onetCode" : "43-3099.00",
+      "sector" : "Office\/Administrative",
+      "title" : "Financial Clerks, All Other"
+    },
+    {
+      "onetCode" : "43-4011.00",
+      "sector" : "Office\/Administrative",
+      "title" : "Brokerage Clerks"
+    },
+    {
+      "onetCode" : "43-4021.00",
+      "sector" : "Office\/Administrative",
+      "title" : "Correspondence Clerks"
+    },
+    {
+      "onetCode" : "43-4031.00",
+      "sector" : "Office\/Administrative",
+      "title" : "Court, Municipal, and License Clerks"
+    },
+    {
+      "onetCode" : "43-4041.00",
+      "sector" : "Office\/Administrative",
+      "title" : "Credit Authorizers, Checkers, and Clerks"
+    },
+    {
+      "onetCode" : "43-4051.00",
+      "sector" : "Office\/Administrative",
+      "title" : "Customer Service Representatives"
+    },
+    {
+      "onetCode" : "43-4061.00",
+      "sector" : "Office\/Administrative",
+      "title" : "Eligibility Interviewers, Government Programs"
+    },
+    {
+      "onetCode" : "43-4071.00",
+      "sector" : "Office\/Administrative",
+      "title" : "File Clerks"
+    },
+    {
+      "onetCode" : "43-4081.00",
+      "sector" : "Office\/Administrative",
+      "title" : "Hotel, Motel, and Resort Desk Clerks"
+    },
+    {
+      "onetCode" : "43-4111.00",
+      "sector" : "Office\/Administrative",
+      "title" : "Interviewers, Except Eligibility and Loan"
+    },
+    {
+      "onetCode" : "43-4121.00",
+      "sector" : "Office\/Administrative",
+      "title" : "Library Assistants, Clerical"
+    },
+    {
+      "onetCode" : "43-4131.00",
+      "sector" : "Office\/Administrative",
+      "title" : "Loan Interviewers and Clerks"
+    },
+    {
+      "onetCode" : "43-4141.00",
+      "sector" : "Office\/Administrative",
+      "title" : "New Accounts Clerks"
+    },
+    {
+      "onetCode" : "43-4151.00",
+      "sector" : "Office\/Administrative",
+      "title" : "Order Clerks"
+    },
+    {
+      "onetCode" : "43-4161.00",
+      "sector" : "Office\/Administrative",
+      "title" : "Human Resources Assistants, Except Payroll and Timekeeping"
+    },
+    {
+      "onetCode" : "43-4171.00",
+      "sector" : "Office\/Administrative",
+      "title" : "Receptionists and Information Clerks"
+    },
+    {
+      "onetCode" : "43-4181.00",
+      "sector" : "Office\/Administrative",
+      "title" : "Reservation and Transportation Ticket Agents and Travel Clerks"
+    },
+    {
+      "onetCode" : "43-4199.00",
+      "sector" : "Office\/Administrative",
+      "title" : "Information and Record Clerks, All Other"
+    },
+    {
+      "onetCode" : "43-5011.00",
+      "sector" : "Office\/Administrative",
+      "title" : "Cargo and Freight Agents"
+    },
+    {
+      "onetCode" : "43-5011.01",
+      "sector" : "Office\/Administrative",
+      "title" : "Freight Forwarders"
+    },
+    {
+      "onetCode" : "43-5021.00",
+      "sector" : "Office\/Administrative",
+      "title" : "Couriers and Messengers"
+    },
+    {
+      "onetCode" : "43-5031.00",
+      "sector" : "Office\/Administrative",
+      "title" : "Public Safety Telecommunicators"
+    },
+    {
+      "onetCode" : "43-5032.00",
+      "sector" : "Office\/Administrative",
+      "title" : "Dispatchers, Except Police, Fire, and Ambulance"
+    },
+    {
+      "onetCode" : "43-5041.00",
+      "sector" : "Office\/Administrative",
+      "title" : "Meter Readers, Utilities"
+    },
+    {
+      "onetCode" : "43-5051.00",
+      "sector" : "Office\/Administrative",
+      "title" : "Postal Service Clerks"
+    },
+    {
+      "onetCode" : "43-5052.00",
+      "sector" : "Office\/Administrative",
+      "title" : "Postal Service Mail Carriers"
+    },
+    {
+      "onetCode" : "43-5053.00",
+      "sector" : "Office\/Administrative",
+      "title" : "Postal Service Mail Sorters, Processors, and Processing Machine Operators"
+    },
+    {
+      "onetCode" : "43-5061.00",
+      "sector" : "Office\/Administrative",
+      "title" : "Production, Planning, and Expediting Clerks"
+    },
+    {
+      "onetCode" : "43-5071.00",
+      "sector" : "Office\/Administrative",
+      "title" : "Shipping, Receiving, and Inventory Clerks"
+    },
+    {
+      "onetCode" : "43-5111.00",
+      "sector" : "Office\/Administrative",
+      "title" : "Weighers, Measurers, Checkers, and Samplers, Recordkeeping"
+    },
+    {
+      "onetCode" : "43-6011.00",
+      "sector" : "Office\/Administrative",
+      "title" : "Executive Secretaries and Executive Administrative Assistants"
+    },
+    {
+      "onetCode" : "43-6012.00",
+      "sector" : "Office\/Administrative",
+      "title" : "Legal Secretaries and Administrative Assistants"
+    },
+    {
+      "onetCode" : "43-6013.00",
+      "sector" : "Office\/Administrative",
+      "title" : "Medical Secretaries and Administrative Assistants"
+    },
+    {
+      "onetCode" : "43-6014.00",
+      "sector" : "Office\/Administrative",
+      "title" : "Secretaries and Administrative Assistants, Except Legal, Medical, and Executive"
+    },
+    {
+      "onetCode" : "43-9021.00",
+      "sector" : "Office\/Administrative",
+      "title" : "Data Entry Keyers"
+    },
+    {
+      "onetCode" : "43-9022.00",
+      "sector" : "Office\/Administrative",
+      "title" : "Word Processors and Typists"
+    },
+    {
+      "onetCode" : "43-9031.00",
+      "sector" : "Office\/Administrative",
+      "title" : "Desktop Publishers"
+    },
+    {
+      "onetCode" : "43-9041.00",
+      "sector" : "Office\/Administrative",
+      "title" : "Insurance Claims and Policy Processing Clerks"
+    },
+    {
+      "onetCode" : "43-9051.00",
+      "sector" : "Office\/Administrative",
+      "title" : "Mail Clerks and Mail Machine Operators, Except Postal Service"
+    },
+    {
+      "onetCode" : "43-9061.00",
+      "sector" : "Office\/Administrative",
+      "title" : "Office Clerks, General"
+    },
+    {
+      "onetCode" : "43-9071.00",
+      "sector" : "Office\/Administrative",
+      "title" : "Office Machine Operators, Except Computer"
+    },
+    {
+      "onetCode" : "43-9081.00",
+      "sector" : "Office\/Administrative",
+      "title" : "Proofreaders and Copy Markers"
+    },
+    {
+      "onetCode" : "43-9111.00",
+      "sector" : "Office\/Administrative",
+      "title" : "Statistical Assistants"
+    },
+    {
+      "onetCode" : "43-9199.00",
+      "sector" : "Office\/Administrative",
+      "title" : "Office and Administrative Support Workers, All Other"
+    },
+    {
+      "onetCode" : "45-1011.00",
+      "sector" : "Skilled Trades",
+      "title" : "First-Line Supervisors of Farming, Fishing, and Forestry Workers"
+    },
+    {
+      "onetCode" : "45-2011.00",
+      "sector" : "Skilled Trades",
+      "title" : "Agricultural Inspectors"
+    },
+    {
+      "onetCode" : "45-2021.00",
+      "sector" : "Skilled Trades",
+      "title" : "Animal Breeders"
+    },
+    {
+      "onetCode" : "45-2041.00",
+      "sector" : "Skilled Trades",
+      "title" : "Graders and Sorters, Agricultural Products"
+    },
+    {
+      "onetCode" : "45-2091.00",
+      "sector" : "Skilled Trades",
+      "title" : "Agricultural Equipment Operators"
+    },
+    {
+      "onetCode" : "45-2092.00",
+      "sector" : "Skilled Trades",
+      "title" : "Farmworkers and Laborers, Crop, Nursery, and Greenhouse"
+    },
+    {
+      "onetCode" : "45-2093.00",
+      "sector" : "Skilled Trades",
+      "title" : "Farmworkers, Farm, Ranch, and Aquacultural Animals"
+    },
+    {
+      "onetCode" : "45-2099.00",
+      "sector" : "Skilled Trades",
+      "title" : "Agricultural Workers, All Other"
+    },
+    {
+      "onetCode" : "45-3031.00",
+      "sector" : "Skilled Trades",
+      "title" : "Fishing and Hunting Workers"
+    },
+    {
+      "onetCode" : "45-4011.00",
+      "sector" : "Skilled Trades",
+      "title" : "Forest and Conservation Workers"
+    },
+    {
+      "onetCode" : "45-4021.00",
+      "sector" : "Skilled Trades",
+      "title" : "Fallers"
+    },
+    {
+      "onetCode" : "45-4022.00",
+      "sector" : "Skilled Trades",
+      "title" : "Logging Equipment Operators"
+    },
+    {
+      "onetCode" : "45-4023.00",
+      "sector" : "Skilled Trades",
+      "title" : "Log Graders and Scalers"
+    },
+    {
+      "onetCode" : "45-4029.00",
+      "sector" : "Skilled Trades",
+      "title" : "Logging Workers, All Other"
+    },
+    {
+      "onetCode" : "47-1011.00",
+      "sector" : "Construction",
+      "title" : "First-Line Supervisors of Construction Trades and Extraction Workers"
+    },
+    {
+      "onetCode" : "47-1011.03",
+      "sector" : "Construction",
+      "title" : "Solar Energy Installation Managers"
+    },
+    {
+      "onetCode" : "47-2011.00",
+      "sector" : "Construction",
+      "title" : "Boilermakers"
+    },
+    {
+      "onetCode" : "47-2021.00",
+      "sector" : "Construction",
+      "title" : "Brickmasons and Blockmasons"
+    },
+    {
+      "onetCode" : "47-2022.00",
+      "sector" : "Construction",
+      "title" : "Stonemasons"
+    },
+    {
+      "onetCode" : "47-2031.00",
+      "sector" : "Construction",
+      "title" : "Carpenters"
+    },
+    {
+      "onetCode" : "47-2041.00",
+      "sector" : "Construction",
+      "title" : "Carpet Installers"
+    },
+    {
+      "onetCode" : "47-2042.00",
+      "sector" : "Construction",
+      "title" : "Floor Layers, Except Carpet, Wood, and Hard Tiles"
+    },
+    {
+      "onetCode" : "47-2043.00",
+      "sector" : "Construction",
+      "title" : "Floor Sanders and Finishers"
+    },
+    {
+      "onetCode" : "47-2044.00",
+      "sector" : "Construction",
+      "title" : "Tile and Stone Setters"
+    },
+    {
+      "onetCode" : "47-2051.00",
+      "sector" : "Construction",
+      "title" : "Cement Masons and Concrete Finishers"
+    },
+    {
+      "onetCode" : "47-2053.00",
+      "sector" : "Construction",
+      "title" : "Terrazzo Workers and Finishers"
+    },
+    {
+      "onetCode" : "47-2061.00",
+      "sector" : "Construction",
+      "title" : "Construction Laborers"
+    },
+    {
+      "onetCode" : "47-2071.00",
+      "sector" : "Construction",
+      "title" : "Paving, Surfacing, and Tamping Equipment Operators"
+    },
+    {
+      "onetCode" : "47-2072.00",
+      "sector" : "Construction",
+      "title" : "Pile Driver Operators"
+    },
+    {
+      "onetCode" : "47-2073.00",
+      "sector" : "Construction",
+      "title" : "Operating Engineers and Other Construction Equipment Operators"
+    },
+    {
+      "onetCode" : "47-2081.00",
+      "sector" : "Construction",
+      "title" : "Drywall and Ceiling Tile Installers"
+    },
+    {
+      "onetCode" : "47-2082.00",
+      "sector" : "Construction",
+      "title" : "Tapers"
+    },
+    {
+      "onetCode" : "47-2111.00",
+      "sector" : "Construction",
+      "title" : "Electricians"
+    },
+    {
+      "onetCode" : "47-2121.00",
+      "sector" : "Construction",
+      "title" : "Glaziers"
+    },
+    {
+      "onetCode" : "47-2131.00",
+      "sector" : "Construction",
+      "title" : "Insulation Workers, Floor, Ceiling, and Wall"
+    },
+    {
+      "onetCode" : "47-2132.00",
+      "sector" : "Construction",
+      "title" : "Insulation Workers, Mechanical"
+    },
+    {
+      "onetCode" : "47-2141.00",
+      "sector" : "Construction",
+      "title" : "Painters, Construction and Maintenance"
+    },
+    {
+      "onetCode" : "47-2142.00",
+      "sector" : "Construction",
+      "title" : "Paperhangers"
+    },
+    {
+      "onetCode" : "47-2151.00",
+      "sector" : "Construction",
+      "title" : "Pipelayers"
+    },
+    {
+      "onetCode" : "47-2152.00",
+      "sector" : "Construction",
+      "title" : "Plumbers, Pipefitters, and Steamfitters"
+    },
+    {
+      "onetCode" : "47-2152.04",
+      "sector" : "Construction",
+      "title" : "Solar Thermal Installers and Technicians"
+    },
+    {
+      "onetCode" : "47-2161.00",
+      "sector" : "Construction",
+      "title" : "Plasterers and Stucco Masons"
+    },
+    {
+      "onetCode" : "47-2171.00",
+      "sector" : "Construction",
+      "title" : "Reinforcing Iron and Rebar Workers"
+    },
+    {
+      "onetCode" : "47-2181.00",
+      "sector" : "Construction",
+      "title" : "Roofers"
+    },
+    {
+      "onetCode" : "47-2211.00",
+      "sector" : "Construction",
+      "title" : "Sheet Metal Workers"
+    },
+    {
+      "onetCode" : "47-2221.00",
+      "sector" : "Construction",
+      "title" : "Structural Iron and Steel Workers"
+    },
+    {
+      "onetCode" : "47-2231.00",
+      "sector" : "Construction",
+      "title" : "Solar Photovoltaic Installers"
+    },
+    {
+      "onetCode" : "47-3011.00",
+      "sector" : "Construction",
+      "title" : "Helpers--Brickmasons, Blockmasons, Stonemasons, and Tile and Marble Setters"
+    },
+    {
+      "onetCode" : "47-3012.00",
+      "sector" : "Construction",
+      "title" : "Helpers--Carpenters"
+    },
+    {
+      "onetCode" : "47-3013.00",
+      "sector" : "Construction",
+      "title" : "Helpers--Electricians"
+    },
+    {
+      "onetCode" : "47-3014.00",
+      "sector" : "Construction",
+      "title" : "Helpers--Painters, Paperhangers, Plasterers, and Stucco Masons"
+    },
+    {
+      "onetCode" : "47-3015.00",
+      "sector" : "Construction",
+      "title" : "Helpers--Pipelayers, Plumbers, Pipefitters, and Steamfitters"
+    },
+    {
+      "onetCode" : "47-3016.00",
+      "sector" : "Construction",
+      "title" : "Helpers--Roofers"
+    },
+    {
+      "onetCode" : "47-3019.00",
+      "sector" : "Construction",
+      "title" : "Helpers, Construction Trades, All Other"
+    },
+    {
+      "onetCode" : "47-4011.00",
+      "sector" : "Construction",
+      "title" : "Construction and Building Inspectors"
+    },
+    {
+      "onetCode" : "47-4011.01",
+      "sector" : "Construction",
+      "title" : "Energy Auditors"
+    },
+    {
+      "onetCode" : "47-4021.00",
+      "sector" : "Construction",
+      "title" : "Elevator and Escalator Installers and Repairers"
+    },
+    {
+      "onetCode" : "47-4031.00",
+      "sector" : "Construction",
+      "title" : "Fence Erectors"
+    },
+    {
+      "onetCode" : "47-4041.00",
+      "sector" : "Construction",
+      "title" : "Hazardous Materials Removal Workers"
+    },
+    {
+      "onetCode" : "47-4051.00",
+      "sector" : "Construction",
+      "title" : "Highway Maintenance Workers"
+    },
+    {
+      "onetCode" : "47-4061.00",
+      "sector" : "Construction",
+      "title" : "Rail-Track Laying and Maintenance Equipment Operators"
+    },
+    {
+      "onetCode" : "47-4071.00",
+      "sector" : "Construction",
+      "title" : "Septic Tank Servicers and Sewer Pipe Cleaners"
+    },
+    {
+      "onetCode" : "47-4091.00",
+      "sector" : "Construction",
+      "title" : "Segmental Pavers"
+    },
+    {
+      "onetCode" : "47-4099.00",
+      "sector" : "Construction",
+      "title" : "Construction and Related Workers, All Other"
+    },
+    {
+      "onetCode" : "47-4099.03",
+      "sector" : "Construction",
+      "title" : "Weatherization Installers and Technicians"
+    },
+    {
+      "onetCode" : "47-5011.00",
+      "sector" : "Construction",
+      "title" : "Derrick Operators, Oil and Gas"
+    },
+    {
+      "onetCode" : "47-5012.00",
+      "sector" : "Construction",
+      "title" : "Rotary Drill Operators, Oil and Gas"
+    },
+    {
+      "onetCode" : "47-5013.00",
+      "sector" : "Construction",
+      "title" : "Service Unit Operators, Oil and Gas"
+    },
+    {
+      "onetCode" : "47-5022.00",
+      "sector" : "Construction",
+      "title" : "Excavating and Loading Machine and Dragline Operators, Surface Mining"
+    },
+    {
+      "onetCode" : "47-5023.00",
+      "sector" : "Construction",
+      "title" : "Earth Drillers, Except Oil and Gas"
+    },
+    {
+      "onetCode" : "47-5032.00",
+      "sector" : "Construction",
+      "title" : "Explosives Workers, Ordnance Handling Experts, and Blasters"
+    },
+    {
+      "onetCode" : "47-5041.00",
+      "sector" : "Construction",
+      "title" : "Continuous Mining Machine Operators"
+    },
+    {
+      "onetCode" : "47-5043.00",
+      "sector" : "Construction",
+      "title" : "Roof Bolters, Mining"
+    },
+    {
+      "onetCode" : "47-5044.00",
+      "sector" : "Construction",
+      "title" : "Loading and Moving Machine Operators, Underground Mining"
+    },
+    {
+      "onetCode" : "47-5049.00",
+      "sector" : "Construction",
+      "title" : "Underground Mining Machine Operators, All Other"
+    },
+    {
+      "onetCode" : "47-5051.00",
+      "sector" : "Construction",
+      "title" : "Rock Splitters, Quarry"
+    },
+    {
+      "onetCode" : "47-5071.00",
+      "sector" : "Construction",
+      "title" : "Roustabouts, Oil and Gas"
+    },
+    {
+      "onetCode" : "47-5081.00",
+      "sector" : "Construction",
+      "title" : "Helpers--Extraction Workers"
+    },
+    {
+      "onetCode" : "47-5099.00",
+      "sector" : "Construction",
+      "title" : "Extraction Workers, All Other"
+    },
+    {
+      "onetCode" : "49-1011.00",
+      "sector" : "Skilled Trades",
+      "title" : "First-Line Supervisors of Mechanics, Installers, and Repairers"
+    },
+    {
+      "onetCode" : "49-2011.00",
+      "sector" : "Skilled Trades",
+      "title" : "Computer, Automated Teller, and Office Machine Repairers"
+    },
+    {
+      "onetCode" : "49-2021.00",
+      "sector" : "Skilled Trades",
+      "title" : "Radio, Cellular, and Tower Equipment Installers and Repairers"
+    },
+    {
+      "onetCode" : "49-2022.00",
+      "sector" : "Skilled Trades",
+      "title" : "Telecommunications Equipment Installers and Repairers, Except Line Installers"
+    },
+    {
+      "onetCode" : "49-2091.00",
+      "sector" : "Skilled Trades",
+      "title" : "Avionics Technicians"
+    },
+    {
+      "onetCode" : "49-2092.00",
+      "sector" : "Skilled Trades",
+      "title" : "Electric Motor, Power Tool, and Related Repairers"
+    },
+    {
+      "onetCode" : "49-2093.00",
+      "sector" : "Skilled Trades",
+      "title" : "Electrical and Electronics Installers and Repairers, Transportation Equipment"
+    },
+    {
+      "onetCode" : "49-2094.00",
+      "sector" : "Skilled Trades",
+      "title" : "Electrical and Electronics Repairers, Commercial and Industrial Equipment"
+    },
+    {
+      "onetCode" : "49-2095.00",
+      "sector" : "Skilled Trades",
+      "title" : "Electrical and Electronics Repairers, Powerhouse, Substation, and Relay"
+    },
+    {
+      "onetCode" : "49-2096.00",
+      "sector" : "Skilled Trades",
+      "title" : "Electronic Equipment Installers and Repairers, Motor Vehicles"
+    },
+    {
+      "onetCode" : "49-2097.00",
+      "sector" : "Skilled Trades",
+      "title" : "Audiovisual Equipment Installers and Repairers"
+    },
+    {
+      "onetCode" : "49-2098.00",
+      "sector" : "Skilled Trades",
+      "title" : "Security and Fire Alarm Systems Installers"
+    },
+    {
+      "onetCode" : "49-3011.00",
+      "sector" : "Skilled Trades",
+      "title" : "Aircraft Mechanics and Service Technicians"
+    },
+    {
+      "onetCode" : "49-3021.00",
+      "sector" : "Skilled Trades",
+      "title" : "Automotive Body and Related Repairers"
+    },
+    {
+      "onetCode" : "49-3022.00",
+      "sector" : "Skilled Trades",
+      "title" : "Automotive Glass Installers and Repairers"
+    },
+    {
+      "onetCode" : "49-3023.00",
+      "sector" : "Skilled Trades",
+      "title" : "Automotive Service Technicians and Mechanics"
+    },
+    {
+      "onetCode" : "49-3031.00",
+      "sector" : "Skilled Trades",
+      "title" : "Bus and Truck Mechanics and Diesel Engine Specialists"
+    },
+    {
+      "onetCode" : "49-3041.00",
+      "sector" : "Skilled Trades",
+      "title" : "Farm Equipment Mechanics and Service Technicians"
+    },
+    {
+      "onetCode" : "49-3042.00",
+      "sector" : "Skilled Trades",
+      "title" : "Mobile Heavy Equipment Mechanics, Except Engines"
+    },
+    {
+      "onetCode" : "49-3043.00",
+      "sector" : "Skilled Trades",
+      "title" : "Rail Car Repairers"
+    },
+    {
+      "onetCode" : "49-3051.00",
+      "sector" : "Skilled Trades",
+      "title" : "Motorboat Mechanics and Service Technicians"
+    },
+    {
+      "onetCode" : "49-3052.00",
+      "sector" : "Skilled Trades",
+      "title" : "Motorcycle Mechanics"
+    },
+    {
+      "onetCode" : "49-3053.00",
+      "sector" : "Skilled Trades",
+      "title" : "Outdoor Power Equipment and Other Small Engine Mechanics"
+    },
+    {
+      "onetCode" : "49-3091.00",
+      "sector" : "Skilled Trades",
+      "title" : "Bicycle Repairers"
+    },
+    {
+      "onetCode" : "49-3092.00",
+      "sector" : "Skilled Trades",
+      "title" : "Recreational Vehicle Service Technicians"
+    },
+    {
+      "onetCode" : "49-3093.00",
+      "sector" : "Skilled Trades",
+      "title" : "Tire Repairers and Changers"
+    },
+    {
+      "onetCode" : "49-9011.00",
+      "sector" : "Skilled Trades",
+      "title" : "Mechanical Door Repairers"
+    },
+    {
+      "onetCode" : "49-9012.00",
+      "sector" : "Skilled Trades",
+      "title" : "Control and Valve Installers and Repairers, Except Mechanical Door"
+    },
+    {
+      "onetCode" : "49-9021.00",
+      "sector" : "Skilled Trades",
+      "title" : "Heating, Air Conditioning, and Refrigeration Mechanics and Installers"
+    },
+    {
+      "onetCode" : "49-9031.00",
+      "sector" : "Skilled Trades",
+      "title" : "Home Appliance Repairers"
+    },
+    {
+      "onetCode" : "49-9041.00",
+      "sector" : "Skilled Trades",
+      "title" : "Industrial Machinery Mechanics"
+    },
+    {
+      "onetCode" : "49-9043.00",
+      "sector" : "Skilled Trades",
+      "title" : "Maintenance Workers, Machinery"
+    },
+    {
+      "onetCode" : "49-9044.00",
+      "sector" : "Skilled Trades",
+      "title" : "Millwrights"
+    },
+    {
+      "onetCode" : "49-9045.00",
+      "sector" : "Skilled Trades",
+      "title" : "Refractory Materials Repairers, Except Brickmasons"
+    },
+    {
+      "onetCode" : "49-9051.00",
+      "sector" : "Skilled Trades",
+      "title" : "Electrical Power-Line Installers and Repairers"
+    },
+    {
+      "onetCode" : "49-9052.00",
+      "sector" : "Skilled Trades",
+      "title" : "Telecommunications Line Installers and Repairers"
+    },
+    {
+      "onetCode" : "49-9061.00",
+      "sector" : "Skilled Trades",
+      "title" : "Camera and Photographic Equipment Repairers"
+    },
+    {
+      "onetCode" : "49-9062.00",
+      "sector" : "Skilled Trades",
+      "title" : "Medical Equipment Repairers"
+    },
+    {
+      "onetCode" : "49-9063.00",
+      "sector" : "Skilled Trades",
+      "title" : "Musical Instrument Repairers and Tuners"
+    },
+    {
+      "onetCode" : "49-9064.00",
+      "sector" : "Skilled Trades",
+      "title" : "Watch and Clock Repairers"
+    },
+    {
+      "onetCode" : "49-9069.00",
+      "sector" : "Skilled Trades",
+      "title" : "Precision Instrument and Equipment Repairers, All Other"
+    },
+    {
+      "onetCode" : "49-9071.00",
+      "sector" : "Skilled Trades",
+      "title" : "Maintenance and Repair Workers, General"
+    },
+    {
+      "onetCode" : "49-9081.00",
+      "sector" : "Skilled Trades",
+      "title" : "Wind Turbine Service Technicians"
+    },
+    {
+      "onetCode" : "49-9091.00",
+      "sector" : "Skilled Trades",
+      "title" : "Coin, Vending, and Amusement Machine Servicers and Repairers"
+    },
+    {
+      "onetCode" : "49-9092.00",
+      "sector" : "Skilled Trades",
+      "title" : "Commercial Divers"
+    },
+    {
+      "onetCode" : "49-9094.00",
+      "sector" : "Skilled Trades",
+      "title" : "Locksmiths and Safe Repairers"
+    },
+    {
+      "onetCode" : "49-9095.00",
+      "sector" : "Skilled Trades",
+      "title" : "Manufactured Building and Mobile Home Installers"
+    },
+    {
+      "onetCode" : "49-9096.00",
+      "sector" : "Skilled Trades",
+      "title" : "Riggers"
+    },
+    {
+      "onetCode" : "49-9097.00",
+      "sector" : "Skilled Trades",
+      "title" : "Signal and Track Switch Repairers"
+    },
+    {
+      "onetCode" : "49-9098.00",
+      "sector" : "Skilled Trades",
+      "title" : "Helpers--Installation, Maintenance, and Repair Workers"
+    },
+    {
+      "onetCode" : "49-9099.00",
+      "sector" : "Skilled Trades",
+      "title" : "Installation, Maintenance, and Repair Workers, All Other"
+    },
+    {
+      "onetCode" : "49-9099.01",
+      "sector" : "Skilled Trades",
+      "title" : "Geothermal Technicians"
+    },
+    {
+      "onetCode" : "51-1011.00",
+      "sector" : "Warehouse\/Logistics",
+      "title" : "First-Line Supervisors of Production and Operating Workers"
+    },
+    {
+      "onetCode" : "51-2011.00",
+      "sector" : "Warehouse\/Logistics",
+      "title" : "Aircraft Structure, Surfaces, Rigging, and Systems Assemblers"
+    },
+    {
+      "onetCode" : "51-2021.00",
+      "sector" : "Warehouse\/Logistics",
+      "title" : "Coil Winders, Tapers, and Finishers"
+    },
+    {
+      "onetCode" : "51-2022.00",
+      "sector" : "Warehouse\/Logistics",
+      "title" : "Electrical and Electronic Equipment Assemblers"
+    },
+    {
+      "onetCode" : "51-2023.00",
+      "sector" : "Warehouse\/Logistics",
+      "title" : "Electromechanical Equipment Assemblers"
+    },
+    {
+      "onetCode" : "51-2031.00",
+      "sector" : "Warehouse\/Logistics",
+      "title" : "Engine and Other Machine Assemblers"
+    },
+    {
+      "onetCode" : "51-2041.00",
+      "sector" : "Warehouse\/Logistics",
+      "title" : "Structural Metal Fabricators and Fitters"
+    },
+    {
+      "onetCode" : "51-2051.00",
+      "sector" : "Warehouse\/Logistics",
+      "title" : "Fiberglass Laminators and Fabricators"
+    },
+    {
+      "onetCode" : "51-2061.00",
+      "sector" : "Warehouse\/Logistics",
+      "title" : "Timing Device Assemblers and Adjusters"
+    },
+    {
+      "onetCode" : "51-2092.00",
+      "sector" : "Warehouse\/Logistics",
+      "title" : "Team Assemblers"
+    },
+    {
+      "onetCode" : "51-2099.00",
+      "sector" : "Warehouse\/Logistics",
+      "title" : "Assemblers and Fabricators, All Other"
+    },
+    {
+      "onetCode" : "51-3011.00",
+      "sector" : "Warehouse\/Logistics",
+      "title" : "Bakers"
+    },
+    {
+      "onetCode" : "51-3021.00",
+      "sector" : "Warehouse\/Logistics",
+      "title" : "Butchers and Meat Cutters"
+    },
+    {
+      "onetCode" : "51-3022.00",
+      "sector" : "Warehouse\/Logistics",
+      "title" : "Meat, Poultry, and Fish Cutters and Trimmers"
+    },
+    {
+      "onetCode" : "51-3023.00",
+      "sector" : "Warehouse\/Logistics",
+      "title" : "Slaughterers and Meat Packers"
+    },
+    {
+      "onetCode" : "51-3091.00",
+      "sector" : "Warehouse\/Logistics",
+      "title" : "Food and Tobacco Roasting, Baking, and Drying Machine Operators and Tenders"
+    },
+    {
+      "onetCode" : "51-3092.00",
+      "sector" : "Warehouse\/Logistics",
+      "title" : "Food Batchmakers"
+    },
+    {
+      "onetCode" : "51-3093.00",
+      "sector" : "Warehouse\/Logistics",
+      "title" : "Food Cooking Machine Operators and Tenders"
+    },
+    {
+      "onetCode" : "51-3099.00",
+      "sector" : "Warehouse\/Logistics",
+      "title" : "Food Processing Workers, All Other"
+    },
+    {
+      "onetCode" : "51-4021.00",
+      "sector" : "Warehouse\/Logistics",
+      "title" : "Extruding and Drawing Machine Setters, Operators, and Tenders, Metal and Plastic"
+    },
+    {
+      "onetCode" : "51-4022.00",
+      "sector" : "Warehouse\/Logistics",
+      "title" : "Forging Machine Setters, Operators, and Tenders, Metal and Plastic"
+    },
+    {
+      "onetCode" : "51-4023.00",
+      "sector" : "Warehouse\/Logistics",
+      "title" : "Rolling Machine Setters, Operators, and Tenders, Metal and Plastic"
+    },
+    {
+      "onetCode" : "51-4031.00",
+      "sector" : "Warehouse\/Logistics",
+      "title" : "Cutting, Punching, and Press Machine Setters, Operators, and Tenders, Metal and Plastic"
+    },
+    {
+      "onetCode" : "51-4032.00",
+      "sector" : "Warehouse\/Logistics",
+      "title" : "Drilling and Boring Machine Tool Setters, Operators, and Tenders, Metal and Plastic"
+    },
+    {
+      "onetCode" : "51-4033.00",
+      "sector" : "Warehouse\/Logistics",
+      "title" : "Grinding, Lapping, Polishing, and Buffing Machine Tool Setters, Operators, and Tenders, Metal and Plastic"
+    },
+    {
+      "onetCode" : "51-4034.00",
+      "sector" : "Warehouse\/Logistics",
+      "title" : "Lathe and Turning Machine Tool Setters, Operators, and Tenders, Metal and Plastic"
+    },
+    {
+      "onetCode" : "51-4035.00",
+      "sector" : "Warehouse\/Logistics",
+      "title" : "Milling and Planing Machine Setters, Operators, and Tenders, Metal and Plastic"
+    },
+    {
+      "onetCode" : "51-4041.00",
+      "sector" : "Warehouse\/Logistics",
+      "title" : "Machinists"
+    },
+    {
+      "onetCode" : "51-4051.00",
+      "sector" : "Warehouse\/Logistics",
+      "title" : "Metal-Refining Furnace Operators and Tenders"
+    },
+    {
+      "onetCode" : "51-4052.00",
+      "sector" : "Warehouse\/Logistics",
+      "title" : "Pourers and Casters, Metal"
+    },
+    {
+      "onetCode" : "51-4061.00",
+      "sector" : "Warehouse\/Logistics",
+      "title" : "Model Makers, Metal and Plastic"
+    },
+    {
+      "onetCode" : "51-4062.00",
+      "sector" : "Warehouse\/Logistics",
+      "title" : "Patternmakers, Metal and Plastic"
+    },
+    {
+      "onetCode" : "51-4071.00",
+      "sector" : "Warehouse\/Logistics",
+      "title" : "Foundry Mold and Coremakers"
+    },
+    {
+      "onetCode" : "51-4072.00",
+      "sector" : "Warehouse\/Logistics",
+      "title" : "Molding, Coremaking, and Casting Machine Setters, Operators, and Tenders, Metal and Plastic"
+    },
+    {
+      "onetCode" : "51-4081.00",
+      "sector" : "Warehouse\/Logistics",
+      "title" : "Multiple Machine Tool Setters, Operators, and Tenders, Metal and Plastic"
+    },
+    {
+      "onetCode" : "51-4111.00",
+      "sector" : "Warehouse\/Logistics",
+      "title" : "Tool and Die Makers"
+    },
+    {
+      "onetCode" : "51-4121.00",
+      "sector" : "Warehouse\/Logistics",
+      "title" : "Welders, Cutters, Solderers, and Brazers"
+    },
+    {
+      "onetCode" : "51-4122.00",
+      "sector" : "Warehouse\/Logistics",
+      "title" : "Welding, Soldering, and Brazing Machine Setters, Operators, and Tenders"
+    },
+    {
+      "onetCode" : "51-4191.00",
+      "sector" : "Warehouse\/Logistics",
+      "title" : "Heat Treating Equipment Setters, Operators, and Tenders, Metal and Plastic"
+    },
+    {
+      "onetCode" : "51-4192.00",
+      "sector" : "Warehouse\/Logistics",
+      "title" : "Layout Workers, Metal and Plastic"
+    },
+    {
+      "onetCode" : "51-4193.00",
+      "sector" : "Warehouse\/Logistics",
+      "title" : "Plating Machine Setters, Operators, and Tenders, Metal and Plastic"
+    },
+    {
+      "onetCode" : "51-4194.00",
+      "sector" : "Warehouse\/Logistics",
+      "title" : "Tool Grinders, Filers, and Sharpeners"
+    },
+    {
+      "onetCode" : "51-4199.00",
+      "sector" : "Warehouse\/Logistics",
+      "title" : "Metal Workers and Plastic Workers, All Other"
+    },
+    {
+      "onetCode" : "51-5111.00",
+      "sector" : "Warehouse\/Logistics",
+      "title" : "Prepress Technicians and Workers"
+    },
+    {
+      "onetCode" : "51-5112.00",
+      "sector" : "Warehouse\/Logistics",
+      "title" : "Printing Press Operators"
+    },
+    {
+      "onetCode" : "51-5113.00",
+      "sector" : "Warehouse\/Logistics",
+      "title" : "Print Binding and Finishing Workers"
+    },
+    {
+      "onetCode" : "51-6011.00",
+      "sector" : "Warehouse\/Logistics",
+      "title" : "Laundry and Dry-Cleaning Workers"
+    },
+    {
+      "onetCode" : "51-6021.00",
+      "sector" : "Warehouse\/Logistics",
+      "title" : "Pressers, Textile, Garment, and Related Materials"
+    },
+    {
+      "onetCode" : "51-6031.00",
+      "sector" : "Warehouse\/Logistics",
+      "title" : "Sewing Machine Operators"
+    },
+    {
+      "onetCode" : "51-6041.00",
+      "sector" : "Warehouse\/Logistics",
+      "title" : "Shoe and Leather Workers and Repairers"
+    },
+    {
+      "onetCode" : "51-6042.00",
+      "sector" : "Warehouse\/Logistics",
+      "title" : "Shoe Machine Operators and Tenders"
+    },
+    {
+      "onetCode" : "51-6051.00",
+      "sector" : "Warehouse\/Logistics",
+      "title" : "Sewers, Hand"
+    },
+    {
+      "onetCode" : "51-6052.00",
+      "sector" : "Warehouse\/Logistics",
+      "title" : "Tailors, Dressmakers, and Custom Sewers"
+    },
+    {
+      "onetCode" : "51-6061.00",
+      "sector" : "Warehouse\/Logistics",
+      "title" : "Textile Bleaching and Dyeing Machine Operators and Tenders"
+    },
+    {
+      "onetCode" : "51-6062.00",
+      "sector" : "Warehouse\/Logistics",
+      "title" : "Textile Cutting Machine Setters, Operators, and Tenders"
+    },
+    {
+      "onetCode" : "51-6063.00",
+      "sector" : "Warehouse\/Logistics",
+      "title" : "Textile Knitting and Weaving Machine Setters, Operators, and Tenders"
+    },
+    {
+      "onetCode" : "51-6064.00",
+      "sector" : "Warehouse\/Logistics",
+      "title" : "Textile Winding, Twisting, and Drawing Out Machine Setters, Operators, and Tenders"
+    },
+    {
+      "onetCode" : "51-6091.00",
+      "sector" : "Warehouse\/Logistics",
+      "title" : "Extruding and Forming Machine Setters, Operators, and Tenders, Synthetic and Glass Fibers"
+    },
+    {
+      "onetCode" : "51-6092.00",
+      "sector" : "Warehouse\/Logistics",
+      "title" : "Fabric and Apparel Patternmakers"
+    },
+    {
+      "onetCode" : "51-6093.00",
+      "sector" : "Warehouse\/Logistics",
+      "title" : "Upholsterers"
+    },
+    {
+      "onetCode" : "51-6099.00",
+      "sector" : "Warehouse\/Logistics",
+      "title" : "Textile, Apparel, and Furnishings Workers, All Other"
+    },
+    {
+      "onetCode" : "51-7011.00",
+      "sector" : "Warehouse\/Logistics",
+      "title" : "Cabinetmakers and Bench Carpenters"
+    },
+    {
+      "onetCode" : "51-7021.00",
+      "sector" : "Warehouse\/Logistics",
+      "title" : "Furniture Finishers"
+    },
+    {
+      "onetCode" : "51-7031.00",
+      "sector" : "Warehouse\/Logistics",
+      "title" : "Model Makers, Wood"
+    },
+    {
+      "onetCode" : "51-7032.00",
+      "sector" : "Warehouse\/Logistics",
+      "title" : "Patternmakers, Wood"
+    },
+    {
+      "onetCode" : "51-7041.00",
+      "sector" : "Warehouse\/Logistics",
+      "title" : "Sawing Machine Setters, Operators, and Tenders, Wood"
+    },
+    {
+      "onetCode" : "51-7042.00",
+      "sector" : "Warehouse\/Logistics",
+      "title" : "Woodworking Machine Setters, Operators, and Tenders, Except Sawing"
+    },
+    {
+      "onetCode" : "51-7099.00",
+      "sector" : "Warehouse\/Logistics",
+      "title" : "Woodworkers, All Other"
+    },
+    {
+      "onetCode" : "51-8011.00",
+      "sector" : "Warehouse\/Logistics",
+      "title" : "Nuclear Power Reactor Operators"
+    },
+    {
+      "onetCode" : "51-8012.00",
+      "sector" : "Warehouse\/Logistics",
+      "title" : "Power Distributors and Dispatchers"
+    },
+    {
+      "onetCode" : "51-8013.00",
+      "sector" : "Warehouse\/Logistics",
+      "title" : "Power Plant Operators"
+    },
+    {
+      "onetCode" : "51-8013.03",
+      "sector" : "Warehouse\/Logistics",
+      "title" : "Biomass Plant Technicians"
+    },
+    {
+      "onetCode" : "51-8013.04",
+      "sector" : "Warehouse\/Logistics",
+      "title" : "Hydroelectric Plant Technicians"
+    },
+    {
+      "onetCode" : "51-8021.00",
+      "sector" : "Warehouse\/Logistics",
+      "title" : "Stationary Engineers and Boiler Operators"
+    },
+    {
+      "onetCode" : "51-8031.00",
+      "sector" : "Warehouse\/Logistics",
+      "title" : "Water and Wastewater Treatment Plant and System Operators"
+    },
+    {
+      "onetCode" : "51-8091.00",
+      "sector" : "Warehouse\/Logistics",
+      "title" : "Chemical Plant and System Operators"
+    },
+    {
+      "onetCode" : "51-8092.00",
+      "sector" : "Warehouse\/Logistics",
+      "title" : "Gas Plant Operators"
+    },
+    {
+      "onetCode" : "51-8093.00",
+      "sector" : "Warehouse\/Logistics",
+      "title" : "Petroleum Pump System Operators, Refinery Operators, and Gaugers"
+    },
+    {
+      "onetCode" : "51-8099.00",
+      "sector" : "Warehouse\/Logistics",
+      "title" : "Plant and System Operators, All Other"
+    },
+    {
+      "onetCode" : "51-8099.01",
+      "sector" : "Warehouse\/Logistics",
+      "title" : "Biofuels Processing Technicians"
+    },
+    {
+      "onetCode" : "51-9011.00",
+      "sector" : "Warehouse\/Logistics",
+      "title" : "Chemical Equipment Operators and Tenders"
+    },
+    {
+      "onetCode" : "51-9012.00",
+      "sector" : "Warehouse\/Logistics",
+      "title" : "Separating, Filtering, Clarifying, Precipitating, and Still Machine Setters, Operators, and Tenders"
+    },
+    {
+      "onetCode" : "51-9021.00",
+      "sector" : "Warehouse\/Logistics",
+      "title" : "Crushing, Grinding, and Polishing Machine Setters, Operators, and Tenders"
+    },
+    {
+      "onetCode" : "51-9022.00",
+      "sector" : "Warehouse\/Logistics",
+      "title" : "Grinding and Polishing Workers, Hand"
+    },
+    {
+      "onetCode" : "51-9023.00",
+      "sector" : "Warehouse\/Logistics",
+      "title" : "Mixing and Blending Machine Setters, Operators, and Tenders"
+    },
+    {
+      "onetCode" : "51-9031.00",
+      "sector" : "Warehouse\/Logistics",
+      "title" : "Cutters and Trimmers, Hand"
+    },
+    {
+      "onetCode" : "51-9032.00",
+      "sector" : "Warehouse\/Logistics",
+      "title" : "Cutting and Slicing Machine Setters, Operators, and Tenders"
+    },
+    {
+      "onetCode" : "51-9041.00",
+      "sector" : "Warehouse\/Logistics",
+      "title" : "Extruding, Forming, Pressing, and Compacting Machine Setters, Operators, and Tenders"
+    },
+    {
+      "onetCode" : "51-9051.00",
+      "sector" : "Warehouse\/Logistics",
+      "title" : "Furnace, Kiln, Oven, Drier, and Kettle Operators and Tenders"
+    },
+    {
+      "onetCode" : "51-9061.00",
+      "sector" : "Warehouse\/Logistics",
+      "title" : "Inspectors, Testers, Sorters, Samplers, and Weighers"
+    },
+    {
+      "onetCode" : "51-9071.00",
+      "sector" : "Warehouse\/Logistics",
+      "title" : "Jewelers and Precious Stone and Metal Workers"
+    },
+    {
+      "onetCode" : "51-9071.06",
+      "sector" : "Warehouse\/Logistics",
+      "title" : "Gem and Diamond Workers"
+    },
+    {
+      "onetCode" : "51-9081.00",
+      "sector" : "Warehouse\/Logistics",
+      "title" : "Dental Laboratory Technicians"
+    },
+    {
+      "onetCode" : "51-9082.00",
+      "sector" : "Warehouse\/Logistics",
+      "title" : "Medical Appliance Technicians"
+    },
+    {
+      "onetCode" : "51-9083.00",
+      "sector" : "Warehouse\/Logistics",
+      "title" : "Ophthalmic Laboratory Technicians"
+    },
+    {
+      "onetCode" : "51-9111.00",
+      "sector" : "Warehouse\/Logistics",
+      "title" : "Packaging and Filling Machine Operators and Tenders"
+    },
+    {
+      "onetCode" : "51-9123.00",
+      "sector" : "Warehouse\/Logistics",
+      "title" : "Painting, Coating, and Decorating Workers"
+    },
+    {
+      "onetCode" : "51-9124.00",
+      "sector" : "Warehouse\/Logistics",
+      "title" : "Coating, Painting, and Spraying Machine Setters, Operators, and Tenders"
+    },
+    {
+      "onetCode" : "51-9141.00",
+      "sector" : "Warehouse\/Logistics",
+      "title" : "Semiconductor Processing Technicians"
+    },
+    {
+      "onetCode" : "51-9151.00",
+      "sector" : "Warehouse\/Logistics",
+      "title" : "Photographic Process Workers and Processing Machine Operators"
+    },
+    {
+      "onetCode" : "51-9161.00",
+      "sector" : "Warehouse\/Logistics",
+      "title" : "Computer Numerically Controlled Tool Operators"
+    },
+    {
+      "onetCode" : "51-9162.00",
+      "sector" : "Warehouse\/Logistics",
+      "title" : "Computer Numerically Controlled Tool Programmers"
+    },
+    {
+      "onetCode" : "51-9191.00",
+      "sector" : "Warehouse\/Logistics",
+      "title" : "Adhesive Bonding Machine Operators and Tenders"
+    },
+    {
+      "onetCode" : "51-9192.00",
+      "sector" : "Warehouse\/Logistics",
+      "title" : "Cleaning, Washing, and Metal Pickling Equipment Operators and Tenders"
+    },
+    {
+      "onetCode" : "51-9193.00",
+      "sector" : "Warehouse\/Logistics",
+      "title" : "Cooling and Freezing Equipment Operators and Tenders"
+    },
+    {
+      "onetCode" : "51-9194.00",
+      "sector" : "Warehouse\/Logistics",
+      "title" : "Etchers and Engravers"
+    },
+    {
+      "onetCode" : "51-9195.00",
+      "sector" : "Warehouse\/Logistics",
+      "title" : "Molders, Shapers, and Casters, Except Metal and Plastic"
+    },
+    {
+      "onetCode" : "51-9195.03",
+      "sector" : "Warehouse\/Logistics",
+      "title" : "Stone Cutters and Carvers, Manufacturing"
+    },
+    {
+      "onetCode" : "51-9195.04",
+      "sector" : "Warehouse\/Logistics",
+      "title" : "Glass Blowers, Molders, Benders, and Finishers"
+    },
+    {
+      "onetCode" : "51-9195.05",
+      "sector" : "Warehouse\/Logistics",
+      "title" : "Potters, Manufacturing"
+    },
+    {
+      "onetCode" : "51-9196.00",
+      "sector" : "Warehouse\/Logistics",
+      "title" : "Paper Goods Machine Setters, Operators, and Tenders"
+    },
+    {
+      "onetCode" : "51-9197.00",
+      "sector" : "Warehouse\/Logistics",
+      "title" : "Tire Builders"
+    },
+    {
+      "onetCode" : "51-9198.00",
+      "sector" : "Warehouse\/Logistics",
+      "title" : "Helpers--Production Workers"
+    },
+    {
+      "onetCode" : "51-9199.00",
+      "sector" : "Warehouse\/Logistics",
+      "title" : "Production Workers, All Other"
+    },
+    {
+      "onetCode" : "53-1041.00",
+      "sector" : "Warehouse\/Logistics",
+      "title" : "Aircraft Cargo Handling Supervisors"
+    },
+    {
+      "onetCode" : "53-1042.00",
+      "sector" : "Warehouse\/Logistics",
+      "title" : "First-Line Supervisors of Helpers, Laborers, and Material Movers, Hand"
+    },
+    {
+      "onetCode" : "53-1042.01",
+      "sector" : "Warehouse\/Logistics",
+      "title" : "Recycling Coordinators"
+    },
+    {
+      "onetCode" : "53-1043.00",
+      "sector" : "Warehouse\/Logistics",
+      "title" : "First-Line Supervisors of Material-Moving Machine and Vehicle Operators"
+    },
+    {
+      "onetCode" : "53-1044.00",
+      "sector" : "Warehouse\/Logistics",
+      "title" : "First-Line Supervisors of Passenger Attendants"
+    },
+    {
+      "onetCode" : "53-1049.00",
+      "sector" : "Warehouse\/Logistics",
+      "title" : "First-Line Supervisors of Transportation Workers, All Other"
+    },
+    {
+      "onetCode" : "53-2011.00",
+      "sector" : "Warehouse\/Logistics",
+      "title" : "Airline Pilots, Copilots, and Flight Engineers"
+    },
+    {
+      "onetCode" : "53-2012.00",
+      "sector" : "Warehouse\/Logistics",
+      "title" : "Commercial Pilots"
+    },
+    {
+      "onetCode" : "53-2021.00",
+      "sector" : "Warehouse\/Logistics",
+      "title" : "Air Traffic Controllers"
+    },
+    {
+      "onetCode" : "53-2022.00",
+      "sector" : "Warehouse\/Logistics",
+      "title" : "Airfield Operations Specialists"
+    },
+    {
+      "onetCode" : "53-2031.00",
+      "sector" : "Warehouse\/Logistics",
+      "title" : "Flight Attendants"
+    },
+    {
+      "onetCode" : "53-3011.00",
+      "sector" : "Warehouse\/Logistics",
+      "title" : "Ambulance Drivers and Attendants, Except Emergency Medical Technicians"
+    },
+    {
+      "onetCode" : "53-3031.00",
+      "sector" : "Warehouse\/Logistics",
+      "title" : "Driver\/Sales Workers"
+    },
+    {
+      "onetCode" : "53-3032.00",
+      "sector" : "Warehouse\/Logistics",
+      "title" : "Heavy and Tractor-Trailer Truck Drivers"
+    },
+    {
+      "onetCode" : "53-3033.00",
+      "sector" : "Warehouse\/Logistics",
+      "title" : "Light Truck Drivers"
+    },
+    {
+      "onetCode" : "53-3051.00",
+      "sector" : "Warehouse\/Logistics",
+      "title" : "Bus Drivers, School"
+    },
+    {
+      "onetCode" : "53-3052.00",
+      "sector" : "Warehouse\/Logistics",
+      "title" : "Bus Drivers, Transit and Intercity"
+    },
+    {
+      "onetCode" : "53-3053.00",
+      "sector" : "Warehouse\/Logistics",
+      "title" : "Shuttle Drivers and Chauffeurs"
+    },
+    {
+      "onetCode" : "53-3054.00",
+      "sector" : "Warehouse\/Logistics",
+      "title" : "Taxi Drivers"
+    },
+    {
+      "onetCode" : "53-3099.00",
+      "sector" : "Warehouse\/Logistics",
+      "title" : "Motor Vehicle Operators, All Other"
+    },
+    {
+      "onetCode" : "53-4011.00",
+      "sector" : "Warehouse\/Logistics",
+      "title" : "Locomotive Engineers"
+    },
+    {
+      "onetCode" : "53-4013.00",
+      "sector" : "Warehouse\/Logistics",
+      "title" : "Rail Yard Engineers, Dinkey Operators, and Hostlers"
+    },
+    {
+      "onetCode" : "53-4022.00",
+      "sector" : "Warehouse\/Logistics",
+      "title" : "Railroad Brake, Signal, and Switch Operators and Locomotive Firers"
+    },
+    {
+      "onetCode" : "53-4031.00",
+      "sector" : "Warehouse\/Logistics",
+      "title" : "Railroad Conductors and Yardmasters"
+    },
+    {
+      "onetCode" : "53-4041.00",
+      "sector" : "Warehouse\/Logistics",
+      "title" : "Subway and Streetcar Operators"
+    },
+    {
+      "onetCode" : "53-4099.00",
+      "sector" : "Warehouse\/Logistics",
+      "title" : "Rail Transportation Workers, All Other"
+    },
+    {
+      "onetCode" : "53-5011.00",
+      "sector" : "Warehouse\/Logistics",
+      "title" : "Sailors and Marine Oilers"
+    },
+    {
+      "onetCode" : "53-5021.00",
+      "sector" : "Warehouse\/Logistics",
+      "title" : "Captains, Mates, and Pilots of Water Vessels"
+    },
+    {
+      "onetCode" : "53-5022.00",
+      "sector" : "Warehouse\/Logistics",
+      "title" : "Motorboat Operators"
+    },
+    {
+      "onetCode" : "53-5031.00",
+      "sector" : "Warehouse\/Logistics",
+      "title" : "Ship Engineers"
+    },
+    {
+      "onetCode" : "53-6011.00",
+      "sector" : "Warehouse\/Logistics",
+      "title" : "Bridge and Lock Tenders"
+    },
+    {
+      "onetCode" : "53-6021.00",
+      "sector" : "Warehouse\/Logistics",
+      "title" : "Parking Attendants"
+    },
+    {
+      "onetCode" : "53-6031.00",
+      "sector" : "Warehouse\/Logistics",
+      "title" : "Automotive and Watercraft Service Attendants"
+    },
+    {
+      "onetCode" : "53-6032.00",
+      "sector" : "Warehouse\/Logistics",
+      "title" : "Aircraft Service Attendants"
+    },
+    {
+      "onetCode" : "53-6041.00",
+      "sector" : "Warehouse\/Logistics",
+      "title" : "Traffic Technicians"
+    },
+    {
+      "onetCode" : "53-6051.00",
+      "sector" : "Warehouse\/Logistics",
+      "title" : "Transportation Inspectors"
+    },
+    {
+      "onetCode" : "53-6051.01",
+      "sector" : "Warehouse\/Logistics",
+      "title" : "Aviation Inspectors"
+    },
+    {
+      "onetCode" : "53-6051.07",
+      "sector" : "Warehouse\/Logistics",
+      "title" : "Transportation Vehicle, Equipment and Systems Inspectors, Except Aviation"
+    },
+    {
+      "onetCode" : "53-6061.00",
+      "sector" : "Warehouse\/Logistics",
+      "title" : "Passenger Attendants"
+    },
+    {
+      "onetCode" : "53-6099.00",
+      "sector" : "Warehouse\/Logistics",
+      "title" : "Transportation Workers, All Other"
+    },
+    {
+      "onetCode" : "53-7011.00",
+      "sector" : "Warehouse\/Logistics",
+      "title" : "Conveyor Operators and Tenders"
+    },
+    {
+      "onetCode" : "53-7021.00",
+      "sector" : "Warehouse\/Logistics",
+      "title" : "Crane and Tower Operators"
+    },
+    {
+      "onetCode" : "53-7031.00",
+      "sector" : "Warehouse\/Logistics",
+      "title" : "Dredge Operators"
+    },
+    {
+      "onetCode" : "53-7041.00",
+      "sector" : "Warehouse\/Logistics",
+      "title" : "Hoist and Winch Operators"
+    },
+    {
+      "onetCode" : "53-7051.00",
+      "sector" : "Warehouse\/Logistics",
+      "title" : "Industrial Truck and Tractor Operators"
+    },
+    {
+      "onetCode" : "53-7061.00",
+      "sector" : "Warehouse\/Logistics",
+      "title" : "Cleaners of Vehicles and Equipment"
+    },
+    {
+      "onetCode" : "53-7062.00",
+      "sector" : "Warehouse\/Logistics",
+      "title" : "Laborers and Freight, Stock, and Material Movers, Hand"
+    },
+    {
+      "onetCode" : "53-7062.04",
+      "sector" : "Warehouse\/Logistics",
+      "title" : "Recycling and Reclamation Workers"
+    },
+    {
+      "onetCode" : "53-7063.00",
+      "sector" : "Warehouse\/Logistics",
+      "title" : "Machine Feeders and Offbearers"
+    },
+    {
+      "onetCode" : "53-7064.00",
+      "sector" : "Warehouse\/Logistics",
+      "title" : "Packers and Packagers, Hand"
+    },
+    {
+      "onetCode" : "53-7065.00",
+      "sector" : "Warehouse\/Logistics",
+      "title" : "Stockers and Order Fillers"
+    },
+    {
+      "onetCode" : "53-7071.00",
+      "sector" : "Warehouse\/Logistics",
+      "title" : "Gas Compressor and Gas Pumping Station Operators"
+    },
+    {
+      "onetCode" : "53-7072.00",
+      "sector" : "Warehouse\/Logistics",
+      "title" : "Pump Operators, Except Wellhead Pumpers"
+    },
+    {
+      "onetCode" : "53-7073.00",
+      "sector" : "Warehouse\/Logistics",
+      "title" : "Wellhead Pumpers"
+    },
+    {
+      "onetCode" : "53-7081.00",
+      "sector" : "Warehouse\/Logistics",
+      "title" : "Refuse and Recyclable Material Collectors"
+    },
+    {
+      "onetCode" : "53-7121.00",
+      "sector" : "Warehouse\/Logistics",
+      "title" : "Tank Car, Truck, and Ship Loaders"
+    },
+    {
+      "onetCode" : "53-7199.00",
+      "sector" : "Warehouse\/Logistics",
+      "title" : "Material Moving Workers, All Other"
+    },
+    {
+      "onetCode" : "55-1011.00",
+      "sector" : "Office\/Administrative",
+      "title" : "Air Crew Officers"
+    },
+    {
+      "onetCode" : "55-1012.00",
+      "sector" : "Office\/Administrative",
+      "title" : "Aircraft Launch and Recovery Officers"
+    },
+    {
+      "onetCode" : "55-1013.00",
+      "sector" : "Office\/Administrative",
+      "title" : "Armored Assault Vehicle Officers"
+    },
+    {
+      "onetCode" : "55-1014.00",
+      "sector" : "Office\/Administrative",
+      "title" : "Artillery and Missile Officers"
+    },
+    {
+      "onetCode" : "55-1015.00",
+      "sector" : "Office\/Administrative",
+      "title" : "Command and Control Center Officers"
+    },
+    {
+      "onetCode" : "55-1016.00",
+      "sector" : "Office\/Administrative",
+      "title" : "Infantry Officers"
+    },
+    {
+      "onetCode" : "55-1017.00",
+      "sector" : "Office\/Administrative",
+      "title" : "Special Forces Officers"
+    },
+    {
+      "onetCode" : "55-1019.00",
+      "sector" : "Office\/Administrative",
+      "title" : "Military Officer Special and Tactical Operations Leaders, All Other"
+    },
+    {
+      "onetCode" : "55-2011.00",
+      "sector" : "Office\/Administrative",
+      "title" : "First-Line Supervisors of Air Crew Members"
+    },
+    {
+      "onetCode" : "55-2012.00",
+      "sector" : "Office\/Administrative",
+      "title" : "First-Line Supervisors of Weapons Specialists\/Crew Members"
+    },
+    {
+      "onetCode" : "55-2013.00",
+      "sector" : "Office\/Administrative",
+      "title" : "First-Line Supervisors of All Other Tactical Operations Specialists"
+    },
+    {
+      "onetCode" : "55-3011.00",
+      "sector" : "Office\/Administrative",
+      "title" : "Air Crew Members"
+    },
+    {
+      "onetCode" : "55-3012.00",
+      "sector" : "Office\/Administrative",
+      "title" : "Aircraft Launch and Recovery Specialists"
+    },
+    {
+      "onetCode" : "55-3013.00",
+      "sector" : "Office\/Administrative",
+      "title" : "Armored Assault Vehicle Crew Members"
+    },
+    {
+      "onetCode" : "55-3014.00",
+      "sector" : "Office\/Administrative",
+      "title" : "Artillery and Missile Crew Members"
+    },
+    {
+      "onetCode" : "55-3015.00",
+      "sector" : "Office\/Administrative",
+      "title" : "Command and Control Center Specialists"
+    },
+    {
+      "onetCode" : "55-3016.00",
+      "sector" : "Office\/Administrative",
+      "title" : "Infantry"
+    },
+    {
+      "onetCode" : "55-3018.00",
+      "sector" : "Office\/Administrative",
+      "title" : "Special Forces"
+    },
+    {
+      "onetCode" : "55-3019.00",
+      "sector" : "Office\/Administrative",
+      "title" : "Military Enlisted Tactical Operations and Air\/Weapons Specialists and Crew Members, All Other"
+    }
+  ],
+  "totalOccupations" : 1016,
+  "version" : "1.0.0"
+}
