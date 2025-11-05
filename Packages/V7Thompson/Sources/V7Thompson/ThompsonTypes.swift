@@ -190,6 +190,61 @@ public struct UserPreferences: Sendable {
         self.preferredLocations = preferredLocations
         self.industries = industries
     }
+
+    /// Checks if a job location matches user's preferred locations
+    ///
+    /// - Parameter jobLocation: The job's location string
+    /// - Returns: True if location matches any preferred location or is remote
+    public func matchesLocation(_ jobLocation: String) -> Bool {
+        // Remote jobs always match
+        if jobLocation.lowercased().contains("remote") {
+            return true
+        }
+
+        // If user has no location preferences, match all
+        if preferredLocations.isEmpty {
+            return true
+        }
+
+        let normalizedJobLocation = Self.normalizeLocation(jobLocation)
+
+        // Check each preferred location
+        for userLocation in preferredLocations {
+            let normalized = Self.normalizeLocation(userLocation)
+
+            // Match if either string contains the other (handles "SF" matching "San Francisco, CA")
+            if normalizedJobLocation.contains(normalized) ||
+               normalized.contains(normalizedJobLocation) {
+                return true
+            }
+        }
+
+        return false
+    }
+
+    /// Normalizes a location string for matching
+    ///
+    /// Examples:
+    /// - "San Francisco, CA" -> "san francisco"
+    /// - "New York City" -> "new york city"
+    /// - "  Chicago  " -> "chicago"
+    ///
+    /// - Parameter location: Raw location string
+    /// - Returns: Normalized location for comparison
+    public static func normalizeLocation(_ location: String) -> String {
+        return location
+            .lowercased()
+            .trimmingCharacters(in: .whitespacesAndNewlines)
+            .replacingOccurrences(of: ", ca", with: "")
+            .replacingOccurrences(of: ", ny", with: "")
+            .replacingOccurrences(of: ", tx", with: "")
+            .replacingOccurrences(of: ", fl", with: "")
+            .replacingOccurrences(of: ", il", with: "")
+            .replacingOccurrences(of: ", wa", with: "")
+            .replacingOccurrences(of: ", ma", with: "")
+            .replacingOccurrences(of: " city", with: "")
+            .trimmingCharacters(in: .whitespacesAndNewlines)
+    }
 }
 
 /// Professional profile information

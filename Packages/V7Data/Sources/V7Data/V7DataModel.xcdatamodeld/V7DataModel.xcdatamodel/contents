@@ -27,6 +27,8 @@
         <!-- Job Preferences -->
         <attribute name="desiredRoles" attributeType="Transformable" valueTransformerName="NSSecureUnarchiveFromDataTransformer"/>
         <attribute name="locations" attributeType="Transformable" valueTransformerName="NSSecureUnarchiveFromDataTransformer"/>
+        <attribute name="primaryLocation" optional="YES" attributeType="String"/>
+        <attribute name="searchRadius" attributeType="Double" defaultValueString="50.0" usesScalarValueType="YES"/>
         <attribute name="remotePreference" attributeType="String"/>
         <attribute name="salaryMin" optional="YES" attributeType="Integer 32" defaultValueString="0"/>
         <attribute name="salaryMax" optional="YES" attributeType="Integer 32" defaultValueString="0"/>
